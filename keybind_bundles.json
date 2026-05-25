@@ -1,0 +1,244 @@
+[
+  {
+    "id": "2b2b0000-0000-4000-8000-000000000001",
+    "name": "Navigation",
+    "entries": [
+      {
+        "key": "gui.xaero_open_map",
+        "title": "World Map"
+      },
+      {
+        "key": "gui.xaero_minimap_settings",
+        "title": "Minimap Settings"
+      },
+      {
+        "key": "gui.xaero_new_waypoint",
+        "title": "New Waypoint"
+      },
+      {
+        "key": "gui.xaero_waypoints_key",
+        "title": "Waypoints"
+      },
+      {
+        "key": "gui.xaero_enlarge_map",
+        "title": "Enlarge Minimap"
+      },
+      {
+        "key": "gui.xaero_pac_key_open_menu",
+        "title": "Parties"
+      },
+      {
+        "key": "key.ftbquests.quests",
+        "title": "Quest Book"
+      }
+    ],
+    "bookmark": -1
+  },
+  {
+    "id": "2b2b0000-0000-4000-8000-000000000002",
+    "name": "Storage",
+    "entries": [
+      {
+        "key": "key.sophisticatedbackpacks.open_backpack",
+        "title": "Open Backpack"
+      },
+      {
+        "key": "key.sophisticatedbackpacks.inventory_interaction",
+        "title": "Backpack Interaction"
+      },
+      {
+        "key": "key.sophisticatedcore.sort",
+        "title": "Sort"
+      },
+      {
+        "key": "key.sophisticatedcore.transfer_to_storage",
+        "title": "Transfer To Storage"
+      },
+      {
+        "key": "key.sophisticatedcore.transfer_to_inventory",
+        "title": "Transfer To Inventory"
+      },
+      {
+        "key": "key.trashslot.toggle",
+        "title": "Trash Slot"
+      }
+    ],
+    "bookmark": -1
+  },
+  {
+    "id": "2b2b0000-0000-4000-8000-000000000003",
+    "name": "Magic",
+    "entries": [
+      {
+        "key": "key.ars_nouveau.open_book",
+        "title": "Ars Book"
+      },
+      {
+        "key": "key.ars_nouveau.selection_hud",
+        "title": "Selection HUD"
+      },
+      {
+        "key": "key.ars_nouveau.next_slot",
+        "title": "Next Spell Slot"
+      },
+      {
+        "key": "key.ars_nouveau.previous_slot",
+        "title": "Previous Spell Slot"
+      },
+      {
+        "key": "key.ars_nouveau.head_curio_hotkey",
+        "title": "Head Curio"
+      },
+      {
+        "key": "key.ars_nouveau.open_documentation",
+        "title": "Documentation"
+      },
+      {
+        "key": "key.aether.invisibility_toggle.desc",
+        "title": "Aether Invisibility"
+      },
+      {
+        "key": "key.special_ability",
+        "title": "Special Ability"
+      }
+    ],
+    "bookmark": -1
+  },
+  {
+    "id": "2b2b0000-0000-4000-8000-000000000004",
+    "name": "Tech",
+    "entries": [
+      {
+        "key": "key.mekanism.mode",
+        "title": "Mode"
+      },
+      {
+        "key": "key.mekanism.module_tweaker",
+        "title": "Module Tweaker"
+      },
+      {
+        "key": "key.mekanism.key_hud",
+        "title": "HUD"
+      },
+      {
+        "key": "key.mekanism.head_mode",
+        "title": "Helmet"
+      },
+      {
+        "key": "key.mekanism.chest_mode",
+        "title": "Chestplate"
+      },
+      {
+        "key": "key.mekanism.legs_mode",
+        "title": "Leggings"
+      },
+      {
+        "key": "key.mekanism.feet_mode",
+        "title": "Boots"
+      },
+      {
+        "key": "key.mekanism.description",
+        "title": "Description"
+      }
+    ],
+    "bookmark": -1
+  },
+  {
+    "id": "2b2b0000-0000-4000-8000-000000000005",
+    "name": "Voice And Social",
+    "entries": [
+      {
+        "key": "key.voice_chat",
+        "title": "Voice Chat"
+      },
+      {
+        "key": "key.push_to_talk",
+        "title": "Push To Talk"
+      },
+      {
+        "key": "key.mute_microphone",
+        "title": "Mute Mic"
+      },
+      {
+        "key": "key.disable_voice_chat",
+        "title": "Disable Voice"
+      },
+      {
+        "key": "key.hide_icons",
+        "title": "Hide Icons"
+      },
+      {
+        "key": "key.voice_chat_group",
+        "title": "Voice Group"
+      },
+      {
+        "key": "key.ftbteams.open_gui",
+        "title": "FTB Teams"
+      },
+      {
+        "key": "key.curios.open.desc",
+        "title": "Curios"
+      },
+      {
+        "key": "accessories.key.open_accessories_screen",
+        "title": "Accessories"
+      }
+    ],
+    "bookmark": -1
+  },
+  {
+    "id": "2b2b0000-0000-4000-8000-000000000006",
+    "name": "Gear And Utility",
+    "entries": [
+      {
+        "key": "key.relics.active_abilities_list",
+        "title": "Relic Abilities"
+      },
+      {
+        "key": "key.relics.research_relic",
+        "title": "Research Relic"
+      },
+      {
+        "key": "key.cataclysm.ability",
+        "title": "Cataclysm Ability"
+      },
+      {
+        "key": "key.cataclysm.helmet_ability",
+        "title": "Helmet Ability"
+      },
+      {
+        "key": "key.cataclysm.chestplate_ability",
+        "title": "Chestplate Ability"
+      },
+      {
+        "key": "key.cataclysm.boots_ability",
+        "title": "Boots Ability"
+      },
+      {
+        "key": "key.special_ability",
+        "title": "Special Ability"
+      },
+      {
+        "key": "create.keyinfo.toolmenu",
+        "title": "Create Tool Menu"
+      },
+      {
+        "key": "create.keyinfo.toolbelt",
+        "title": "Create Toolbelt"
+      },
+      {
+        "key": "key.ponder.ponder",
+        "title": "Ponder"
+      },
+      {
+        "key": "key.createbigcannons.pitch_mode",
+        "title": "Cannon Pitch"
+      },
+      {
+        "key": "key.simplytooltips.cycle_tab",
+        "title": "Tooltip Tab"
+      }
+    ],
+    "bookmark": -1
+  }
+]

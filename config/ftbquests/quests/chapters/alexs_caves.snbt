@@ -1,0 +1,1471 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "alexs_caves"
+	group: "1D8288EAE7F1B3B8"
+	icon: {
+		id: "alexscaves:cave_book"
+	}
+	id: "277CB1EBA30A1D54"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "alexscaves:cave_book"
+			}
+			id: "07F539E9375CE294"
+			rewards: [
+				{
+					count: 16
+					id: "58337FDF87F811E7"
+					item: {
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+				{
+					id: "6C35695A7124E4C7"
+					item: {
+						count: 1
+						id: "minecraft:compass"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "37CEC20270D4A731"
+				item: { count: 1, id: "alexscaves:cave_book" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["07F539E9375CE294"]
+			icon: {
+				id: "alexscaves:cave_map"
+			}
+			id: "0B6D25E6F746FD5A"
+			rewards: [{
+				count: 2
+				id: "76F42BFD5878110F"
+				item: {
+					count: 1
+					id: "alexscaves:cave_tablet"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "374B4C58693AE726"
+					item: { count: 1, id: "alexscaves:cave_tablet" }
+					type: "item"
+				}
+				{
+					id: "2F9E933A9A573931"
+					item: { count: 1, id: "alexscaves:cave_map" }
+					type: "item"
+				}
+				{
+					id: "33C695B0615FDA9D"
+					item: { count: 1, id: "alexscaves:cave_map_filled" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B6D25E6F746FD5A"]
+			icon: {
+				id: "alexscaves:spelunkery_table"
+			}
+			id: "10FD929EB284C9C5"
+			rewards: [{
+				count: 16
+				id: "7E47B62A28E2CAC5"
+				item: {
+					count: 1
+					id: "minecraft:paper"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "7B4EB3C9D1607B96"
+					item: { count: 1, id: "alexscaves:spelunkery_table" }
+					type: "item"
+				}
+				{
+					id: "24DD0EE3C3E46290"
+					item: { count: 1, id: "alexscaves:cave_codex" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10FD929EB284C9C5"]
+			icon: {
+				id: "alexscaves:galena_gauntlet"
+			}
+			id: "1886D13BFC510405"
+			shape: "circle"
+			tasks: [{
+				id: "56F54A4F202A8C06"
+				item: { count: 1, id: "alexscaves:galena_gauntlet" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["10FD929EB284C9C5"]
+			icon: {
+				id: "alexscaves:cave_map"
+			}
+			id: "07B26B03499EEB6A"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "64569F748273498B"
+					item: { count: 1, id: "alexscaves:galena" }
+					type: "item"
+				}
+				{
+					id: "70CB04D196CA8773"
+					item: { count: 1, id: "alexscaves:limestone" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["10FD929EB284C9C5"]
+			icon: {
+				id: "alexscaves:hazmat_mask"
+			}
+			id: "184313B916A4A2BF"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "39B3537DA652FBAF"
+					item: { count: 1, id: "alexscaves:radrock" }
+					type: "item"
+				}
+				{
+					id: "1223D92F5CCDEF95"
+					item: { count: 1, id: "alexscaves:abyssmarine" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10FD929EB284C9C5"]
+			icon: {
+				id: "alexscaves:cave_tablet"
+			}
+			id: "01698854AE16954C"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "029873CADC5845EA"
+					item: { count: 1, id: "alexscaves:guano" }
+					type: "item"
+				}
+				{
+					id: "44958AD2C6B6E2BE"
+					item: { count: 1, id: "alexscaves:sundrop" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["07B26B03499EEB6A"]
+			icon: {
+				id: "alexscaves:raw_azure_neodymium"
+			}
+			id: "09A54576DA3CD7FA"
+			rewards: [
+				{
+					count: 4
+					id: "038DE0A0BFE68487"
+					item: {
+						count: 1
+						id: "alexscaves:azure_neodymium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "37A004FCAE4A8C56"
+					item: {
+						count: 1
+						id: "alexscaves:scarlet_neodymium_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "591D0DC1892F9807"
+					item: { count: 1, id: "alexscaves:raw_azure_neodymium" }
+					type: "item"
+				}
+				{
+					id: "6186956C4824174A"
+					item: { count: 1, id: "alexscaves:raw_scarlet_neodymium" }
+					type: "item"
+				}
+				{
+					id: "1BDD7BF28E9EA778"
+					item: { count: 1, id: "alexscaves:azure_neodymium_ingot" }
+					type: "item"
+				}
+				{
+					id: "0864D90BB442D25D"
+					item: { count: 1, id: "alexscaves:scarlet_neodymium_ingot" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["09A54576DA3CD7FA"]
+			icon: {
+				id: "alexscaves:magnetic_levitation_rail"
+			}
+			id: "5ED46ED1E13E0D02"
+			rewards: [{
+				count: 8
+				id: "6AF4AAAA0DCC6F55"
+				item: {
+					count: 1
+					id: "alexscaves:magnetic_levitation_rail"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "07582B906A1B1807"
+					item: { count: 1, id: "alexscaves:azure_magnet" }
+					type: "item"
+				}
+				{
+					id: "3002881D15A7C192"
+					item: { count: 1, id: "alexscaves:scarlet_magnet" }
+					type: "item"
+				}
+				{
+					id: "143F598378919FC2"
+					item: { count: 1, id: "alexscaves:magnetic_activator" }
+					type: "item"
+				}
+				{
+					id: "059B9E2FDEBD70DD"
+					item: { count: 1, id: "alexscaves:magnetic_levitation_rail" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["5ED46ED1E13E0D02"]
+			icon: {
+				id: "alexscaves:galena_gauntlet"
+			}
+			id: "1DA415F79EBCFFBE"
+			rewards: [{
+				count: 16
+				id: "0D8321C23498D50F"
+				item: {
+					count: 1
+					id: "alexscaves:galena"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "72C7FF4B12CF3070"
+					item: { count: 1, id: "alexscaves:telecore" }
+					type: "item"
+				}
+				{
+					id: "7FFFE92798F0EF68"
+					item: { count: 1, id: "alexscaves:resistor_shield" }
+					type: "item"
+				}
+				{
+					id: "30E2FFE0F962AA7F"
+					item: { count: 1, id: "alexscaves:notor_gizmo" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["76903705948B7BCC"]
+			icon: {
+				id: "alexscaves:radgill"
+			}
+			id: "0338A1699D891C2A"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "14260988AC93E279"
+					item: { count: 1, id: "alexscaves:radgill" }
+					type: "item"
+				}
+				{
+					id: "50F72323AA75F007"
+					item: { count: 1, id: "alexscaves:cooked_radgill" }
+					type: "item"
+				}
+				{
+					id: "114EDFBE07F0337F"
+					item: { count: 1, id: "alexscaves:radgill_bucket" }
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1DA415F79EBCFFBE"]
+			icon: {
+				id: "alexscaves:quarry_smasher"
+			}
+			id: "4EFDA1F5C15D3169"
+			rewards: [{
+				count: 16
+				id: "7F16CE5C67F99C37"
+				item: {
+					count: 1
+					id: "alexscaves:burrowing_arrow"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "79DDC1766B085CAB"
+					item: { count: 1, id: "alexscaves:quarry" }
+					type: "item"
+				}
+				{
+					id: "5D03DB86C5A20922"
+					item: { count: 1, id: "alexscaves:quarry_smasher" }
+					type: "item"
+				}
+				{
+					id: "4C3B7E2C824AD6A6"
+					item: { count: 1, id: "alexscaves:seeking_arrow" }
+					type: "item"
+				}
+				{
+					id: "51C27ED34A1989C4"
+					item: { count: 1, id: "alexscaves:burrowing_arrow" }
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["4EFDA1F5C15D3169"]
+			icon: {
+				id: "alexscaves:resistor_shield"
+			}
+			id: "29811125F00D9272"
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "alexscaves:magnetron"
+					id: "04538C9FAA0CD7F2"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "alexscaves:mine_guardian"
+					id: "2E244E0DCD01BC38"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 24.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["07B26B03499EEB6A"]
+			icon: {
+				id: "alexscaves:tree_star"
+			}
+			id: "140DB1FC06E3B3F7"
+			shape: "square"
+			tasks: [
+				{
+					id: "390FD8176AF455FD"
+					item: { count: 1, id: "alexscaves:limestone_spear" }
+					type: "item"
+				}
+				{
+					id: "0672C30A29474307"
+					item: { count: 1, id: "alexscaves:primitive_club" }
+					type: "item"
+				}
+				{
+					id: "6C52BC27F24391E5"
+					item: { count: 1, id: "alexscaves:pewen_log" }
+					type: "item"
+				}
+				{
+					id: "3D7F11748A839825"
+					item: { count: 1, id: "alexscaves:tree_star" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["140DB1FC06E3B3F7"]
+			icon: {
+				id: "alexscaves:amber_monolith"
+			}
+			id: "3C84880BCDFBB20E"
+			shape: "square"
+			tasks: [
+				{
+					id: "6A265004617862FA"
+					item: { count: 1, id: "alexscaves:amber" }
+					type: "item"
+				}
+				{
+					id: "08641DAD26A97764"
+					item: { count: 1, id: "alexscaves:amber_curiosity" }
+					type: "item"
+				}
+				{
+					id: "4797868479BD0B7C"
+					item: { count: 1, id: "alexscaves:amber_monolith" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3C84880BCDFBB20E"]
+			icon: {
+				id: "alexscaves:biome_treat"
+			}
+			id: "3737D087D44C1CE1"
+			shape: "square"
+			tasks: [
+				{
+					id: "65238DACA8C80C28"
+					item: { count: 1, id: "alexscaves:biome_treat" }
+					type: "item"
+				}
+				{
+					id: "3A5E21B7417BECC6"
+					item: { count: 1, id: "alexscaves:subterranodon_egg" }
+					type: "item"
+				}
+				{
+					id: "0CCDF8F08F2237DC"
+					item: { count: 1, id: "alexscaves:grottoceratops_egg" }
+					type: "item"
+				}
+				{
+					id: "5391B050DDE68402"
+					item: { count: 1, id: "alexscaves:tremorsaurus_egg" }
+					type: "item"
+				}
+				{
+					id: "277F476619C76380"
+					item: { count: 1, id: "alexscaves:relicheirus_egg" }
+					type: "item"
+				}
+				{
+					id: "1E6804872C93CE61"
+					item: { count: 1, id: "alexscaves:vallumraptor_egg" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3737D087D44C1CE1"]
+			icon: {
+				id: "alexscaves:tremorzilla_egg"
+			}
+			id: "0B0F504E7EDC1943"
+			shape: "square"
+			tasks: [
+				{
+					id: "32BA7E4FC26A5296"
+					item: { count: 1, id: "alexscaves:tremorzilla_egg" }
+					type: "item"
+				}
+				{
+					id: "50AC58DA551A463F"
+					item: { count: 1, id: "alexscaves:atlatitan_egg" }
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3737D087D44C1CE1"]
+			icon: {
+				id: "alexscaves:primordial_soup"
+			}
+			id: "07FE6E9707744929"
+			shape: "square"
+			tasks: [
+				{
+					id: "2F57ADEC7EDD231F"
+					item: { count: 1, id: "alexscaves:primordial_soup" }
+					type: "item"
+				}
+				{
+					id: "7E6006E0A69D4040"
+					item: { count: 1, id: "alexscaves:serene_salad" }
+					type: "item"
+				}
+				{
+					id: "6E11A0D68D8A9191"
+					item: { count: 1, id: "alexscaves:seething_stew" }
+					type: "item"
+				}
+				{
+					id: "020295992502D6C5"
+					item: { count: 1, id: "alexscaves:tough_hide" }
+					type: "item"
+				}
+				{
+					id: "4BC9B0B033D0DD4F"
+					item: { count: 1, id: "alexscaves:heavy_bone" }
+					type: "item"
+				}
+				{
+					id: "5EC2394145505B5C"
+					item: { count: 1, id: "alexscaves:hollow_bone" }
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["07FE6E9707744929"]
+			icon: {
+				id: "alexscaves:extinction_spear"
+			}
+			id: "6386F2AECA032EB3"
+			optional: true
+			rewards: [
+				{
+					id: "7C49872C8D7A221B"
+					table_id: 7928811318474811146L
+					type: "random"
+				}
+				{
+					id: "47454CD4524BE3B0"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "4864B42CCB3FABAF"
+					item: { count: 1, id: "alexscaves:ominous_catalyst" }
+					type: "item"
+				}
+				{
+					entity: "alexscaves:luxtructosaurus"
+					id: "69523DC9B2C3C71E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "alexscaves:tremorzilla"
+					id: "2B674C58F653ACBA"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 24.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["184313B916A4A2BF"]
+			icon: {
+				id: "alexscaves:uranium"
+			}
+			id: "76903705948B7BCC"
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "33A97F38C2A0BA3B"
+					item: { count: 1, id: "alexscaves:acid_bucket" }
+					type: "item"
+				}
+				{
+					id: "0244B3C2823E6864"
+					item: { count: 1, id: "alexscaves:uranium" }
+					type: "item"
+				}
+				{
+					id: "49EB73D968B916EF"
+					item: { count: 1, id: "alexscaves:uranium_shard" }
+					type: "item"
+				}
+				{
+					id: "0904687F7B81BDC1"
+					item: { count: 1, id: "alexscaves:sulfur_dust" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["76903705948B7BCC"]
+			icon: {
+				id: "alexscaves:hazmat_mask"
+			}
+			id: "3782BCC47FD515D4"
+			rewards: [{
+				count: 8
+				id: "0CB730282B7C96E1"
+				item: {
+					count: 1
+					id: "alexscaves:polymer_plate"
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "75927BE325842819"
+					item: { count: 1, id: "alexscaves:polymer_plate" }
+					type: "item"
+				}
+				{
+					id: "62D4C7F97FD84C96"
+					item: { count: 1, id: "alexscaves:hazmat_mask" }
+					type: "item"
+				}
+				{
+					id: "79FC0EA6683EFCC5"
+					item: { count: 1, id: "alexscaves:hazmat_chestplate" }
+					type: "item"
+				}
+				{
+					id: "3BA4EE814ED864EE"
+					item: { count: 1, id: "alexscaves:hazmat_leggings" }
+					type: "item"
+				}
+				{
+					id: "6814F0764384D6AA"
+					item: { count: 1, id: "alexscaves:hazmat_boots" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3782BCC47FD515D4"]
+			icon: {
+				id: "alexscaves:nuclear_siren"
+			}
+			id: "4FE040EE594D51F1"
+			shape: "pentagon"
+			tasks: [
+				{
+					entity: "alexscaves:brainiac"
+					id: "0879B7F99114DA9F"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "alexscaves:nucleeper"
+					id: "142DA1D970B6636A"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "alexscaves:gammaroach"
+					id: "05240C5C1373E94B"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 18.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3782BCC47FD515D4"]
+			icon: {
+				id: "alexscaves:nuclear_furnace_component"
+			}
+			id: "69DD6C0B381DCFD7"
+			rewards: [{
+				count: 4
+				id: "04E9AF82BF1C3331"
+				item: {
+					count: 1
+					id: "alexscaves:uranium_rod"
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "5E1A6D58B89FE11B"
+					item: { count: 1, id: "alexscaves:charred_remnant" }
+					type: "item"
+				}
+				{
+					id: "5E96C0C78E867CC2"
+					item: { count: 1, id: "alexscaves:nuclear_furnace_component" }
+					type: "item"
+				}
+				{
+					id: "041252A3ECC8B477"
+					item: { count: 1, id: "alexscaves:unrefined_waste" }
+					type: "item"
+				}
+				{
+					id: "4B466B1214B08FE6"
+					item: { count: 1, id: "alexscaves:waste_drum" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3782BCC47FD515D4"]
+			icon: {
+				id: "alexscaves:raygun"
+			}
+			id: "38FD74D6FDB072EF"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "7F7C204100F54A18"
+				item: {
+					count: 1
+					id: "alexscaves:radon_bottle"
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "6C0B373A8E5A7205"
+					item: { count: 1, id: "alexscaves:uranium_rod" }
+					type: "item"
+				}
+				{
+					id: "072CBFC130BF835E"
+					item: { count: 1, id: "alexscaves:radon_bottle" }
+					type: "item"
+				}
+				{
+					id: "6642CA26BDD753D0"
+					item: { count: 1, id: "alexscaves:raygun" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["69DD6C0B381DCFD7"]
+			icon: {
+				id: "alexscaves:nuclear_bomb"
+			}
+			id: "427F7E38BE23578F"
+			optional: true
+			rewards: [
+				{
+					id: "665069228CC34825"
+					table_id: 7928811318474811146L
+					type: "random"
+				}
+				{
+					id: "6A8408E572DD3DA6"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "5E0023D85496562F"
+					item: { count: 1, id: "alexscaves:fissile_core" }
+					type: "item"
+				}
+				{
+					id: "3C261FE748F96DFF"
+					item: { count: 1, id: "alexscaves:nuclear_bomb" }
+					type: "item"
+				}
+				{
+					id: "2D34B589B4BC7645"
+					item: { count: 1, id: "alexscaves:remote_detonator" }
+					type: "item"
+				}
+				{
+					id: "212F3492FAF1FDC5"
+					item: { count: 1, id: "alexscaves:nuclear_siren" }
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["184313B916A4A2BF"]
+			icon: {
+				id: "alexscaves:pearl"
+			}
+			id: "45DFDB4E98331226"
+			shape: "circle"
+			tasks: [
+				{
+					id: "4094661CFB13F396"
+					item: { count: 1, id: "alexscaves:mussel" }
+					type: "item"
+				}
+				{
+					id: "5EC3B701E6DEC79E"
+					item: { count: 1, id: "alexscaves:pearl" }
+					type: "item"
+				}
+				{
+					id: "70C068B4DD42B56C"
+					item: { count: 1, id: "alexscaves:sea_glass_shards" }
+					type: "item"
+				}
+				{
+					id: "3E5CE8B398BA072D"
+					item: { count: 1, id: "alexscaves:bioluminesscence" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["45DFDB4E98331226"]
+			icon: {
+				id: "alexscaves:diving_helmet"
+			}
+			id: "6CABCF00D7232668"
+			rewards: [{
+				count: 2
+				id: "34A58732751E2690"
+				item: {
+					count: 1
+					id: "alexscaves:floater"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					id: "6B91844A7F57F0F0"
+					item: { count: 1, id: "alexscaves:diving_helmet" }
+					type: "item"
+				}
+				{
+					id: "552D146170C5175D"
+					item: { count: 1, id: "alexscaves:diving_chestplate" }
+					type: "item"
+				}
+				{
+					id: "589C4FE84C21640D"
+					item: { count: 1, id: "alexscaves:diving_leggings" }
+					type: "item"
+				}
+				{
+					id: "29425874B7FB641D"
+					item: { count: 1, id: "alexscaves:diving_boots" }
+					type: "item"
+				}
+				{
+					id: "469247DF5E0190CA"
+					item: { count: 1, id: "alexscaves:floater" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6CABCF00D7232668"]
+			icon: {
+				id: "alexscaves:submarine"
+			}
+			id: "5A17A5072F74C317"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "482826A2CECEE635"
+				item: {
+					count: 1
+					id: "alexscaves:depth_charge"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					id: "3A5E38A331AA4FA7"
+					item: { count: 1, id: "alexscaves:submarine" }
+					type: "item"
+				}
+				{
+					id: "2600CC4CF581BD38"
+					item: { count: 1, id: "alexscaves:depth_charge" }
+					type: "item"
+				}
+				{
+					id: "24733FD77F6E140E"
+					item: { count: 1, id: "alexscaves:depth_glass" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5A17A5072F74C317"]
+			icon: {
+				id: "alexscaves:sea_staff"
+			}
+			id: "0A66A69C9FAE77B2"
+			shape: "circle"
+			tasks: [
+				{
+					id: "4AB8AD02264F2500"
+					item: { count: 1, id: "alexscaves:abyssal_altar" }
+					type: "item"
+				}
+				{
+					id: "49FA354E8835E30C"
+					item: { count: 1, id: "alexscaves:magic_conch" }
+					type: "item"
+				}
+				{
+					id: "56C755BC3F6BD824"
+					item: { count: 1, id: "alexscaves:sea_staff" }
+					type: "item"
+				}
+				{
+					id: "08F83A0A88B0352F"
+					item: { count: 1, id: "alexscaves:ortholance" }
+					type: "item"
+				}
+				{
+					id: "1981CC8E293FEB5F"
+					item: { count: 1, id: "alexscaves:block_of_pearl" }
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0A66A69C9FAE77B2"]
+			icon: {
+				id: "alexscaves:ortholance"
+			}
+			id: "563767B8272FEAE5"
+			rewards: [
+				{
+					id: "3B8F4D8A888F287E"
+					table_id: 7928811318474811146L
+					type: "random"
+				}
+				{
+					id: "40173F8189601DBB"
+					type: "xp"
+					xp: 35
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					entity: "alexscaves:hullbreaker"
+					id: "0CD911FBA0B07D2C"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "alexscaves:deep_one_knight"
+					id: "1FC6D45C67A47DDC"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "alexscaves:deep_one_mage"
+					id: "0432A65146FCABFF"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 24.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["01698854AE16954C"]
+			icon: {
+				id: "alexscaves:guanostone"
+			}
+			id: "542D38F63D2D6BF7"
+			rewards: [{
+				count: 4
+				id: "39B9BE7E46FCD866"
+				item: {
+					count: 1
+					id: "alexscaves:moth_ball"
+				}
+				type: "item"
+			}]
+			shape: "triangle"
+			tasks: [
+				{
+					id: "46E522BDB2FD6E6C"
+					item: { count: 1, id: "alexscaves:fertilizer" }
+					type: "item"
+				}
+				{
+					id: "608A6C12C7375BC6"
+					item: { count: 1, id: "alexscaves:guanostone" }
+					type: "item"
+				}
+				{
+					id: "11D64B8087FB9FA9"
+					item: { count: 1, id: "alexscaves:coprolith" }
+					type: "item"
+				}
+				{
+					id: "34493E0FC573B99D"
+					item: { count: 1, id: "alexscaves:thornwood_log" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["542D38F63D2D6BF7"]
+			icon: {
+				id: "alexscaves:moth_dust"
+			}
+			id: "016B15037B65FD63"
+			shape: "triangle"
+			tasks: [
+				{
+					id: "126C233DB9BECA51"
+					item: { count: 1, id: "alexscaves:moth_dust" }
+					type: "item"
+				}
+				{
+					id: "5950F49CE3AD7F4A"
+					item: { count: 1, id: "alexscaves:moth_ball" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["542D38F63D2D6BF7"]
+			icon: {
+				id: "alexscaves:totem_of_possession"
+			}
+			id: "5A6074D292F8865D"
+			shape: "triangle"
+			tasks: [
+				{
+					id: "613D56408F90ADCD"
+					item: { count: 1, id: "alexscaves:occult_gem" }
+					type: "item"
+				}
+				{
+					id: "6F9994ABB5FD7DD5"
+					item: { count: 1, id: "alexscaves:totem_of_possession" }
+					type: "item"
+				}
+				{
+					id: "0CEBB9D9803C0A0E"
+					item: { count: 1, id: "alexscaves:gazing_pearl" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5A6074D292F8865D"]
+			icon: {
+				id: "alexscaves:cloak_of_darkness"
+			}
+			id: "37B67D7F48535847"
+			shape: "triangle"
+			tasks: [
+				{
+					id: "238A02F4C43A96F6"
+					item: { count: 1, id: "alexscaves:dark_tatters" }
+					type: "item"
+				}
+				{
+					id: "0EE171CBC2E7F91F"
+					item: { count: 1, id: "alexscaves:shadow_silk" }
+					type: "item"
+				}
+				{
+					id: "6FD1849F2FB52289"
+					item: { count: 1, id: "alexscaves:pure_darkness" }
+					type: "item"
+				}
+				{
+					id: "55D33EBEAE5D59B6"
+					item: { count: 1, id: "alexscaves:hood_of_darkness" }
+					type: "item"
+				}
+				{
+					id: "12D94406DA746D68"
+					item: { count: 1, id: "alexscaves:cloak_of_darkness" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["016B15037B65FD63"]
+			icon: {
+				id: "alexscaves:dreadbow"
+			}
+			id: "384133A6D892AA59"
+			shape: "triangle"
+			tasks: [
+				{
+					id: "373BD36442DAE24A"
+					item: { count: 1, id: "alexscaves:desolate_dagger" }
+					type: "item"
+				}
+				{
+					id: "1F232FC1C965A735"
+					item: { count: 1, id: "alexscaves:dreadbow" }
+					type: "item"
+				}
+				{
+					id: "44F96DCFA57199F1"
+					item: { count: 1, id: "alexscaves:forsaken_idol" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"384133A6D892AA59"
+				"37B67D7F48535847"
+			]
+			icon: {
+				id: "alexscaves:forsaken_idol"
+			}
+			id: "52A0E77C470EB303"
+			shape: "triangle"
+			tasks: [
+				{
+					entity: "alexscaves:watcher"
+					id: "4164BAD80CEBA47F"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "alexscaves:forsaken"
+					id: "7AF3C2763CB449C3"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 21.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["01698854AE16954C"]
+			icon: {
+				id: "alexscaves:confection_oven"
+			}
+			id: "22119CE784AE4564"
+			rewards: [{
+				count: 4
+				id: "209CD92A9181268A"
+				item: {
+					count: 1
+					id: "alexscaves:purple_soda_bottle"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "2CA46C1E9FFE1EBC"
+					item: { count: 1, id: "alexscaves:purple_soda_bottle" }
+					type: "item"
+				}
+				{
+					id: "51EE693B046AFEBD"
+					item: { count: 1, id: "alexscaves:candy_cane" }
+					type: "item"
+				}
+				{
+					id: "103C642C2D216E99"
+					item: { count: 1, id: "alexscaves:confection_oven" }
+					type: "item"
+				}
+				{
+					id: "66A0C2A01C22F662"
+					item: { count: 1, id: "alexscaves:sweet_tooth" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["22119CE784AE4564"]
+			icon: {
+				id: "alexscaves:candy_cane_hook"
+			}
+			id: "0EBD58ABEB0D1915"
+			shape: "octagon"
+			tasks: [
+				{
+					id: "64F89B3366F100D1"
+					item: { count: 1, id: "alexscaves:gelatin_yellow" }
+					type: "item"
+				}
+				{
+					id: "27560F4476B27398"
+					item: { count: 1, id: "alexscaves:rainbounce_boots" }
+					type: "item"
+				}
+				{
+					id: "1775D649BC23F717"
+					item: { count: 1, id: "alexscaves:sharpened_candy_cane" }
+					type: "item"
+				}
+				{
+					id: "063326366806065B"
+					item: { count: 1, id: "alexscaves:candy_cane_hook" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["22119CE784AE4564"]
+			icon: {
+				id: "alexscaves:caramel_apple"
+			}
+			id: "71CA3EAB0B3BAFC8"
+			shape: "octagon"
+			tasks: [{
+				id: "7775115BE704CEEB"
+				item: { count: 1, id: "alexscaves:caramel_apple" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["0EBD58ABEB0D1915"]
+			icon: {
+				id: "alexscaves:shot_gum"
+			}
+			id: "59304EC509D179F1"
+			rewards: [{
+				count: 8
+				id: "3AEBCCD57503B7EF"
+				item: {
+					count: 1
+					id: "alexscaves:gumball_pile"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "49421B16C3843FE6"
+					item: { count: 1, id: "alexscaves:gumball_pile" }
+					type: "item"
+				}
+				{
+					id: "0CCCBB8039BD2EE8"
+					item: { count: 1, id: "alexscaves:shot_gum" }
+					type: "item"
+				}
+				{
+					id: "7261BEC09AF6F69C"
+					item: { count: 1, id: "alexscaves:gobthumper" }
+					type: "item"
+				}
+				{
+					id: "197500B54C6A64D6"
+					item: { count: 1, id: "alexscaves:frostmint_spear" }
+					type: "item"
+				}
+				{
+					id: "1A04FFCB19365271"
+					item: { count: 1, id: "alexscaves:sugar_staff" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["59304EC509D179F1"]
+			icon: {
+				id: "alexscaves:gingerbread_chestplate"
+			}
+			id: "4B7C923B38CA8A85"
+			shape: "octagon"
+			tasks: [
+				{
+					id: "0946D926045F55B9"
+					item: { count: 1, id: "alexscaves:sundae" }
+					type: "item"
+				}
+				{
+					id: "1AF7FB6E69DF034F"
+					item: { count: 1, id: "alexscaves:hot_chocolate_bottle" }
+					type: "item"
+				}
+				{
+					id: "1A67A4BD892863C2"
+					item: { count: 1, id: "alexscaves:sack_of_sating" }
+					type: "item"
+				}
+				{
+					id: "50CC78CDD280FED7"
+					item: { count: 1, id: "alexscaves:gingerbread_helmet" }
+					type: "item"
+				}
+				{
+					id: "70FBC03790C8D4FE"
+					item: { count: 1, id: "alexscaves:gingerbread_chestplate" }
+					type: "item"
+				}
+				{
+					id: "4847B693FE1087CE"
+					item: { count: 1, id: "alexscaves:gingerbread_leggings" }
+					type: "item"
+				}
+				{
+					id: "0C26DF24CB1D4E2C"
+					item: { count: 1, id: "alexscaves:gingerbread_boots" }
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["4B7C923B38CA8A85"]
+			icon: {
+				id: "alexscaves:shot_gum"
+			}
+			id: "3BF522F69440E4A3"
+			optional: true
+			rewards: [
+				{
+					id: "2AE8747C64B59137"
+					table_id: 7928811318474811146L
+					type: "random"
+				}
+				{
+					id: "6FA376D452B62220"
+					type: "xp"
+					xp: 35
+				}
+			]
+			shape: "octagon"
+			tasks: [
+				{
+					entity: "alexscaves:gum_worm"
+					id: "38D5DCC89489B09C"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "alexscaves:gummy_bear"
+					id: "3515B06C477EB2AA"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "alexscaves:caramel_cube"
+					id: "6EFF4501264965B5"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "alexscaves:licowitch"
+					id: "680ACC8764AAFB83"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "alexscaves:caniac"
+					id: "27E82DF928485BCA"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "alexscaves:gumbeeper"
+					id: "6A6DD50805891975"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 24.0d
+			y: 15.0d
+		}
+	]
+}

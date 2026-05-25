@@ -1,0 +1,58 @@
+{
+	icon: {
+		id: "minecraft:shield"
+	}
+	id: "798ACBF43E380000"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 24
+			id: "73035462BB04DF37"
+			item: {
+				count: 1
+				id: "minecraft:torch"
+			}
+			random_bonus: 24
+			weight: 8.0f
+		}
+		{
+			count: 6
+			id: "50D3E6C3B2D226BE"
+			item: {
+				count: 1
+				id: "minecraft:bread"
+			}
+			random_bonus: 6
+			weight: 8.0f
+		}
+		{
+			count: 16
+			id: "4D4FE8A6D1ADE446"
+			item: {
+				count: 1
+				id: "minecraft:arrow"
+			}
+			random_bonus: 16
+			weight: 5.0f
+		}
+		{
+			id: "24FF892F302FD31B"
+			item: {
+				count: 1
+				id: "minecraft:shield"
+			}
+			weight: 2.0f
+		}
+		{
+			id: "089D934BA330AB48"
+			item: {
+				count: 1
+				id: "minecraft:water_bucket"
+			}
+			weight: 2.0f
+		}
+		{ id: "669981AF97F730E5", item: { count: 1, id: "minecraft:golden_apple" } }
+	]
+	use_title: true
+}

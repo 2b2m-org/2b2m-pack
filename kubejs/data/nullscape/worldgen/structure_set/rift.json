@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "nullscape:rift",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 72,
+    "separation": 44,
+    "salt": 917305732
+  }
+}

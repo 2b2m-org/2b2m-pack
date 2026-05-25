@@ -1,0 +1,824 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "extreme_reactors"
+	group: "0A3B3C5A3FFA50C9"
+	icon: {
+		id: "bigreactors:basic_reactorcontroller"
+	}
+	id: "597E298895DC0D15"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "bigreactors:yellorium_ingot"
+			}
+			id: "71EEC624D67F1E53"
+			rewards: [
+				{
+					count: 8
+					id: "11F8473590E6DBAE"
+					item: {
+						count: 1
+						id: "bigreactors:yellorium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2863457052A102F5"
+					item: {
+						count: 1
+						id: "bigreactors:graphite_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "37A30A46131845D9"
+					item: { count: 1, id: "bigreactors:raw_yellorium" }
+					type: "item"
+				}
+				{
+					id: "2D656D7441E353FC"
+					item: { count: 1, id: "bigreactors:yellorium_ingot" }
+					type: "item"
+				}
+				{
+					id: "4912A6BB45825430"
+					item: { count: 1, id: "bigreactors:graphite_ingot" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71EEC624D67F1E53"]
+			icon: {
+				id: "bigreactors:wrench"
+			}
+			id: "794CEA6B8B379664"
+			shape: "pentagon"
+			tasks: [{
+				id: "42EC9237FC530A41"
+				item: { count: 1, id: "bigreactors:wrench" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["71EEC624D67F1E53"]
+			icon: {
+				id: "bigreactors:basic_reactorcontroller"
+			}
+			id: "0642DA5D05CD09C8"
+			rewards: [
+				{
+					count: 16
+					id: "62DF8FB07BEEB86A"
+					item: {
+						count: 1
+						id: "bigreactors:basic_reactorcasing"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4016AC7D3FAE504D"
+					item: {
+						count: 1
+						id: "bigreactors:basic_reactorglass"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					id: "5D107C616BEEA6D1"
+					item: { count: 1, id: "bigreactors:basic_reactorcasing" }
+					type: "item"
+				}
+				{
+					id: "3ED89C59A3575C95"
+					item: { count: 1, id: "bigreactors:basic_reactorglass" }
+					type: "item"
+				}
+				{
+					id: "58DCA12C79945071"
+					item: { count: 1, id: "bigreactors:basic_reactorcontroller" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0642DA5D05CD09C8"]
+			icon: {
+				id: "bigreactors:basic_reactorfuelrod"
+			}
+			id: "420C37BDF61973C1"
+			rewards: [{
+				count: 8
+				id: "106861C79B56E992"
+				item: {
+					count: 1
+					id: "bigreactors:basic_reactorfuelrod"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "0CDEC4A4782F5E68"
+					item: { count: 1, id: "bigreactors:basic_reactorfuelrod" }
+					type: "item"
+				}
+				{
+					id: "15848C229FA3A062"
+					item: { count: 1, id: "bigreactors:basic_reactorcontrolrod" }
+					type: "item"
+				}
+				{
+					id: "29926C42CDF4D29A"
+					item: { count: 1, id: "bigreactors:basic_reactorsolidaccessport" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["420C37BDF61973C1"]
+			icon: {
+				id: "bigreactors:basic_reactorpowertapfe_active"
+			}
+			id: "431C9B8316BDF4A5"
+			rewards: [{
+				count: 16
+				id: "0E42DDF335144094"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					id: "69CBD2C070538483"
+					item: { count: 1, id: "bigreactors:basic_reactorpowertapfe_active" }
+					type: "item"
+				}
+				{
+					id: "5D123F087B85E23D"
+					item: { count: 1, id: "bigreactors:basic_reactorchargingportfe" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["431C9B8316BDF4A5"]
+			icon: {
+				id: "bigreactors:basic_reactorredstoneport"
+			}
+			id: "2D00A2865A06E98C"
+			rewards: [
+				{
+					count: 4
+					id: "44B22294C5A33015"
+					item: {
+						count: 1
+						id: "minecraft:repeater"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1247DF49922799B5"
+					item: {
+						count: 1
+						id: "minecraft:comparator"
+					}
+					type: "item"
+				}
+				{
+					id: "3C75F496F95094D7"
+					table_id: 3209129463670650080L
+					type: "random"
+				}
+				{
+					id: "43BA83CBE3D43683"
+					type: "xp"
+					xp: 35
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				id: "1B1F9A45EBDC608D"
+				item: { count: 1, id: "bigreactors:basic_reactorredstoneport" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["431C9B8316BDF4A5"]
+			icon: {
+				id: "bigreactors:basic_reactorcontrolrod"
+			}
+			id: "04EDB2710C874A83"
+			rewards: [{
+				count: 4
+				id: "669BA7C97099CA1B"
+				item: {
+					count: 1
+					id: "bigreactors:graphite_block"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "06A30E9DCAAF929A"
+				item: { count: 1, id: "bigreactors:graphite_block" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			id: "313534B1A5A09C41"
+			tasks: [{
+				id: "45B8CA210B6C41D0"
+				item: { count: 1, id: "bigreactors:cyanite_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["313534B1A5A09C41"]
+			icon: {
+				id: "bigreactors:reprocessorcontroller"
+			}
+			id: "5992A5BB4AE4348C"
+			rewards: [{
+				count: 8
+				id: "4B1F488731B03168"
+				item: {
+					count: 1
+					id: "bigreactors:cyanite_ingot"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "18B41E1A594F158F"
+					item: { count: 1, id: "bigreactors:reprocessorcasing" }
+					type: "item"
+				}
+				{
+					id: "2E6E94CCE09FC942"
+					item: { count: 1, id: "bigreactors:reprocessorcontroller" }
+					type: "item"
+				}
+				{
+					id: "2BF8FCAA38E6A9B5"
+					item: { count: 1, id: "bigreactors:reprocessorwasteinjector" }
+					type: "item"
+				}
+				{
+					id: "0E6A21CDFC7198C8"
+					item: { count: 1, id: "bigreactors:reprocessorfluidinjector" }
+					type: "item"
+				}
+				{
+					id: "2D79B0A4FB87718F"
+					item: { count: 1, id: "bigreactors:reprocessoroutputport" }
+					type: "item"
+				}
+				{
+					id: "5B76BEE551E596BC"
+					item: { count: 1, id: "bigreactors:reprocessorpowerport" }
+					type: "item"
+				}
+				{
+					id: "6798C087B655328B"
+					item: { count: 1, id: "bigreactors:reprocessorcollector" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5992A5BB4AE4348C"]
+			icon: {
+				id: "bigreactors:blutonium_ingot"
+			}
+			id: "2DAC61F1FF3FF2EC"
+			rewards: [
+				{
+					id: "6D7DA525DE6B7522"
+					table_id: 3209129463670650080L
+					type: "random"
+				}
+				{
+					id: "4489CC1A930ACD47"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "20EE3B8C24CE4AC4"
+					item: { count: 1, id: "bigreactors:blutonium_ingot" }
+					type: "item"
+				}
+				{
+					id: "41C1D5FE9E5D8E63"
+					item: { count: 1, id: "bigreactors:ludicrite_ingot" }
+					type: "item"
+				}
+				{
+					id: "5692182ACE7BE34A"
+					item: { count: 1, id: "bigreactors:ridiculite_ingot" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["04EDB2710C874A83"]
+			icon: {
+				id: "bigreactors:reinforced_reactorcontroller"
+			}
+			id: "1F9FDA01559BBF89"
+			rewards: [{
+				count: 8
+				id: "582A2FB210903D84"
+				item: {
+					count: 1
+					id: "bigreactors:reinforced_reactorcasing"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "1CC1495D4AA74209"
+					item: { count: 1, id: "bigreactors:reinforced_reactorcasing" }
+					type: "item"
+				}
+				{
+					id: "159117D462258B00"
+					item: { count: 1, id: "bigreactors:reinforced_reactorcontroller" }
+					type: "item"
+				}
+				{
+					id: "685AC434C23D4536"
+					item: { count: 1, id: "bigreactors:reinforced_reactorfuelrod" }
+					type: "item"
+				}
+				{
+					id: "4F9675DA4261C4E4"
+					item: { count: 1, id: "bigreactors:reinforced_reactorcontrolrod" }
+					type: "item"
+				}
+				{
+					id: "7366897D70556636"
+					item: { count: 1, id: "bigreactors:reinforced_reactorsolidaccessport" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F9FDA01559BBF89"]
+			icon: {
+				id: "bigreactors:steam_bucket"
+			}
+			id: "345DB0A974DF8BC3"
+			rewards: [{
+				count: 4
+				id: "7AFAF66AD54B763E"
+				item: {
+					count: 1
+					id: "minecraft:bucket"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					id: "532CA77EB8804B9B"
+					item: { count: 1, id: "bigreactors:reinforced_reactorfluidport_forge_passive" }
+					type: "item"
+				}
+				{
+					id: "743D09E2941E44B6"
+					item: { count: 1, id: "bigreactors:reinforced_reactorfluidport_forge_active" }
+					type: "item"
+				}
+				{
+					id: "52FA687D0670516C"
+					item: { count: 1, id: "bigreactors:steam_bucket" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1F9FDA01559BBF89"]
+			icon: {
+				id: "bigreactors:reinforced_reactorcomputerport"
+			}
+			id: "7F910813237C493E"
+			rewards: [{
+				count: 16
+				id: "1ADCFF6934105AB5"
+				item: {
+					count: 1
+					id: "computercraft:cable"
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "50976BF8811A2F7D"
+				item: { count: 1, id: "bigreactors:reinforced_reactorcomputerport" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["345DB0A974DF8BC3"]
+			icon: {
+				id: "bigreactors:basic_turbinecontroller"
+			}
+			id: "6D54E3D349BF8F05"
+			rewards: [{
+				count: 16
+				id: "14AAEA04B64332B4"
+				item: {
+					count: 1
+					id: "bigreactors:basic_turbinecasing"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "18D70FDD863631C0"
+					item: { count: 1, id: "bigreactors:basic_turbinecasing" }
+					type: "item"
+				}
+				{
+					id: "6EBF0F50AF602DF1"
+					item: { count: 1, id: "bigreactors:basic_turbinecontroller" }
+					type: "item"
+				}
+				{
+					id: "47B8250E978535A9"
+					item: { count: 1, id: "bigreactors:basic_turbinerotorbearing" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6D54E3D349BF8F05"]
+			icon: {
+				id: "bigreactors:basic_turbinerotorblade"
+			}
+			id: "63A4D5E9353C0C8B"
+			rewards: [{
+				count: 8
+				id: "64A44DE61023A71D"
+				item: {
+					count: 1
+					id: "bigreactors:basic_turbinerotorblade"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					id: "4AF3A91F82767D11"
+					item: { count: 1, id: "bigreactors:basic_turbinerotorshaft" }
+					type: "item"
+				}
+				{
+					id: "5AD4C3D0DA82CB48"
+					item: { count: 1, id: "bigreactors:basic_turbinerotorblade" }
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["63A4D5E9353C0C8B"]
+			icon: {
+				id: "bigreactors:basic_turbinefluidport_forge_active"
+			}
+			id: "65B7BA5F7CA917D4"
+			rewards: [
+				{
+					count: 4
+					id: "4DBF75C133E9AAB4"
+					item: {
+						count: 1
+						id: "bigreactors:ludicrite_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "47C95C589D19984C"
+					table_id: 3209129463670650080L
+					type: "random"
+				}
+				{
+					id: "6BE9ECA8B12EE2B2"
+					type: "xp"
+					xp: 35
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "73193282DB7A516E"
+					item: { count: 1, id: "bigreactors:basic_turbinefluidport_forge_active" }
+					type: "item"
+				}
+				{
+					id: "227B26166573ED96"
+					item: { count: 1, id: "bigreactors:basic_turbinepowertapfe_active" }
+					type: "item"
+				}
+				{
+					id: "4EE1D680543BD5FC"
+					item: { count: 1, id: "bigreactors:basic_turbinechargingportfe" }
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: -6.0d
+		}
+		{
+			id: "6A2FA96C2C7D9747"
+			tasks: [
+				{
+					id: "1BCC51752E45561B"
+					item: { count: 1, id: "bigreactors:ludicrite_block" }
+					type: "item"
+				}
+				{
+					id: "4D34B924E779ED96"
+					item: { count: 1, id: "bigreactors:ridiculite_block" }
+					type: "item"
+				}
+				{
+					id: "16B26CAEB1E6568C"
+					item: { count: 1, id: "bigreactors:inanite_block" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65B7BA5F7CA917D4"]
+			icon: {
+				id: "bigreactors:reinforced_turbinecontroller"
+			}
+			id: "78F8B9B384C6BCAD"
+			shape: "octagon"
+			tasks: [
+				{
+					id: "597B6800169D0454"
+					item: { count: 1, id: "bigreactors:reinforced_turbinecasing" }
+					type: "item"
+				}
+				{
+					id: "0268717862D01407"
+					item: { count: 1, id: "bigreactors:reinforced_turbinecontroller" }
+					type: "item"
+				}
+				{
+					id: "14B737DE0DED76C2"
+					item: { count: 1, id: "bigreactors:reinforced_turbinerotorblade" }
+					type: "item"
+				}
+				{
+					id: "2BFCCED76EB137E5"
+					item: { count: 1, id: "bigreactors:reinforced_turbinecomputerport" }
+					type: "item"
+				}
+			]
+			x: 27.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2DAC61F1FF3FF2EC"]
+			icon: {
+				id: "bigreactors:fluidizercontroller"
+			}
+			id: "1601655982DF68B9"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "508550A422D69340"
+					item: { count: 1, id: "bigreactors:fluidizercasing" }
+					type: "item"
+				}
+				{
+					id: "71769B79CD341F9A"
+					item: { count: 1, id: "bigreactors:fluidizercontroller" }
+					type: "item"
+				}
+				{
+					id: "06182DBC18CEAFD9"
+					item: { count: 1, id: "bigreactors:fluidizersolidinjector" }
+					type: "item"
+				}
+				{
+					id: "3584AB44C80D9356"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "4BDC6E80FABE0790"
+					item: { count: 1, id: "bigreactors:fluidizerpowerport" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1601655982DF68B9"]
+			icon: {
+				id: "bigreactors:yellorium_bucket"
+			}
+			id: "4171D08B6241473C"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "7A35FD98FD2F0B32"
+					item: { count: 1, id: "bigreactors:yellorium_bucket" }
+					type: "item"
+				}
+				{
+					id: "30CA8D5B09AF46BE"
+					item: { count: 1, id: "bigreactors:cyanite_bucket" }
+					type: "item"
+				}
+				{
+					id: "5822A6B27045C970"
+					item: { count: 1, id: "bigreactors:blutonium_bucket" }
+					type: "item"
+				}
+				{
+					id: "6C7FAE4D76B0D5CB"
+					item: { count: 1, id: "bigreactors:magentite_bucket" }
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4171D08B6241473C"]
+			icon: {
+				id: "bigreactors:cryomisi_bucket"
+			}
+			id: "0E70CEB6C8E07FE6"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "658301495801AE1C"
+					item: { count: 1, id: "bigreactors:verderium_bucket" }
+					type: "item"
+				}
+				{
+					id: "143C5A8E0AA61993"
+					item: { count: 1, id: "bigreactors:tangerium_bucket" }
+					type: "item"
+				}
+				{
+					id: "1C5049401C936242"
+					item: { count: 1, id: "bigreactors:cryomisi_bucket" }
+					type: "item"
+				}
+				{
+					id: "204B4D0CB3EFE408"
+					item: { count: 1, id: "bigreactors:redfrigium_bucket" }
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5992A5BB4AE4348C"]
+			icon: {
+				id: "bigreactors:energizercontroller"
+			}
+			id: "47517DB82D5945CF"
+			rewards: [
+				{
+					count: 8
+					id: "416E8EDA20DD4D9A"
+					item: {
+						count: 1
+						id: "bigreactors:energizercasing"
+					}
+					type: "item"
+				}
+				{
+					id: "5B48774596BF3824"
+					table_id: 3209129463670650080L
+					type: "random"
+				}
+				{
+					id: "1E307024C1CA46E4"
+					type: "xp"
+					xp: 35
+				}
+			]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "62F589BE34588058"
+					item: { count: 1, id: "bigreactors:energycore" }
+					type: "item"
+				}
+				{
+					id: "082CDD336A82C663"
+					item: { count: 1, id: "bigreactors:energizercasing" }
+					type: "item"
+				}
+				{
+					id: "17607CC6E47270B9"
+					item: { count: 1, id: "bigreactors:energizercontroller" }
+					type: "item"
+				}
+				{
+					id: "77FD008201BD04EF"
+					item: { count: 1, id: "bigreactors:energizercell" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["47517DB82D5945CF"]
+			icon: {
+				id: "bigreactors:energizerpowerport_fe"
+			}
+			id: "5481DC5659A461BF"
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "010B0374F10BB7A9"
+					item: { count: 1, id: "bigreactors:energizerpowerport_fe" }
+					type: "item"
+				}
+				{
+					id: "02BF6D4DE2ED283A"
+					item: { count: 1, id: "bigreactors:energizerpowerport_fe_active" }
+					type: "item"
+				}
+				{
+					id: "78A1F0BCB884DDAA"
+					item: { count: 1, id: "bigreactors:energizerchargingport_fe" }
+					type: "item"
+				}
+				{
+					id: "0442AD371A8A021B"
+					item: { count: 1, id: "bigreactors:energizercomputerport" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 10.0d
+		}
+	]
+}

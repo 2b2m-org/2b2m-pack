@@ -1,0 +1,62 @@
+{
+  "structures": [
+    {
+      "structure": "dungeons_arise:bandit_towers",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:ceryneian_hind",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:fishing_hut",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:greenwood_pub",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:illager_campsite",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:illager_windmill",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:lighthouse",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:merchant_campsite",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:mushroom_house",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:mushroom_village",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:scorched_mines",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:small_blimp",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:wishing_well",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 84,
+    "separation": 56,
+    "salt": 88371663
+  }
+}

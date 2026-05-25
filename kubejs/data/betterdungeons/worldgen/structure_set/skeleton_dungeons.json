@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "betterdungeons:skeleton_dungeon",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 732581671,
+    "spacing": 96,
+    "separation": 60,
+    "type": "minecraft:random_spread"
+  }
+}

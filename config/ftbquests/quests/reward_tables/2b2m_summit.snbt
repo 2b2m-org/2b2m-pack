@@ -1,0 +1,85 @@
+{
+	icon: {
+		id: "minecraft:netherite_scrap"
+	}
+	id: "3491AC3E31E068F9"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			count: 2
+			id: "074334B698FA29C8"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+			random_bonus: 2
+			weight: 5.0f
+		}
+		{
+			count: 8
+			id: "0A02FF83AFB76F55"
+			item: {
+				count: 1
+				id: "minecraft:emerald"
+			}
+			random_bonus: 8
+			weight: 5.0f
+		}
+		{
+			id: "37FD2B4EEC6622B8"
+			item: {
+				count: 1
+				id: "minecraft:netherite_scrap"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 2
+			id: "703D7BE2875E08F2"
+			item: {
+				count: 1
+				id: "minecraft:golden_apple"
+			}
+			random_bonus: 2
+			weight: 3.0f
+		}
+		{
+			count: 16
+			id: "6272CB7324FE6FAB"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+			random_bonus: 16
+			weight: 4.0f
+		}
+		{
+			id: "49EB98487AAD2477"
+			item: {
+				count: 1
+				id: "mekanism:module_base"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 2
+			id: "767E8D47EF6F0F4A"
+			item: {
+				count: 1
+				id: "create:precision_mechanism"
+			}
+			random_bonus: 2
+			weight: 3.0f
+		}
+		{
+			id: "4152382E2613902E"
+			item: {
+				count: 1
+				id: "ars_nouveau:source_gem_block"
+			}
+			weight: 2.0f
+		}
+	]
+	use_title: true
+}

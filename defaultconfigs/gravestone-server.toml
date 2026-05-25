@@ -1,0 +1,28 @@
+# Gravestone Mod server defaults for 2b2m.
+# Installed for Minecraft 1.21.1 / NeoForge 21.1.x.
+
+# If this is set to true you get an obituary after you died.
+enable_obituary = true
+
+# The blocks that can be replaced with a grave. Keep the mod default tag.
+replaceable_blocks = ["#gravestone:grave_replaceable"]
+
+# If this is set to true the obituary will be taken out of your inventory when you break the grave.
+remove_obituary = true
+
+# If this is set to true only the player that owns the grave and admins can break the grave.
+# 2b2m wants open looting, so this must stay false.
+only_owners_can_break = false
+
+# Keep grave recovery simple and non-hostile for multiplayer deaths.
+spawn_ghost = false
+friendly_ghost = false
+
+# Sneak pickup is owner-oriented UX; breaking the grave remains the public loot path.
+sneak_pickup = false
+
+# Sort recovered items back into the breaker inventory when possible.
+break_pickup = true
+
+# Do not let graves overwrite other blocks/multiblocks when no safe space is available.
+strict_placement = false

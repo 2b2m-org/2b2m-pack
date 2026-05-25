@@ -1,0 +1,1068 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "quark"
+	group: "627EB6D4BDB9ACAD"
+	icon: {
+		id: "quark:trowel"
+	}
+	id: "121E77C06730F736"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "quark:abacus"
+			}
+			id: "1118EACC1433C5E4"
+			shape: "hexagon"
+			tasks: [{
+				id: "0A27F395F95C0447"
+				item: { count: 1, id: "quark:abacus" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1118EACC1433C5E4"]
+			icon: {
+				id: "quark:crate"
+			}
+			id: "37A033636F464FDC"
+			rewards: [{
+				count: 4
+				id: "68A846BEA1034DFC"
+				item: {
+					count: 1
+					id: "minecraft:chest"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "6049520AD9326D9B"
+					item: { count: 1, id: "quark:crate" }
+					type: "item"
+				}
+				{
+					id: "5B92B4E24D388761"
+					item: { count: 1, id: "quark:backpack" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37A033636F464FDC"]
+			icon: {
+				id: "quark:trowel"
+			}
+			id: "0C10FF5107428C36"
+			rewards: [{
+				count: 16
+				id: "6589D3CAF983D18E"
+				item: {
+					count: 1
+					id: "minecraft:bone_meal"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					id: "647EA927E1D26417"
+					item: { count: 1, id: "quark:trowel" }
+					type: "item"
+				}
+				{
+					id: "3C28404A8880D6E8"
+					item: { count: 1, id: "quark:seed_pouch" }
+					type: "item"
+				}
+				{
+					id: "60EA88DF642DB4BB"
+					item: { count: 1, id: "quark:pathfinders_quill" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0C10FF5107428C36"]
+			icon: {
+				id: "quark:bottled_cloud"
+			}
+			id: "470ED3B8C138AF13"
+			shape: "circle"
+			tasks: [
+				{
+					id: "2CB450FE41C31F6D"
+					item: { count: 1, id: "quark:torch_arrow" }
+					type: "item"
+				}
+				{
+					id: "302B040798AD36E2"
+					item: { count: 1, id: "quark:bottled_cloud" }
+					type: "item"
+				}
+				{
+					id: "1A7283B55BD48D9D"
+					item: { count: 1, id: "quark:slime_in_a_bucket" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0C10FF5107428C36"]
+			icon: {
+				id: "quark:music_disc_clock"
+			}
+			id: "31BE37CEB68EBC7A"
+			shape: "circle"
+			tasks: [
+				{
+					id: "069001381195B160"
+					item: { count: 1, id: "quark:music_disc_clock" }
+					type: "item"
+				}
+				{
+					id: "4CD4D457799DB1A8"
+					item: { count: 1, id: "quark:music_disc_crickets" }
+					type: "item"
+				}
+				{
+					id: "36CFC9291F980E22"
+					item: { count: 1, id: "quark:music_disc_drips" }
+					type: "item"
+				}
+				{
+					id: "05CBCE28A2CE9E48"
+					item: { count: 1, id: "quark:music_disc_endermosh" }
+					type: "item"
+				}
+				{
+					id: "7CFC3E512E29A5AD"
+					item: { count: 1, id: "quark:music_disc_fire" }
+					type: "item"
+				}
+				{
+					id: "0C992185556F1767"
+					item: { count: 1, id: "quark:music_disc_ocean" }
+					type: "item"
+				}
+				{
+					id: "2691F4D7A580C865"
+					item: { count: 1, id: "quark:music_disc_rain" }
+					type: "item"
+				}
+				{
+					id: "2B9248F9D6521044"
+					item: { count: 1, id: "quark:music_disc_wind" }
+					type: "item"
+				}
+				{
+					id: "49E7790BB0E4B067"
+					item: { count: 1, id: "quark:music_disc_chatter" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["37A033636F464FDC"]
+			icon: {
+				id: "quark:crate"
+			}
+			id: "5E1EEC89C9443B05"
+			shape: "square"
+			tasks: [
+				{
+					id: "545E70EEBD048DB5"
+					item: { count: 1, id: "quark:crate" }
+					type: "item"
+				}
+				{
+					id: "4494B157EAB6E742"
+					item: { count: 1, id: "quark:apple_crate" }
+					type: "item"
+				}
+				{
+					id: "3B8798E226C20F9B"
+					item: { count: 1, id: "quark:golden_apple_crate" }
+					type: "item"
+				}
+				{
+					id: "29D76D152AEBD2AD"
+					item: { count: 1, id: "quark:potato_crate" }
+					type: "item"
+				}
+				{
+					id: "13285D2334711BCF"
+					item: { count: 1, id: "quark:carrot_crate" }
+					type: "item"
+				}
+				{
+					id: "16648FBB8E2B6043"
+					item: { count: 1, id: "quark:golden_carrot_crate" }
+					type: "item"
+				}
+				{
+					id: "765568D353223610"
+					item: { count: 1, id: "quark:beetroot_crate" }
+					type: "item"
+				}
+				{
+					id: "23149740E9F1474F"
+					item: { count: 1, id: "quark:cocoa_beans_sack" }
+					type: "item"
+				}
+				{
+					id: "0C62D179D1B178DE"
+					item: { count: 1, id: "quark:nether_wart_sack" }
+					type: "item"
+				}
+				{
+					id: "596085390032106A"
+					item: { count: 1, id: "quark:gunpowder_sack" }
+					type: "item"
+				}
+				{
+					id: "3F428BD44B12A2CA"
+					item: { count: 1, id: "quark:berry_sack" }
+					type: "item"
+				}
+				{
+					id: "3ED9F7947BFC5E22"
+					item: { count: 1, id: "quark:glowberry_sack" }
+					type: "item"
+				}
+				{
+					id: "330038558A372CCB"
+					item: { count: 1, id: "quark:charcoal_block" }
+					type: "item"
+				}
+				{
+					id: "02BEC1536D3D33D6"
+					item: { count: 1, id: "quark:sugar_cane_block" }
+					type: "item"
+				}
+				{
+					id: "5C4A0ACBA7E1DD8F"
+					item: { count: 1, id: "quark:cactus_block" }
+					type: "item"
+				}
+				{
+					id: "187F7BFA0DEB82E3"
+					item: { count: 1, id: "quark:chorus_fruit_block" }
+					type: "item"
+				}
+				{
+					id: "0D8E03B790F5CC2F"
+					item: { count: 1, id: "quark:stick_block" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5E1EEC89C9443B05"]
+			icon: {
+				id: "quark:backpack"
+			}
+			id: "54830BC7AB44ADD8"
+			shape: "square"
+			tasks: [
+				{
+					id: "0706F8F6185C8228"
+					item: { count: 1, id: "quark:ravager_hide" }
+					type: "item"
+				}
+				{
+					id: "225CD76DB7D573EB"
+					item: { count: 1, id: "quark:bonded_ravager_hide" }
+					type: "item"
+				}
+				{
+					id: "279F6E6CA499DB3E"
+					item: { count: 1, id: "quark:bonded_leather" }
+					type: "item"
+				}
+				{
+					id: "3B5BF405E164BC0C"
+					item: { count: 1, id: "quark:bonded_rabbit_hide" }
+					type: "item"
+				}
+				{
+					id: "628A756127E6332E"
+					item: { count: 1, id: "quark:backpack" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5E1EEC89C9443B05"]
+			icon: {
+				id: "quark:limestone"
+			}
+			id: "7B871039BF011620"
+			shape: "square"
+			tasks: [
+				{
+					id: "58BA8465BBA4E084"
+					item: { count: 1, id: "quark:limestone" }
+					type: "item"
+				}
+				{
+					id: "790AF7B21194001D"
+					item: { count: 1, id: "quark:jasper" }
+					type: "item"
+				}
+				{
+					id: "184631EB8770F95C"
+					item: { count: 1, id: "quark:shale" }
+					type: "item"
+				}
+				{
+					id: "6023D6B5C221ACC9"
+					item: { count: 1, id: "quark:soul_sandstone" }
+					type: "item"
+				}
+				{
+					id: "69EA0E66AEE9F36C"
+					item: { count: 1, id: "quark:framed_glass" }
+					type: "item"
+				}
+				{
+					id: "2420157066721F3A"
+					item: { count: 1, id: "quark:glass_item_frame" }
+					type: "item"
+				}
+				{
+					id: "2C2FF82F6876181A"
+					item: { count: 1, id: "quark:rope" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			id: "250369E02DFCF295"
+			tasks: [
+				{
+					id: "05D6E3975652F18B"
+					item: { count: 1, id: "quark:blue_blossom_sapling" }
+					type: "item"
+				}
+				{
+					id: "63376D437B231846"
+					item: { count: 1, id: "quark:lavender_blossom_sapling" }
+					type: "item"
+				}
+				{
+					id: "7866D11DD34060D2"
+					item: { count: 1, id: "quark:orange_blossom_sapling" }
+					type: "item"
+				}
+				{
+					id: "477E00E6F8A49A76"
+					item: { count: 1, id: "quark:red_blossom_sapling" }
+					type: "item"
+				}
+				{
+					id: "0A32953BA9CD7458"
+					item: { count: 1, id: "quark:yellow_blossom_sapling" }
+					type: "item"
+				}
+				{
+					id: "6983CCADC20789AD"
+					item: { count: 1, id: "quark:ancient_sapling" }
+					type: "item"
+				}
+				{
+					id: "09565C0C1E47039F"
+					item: { count: 1, id: "quark:ancient_fruit" }
+					type: "item"
+				}
+				{
+					id: "196E3F351BAE5E28"
+					item: { count: 1, id: "quark:hollow_ancient_log" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B871039BF011620"]
+			icon: {
+				id: "quark:myalite_crystal"
+			}
+			id: "7ABC44B70AC8F622"
+			shape: "circle"
+			tasks: [
+				{
+					id: "2BA5BEB45EF78E66"
+					item: { count: 1, id: "quark:permafrost" }
+					type: "item"
+				}
+				{
+					id: "426BFD13D5270D1A"
+					item: { count: 1, id: "quark:glow_lichen_growth" }
+					type: "item"
+				}
+				{
+					id: "06AA1BD22A18B977"
+					item: { count: 1, id: "quark:glow_shroom" }
+					type: "item"
+				}
+				{
+					id: "634D23D0F9355482"
+					item: { count: 1, id: "quark:glow_shroom_stem" }
+					type: "item"
+				}
+				{
+					id: "1AD127CDCC725F3F"
+					item: { count: 1, id: "quark:glow_shroom_block" }
+					type: "item"
+				}
+				{
+					id: "502CF6F1295F01BE"
+					item: { count: 1, id: "quark:glow_shroom_ring" }
+					type: "item"
+				}
+				{
+					id: "27396AAA019ECCB5"
+					item: { count: 1, id: "quark:myalite" }
+					type: "item"
+				}
+				{
+					id: "6C5BA3B987548455"
+					item: { count: 1, id: "quark:dusky_myalite" }
+					type: "item"
+				}
+				{
+					id: "69DEA25C1DC5E455"
+					item: { count: 1, id: "quark:myalite_crystal" }
+					type: "item"
+				}
+				{
+					id: "15DD2972942F1003"
+					item: { count: 1, id: "quark:duskbound_block" }
+					type: "item"
+				}
+				{
+					id: "1EFA7FD8EE2AC466"
+					item: { count: 1, id: "quark:dragon_scale" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7B871039BF011620"]
+			icon: {
+				id: "quark:red_corundum"
+			}
+			id: "273E1C72C77E9310"
+			shape: "circle"
+			tasks: [
+				{
+					id: "4B98A0CB6E3C11AF"
+					item: { count: 1, id: "quark:red_corundum" }
+					type: "item"
+				}
+				{
+					id: "49B89B917C4C627B"
+					item: { count: 1, id: "quark:blue_corundum" }
+					type: "item"
+				}
+				{
+					id: "66EA418069501C9E"
+					item: { count: 1, id: "quark:green_corundum" }
+					type: "item"
+				}
+				{
+					id: "2AEA4B9E0C5C5C40"
+					item: { count: 1, id: "quark:white_corundum" }
+					type: "item"
+				}
+				{
+					id: "4738A9477F588DE3"
+					item: { count: 1, id: "quark:red_corundum_cluster" }
+					type: "item"
+				}
+				{
+					id: "11181F7B09646598"
+					item: { count: 1, id: "quark:red_crystal_lamp" }
+					type: "item"
+				}
+				{
+					id: "217C5AB98FD40132"
+					item: { count: 1, id: "quark:blaze_lantern" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["37A033636F464FDC"]
+			icon: {
+				id: "quark:chute"
+			}
+			id: "09E820AD438C05B0"
+			rewards: [
+				{
+					count: 2
+					id: "60EABD1832624DF9"
+					item: {
+						count: 1
+						id: "minecraft:hopper"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7BC4D6CC668558B5"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "1040B5A13A58C36B"
+					item: { count: 1, id: "quark:chute" }
+					type: "item"
+				}
+				{
+					id: "5C314E1E334C24C6"
+					item: { count: 1, id: "quark:feeding_trough" }
+					type: "item"
+				}
+				{
+					id: "639859296AB670C5"
+					item: { count: 1, id: "quark:ender_watcher" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["09E820AD438C05B0"]
+			icon: {
+				id: "quark:gravisand"
+			}
+			id: "600C7808DA186EAF"
+			rewards: [{
+				count: 16
+				id: "589A8DB8280B9C1D"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "0E743F97326768C9"
+					item: { count: 1, id: "quark:gravisand" }
+					type: "item"
+				}
+				{
+					id: "2D8ED44D67079AF7"
+					item: { count: 1, id: "quark:iron_rod" }
+					type: "item"
+				}
+				{
+					id: "73AD120B011310CE"
+					item: { count: 1, id: "quark:redstone_randomizer" }
+					type: "item"
+				}
+				{
+					id: "498A0693EA139741"
+					item: { count: 1, id: "quark:obsidian_pressure_plate" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["600C7808DA186EAF"]
+			icon: {
+				id: "quark:encased_pipe"
+			}
+			id: "3D04170051B7B500"
+			rewards: [{
+				count: 16
+				id: "1012DA977131EFA3"
+				item: {
+					count: 1
+					id: "minecraft:copper_ingot"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "6FE43650D6514034"
+					item: { count: 1, id: "quark:pipe" }
+					type: "item"
+				}
+				{
+					id: "23BFE86DE06B5336"
+					item: { count: 1, id: "quark:encased_pipe" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["600C7808DA186EAF"]
+			icon: {
+				id: "quark:magnet"
+			}
+			id: "25662D9D34AD63F4"
+			rewards: [
+				{
+					count: 8
+					id: "4ACB4280F09EC468"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5386A1DBB2EF31A4"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "62E683DD79D099AD"
+				item: { count: 1, id: "quark:magnet" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1118EACC1433C5E4"]
+			icon: {
+				id: "quark:matrix_enchanter"
+			}
+			id: "796B4BC2A2D142D1"
+			rewards: [
+				{
+					count: 32
+					id: "369019BDEE4E853A"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "47CE44DBC00980B6"
+					table_id: 259402431322018479L
+					type: "random"
+				}
+				{
+					id: "4CDD2F6FC1C4C7FD"
+					type: "xp"
+					xp: 35
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1DCDDF99BEE94B09"
+				item: { count: 1, id: "quark:matrix_enchanter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["796B4BC2A2D142D1"]
+			icon: {
+				id: "quark:smithing_template_rune"
+			}
+			id: "79003319AD145AAA"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "00186C2DA26567C9"
+					item: { count: 1, id: "quark:smithing_template_rune" }
+					type: "item"
+				}
+				{
+					id: "61D496E7C65D443F"
+					item: { count: 1, id: "quark:ancient_tome" }
+					type: "item"
+				}
+				{
+					id: "67543CD353B5CB42"
+					item: { count: 1, id: "quark:red_shard" }
+					type: "item"
+				}
+				{
+					id: "56B696085E706F1D"
+					item: { count: 1, id: "quark:blue_shard" }
+					type: "item"
+				}
+				{
+					id: "64B5B369F70576E6"
+					item: { count: 1, id: "quark:clear_shard" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["796B4BC2A2D142D1"]
+			icon: {
+				id: "quark:matrix_enchanter"
+			}
+			id: "3FEC5C981DB9EF85"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "62C37084EE0EA777"
+					item: { count: 1, id: "minecraft:candle" }
+					type: "item"
+				}
+				{
+					id: "5AF4DD1A9B516221"
+					item: { count: 1, id: "minecraft:soul_torch" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0C10FF5107428C36"]
+			icon: {
+				id: "quark:diamond_heart"
+			}
+			id: "1CBEFAD9F9143016"
+			optional: true
+			rewards: [{
+				count: 64
+				id: "47456E903D958ABD"
+				item: {
+					count: 1
+					id: "minecraft:torch"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "26F676ABAB99619D"
+					item: { count: 1, id: "minecraft:diamond_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "1BDC3C425CF10CFF"
+					item: { count: 1, id: "minecraft:torch" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1CBEFAD9F9143016"]
+			icon: {
+				id: "quark:diamond_heart"
+			}
+			id: "1D36DE269D324175"
+			shape: "octagon"
+			tasks: [
+				{
+					entity: "quark:stoneling"
+					id: "68E6E3D9FC17ACBE"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "1C9A46B531A42C1F"
+					item: { count: 1, id: "quark:diamond_heart" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1D36DE269D324175"]
+			icon: {
+				id: "quark:pickarang"
+			}
+			id: "290BCE109630AC17"
+			shape: "octagon"
+			tasks: [{
+				id: "1BAF84B3B990E71E"
+				item: { count: 1, id: "quark:pickarang" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["290BCE109630AC17"]
+			icon: {
+				id: "quark:flamerang"
+			}
+			id: "68A6F0BA1197D335"
+			shape: "octagon"
+			tasks: [{
+				id: "390115E9C20516A8"
+				item: { count: 1, id: "quark:flamerang" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1D36DE269D324175"]
+			icon: {
+				id: "quark:tiny_potato"
+			}
+			id: "4C64AE04AF41C8A4"
+			shape: "circle"
+			tasks: [{
+				id: "07C6026046814BD6"
+				item: { count: 1, id: "quark:tiny_potato" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1CBEFAD9F9143016"]
+			icon: {
+				id: "quark:forgotten_hat"
+			}
+			id: "2DC44E86E36659D4"
+			shape: "octagon"
+			tasks: [
+				{
+					entity: "quark:forgotten"
+					id: "1F93E34DDB7F2274"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "44CFB0F3A5F01ABA"
+					item: { count: 1, id: "quark:forgotten_hat" }
+					type: "item"
+				}
+				{
+					entity: "quark:wraith"
+					id: "2A5B6617B486A2D8"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "72121ECF55E19173"
+					item: { count: 1, id: "quark:soul_bead" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1CBEFAD9F9143016"]
+			icon: {
+				id: "quark:glowberry_sack"
+			}
+			id: "2AC387AF47904DA4"
+			rewards: [{
+				count: 8
+				id: "69234AC1B0839EC3"
+				item: {
+					count: 1
+					id: "minecraft:glow_berries"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "405BAFB13DAB1F21"
+					item: { count: 1, id: "quark:glowberry_sack" }
+					type: "item"
+				}
+				{
+					id: "0A1987B7AB451995"
+					item: { count: 1, id: "minecraft:glow_berries" }
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1CBEFAD9F9143016"]
+			icon: {
+				id: "quark:monster_box"
+			}
+			id: "33534BF554FFF81A"
+			optional: true
+			rewards: [
+				{
+					id: "1B3ADBE211DA0ECF"
+					table_id: 259402431322018479L
+					type: "random"
+				}
+				{
+					id: "3453E1D48E5DDE5F"
+					type: "xp"
+					xp: 35
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "5181CF34D025A1DC"
+				item: { count: 1, id: "quark:monster_box" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0C10FF5107428C36"]
+			icon: {
+				id: "quark:crab_bucket"
+			}
+			id: "67C2FE5A75CCE133"
+			optional: true
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "66091D00CF917119"
+					item: { count: 1, id: "minecraft:bucket" }
+					type: "item"
+				}
+				{
+					id: "1BE237D5E37FC771"
+					item: { count: 1, id: "minecraft:lead" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["67C2FE5A75CCE133"]
+			icon: {
+				id: "quark:crab_bucket"
+			}
+			id: "0F1542B072446E15"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "26B915D94F090103"
+					item: {
+						count: 1
+						id: "quark:cooked_crab_leg"
+					}
+					type: "item"
+				}
+				{
+					id: "36710A159749D39A"
+					table_id: 259402431322018479L
+					type: "random"
+				}
+				{
+					id: "1246BBA29968FF8C"
+					type: "xp"
+					xp: 35
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					entity: "quark:crab"
+					id: "0AE922C77AEDB3C1"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "0061CE5C33638EEE"
+					item: { count: 1, id: "quark:crab_bucket" }
+					type: "item"
+				}
+				{
+					id: "738AB6E5D4711BB8"
+					item: { count: 1, id: "quark:crab_leg" }
+					type: "item"
+				}
+				{
+					id: "3A4746778B85D63A"
+					item: { count: 1, id: "quark:cooked_crab_leg" }
+					type: "item"
+				}
+				{
+					id: "668A9E2338F3BD79"
+					item: { count: 1, id: "quark:crab_shell" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["67C2FE5A75CCE133"]
+			icon: {
+				id: "quark:blaze_lantern"
+			}
+			id: "3F10C1BD619B6E40"
+			shape: "circle"
+			tasks: [
+				{
+					id: "68FEFF61A52EE741"
+					item: { count: 1, id: "quark:blaze_lantern" }
+					type: "item"
+				}
+				{
+					id: "26FF704884FBAA8B"
+					item: { count: 1, id: "minecraft:coal" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -3.5d
+		}
+	]
+}

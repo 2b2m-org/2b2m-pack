@@ -1,0 +1,22 @@
+{
+  "structures": [
+    {
+      "structure": "incendium:sanctum",
+      "weight": 1
+    },
+    {
+      "structure": "incendium:forbidden_castle",
+      "weight": 1
+    },
+    {
+      "structure": "incendium:nether_reactor",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 88,
+    "separation": 56,
+    "salt": 69420
+  }
+}

@@ -1,0 +1,1252 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "the_aether"
+	group: "1D8288EAE7F1B3B8"
+	icon: {
+		id: "aether:book_of_lore"
+	}
+	id: "7C1733193B1BDB9F"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "aether:book_of_lore"
+			}
+			id: "6469C513602F45A6"
+			rewards: [{
+				id: "6EDBA16883771F2E"
+				item: {
+					count: 1
+					id: "aether:cold_parachute"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6F2A35E2C6981116"
+					item: { count: 1, id: "aether:book_of_lore" }
+					type: "item"
+				}
+				{
+					id: "49B8E624BAC650F3"
+					item: { count: 1, id: "aether:golden_parachute" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6469C513602F45A6"]
+			icon: {
+				id: "aether:skyroot_bed"
+			}
+			id: "0AF805B6682F6A98"
+			shape: "circle"
+			tasks: [
+				{
+					id: "737A58C924AD92A5"
+					item: { count: 1, id: "aether:skyroot_bed" }
+					type: "item"
+				}
+				{
+					id: "3495B380A136CF39"
+					item: { count: 1, id: "aether:cold_parachute" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6469C513602F45A6"]
+			icon: {
+				id: "aether:skyroot_pickaxe"
+			}
+			id: "25DB777D53B9F1B0"
+			rewards: [{
+				count: 16
+				id: "0135F1B55BA24765"
+				item: {
+					count: 1
+					id: "aether:ambrosium_torch"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "1C01408AB9DC843D"
+					item: { count: 1, id: "aether:skyroot_log" }
+					type: "item"
+				}
+				{
+					id: "1B7FC512CDEA1289"
+					item: { count: 1, id: "aether:skyroot_planks" }
+					type: "item"
+				}
+				{
+					id: "6C2D5B1BEA9F66CF"
+					item: { count: 1, id: "aether:skyroot_stick" }
+					type: "item"
+				}
+				{
+					id: "4DFE0C7633448025"
+					item: { count: 1, id: "aether:skyroot_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "4DFE95F67D781290"
+					item: { count: 1, id: "aether:skyroot_sword" }
+					type: "item"
+				}
+				{
+					id: "0F69DD6C7731D7EF"
+					item: { count: 1, id: "aether:skyroot_bucket" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25DB777D53B9F1B0"]
+			icon: {
+				id: "aether:skyroot_remedy_bucket"
+			}
+			id: "353F782103DFA4AC"
+			shape: "square"
+			tasks: [
+				{
+					id: "6C4C5EC8E8813255"
+					item: { count: 1, id: "aether:skyroot_door" }
+					type: "item"
+				}
+				{
+					id: "467824B57A858FCF"
+					item: { count: 1, id: "aether:skyroot_trapdoor" }
+					type: "item"
+				}
+				{
+					id: "12FA0180DBE98D05"
+					item: { count: 1, id: "aether:skyroot_bookshelf" }
+					type: "item"
+				}
+				{
+					id: "596CB4C9100C4011"
+					item: { count: 1, id: "aether:skyroot_boat" }
+					type: "item"
+				}
+				{
+					id: "18EB1672815C48DE"
+					item: { count: 1, id: "aether:skyroot_chest_boat" }
+					type: "item"
+				}
+				{
+					id: "40E94220A7BC4DCA"
+					item: { count: 1, id: "aether:skyroot_water_bucket" }
+					type: "item"
+				}
+				{
+					id: "082C60764DC3A1EB"
+					item: { count: 1, id: "aether:skyroot_poison_bucket" }
+					type: "item"
+				}
+				{
+					id: "5A7D6C2066CF526B"
+					item: { count: 1, id: "aether:skyroot_remedy_bucket" }
+					type: "item"
+				}
+				{
+					id: "1B0FBFEBF0EBD32D"
+					item: { count: 1, id: "aether:skyroot_milk_bucket" }
+					type: "item"
+				}
+				{
+					id: "2B69B8446F878D18"
+					item: { count: 1, id: "aether:skyroot_powder_snow_bucket" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["25DB777D53B9F1B0"]
+			icon: {
+				id: "aether:ambrosium_shard"
+			}
+			id: "0262070A4B50AA75"
+			shape: "square"
+			tasks: [
+				{
+					id: "752FA8C3CEF7AA0E"
+					item: { count: 1, id: "aether:holystone" }
+					type: "item"
+				}
+				{
+					id: "5BC40EE64605E466"
+					item: { count: 1, id: "aether:ambrosium_ore" }
+					type: "item"
+				}
+				{
+					id: "5D69F7B45A9D3B22"
+					item: { count: 1, id: "aether:ambrosium_shard" }
+					type: "item"
+				}
+				{
+					id: "3AA7FFA285811E69"
+					item: { count: 1, id: "aether:ambrosium_torch" }
+					type: "item"
+				}
+				{
+					id: "19D780E1DEBB1548"
+					item: { count: 1, id: "aether:icestone" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0262070A4B50AA75"]
+			icon: {
+				id: "aether:altar"
+			}
+			id: "66D58A14C2DD1B91"
+			rewards: [{
+				count: 16
+				id: "0691799E90D91EFB"
+				item: {
+					count: 1
+					id: "aether:ambrosium_shard"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "01F0AF37D952038D"
+					item: { count: 1, id: "aether:altar" }
+					type: "item"
+				}
+				{
+					id: "3551758C266C8F06"
+					item: { count: 1, id: "aether:freezer" }
+					type: "item"
+				}
+				{
+					id: "13F65E7F266B750B"
+					item: { count: 1, id: "aether:incubator" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66D58A14C2DD1B91"]
+			icon: {
+				id: "aether:enchanted_gravitite"
+			}
+			id: "550564C5D78D482D"
+			rewards: [{
+				count: 8
+				id: "4EDD475544328D1C"
+				item: {
+					count: 1
+					id: "aether:aerogel"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "3799DDB491DA04AA"
+					item: { count: 1, id: "aether:enchanted_gravitite" }
+					type: "item"
+				}
+				{
+					id: "788C991B44864482"
+					item: { count: 1, id: "aether:aerogel" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["550564C5D78D482D"]
+			icon: {
+				id: "aether:altar"
+			}
+			id: "468F8DCA8AC44819"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "461FF8CFFCABABFA"
+					item: { count: 1, id: "aether:zanite_sword" }
+					type: "item"
+				}
+				{
+					id: "5B452860979C79CA"
+					item: { count: 1, id: "aether:ambrosium_shard" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["66D58A14C2DD1B91"]
+			icon: {
+				id: "aether:incubator"
+			}
+			id: "7DE1C52E48079190"
+			rewards: [{
+				count: 4
+				id: "12321A9BB48EF648"
+				item: {
+					count: 1
+					id: "aether:golden_feather"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "7CB21BEB8CC44817"
+					item: { count: 1, id: "aether:ice_ring" }
+					type: "item"
+				}
+				{
+					id: "7B69C83A2ED431CF"
+					item: { count: 1, id: "aether:ice_pendant" }
+					type: "item"
+				}
+				{
+					id: "7DC62FB22EA7720D"
+					item: { count: 1, id: "aether:white_moa_egg" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["550564C5D78D482D"]
+			icon: {
+				id: "aether:zanite_pickaxe"
+			}
+			id: "19C3EA4F2DE3D1A1"
+			shape: "square"
+			tasks: [
+				{
+					id: "11D29F68A4BB2247"
+					item: { count: 1, id: "aether:zanite_ore" }
+					type: "item"
+				}
+				{
+					id: "3078D49B63A785D3"
+					item: { count: 1, id: "aether:zanite_gemstone" }
+					type: "item"
+				}
+				{
+					id: "2570C7EB060D72DD"
+					item: { count: 1, id: "aether:zanite_block" }
+					type: "item"
+				}
+				{
+					id: "7640BABB7B5E9209"
+					item: { count: 1, id: "aether:zanite_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "60CD6937B1D29A6F"
+					item: { count: 1, id: "aether:zanite_sword" }
+					type: "item"
+				}
+				{
+					id: "62D54326EFF51020"
+					item: { count: 1, id: "aether:zanite_gloves" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["19C3EA4F2DE3D1A1"]
+			icon: {
+				id: "aether:gravitite_pickaxe"
+			}
+			id: "69A25ED53688ADAE"
+			shape: "square"
+			tasks: [
+				{
+					id: "51969C44811EBD65"
+					item: { count: 1, id: "aether:gravitite_ore" }
+					type: "item"
+				}
+				{
+					id: "3B5F07EF7435F8EF"
+					item: { count: 1, id: "aether:gravitite_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "29100E9D82445FB3"
+					item: { count: 1, id: "aether:gravitite_sword" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["69A25ED53688ADAE"]
+			icon: {
+				id: "aether:gravitite_chestplate"
+			}
+			id: "53315C7E2F6EECAE"
+			shape: "octagon"
+			tasks: [
+				{
+					id: "2C8048728741D15B"
+					item: { count: 1, id: "aether:gravitite_helmet" }
+					type: "item"
+				}
+				{
+					id: "42CC21BE990AF75D"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "66A80C36CC949435"
+					item: { count: 1, id: "aether:gravitite_leggings" }
+					type: "item"
+				}
+				{
+					id: "05CB495928088508"
+					item: { count: 1, id: "aether:gravitite_boots" }
+					type: "item"
+				}
+				{
+					id: "749069DB269A8BCE"
+					item: { count: 1, id: "aether:gravitite_gloves" }
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["66D58A14C2DD1B91"]
+			icon: {
+				id: "aether:life_shard"
+			}
+			id: "51EC66D45BADAB51"
+			rewards: [{
+				count: 8
+				id: "3C627E0450AF85E3"
+				item: {
+					count: 1
+					id: "aether:enchanted_berry"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					id: "46CE6CBC73800DC4"
+					item: { count: 1, id: "aether:life_shard" }
+					type: "item"
+				}
+				{
+					id: "63D0EF26BBB59EEF"
+					item: { count: 1, id: "aether:blue_berry" }
+					type: "item"
+				}
+				{
+					id: "21516DE735C352D6"
+					item: { count: 1, id: "aether:enchanted_berry" }
+					type: "item"
+				}
+				{
+					id: "7488D6291178F9B8"
+					item: { count: 1, id: "aether:white_apple" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["51EC66D45BADAB51"]
+			icon: {
+				id: "aether:swet_ball"
+			}
+			id: "41802B3800DCAAA3"
+			shape: "circle"
+			tasks: [
+				{
+					entity: "aether:blue_swet"
+					id: "34B802A12BC1A55F"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "aether:golden_swet"
+					id: "6DAB564A9EE0A504"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "39BC050369ABC81E"
+					item: { count: 1, id: "aether:swet_ball" }
+					type: "item"
+				}
+				{
+					id: "70C61A48A7E416EB"
+					item: { count: 1, id: "aether:swet_cape" }
+					type: "item"
+				}
+				{
+					id: "207A46722C6B04BB"
+					item: { count: 1, id: "aether:blue_gummy_swet" }
+					type: "item"
+				}
+				{
+					id: "0C22A587E47D9DEF"
+					item: { count: 1, id: "aether:golden_gummy_swet" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7DE1C52E48079190"]
+			icon: {
+				id: "aether:black_moa_egg"
+			}
+			id: "0A6CE63FEC0FA1B8"
+			shape: "circle"
+			tasks: [
+				{
+					id: "3C3F21BC5233DEB9"
+					item: { count: 1, id: "aether:white_moa_egg" }
+					type: "item"
+				}
+				{
+					id: "0BEA7F369F84F0DC"
+					item: { count: 1, id: "aether:blue_moa_egg" }
+					type: "item"
+				}
+				{
+					id: "3F267044F4DF35E8"
+					item: { count: 1, id: "aether:black_moa_egg" }
+					type: "item"
+				}
+				{
+					entity: "aether:moa"
+					id: "5DB16E3A71567F3D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 15.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["51EC66D45BADAB51"]
+			icon: {
+				id: "aether:blue_berry"
+			}
+			id: "090522F5EF70536B"
+			shape: "circle"
+			tasks: [
+				{
+					id: "2DDA10828C2FC7D7"
+					item: { count: 1, id: "aether:skyroot_milk_bucket" }
+					type: "item"
+				}
+				{
+					id: "6935B80EDF42AA8B"
+					item: { count: 1, id: "aether:golden_feather" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7DE1C52E48079190"]
+			icon: {
+				id: "aether:golden_aercloud"
+			}
+			id: "6440BA0966EE4EDC"
+			rewards: [{
+				count: 4
+				id: "50609B0C990D0AB9"
+				item: {
+					count: 1
+					id: "aether:golden_feather"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					id: "58E5FB9613EFED69"
+					item: { count: 1, id: "aether:blue_aercloud" }
+					type: "item"
+				}
+				{
+					id: "4123D4B48ECF0FC1"
+					item: { count: 1, id: "aether:cold_aercloud" }
+					type: "item"
+				}
+				{
+					id: "70DDC777E229038D"
+					item: { count: 1, id: "aether:golden_aercloud" }
+					type: "item"
+				}
+				{
+					id: "5DD8D95422589EB1"
+					item: { count: 1, id: "aether:quicksoil" }
+					type: "item"
+				}
+				{
+					id: "0ADD67F179601899"
+					item: { count: 1, id: "aether:quicksoil_glass" }
+					type: "item"
+				}
+				{
+					id: "25CBC770479C0E1F"
+					item: { count: 1, id: "aether:golden_feather" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["66D58A14C2DD1B91"]
+			icon: {
+				id: "aether:iron_ring"
+			}
+			id: "22D52022270E2014"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "6585B8FF4A887E0C"
+					item: { count: 1, id: "aether:leather_gloves" }
+					type: "item"
+				}
+				{
+					id: "7B15EF8BCDDB559F"
+					item: { count: 1, id: "aether:iron_gloves" }
+					type: "item"
+				}
+				{
+					id: "05897DAEFFCB9EAF"
+					item: { count: 1, id: "aether:golden_gloves" }
+					type: "item"
+				}
+				{
+					id: "50C3006AA8B1C5DD"
+					item: { count: 1, id: "aether:diamond_gloves" }
+					type: "item"
+				}
+				{
+					id: "23E6B5083966DDD3"
+					item: { count: 1, id: "aether:netherite_gloves" }
+					type: "item"
+				}
+				{
+					id: "71EE94997E9B4067"
+					item: { count: 1, id: "aether:iron_ring" }
+					type: "item"
+				}
+				{
+					id: "00C6F05598F7F766"
+					item: { count: 1, id: "aether:golden_ring" }
+					type: "item"
+				}
+				{
+					id: "0C48E1BF49420A07"
+					item: { count: 1, id: "aether:iron_pendant" }
+					type: "item"
+				}
+				{
+					id: "44E2D749FBDABBEF"
+					item: { count: 1, id: "aether:golden_pendant" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["22D52022270E2014"]
+			icon: {
+				id: "aether:zanite_ring"
+			}
+			id: "201A251149FDD32F"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "344E03A25F719960"
+					item: { count: 1, id: "aether:zanite_ring" }
+					type: "item"
+				}
+				{
+					id: "18861C4960AEC876"
+					item: { count: 1, id: "aether:zanite_pendant" }
+					type: "item"
+				}
+				{
+					id: "1C3FE90CE91AF8CC"
+					item: { count: 1, id: "aether:ice_ring" }
+					type: "item"
+				}
+				{
+					id: "4E128F941ECB5949"
+					item: { count: 1, id: "aether:ice_pendant" }
+					type: "item"
+				}
+				{
+					id: "73C5081E37B09DE9"
+					item: { count: 1, id: "aether:blue_cape" }
+					type: "item"
+				}
+				{
+					id: "14498F31F588CE8F"
+					item: { count: 1, id: "aether:red_cape" }
+					type: "item"
+				}
+				{
+					id: "2DF681C0A97B4C83"
+					item: { count: 1, id: "aether:white_cape" }
+					type: "item"
+				}
+				{
+					id: "3C33E8BE28527C8D"
+					item: { count: 1, id: "aether:yellow_cape" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["22D52022270E2014"]
+			icon: {
+				id: "aether:poison_dart_shooter"
+			}
+			id: "4630F4D3D4ABC437"
+			shape: "circle"
+			tasks: [
+				{
+					entity: "aether:aechor_plant"
+					id: "09B0527142E49975"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "aether:cockatrice"
+					id: "099E692CFABDA264"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "aether:zephyr"
+					id: "42F7B6C10DBE2ACF"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "aether:mimic"
+					id: "422AD42D1B4FC63F"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "21AD4C8990B03A5C"
+					item: { count: 1, id: "aether:aechor_petal" }
+					type: "item"
+				}
+				{
+					id: "0B1DE3D4CE6F97A6"
+					item: { count: 1, id: "aether:poison_dart" }
+					type: "item"
+				}
+				{
+					id: "75E8039E3B075848"
+					item: { count: 1, id: "aether:poison_dart_shooter" }
+					type: "item"
+				}
+				{
+					id: "5E031BAD7F5C7C4F"
+					item: { count: 1, id: "aether:golden_dart" }
+					type: "item"
+				}
+				{
+					id: "1C61ED0B6A5D6D2F"
+					item: { count: 1, id: "aether:golden_dart_shooter" }
+					type: "item"
+				}
+				{
+					id: "2298519DF8619BCC"
+					item: { count: 1, id: "aether:enchanted_dart" }
+					type: "item"
+				}
+				{
+					id: "6239518BC9CD8E5D"
+					item: { count: 1, id: "aether:enchanted_dart_shooter" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"19C3EA4F2DE3D1A1"
+				"4630F4D3D4ABC437"
+			]
+			icon: {
+				id: "aether:bronze_dungeon_key"
+			}
+			id: "6E8F74F529330D3A"
+			shape: "octagon"
+			tasks: [
+				{
+					entity: "aether:sentry"
+					id: "42BDF055C4F0DF54"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "aether:slider"
+					id: "4BD1DA274B52CA18"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "1EFF348CD89946C1"
+					item: { count: 1, id: "aether:bronze_dungeon_key" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["6E8F74F529330D3A"]
+			icon: {
+				id: "aether:sentry_boots"
+			}
+			id: "1C52853BDF573769"
+			rewards: [{
+				count: 16
+				id: "10FB4702FB289CAC"
+				item: {
+					count: 1
+					id: "aether:ambrosium_shard"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "131CE7DA0CDF27C3"
+					item: { count: 1, id: "aether:sentry_boots" }
+					type: "item"
+				}
+				{
+					id: "05F83216BE96DE86"
+					item: { count: 1, id: "aether:music_disc_sliders_wrath" }
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["1C52853BDF573769"]
+			icon: {
+				id: "aether:silver_dungeon_key"
+			}
+			id: "4F1FAA9127E8A57D"
+			shape: "octagon"
+			tasks: [
+				{
+					entity: "aether:valkyrie"
+					id: "6228B4449A66BA7B"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "aether:valkyrie_queen"
+					id: "228F0E242AFE3E14"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "1040A71F3EAA1958"
+					item: { count: 1, id: "aether:silver_dungeon_key" }
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["4F1FAA9127E8A57D"]
+			icon: {
+				id: "aether:valkyrie_lance"
+			}
+			id: "18BBA260228695F3"
+			shape: "octagon"
+			tasks: [
+				{
+					id: "44BA63627F4A986C"
+					item: { count: 1, id: "aether:valkyrie_lance" }
+					type: "item"
+				}
+				{
+					id: "1B3DD11DEEF31312"
+					item: { count: 1, id: "aether:valkyrie_cape" }
+					type: "item"
+				}
+				{
+					id: "77FE0FD4C18A7990"
+					item: { count: 1, id: "aether:valkyrie_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "73CB2D649D56B241"
+					item: { count: 1, id: "aether:valkyrie_axe" }
+					type: "item"
+				}
+				{
+					id: "1E98E574EF1FCD7D"
+					item: { count: 1, id: "aether:valkyrie_gloves" }
+					type: "item"
+				}
+				{
+					id: "2B1444EC9E268905"
+					item: { count: 1, id: "aether:valkyrie_boots" }
+					type: "item"
+				}
+			]
+			x: 27.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["18BBA260228695F3"]
+			icon: {
+				id: "aether:gold_dungeon_key"
+			}
+			id: "47B330131D22BDCC"
+			rewards: [
+				{
+					id: "75271D1FE63AABEF"
+					table_id: 7928811318474811146L
+					type: "random"
+				}
+				{
+					id: "27715E4B59A7B1FE"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "octagon"
+			tasks: [
+				{
+					entity: "aether:sun_spirit"
+					id: "731AFC61B665535A"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "50C88F742ECC93C1"
+					item: { count: 1, id: "aether:gold_dungeon_key" }
+					type: "item"
+				}
+			]
+			x: 30.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["47B330131D22BDCC"]
+			icon: {
+				id: "aether:sun_altar"
+			}
+			id: "668F1ED518491393"
+			rewards: [
+				{
+					count: 16
+					id: "3F3930165D4B4664"
+					item: {
+						count: 1
+						id: "aether:ambrosium_shard"
+					}
+					type: "item"
+				}
+				{
+					id: "1E8740C4FB88A53F"
+					table_id: 7928811318474811146L
+					type: "random"
+				}
+				{
+					id: "5E1BA6D1158FFBD2"
+					type: "xp"
+					xp: 35
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3417A9280D1F22ED"
+				item: { count: 1, id: "aether:sun_altar" }
+				type: "item"
+			}]
+			x: 33.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["47B330131D22BDCC"]
+			icon: {
+				id: "aether:phoenix_bow"
+			}
+			id: "16751A01B608F5DB"
+			shape: "octagon"
+			tasks: [
+				{
+					id: "08FDD8A44340429A"
+					item: { count: 1, id: "aether:phoenix_bow" }
+					type: "item"
+				}
+				{
+					id: "3090CE667435A27D"
+					item: { count: 1, id: "aether:phoenix_helmet" }
+					type: "item"
+				}
+				{
+					id: "1D525AAFC23E8AF7"
+					item: { count: 1, id: "aether:phoenix_chestplate" }
+					type: "item"
+				}
+				{
+					id: "12980BFDA2C15216"
+					item: { count: 1, id: "aether:phoenix_leggings" }
+					type: "item"
+				}
+				{
+					id: "6812928981C2C148"
+					item: { count: 1, id: "aether:phoenix_boots" }
+					type: "item"
+				}
+				{
+					id: "20AACBF41627866E"
+					item: { count: 1, id: "aether:phoenix_gloves" }
+					type: "item"
+				}
+			]
+			x: 30.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6E8F74F529330D3A"]
+			icon: {
+				id: "aether:neptune_chestplate"
+			}
+			id: "75E6222EFD583A1F"
+			shape: "octagon"
+			tasks: [
+				{
+					id: "18E9F94C5A5CBE35"
+					item: { count: 1, id: "aether:neptune_helmet" }
+					type: "item"
+				}
+				{
+					id: "2EB3E970F4EB71D8"
+					item: { count: 1, id: "aether:neptune_chestplate" }
+					type: "item"
+				}
+				{
+					id: "62A5A595B1E5D66E"
+					item: { count: 1, id: "aether:neptune_leggings" }
+					type: "item"
+				}
+				{
+					id: "155D81309129E5C5"
+					item: { count: 1, id: "aether:neptune_boots" }
+					type: "item"
+				}
+				{
+					id: "5B75210C65635AF8"
+					item: { count: 1, id: "aether:neptune_gloves" }
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["16751A01B608F5DB"]
+			icon: {
+				id: "aether:obsidian_chestplate"
+			}
+			id: "4F34340D55BF6E66"
+			shape: "octagon"
+			tasks: [
+				{
+					id: "73E9B304530BAF2B"
+					item: { count: 1, id: "aether:obsidian_helmet" }
+					type: "item"
+				}
+				{
+					id: "49463A20CEE68D89"
+					item: { count: 1, id: "aether:obsidian_chestplate" }
+					type: "item"
+				}
+				{
+					id: "481A44593A31A254"
+					item: { count: 1, id: "aether:obsidian_leggings" }
+					type: "item"
+				}
+				{
+					id: "155F31848E19E516"
+					item: { count: 1, id: "aether:obsidian_boots" }
+					type: "item"
+				}
+				{
+					id: "28143B59CBB35B09"
+					item: { count: 1, id: "aether:obsidian_gloves" }
+					type: "item"
+				}
+			]
+			x: 33.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["47B330131D22BDCC"]
+			icon: {
+				id: "aether:cloud_staff"
+			}
+			id: "6D1BDC3A5A79272C"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "612647BE73356528"
+					item: { count: 1, id: "aether:cloud_staff" }
+					type: "item"
+				}
+				{
+					id: "3A480B10B547DF96"
+					item: { count: 1, id: "aether:nature_staff" }
+					type: "item"
+				}
+				{
+					id: "35C21388BFE0D504"
+					item: { count: 1, id: "aether:hammer_of_kingbdogz" }
+					type: "item"
+				}
+				{
+					id: "352CAC5735A9C37F"
+					item: { count: 1, id: "aether:vampire_blade" }
+					type: "item"
+				}
+				{
+					id: "756660580347E4D6"
+					item: { count: 1, id: "aether:pig_slayer" }
+					type: "item"
+				}
+				{
+					id: "229E937F290B5E21"
+					item: { count: 1, id: "aether:lightning_knife" }
+					type: "item"
+				}
+				{
+					id: "6B63697855A4159C"
+					item: { count: 1, id: "aether:shield_of_repulsion" }
+					type: "item"
+				}
+				{
+					id: "790C6412F1530288"
+					item: { count: 1, id: "aether:invisibility_cloak" }
+					type: "item"
+				}
+				{
+					id: "34C36DD8E3096A74"
+					item: { count: 1, id: "aether:healing_stone" }
+					type: "item"
+				}
+				{
+					id: "4E62947ABE596C37"
+					item: { count: 1, id: "aether:regeneration_stone" }
+					type: "item"
+				}
+				{
+					id: "41FAB2D5822E41BA"
+					item: { count: 1, id: "aether:iron_bubble" }
+					type: "item"
+				}
+				{
+					id: "08D477CE9FAD7F43"
+					item: { count: 1, id: "aether:agility_cape" }
+					type: "item"
+				}
+				{
+					id: "42997D99E31A3875"
+					item: { count: 1, id: "aether:golden_amber" }
+					type: "item"
+				}
+			]
+			x: 33.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["6D1BDC3A5A79272C"]
+			icon: {
+				id: "aether:music_disc_aether_tune"
+			}
+			id: "471946D9BF9DAD8C"
+			shape: "circle"
+			tasks: [
+				{
+					id: "627082DE3649BC05"
+					item: { count: 1, id: "aether:music_disc_aether_tune" }
+					type: "item"
+				}
+				{
+					id: "5C5A49F89ABC54F5"
+					item: { count: 1, id: "aether:music_disc_ascending_dawn" }
+					type: "item"
+				}
+				{
+					id: "433EA9042F025BE3"
+					item: { count: 1, id: "aether:music_disc_chinchilla" }
+					type: "item"
+				}
+				{
+					id: "21BE0D8546951A8B"
+					item: { count: 1, id: "aether:music_disc_high" }
+					type: "item"
+				}
+				{
+					id: "299C3DFF69D8FAD9"
+					item: { count: 1, id: "aether:music_disc_klepto" }
+					type: "item"
+				}
+			]
+			x: 36.0d
+			y: -16.0d
+		}
+	]
+}

@@ -1,0 +1,183 @@
+{
+  "type": "yungsbridges:multiple_attempt_single_random",
+  "config": {
+    "features": [
+      {
+        "feature": "yungsbridges:bridge/stone/16_0",
+        "placement": [
+          {
+            "type": "yungsbridges:bridge",
+            "length": 16,
+            "width": 5,
+            "min_water_z": 2,
+            "max_water_z": 15,
+            "width_offset": 0,
+            "num_solid_blocks_needed": 2,
+            "is_z_axis": true
+          },
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 12
+          },
+          {
+            "type": "yungsbridges:rng_initializer"
+          }
+        ]
+      },
+      {
+        "feature": "yungsbridges:bridge/stone/16_0_rotated",
+        "placement": [
+          {
+            "type": "yungsbridges:bridge",
+            "length": 16,
+            "width": 5,
+            "min_water_z": 2,
+            "max_water_z": 15,
+            "width_offset": 0,
+            "num_solid_blocks_needed": 2,
+            "is_z_axis": false
+          },
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 12
+          },
+          {
+            "type": "yungsbridges:rng_initializer"
+          }
+        ]
+      },
+      {
+        "feature": "yungsbridges:bridge/stone/24_0",
+        "placement": [
+          {
+            "type": "yungsbridges:bridge",
+            "length": 24,
+            "width": 5,
+            "min_water_z": 2,
+            "max_water_z": 23,
+            "width_offset": 0,
+            "num_solid_blocks_needed": 2,
+            "is_z_axis": true
+          },
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 12
+          },
+          {
+            "type": "yungsbridges:rng_initializer"
+          }
+        ]
+      },
+      {
+        "feature": "yungsbridges:bridge/stone/24_0_rotated",
+        "placement": [
+          {
+            "type": "yungsbridges:bridge",
+            "length": 24,
+            "width": 5,
+            "min_water_z": 2,
+            "max_water_z": 23,
+            "width_offset": 0,
+            "num_solid_blocks_needed": 2,
+            "is_z_axis": false
+          },
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 12
+          },
+          {
+            "type": "yungsbridges:rng_initializer"
+          }
+        ]
+      },
+      {
+        "feature": "yungsbridges:bridge/wood/17_0",
+        "placement": [
+          {
+            "type": "yungsbridges:bridge",
+            "length": 17,
+            "width": 4,
+            "min_water_z": 2,
+            "max_water_z": 16,
+            "width_offset": 0,
+            "num_solid_blocks_needed": 2,
+            "is_z_axis": true
+          },
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 12
+          },
+          {
+            "type": "yungsbridges:rng_initializer"
+          }
+        ]
+      },
+      {
+        "feature": "yungsbridges:bridge/wood/17_0_rotated",
+        "placement": [
+          {
+            "type": "yungsbridges:bridge",
+            "length": 17,
+            "width": 4,
+            "min_water_z": 2,
+            "max_water_z": 16,
+            "width_offset": 0,
+            "num_solid_blocks_needed": 2,
+            "is_z_axis": false
+          },
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 12
+          },
+          {
+            "type": "yungsbridges:rng_initializer"
+          }
+        ]
+      },
+      {
+        "feature": "yungsbridges:bridge/wood/27_0",
+        "placement": [
+          {
+            "type": "yungsbridges:bridge",
+            "length": 27,
+            "width": 5,
+            "min_water_z": 2,
+            "max_water_z": 26,
+            "width_offset": 0,
+            "num_solid_blocks_needed": 2,
+            "is_z_axis": true
+          },
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 12
+          },
+          {
+            "type": "yungsbridges:rng_initializer"
+          }
+        ]
+      },
+      {
+        "feature": "yungsbridges:bridge/wood/27_0_rotated",
+        "placement": [
+          {
+            "type": "yungsbridges:bridge",
+            "length": 27,
+            "width": 5,
+            "min_water_z": 2,
+            "max_water_z": 26,
+            "width_offset": 0,
+            "num_solid_blocks_needed": 2,
+            "is_z_axis": false
+          },
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 12
+          },
+          {
+            "type": "yungsbridges:rng_initializer"
+          }
+        ]
+      }
+    ]
+  }
+}

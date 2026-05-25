@@ -1,0 +1,81 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "gravestone"
+	group: "627EB6D4BDB9ACAD"
+	icon: {
+		id: "gravestone:gravestone"
+	}
+	id: "7A6B1E6E7DA4ED10"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "gravestone:gravestone"
+			}
+			id: "38ABD5D0C979747B"
+			rewards: [
+				{
+					id: "4E3424BD09EF009E"
+					item: {
+						count: 1
+						id: "minecraft:compass"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "67C0C6EB2523CB06"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "0C8FF6DC2ACB9169"
+					table_id: 8758036675251666944L
+					type: "random"
+				}
+				{
+					id: "63C4CCD0BC3504A9"
+					type: "xp"
+					xp: 35
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "1AD403B688684F1D"
+				item: { count: 1, id: "gravestone:gravestone" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38ABD5D0C979747B"]
+			icon: {
+				id: "gravestone:obituary"
+			}
+			id: "01A1AEA004E6551E"
+			rewards: [{
+				count: 8
+				id: "63B782B535BE3CFE"
+				item: {
+					count: 1
+					id: "minecraft:paper"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "721E8AA983081781"
+				item: { count: 1, id: "gravestone:obituary" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+	]
+}

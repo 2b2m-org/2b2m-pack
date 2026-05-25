@@ -1,0 +1,13 @@
+name = "Auto Reconnect (Reforged)"
+filename = "autoreconnectrf-neoforge-2.0.1+1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "48acf971af71ece69234cf9bb925bee41ec7fa70"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6808669
+project-id = 1049892

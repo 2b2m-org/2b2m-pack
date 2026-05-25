@@ -1,0 +1,13 @@
+name = "LightAura"
+filename = "LightAura-8.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "599cf00cefdce8a903c5cf711d7e5d377380a39c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7022036
+project-id = 1210744

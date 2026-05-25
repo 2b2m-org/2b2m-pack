@@ -1,0 +1,2 @@
+# Disable Git line ending conversion so packwiz hashes stay stable across machines.
+* -text

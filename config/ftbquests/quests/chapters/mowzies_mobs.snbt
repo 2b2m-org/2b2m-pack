@@ -1,0 +1,594 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "octagon"
+	filename: "mowzies_mobs"
+	group: "0AED6A67D2E6878C"
+	icon: {
+		id: "mowziesmobs:wrought_axe"
+	}
+	id: "605C4FF5CAEFD78C"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "mowziesmobs:wrought_axe"
+			}
+			id: "54467AF8F19F962B"
+			rewards: [
+				{
+					count: 16
+					id: "3120508C6206C5B2"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "16A6C4980F54FA47"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "26C527DF2D8AAA97"
+				item: { count: 1, id: "mowziesmobs:gong" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54467AF8F19F962B"]
+			icon: {
+				id: "mowziesmobs:foliaath_seed"
+			}
+			id: "621DBEB402987BCE"
+			rewards: [{
+				count: 16
+				id: "45D154FEEA76E7AD"
+				item: {
+					count: 1
+					id: "minecraft:bone_meal"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					entity: "mowziesmobs:foliaath"
+					id: "6B6E427CA95D19ED"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "16F2B578FAA0A966"
+					item: { count: 1, id: "mowziesmobs:foliaath_seed" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["54467AF8F19F962B"]
+			icon: {
+				id: "mowziesmobs:naga_fang"
+			}
+			id: "7B0A3E4010A2380E"
+			shape: "circle"
+			tasks: [
+				{
+					entity: "mowziesmobs:naga"
+					id: "1DB6588A1E40696E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "4D65AE188685DD4B"
+					item: { count: 1, id: "mowziesmobs:naga_fang" }
+					type: "item"
+				}
+				{
+					id: "5421E1E29D1F78BD"
+					item: { count: 1, id: "mowziesmobs:naga_fang_dagger" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7B0A3E4010A2380E"]
+			icon: {
+				id: "mowziesmobs:blowgun"
+			}
+			id: "013273E65D9AED13"
+			rewards: [{
+				count: 16
+				id: "5F3CD186C363560A"
+				item: {
+					count: 1
+					id: "mowziesmobs:dart"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					id: "652C9B57A98E9AF1"
+					item: { count: 1, id: "mowziesmobs:dart" }
+					type: "item"
+				}
+				{
+					id: "14BA804746CCEBC9"
+					item: { count: 1, id: "mowziesmobs:blowgun" }
+					type: "item"
+				}
+				{
+					id: "6C1CA57260CF51C8"
+					item: { count: 1, id: "mowziesmobs:spear" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["54467AF8F19F962B"]
+			icon: {
+				id: "mowziesmobs:captured_grottol"
+			}
+			id: "2443AA3BB4A83FC4"
+			shape: "circle"
+			tasks: [{
+				entity: "mowziesmobs:grottol"
+				id: "3A9BC13B155A27F1"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2443AA3BB4A83FC4"]
+			icon: {
+				id: "mowziesmobs:captured_grottol"
+			}
+			id: "116ED33A98BA3C77"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "35B15C221BBB9FB0"
+				item: { count: 1, id: "mowziesmobs:captured_grottol" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2443AA3BB4A83FC4"]
+			icon: {
+				id: "mowziesmobs:glowing_jelly"
+			}
+			id: "46CD3E5C7A9306C4"
+			rewards: [{
+				count: 16
+				id: "50F1BEEA709055CE"
+				item: {
+					count: 1
+					id: "minecraft:glowstone_dust"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					entity: "mowziesmobs:lantern"
+					id: "2B051031C03A66AB"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "47284F33D580EDBA"
+					item: { count: 1, id: "mowziesmobs:glowing_jelly" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["621DBEB402987BCE"]
+			icon: {
+				id: "mowziesmobs:umvuthana_mask_fury"
+			}
+			id: "1C97769B9E7F02D7"
+			rewards: [{
+				count: 16
+				id: "01ACC2E10861849D"
+				item: {
+					count: 1
+					id: "mowziesmobs:dart"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					entity: "mowziesmobs:umvuthana"
+					id: "7DC7E49DC8735806"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "mowziesmobs:umvuthana_raptor"
+					id: "7D31C130D13310B4"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "25F5BA79CE2FE77A"
+					item: { count: 1, id: "mowziesmobs:umvuthana_mask_fury" }
+					type: "item"
+				}
+				{
+					id: "2780AFF7C3B7D163"
+					item: { count: 1, id: "mowziesmobs:umvuthana_mask_fear" }
+					type: "item"
+				}
+				{
+					id: "259092FDADBE07A6"
+					item: { count: 1, id: "mowziesmobs:umvuthana_mask_rage" }
+					type: "item"
+				}
+				{
+					id: "0494E81BEBBAC301"
+					item: { count: 1, id: "mowziesmobs:umvuthana_mask_bliss" }
+					type: "item"
+				}
+				{
+					id: "449A09986F4FAD3A"
+					item: { count: 1, id: "mowziesmobs:umvuthana_mask_misery" }
+					type: "item"
+				}
+				{
+					id: "4852221F2FB5517B"
+					item: { count: 1, id: "mowziesmobs:umvuthana_mask_faith" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1C97769B9E7F02D7"]
+			icon: {
+				id: "mowziesmobs:sol_visage"
+			}
+			id: "08E4ACC1E13090C0"
+			rewards: [
+				{
+					id: "64C91450162855FD"
+					table_id: 3787998144720038137L
+					type: "random"
+				}
+				{
+					id: "1CCA15386979C9D2"
+					type: "xp"
+					xp: 35
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					entity: "mowziesmobs:umvuthi"
+					id: "36907C58F2B28123"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "1D326E73B217BA4B"
+					item: { count: 1, id: "mowziesmobs:sol_visage" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["54467AF8F19F962B"]
+			icon: {
+				id: "mowziesmobs:ice_crystal"
+			}
+			id: "7ECF295818CBB17B"
+			rewards: [
+				{
+					count: 16
+					id: "4F73EF91E864D48A"
+					item: {
+						count: 1
+						id: "minecraft:packed_ice"
+					}
+					type: "item"
+				}
+				{
+					id: "31784450D367FFA6"
+					table_id: 3787998144720038137L
+					type: "random"
+				}
+				{
+					id: "7335276794A9DD61"
+					type: "xp"
+					xp: 35
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					entity: "mowziesmobs:frostmaw"
+					id: "45E897A343A9032D"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "6EEAD3EBEDE8715C"
+					item: { count: 1, id: "mowziesmobs:ice_crystal" }
+					type: "item"
+				}
+				{
+					id: "3CD945FA6CFA2AA3"
+					item: { count: 1, id: "mowziesmobs:music_disc_petiole" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["54467AF8F19F962B"]
+			icon: {
+				id: "mowziesmobs:wrought_axe"
+			}
+			id: "012F86795F0FE21A"
+			shape: "rsquare"
+			tasks: [
+				{
+					entity: "mowziesmobs:ferrous_wroughtnaut"
+					id: "6605DBECCA23ED6B"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "101CCD7F9FD00776"
+					item: { count: 1, id: "mowziesmobs:wrought_axe" }
+					type: "item"
+				}
+				{
+					id: "01CAD480D09949B2"
+					item: { count: 1, id: "mowziesmobs:wrought_helmet" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["22A90024F6A20407"]
+			icon: {
+				id: "mowziesmobs:earthrend_gauntlet"
+			}
+			id: "26CFC1496A77F5B5"
+			optional: true
+			rewards: [
+				{
+					id: "2456BD313C5E208F"
+					table_id: 3787998144720038137L
+					type: "random"
+				}
+				{
+					id: "37F170E7E77F56F8"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "751357FF73A0842E"
+				item: { count: 1, id: "mowziesmobs:earthrend_gauntlet" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["54467AF8F19F962B"]
+			icon: {
+				id: "mowziesmobs:sculptor_staff"
+			}
+			id: "336DC4C0F7A4C93C"
+			rewards: [{
+				count: 16
+				id: "53DA8E33EEFACECA"
+				item: {
+					count: 1
+					id: "minecraft:sandstone"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				entity: "mowziesmobs:sculptor"
+				id: "716B6BEA208968B2"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["336DC4C0F7A4C93C"]
+			icon: {
+				id: "mowziesmobs:geomancer_robe"
+			}
+			id: "0378F3F6A93DB5F9"
+			rewards: [{
+				count: 16
+				id: "0C03AA65B7C12101"
+				item: {
+					count: 1
+					id: "minecraft:red_sand"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "286456F4852490A0"
+					item: { count: 1, id: "mowziesmobs:sculptor_staff" }
+					type: "item"
+				}
+				{
+					id: "2ECA9921C2D455EB"
+					item: { count: 1, id: "mowziesmobs:sand_rake" }
+					type: "item"
+				}
+				{
+					id: "020DF09FF777E98B"
+					item: { count: 1, id: "mowziesmobs:geomancer_beads" }
+					type: "item"
+				}
+				{
+					id: "15D89785EF77A294"
+					item: { count: 1, id: "mowziesmobs:geomancer_robe" }
+					type: "item"
+				}
+				{
+					id: "3A96C701165BF061"
+					item: { count: 1, id: "mowziesmobs:geomancer_belt" }
+					type: "item"
+				}
+				{
+					id: "60ED97C92640BA7B"
+					item: { count: 1, id: "mowziesmobs:geomancer_sandals" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["336DC4C0F7A4C93C"]
+			icon: {
+				id: "mowziesmobs:elokosa_paw_full"
+			}
+			id: "3EB6CFD6E0AEEE6F"
+			shape: "circle"
+			tasks: [
+				{
+					entity: "mowziesmobs:elokosa_howler"
+					id: "642AFD02523ED76F"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "75CECAA69C487EC3"
+					item: { count: 1, id: "mowziesmobs:elokosa_paw_full" }
+					type: "item"
+				}
+				{
+					id: "2F7DCE56D058B862"
+					item: { count: 1, id: "mowziesmobs:elokosa_paw_gibbous" }
+					type: "item"
+				}
+				{
+					id: "7984DD0C48FB4664"
+					item: { count: 1, id: "mowziesmobs:elokosa_paw_half" }
+					type: "item"
+				}
+				{
+					id: "32F4067C0A7C8BE4"
+					item: { count: 1, id: "mowziesmobs:elokosa_paw_crescent" }
+					type: "item"
+				}
+				{
+					id: "4DAA31CE2A63E533"
+					item: { count: 1, id: "mowziesmobs:elokosa_paw_new" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["336DC4C0F7A4C93C"]
+			icon: {
+				id: "mowziesmobs:bluff_rod"
+			}
+			id: "22A90024F6A20407"
+			shape: "circle"
+			tasks: [
+				{
+					entity: "mowziesmobs:bluff"
+					id: "5D0CFCDE190CF179"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "6D88AEFD124EF674"
+					item: { count: 1, id: "mowziesmobs:bluff_rod" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["54467AF8F19F962B"]
+			icon: {
+				id: "mowziesmobs:gong"
+			}
+			id: "23F68281D5BF80FF"
+			shape: "square"
+			tasks: [
+				{
+					id: "762F6E011F81C974"
+					item: { count: 1, id: "mowziesmobs:gong" }
+					type: "item"
+				}
+				{
+					id: "2E7E117E14DCC2C0"
+					item: { count: 1, id: "mowziesmobs:painted_acacia" }
+					type: "item"
+				}
+				{
+					id: "0E7A1D3DB271E902"
+					item: { count: 1, id: "mowziesmobs:thatch_block" }
+					type: "item"
+				}
+				{
+					id: "04B64E705928C3C8"
+					item: { count: 1, id: "mowziesmobs:clawed_log" }
+					type: "item"
+				}
+				{
+					id: "1AD2E165A30F6CE4"
+					item: { count: 1, id: "mowziesmobs:raked_sand" }
+					type: "item"
+				}
+				{
+					id: "0C5C1F6E041199CB"
+					item: { count: 1, id: "mowziesmobs:red_raked_sand" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 10.0d
+		}
+	]
+}

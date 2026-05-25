@@ -1,0 +1,73 @@
+{
+	icon: {
+		id: "minecraft:chest"
+	}
+	id: "039995230CD252AF"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			count: 4
+			id: "68802FB2EA049649"
+			item: {
+				count: 1
+				id: "minecraft:chest"
+			}
+			random_bonus: 4
+			weight: 8.0f
+		}
+		{
+			count: 2
+			id: "02B5DDC9B4E51496"
+			item: {
+				count: 1
+				id: "minecraft:hopper"
+			}
+			random_bonus: 2
+			weight: 5.0f
+		}
+		{
+			count: 4
+			id: "14C78300CB9E529C"
+			item: {
+				count: 1
+				id: "minecraft:barrel"
+			}
+			random_bonus: 4
+			weight: 6.0f
+		}
+		{
+			id: "714FE03E11C2EEFD"
+			item: {
+				count: 1
+				id: "sophisticatedbackpacks:upgrade_base"
+			}
+			weight: 4.0f
+		}
+		{
+			id: "020FA01E81FEB82C"
+			item: {
+				count: 1
+				id: "sophisticatedbackpacks:filter_upgrade"
+			}
+			weight: 3.0f
+		}
+		{
+			id: "1C09765615541EAE"
+			item: {
+				count: 1
+				id: "sophisticatedbackpacks:pickup_upgrade"
+			}
+			weight: 3.0f
+		}
+		{
+			id: "2147A6517A7439E7"
+			item: {
+				count: 1
+				id: "ironchest:iron_to_gold_chest_upgrade"
+			}
+			weight: 2.0f
+		}
+	]
+	use_title: true
+}

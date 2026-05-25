@@ -1,0 +1,77 @@
+{
+	icon: {
+		id: "ars_nouveau:source_gem"
+	}
+	id: "63254D7046EC5DF0"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			count: 16
+			id: "0432B153E8E39287"
+			item: {
+				count: 1
+				id: "minecraft:lapis_lazuli"
+			}
+			random_bonus: 16
+			weight: 8.0f
+		}
+		{
+			count: 8
+			id: "1E6800237F7185E3"
+			item: {
+				count: 1
+				id: "minecraft:amethyst_shard"
+			}
+			random_bonus: 8
+			weight: 5.0f
+		}
+		{
+			count: 8
+			id: "38C770FEE9803823"
+			item: {
+				count: 1
+				id: "ars_nouveau:source_gem"
+			}
+			random_bonus: 8
+			weight: 5.0f
+		}
+		{
+			count: 8
+			id: "702E26B14E0679C6"
+			item: {
+				count: 1
+				id: "ars_nouveau:magebloom_fiber"
+			}
+			random_bonus: 8
+			weight: 4.0f
+		}
+		{
+			count: 4
+			id: "412DBBEC00739908"
+			item: {
+				count: 1
+				id: "ars_nouveau:blank_parchment"
+			}
+			random_bonus: 4
+			weight: 3.0f
+		}
+		{
+			id: "78A255433210E2CF"
+			item: {
+				count: 1
+				id: "ars_nouveau:source_jar"
+			}
+			weight: 2.0f
+		}
+		{
+			id: "2242D4FADA776DFF"
+			item: {
+				count: 1
+				id: "ars_nouveau:blank_thread"
+			}
+			weight: 2.0f
+		}
+	]
+	use_title: true
+}

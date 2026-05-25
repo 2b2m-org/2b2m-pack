@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "betterwitchhuts:witch_circle",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 19797254,
+    "spacing": 96,
+    "separation": 56,
+    "type": "minecraft:random_spread"
+  }
+}

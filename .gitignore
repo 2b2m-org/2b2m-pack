@@ -1,0 +1,18 @@
+# Exported artifacts
+/dist/
+*.zip
+*.mrpack
+
+# Local runtime/cache state
+/.packwiz/
+/.cache/
+/logs/
+/crash-reports/
+/screenshots/
+/saves/
+
+# Local editor/OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp

@@ -1,0 +1,1364 @@
+{
+	file.title: "2b2m Field Guide"
+	file.0000000000000001.title: "2b2m Field Guide"
+	chapter_group.65F80771E7B84A8C.title: "2b2m Guide"
+	chapter_group.0A3B3C5A3FFA50C9.title: "Tech and Automation"
+	chapter_group.1D8288EAE7F1B3B8.title: "Magic and Dimensions"
+	chapter_group.0AED6A67D2E6878C.title: "Combat and Loot"
+	chapter_group.627EB6D4BDB9ACAD.title: "Storage and Utility"
+	chapter.678A1FBCC7A873DC.title: "Welcome to 2b2m"
+	chapter.678A1FBCC7A873DC.chapter_subtitle: ["Server basics, controls, and early priorities."]
+	chapter.3F1214B3A786DD0E.chapter_subtitle: ["Mechanical power, processing, logistics, transport, and artillery."]
+	chapter.108F16BAE5319331.title: "Mekanism Industry"
+	chapter.108F16BAE5319331.chapter_subtitle: ["Ore processing, power, logistics, and late-game reactors."]
+	quest.3578CC0231CBAD1A.title: "Osmium and Infusion"
+	quest.3578CC0231CBAD1A.quest_desc: ["Osmium gets Mekanism moving. The Metallurgic Infuser is the first machine that turns simple resources into tech components."]
+	quest.3A67C4D16A275242.title: "Steel Infrastructure"
+	quest.3A67C4D16A275242.quest_desc: ["Steel is the point where Mekanism builds stop being temporary. Make steel casing and structural glass early; multiblocks will keep asking for both."]
+	quest.75ED54F67E563A7F.title: "Alloys and Circuits"
+	quest.75ED54F67E563A7F.quest_desc: ["Infused alloy and basic circuits are the foundation for almost every machine tier."]
+	quest.1E021F5693D77480.title: "Reinforced Components"
+	quest.1E021F5693D77480.quest_desc: ["Reinforced alloys and higher circuits are the middle tier that turns starter machines into scalable infrastructure."]
+	quest.2A235F2D4585A74D.title: "Ultimate Components"
+	quest.2A235F2D4585A74D.quest_desc: ["Ultimate circuits and atomic alloys are the late-game crafting tax. Automate them before reactors eat your stash."]
+	quest.0C648479C807D3A4.title: "Starter Power"
+	quest.0C648479C807D3A4.quest_desc: ["Heat generators are simple. Wind generators are easy passive power. Use both until the base can justify bigger power systems."]
+	quest.2E660C09B669636C.title: "Batteries and Charging"
+	quest.2E660C09B669636C.quest_desc: ["Energy cubes and tablets make power portable. A chargepad keeps tools topped off without opening every machine."]
+	quest.6C562CEFC2B19792.title: "Solar and Bio Power"
+	quest.6C562CEFC2B19792.quest_desc: ["Bio fuel and solar are quiet fallback power sources. They are not glamorous, but they keep hidden bases alive."]
+	quest.7067599829D08E0D.title: "Ethene Power Loop"
+	quest.7067599829D08E0D.quest_desc: ["Ethene burns in gas generators and starts the substrate path. Keep water, hydrogen, and bio fuel steady."]
+	quest.0A7731BC376CC3EE.title: "Induction Matrix"
+	quest.0A7731BC376CC3EE.quest_desc: ["Start with energy cubes and lithium, then scale into ultimate-tier cells and providers. This is the buffer for reactor, laser, and SPS power spikes."]
+	quest.65D3BC8E9C97409E.title: "Cables, Pipes, Transporters"
+	quest.65D3BC8E9C97409E.quest_desc: ["Power, fluids, and items should each have dedicated routes. Color-code hidden bases so repairs are fast."]
+	quest.29C40DC4111D01CE.title: "Network Tools"
+	quest.29C40DC4111D01CE.quest_desc: ["The Configurator and Network Reader are how you debug Mekanism builds before they become impossible pipe nests."]
+	quest.297F1AC202A53E67.title: "Advanced Transmission"
+	quest.297F1AC202A53E67.quest_desc: ["Higher-tier cables, tubes, and conductors matter once machines, chemicals, and heat all move through the same bunker."]
+	quest.5C07B07855BE8A14.title: "Bulk Tanks"
+	quest.5C07B07855BE8A14.quest_desc: ["Dynamic tanks and ultimate tanks are for stockpiling fluids and chemicals before a reactor chain starts drinking them."]
+	quest.0172D43347F5A5CB.title: "Quantum Entangloporter"
+	quest.0172D43347F5A5CB.quest_desc: ["Entangloporters belong on the logistics branch, but the recipe pulls from teleportation cores, atomic alloy, and ultimate circuits."]
+	quest.5673DC4805ADD1D0.title: "Starter Processing Cell"
+	quest.5673DC4805ADD1D0.quest_desc: ["Enrich, crush, and smelt in one compact area. This is the first practical ore-processing loop."]
+	quest.7EEEE5A5B74D4658.title: "Specialist Machines"
+	quest.7EEEE5A5B74D4658.quest_desc: ["Sawmills, combiners, and the Osmium Compressor unlock recovery paths plus refined obsidian and refined glowstone."]
+	quest.44C12C4E74678B30.title: "Speed and Energy Upgrades"
+	quest.44C12C4E74678B30.quest_desc: ["Upgrade bottlenecks first. Watch power draw before the grid collapses."]
+	quest.68723CE4B0884AE5.title: "Tier Installers"
+	quest.68723CE4B0884AE5.quest_desc: ["Tier installers let you scale machines without rebuilding the whole wall. Keep spares near the factory floor."]
+	quest.0B0A2A7E0BFE968E.title: "Factory Scaling"
+	quest.0B0A2A7E0BFE968E.quest_desc: ["Factories parallelize repeated work. Pick the factory type that matches the bottleneck instead of upgrading everything blindly."]
+	quest.644BA35C36A5E766.title: "Water Into Gases"
+	quest.644BA35C36A5E766.quest_desc: ["Pumps, separators, and chemical tanks are the entry point for hydrogen, oxygen, and every chemical chain after them."]
+	quest.0871D8A9B2E45F06.title: "Thermal Evaporation"
+	quest.0871D8A9B2E45F06.quest_desc: ["Evaporation towers produce brine and lithium. Build them where they are protected; replacing towers is annoying."]
+	quest.232FFAAAFEA857C0.title: "Chlorine and Acid"
+	quest.232FFAAAFEA857C0.quest_desc: ["Hydrogen chloride and sulfuric acid are the chemical gate for high-tier ore processing and uranium fuel preparation."]
+	quest.32FF13ABB2684779.title: "Ore Purification"
+	quest.32FF13ABB2684779.quest_desc: ["Purification chambers turn ores into clumps. Oxygen starts paying back the setup cost here."]
+	quest.186A8CA3D655C856.title: "Ore Injection"
+	quest.186A8CA3D655C856.quest_desc: ["Chemical injection uses hydrogen chloride to move from clumps into shards. It is powerful, but the chemistry must be stable."]
+	quest.1F096F5205C9FD4C.title: "Five-Stage Ore Line"
+	quest.1F096F5205C9FD4C.quest_desc: ["Dissolution, washing, and crystallizing are the full Mekanism ore path. Build it once, then protect it like infrastructure."]
+	quest.6507417031A73615.title: "HDPE Production"
+	quest.6507417031A73615.quest_desc: ["Substrate and HDPE are the plastic backbone for late Mekanism builds, Meka gear, and plastic construction blocks."]
+	quest.76B71570751F18F4.title: "Pigments and Plastic"
+	quest.76B71570751F18F4.quest_desc: ["Mekanism Additions turns the plastic chain into colored building blocks. Useful bases still need readable, durable materials."]
+	quest.4EEAD0D460FA41F4.title: "QIO Core"
+	quest.4EEAD0D460FA41F4.quest_desc: ["QIO starts with teleportation-core storage, not HDPE. Build the dashboard, drive array, drive base, importer, and exporter as the remote storage trunk."]
+	quest.0913493172C9E1E0.title: "QIO Deep Storage"
+	quest.0913493172C9E1E0.quest_desc: ["Higher QIO drives climb into plutonium, polonium, and antimatter. Keep the core QIO network working before chasing the extreme drives."]
+	quest.0CBB3A3828BC3944.title: "Digital Miner"
+	quest.0CBB3A3828BC3944.quest_desc: ["The Digital Miner needs late logistics plus a Robit, teleportation core, and atomic alloy. Hide it well and use filters carefully."]
+	quest.6E16E79FACA36D0E.title: "Teleportation Network"
+	quest.6E16E79FACA36D0E.quest_desc: ["Teleporters are fast and dangerous. Build frames, cores, and a portable unit before trusting a distant link."]
+	quest.4CFFA6E284050BC3.title: "Mekanism Tools"
+	quest.4CFFA6E284050BC3.quest_desc: ["Mekanism Tools adds practical paxels across the material ladder. They are good utility backups even when powered gear is offline."]
+	quest.341940BF43BDC8AC.title: "Atomic Disassembler"
+	quest.341940BF43BDC8AC.quest_desc: ["A powered all-purpose tool built from atomic alloy, refined obsidian, and an energy tablet. Keep it charged before relying on it underground."]
+	quest.47CFD59571D9AF20.title: "Dimensional Stabilizer"
+	quest.47CFD59571D9AF20.quest_desc: ["A utility block for keeping loaded work stable. It uses ultimate-tier components, refined obsidian, and a diamond block, not antimatter."]
+	quest.5427DED19B6876D8.title: "Powered Mobility"
+	quest.5427DED19B6876D8.quest_desc: ["Jetpacks and related gear start with stored power. Hydrogen production and gas storage matter once you start flying."]
+	quest.38D28A1B2836C4F2.title: "Radiation Safety"
+	quest.38D28A1B2836C4F2.quest_desc: ["Build protection and instruments before nuclear work. Radiation mistakes punish the whole area."]
+	quest.55F3A927EEA20C7C.title: "Uranium Preparation"
+	quest.55F3A927EEA20C7C.quest_desc: ["Uranium fuel starts as ore and chemistry before it ever reaches a reactor. Verify each step before letting it run unattended."]
+	quest.43C25762B3E1B616.title: "Fission Reactor Shell"
+	quest.43C25762B3E1B616.quest_desc: ["Fission starts after uranium chemistry. Plan fuel, coolant, ports, waste output, and a place where failure is acceptable."]
+	quest.12D5053F41E850A8.title: "Waste Processing"
+	quest.12D5053F41E850A8.quest_desc: ["Waste barrels are temporary buffers, not a plan. Solar activation and centrifuging turn dangerous output into useful pellets."]
+	quest.470D2A0384EC4B50.title: "Boiler and Turbine"
+	quest.470D2A0384EC4B50.quest_desc: ["Boiler internals need pressure dispersers and superheating elements; active-cooled fission also introduces sodium and superheated sodium before the turbine pays out."]
+	quest.34A540012C5F3CFD.title: "MekaSuit Bench"
+	quest.34A540012C5F3CFD.quest_desc: ["The Modification Station starts the MekaSuit path, but it also wants HDPE, ultimate circuits, steel casing, and polonium."]
+	quest.40BD00DB0BCC000A.title: "MekaSuit Field Kit"
+	quest.40BD00DB0BCC000A.quest_desc: ["A full MekaSuit plus energy and jetpack modules is a major survival breakpoint for raids, void travel, and reactor work."]
+	quest.78CF186856901F3E.title: "SPS Antimatter"
+	quest.78CF186856901F3E.quest_desc: ["The SPS turns polonium into antimatter by consuming extreme power. Feed it from waste processing and buffer it like endgame infrastructure."]
+	quest.5CFB9BA53B3F87F4.title: "Fusion Fuel Prep"
+	quest.5CFB9BA53B3F87F4.quest_desc: ["Fusion fuel needs lithium, tritium, deuterium, and D-T mixing. Tritium comes from Solar Neutron Activators, so keep nuclear processing alive."]
+	quest.00073E4E022E5F7E.title: "Antiprotonic Nucleosynthesizer"
+	quest.00073E4E022E5F7E.quest_desc: ["The nucleosynthesizer spends antimatter, atomic alloy, and ultimate circuits on endgame material conversion."]
+	quest.1AE586352A24381A.title: "Laser Ignition"
+	quest.1AE586352A24381A.quest_desc: ["Lasers, amplifiers, tractor beams, and fusion ignition all need a strong power buffer."]
+	quest.0A7F1AF0B8997844.title: "Fusion Ambition"
+	quest.0A7F1AF0B8997844.quest_desc: ["Fusion is the endpoint of the fuel and laser path. Expect D-T fuel, a filled Hohlraum, and nuclear-era materials before it lights."]
+	chapter.7CDBF2B50E352EBB.title: "Ars Nouveau"
+	chapter.7CDBF2B50E352EBB.chapter_subtitle: ["Spellbooks, source, rituals, and magical automation."]
+	quest.3A53DBCDD16914A1.title: "Tattered Tome"
+	quest.3A53DBCDD16914A1.quest_desc: ["Craft one from a book and lapis. This is the in-game guide for spellbooks, glyphs, source, and rituals."]
+	quest.390A2EC805E47F5C.title: "Novice Spellbook"
+	quest.390A2EC805E47F5C.quest_desc: ["Your first spellbook is a tool, weapon, utility belt, and mining assistant depending on how you build spells."]
+	quest.34B121230FFC802B.title: "Archwood Fieldwork"
+	quest.34B121230FFC802B.quest_desc: ["Archwood, amethyst, and magical creature scouting are the real early resource loop. The dowsing rod helps find budding amethyst and nearby magical entities."]
+	quest.7E97C2A7BEAE18A6.title: "Source Gems and Jars"
+	quest.7E97C2A7BEAE18A6.quest_desc: ["Source gems and jars are the battery layer for Ars crafting, rituals, and automation. Keep them hidden and stocked."]
+	quest.110EAA6A6D8F3101.title: "Source Utility Jars"
+	quest.110EAA6A6D8F3101.quest_desc: ["Source storage has a utility side too. Source blocks compact gems, the voiding jar deletes selected pickups for mana, and the jar of light carries portable lighting."]
+	quest.35A523E2807E7FEC.title: "Magebloom Supply"
+	quest.35A523E2807E7FEC.quest_desc: ["Magebloom turns early magic into repeatable crafting. Grow fiber before the apparatus starts eating your stock."]
+	quest.662EC040BC2984A0.title: "Scribe Real Spells"
+	quest.662EC040BC2984A0.quest_desc: ["A scribe table turns spell ideas into usable configurations. Keep it near your book and glyph storage."]
+	quest.6F5978C0520E90C8.title: "Starter Glyph Set"
+	quest.6F5978C0520E90C8.quest_desc: ["Projectile, touch, self, harm, heal, break, and light cover most early field work without overcomplicating the book."]
+	quest.34F1531F002DBD08.title: "Shape and Power Augments"
+	quest.34F1531F002DBD08.quest_desc: ["AOE, amplify, and pierce decide whether a spell is precise, efficient, or dangerous to use in a cramped base."]
+	quest.2134B1BE68F84638.title: "Base Utility Glyphs"
+	quest.2134B1BE68F84638.quest_desc: ["Leap, blink, fell, harvest, extract, interact, and craft make Ars useful even when you are not fighting."]
+	quest.39B425811E94E496.title: "Advanced Field Glyphs"
+	quest.39B425811E94E496.quest_desc: ["Exchange, dispel, invisibility, launch, glide, and lightning are high-impact tools for raids, escapes, and terrain control."]
+	quest.4E5BEA19842EF5D1.title: "Advanced Spell Forms"
+	quest.4E5BEA19842EF5D1.quest_desc: ["Burst, linger, wall, rune, underfoot, orbit, and split turn single casts into area control, traps, and deployable effects."]
+	quest.0305B015C80FDAB2.title: "Summon and Control Glyphs"
+	quest.0305B015C80FDAB2.quest_desc: ["Summon and control glyphs are expensive but flexible. They create decoys, mounts, undead, vexes, wolves, animated blocks, phantom blocks, and remote actions."]
+	quest.1A7EDB4E23BA1898.title: "Imbuement Chamber"
+	quest.1A7EDB4E23BA1898.quest_desc: ["The imbuement chamber converts source and ingredients into core Ars materials. Keep jars nearby."]
+	quest.168090EFD7E73CC2.title: "Elemental Essences"
+	quest.168090EFD7E73CC2.quest_desc: ["Air, earth, fire, and water essences are the first proof that your imbuement setup can feed real crafting."]
+	quest.53FF1FF00BDFBD66.title: "School Essences"
+	quest.53FF1FF00BDFBD66.quest_desc: ["Abjuration, conjuration, and manipulation essences push the chapter into higher-tier books, rituals, and utility builds."]
+	quest.366D2E50743499D7.title: "Enchanting Apparatus"
+	quest.366D2E50743499D7.quest_desc: ["The arcane core, pedestals, and apparatus are the centerpiece for higher-tier crafting. Give the setup space."]
+	quest.66F4FE9A6C588AC7.title: "Apprentice Spellbook"
+	quest.66F4FE9A6C588AC7.quest_desc: ["The apprentice book expands spell complexity and mana. Upgrade when novice utility starts feeling cramped."]
+	quest.1C86B9853ACCE354.title: "Archmage Spellbook"
+	quest.1C86B9853ACCE354.quest_desc: ["The archmage book is the top spellbook gate. Expect Wilden Tribute, nether-star-tier materials, and enough source infrastructure to make failures expensive."]
+	quest.20DFC82C4FD6D4CF.title: "Source Links"
+	quest.20DFC82C4FD6D4CF.quest_desc: ["Different source links fit different bases. Crops, fuel, potions, fungi, and life all become source if the room is built for it."]
+	quest.0A05DFB600A23F00.title: "Source Relay Network"
+	quest.0A05DFB600A23F00.quest_desc: ["Relays move source around the base without dragging every crafting station next to the generator."]
+	quest.5707C46449874C21.title: "Ritual Brazier"
+	quest.5707C46449874C21.quest_desc: ["The brazier is the anchor for every major ritual. Treat the ritual pad like infrastructure, not decoration."]
+	quest.600709ED5D2637D7.title: "Core Rituals"
+	quest.600709ED5D2637D7.quest_desc: ["Awakening, binding, warping, flight, and harvest rituals cover the jobs players actually repeat."]
+	quest.4B7AAF459238A44F.title: "Defensive Rituals"
+	quest.4B7AAF459238A44F.quest_desc: ["Containment, overgrowth, restoration, sanctuary, and challenge rituals are worth knowing before public structures get messy."]
+	quest.629CFD7178BFA845.title: "Dominion Wand"
+	quest.629CFD7178BFA845.quest_desc: ["The Dominion Wand links familiars, relays, and automation blocks. Without it, Ars automation is mostly parts on the floor."]
+	quest.1B8BA294496853FF.title: "Starbuncle Labor"
+	quest.1B8BA294496853FF.quest_desc: ["Starbuncles are small logistics workers. Use them where pipes and belts are too obvious or too bulky."]
+	quest.28B51D8EFD60F3EC.title: "Drygmy Henge"
+	quest.28B51D8EFD60F3EC.quest_desc: ["Drygmys convert contained mobs into passive drops. It is strong, compact, and exactly the kind of farm you should hide well."]
+	quest.50C007DABE1E08FD.title: "Wixie and Whirlisprig"
+	quest.50C007DABE1E08FD.quest_desc: ["Wixies automate crafting and potions. Whirlisprigs automate growing. Together they make magic feel like a factory."]
+	quest.314F6BFDAD28E34E.title: "Bookwyrm and Golem"
+	quest.314F6BFDAD28E34E.quest_desc: ["Bookwyrms expand Storage Lectern reach, while Amethyst Golems farm and manage amethyst. These charms come from Awakening setups, not a normal one-step craft."]
+	quest.06E7828046700D01.title: "Ars Creo Bridge"
+	quest.06E7828046700D01.quest_desc: ["Ars Creo starts with the Starbuncle Wheel. The child quests split the bridge into source/turret display handling and potion fluid handling."]
+	quest.7B8F77FFFE678783.title: "Spell Turrets"
+	quest.7B8F77FFFE678783.quest_desc: ["Turrets turn spell design into base defense and automation. Test them far from anything you care about."]
+	quest.0C4A20911351B069.title: "Repository Storage"
+	quest.0C4A20911351B069.quest_desc: ["Repositories and the catalog make Ars storage manageable without filling the wall with loose chests."]
+	quest.37FDB3862C933095.title: "Potion Lab"
+	quest.37FDB3862C933095.quest_desc: ["Potion jars and melders make potion effects a real system instead of random loot. Build the storage and diffusion branches once the base lab works."]
+	quest.68CFEDD44A70BAB3.title: "Mage Armor"
+	quest.68CFEDD44A70BAB3.quest_desc: ["Arcanist armor is the first dedicated Ars kit for longer fights."]
+	quest.764C792DD2360441.title: "Battlemage Armor"
+	quest.764C792DD2360441.quest_desc: ["Battlemage gear is for players who expect magic to happen inside a fight instead of before it."]
+	quest.15F4E2B6904F35EB.title: "Sorcerer Armor"
+	quest.15F4E2B6904F35EB.quest_desc: ["Sorcerer gear is the deep magic armor branch. Expensive, visible, and worth it when the spellbook is your main weapon."]
+	quest.2833945620E66E84.title: "Armor Threads"
+	quest.2833945620E66E84.quest_desc: ["Threads tune armor toward capacity, power, defense, and utility. Keep blanks around before committing a set."]
+	quest.65363F0EE756D760.title: "Enchanter Tools"
+	quest.65363F0EE756D760.quest_desc: ["Enchanter gear gives magic a physical toolkit: sword, shield, gauntlet, mirror, eye, and wand."]
+	quest.06A7FC35CA4BFE2B.title: "Mana Trinkets"
+	quest.06A7FC35CA4BFE2B.quest_desc: ["Rings, amulets, and levitation tools are compact power. Losing them in a raid is painful, so make backups."]
+	quest.662F7BF3705A6A48.title: "Sourceberry Provisions"
+	quest.662F7BF3705A6A48.quest_desc: ["Sourceberries are more than decoration. Turn them into portable food and compact source storage for long routes."]
+	quest.5F19941F8AA7CFD7.title: "Warp Network"
+	quest.5F19941F8AA7CFD7.quest_desc: ["Warp scrolls and portals are strong mobility. Assume public warps are compromised."]
+	quest.2F46CC449EAC33AC.title: "Scrying Kit"
+	quest.2F46CC449EAC33AC.quest_desc: ["Scrying turns magic into reconnaissance. Use it for scouting, not as a substitute for hiding infrastructure."]
+	quest.11F5BA2CE9DF3BC6.title: "Wilden Hunt"
+	quest.11F5BA2CE9DF3BC6.quest_desc: ["The Wilden path supplies tribute materials and pushes Ars into its boss-summoning side."]
+	quest.400C206E01CC208F.title: "World Rituals"
+	quest.400C206E01CC208F.quest_desc: ["These tablets reshape the environment: tunnels, disintegration, gravity, day/night, weather, and conjured islands."]
+	quest.4EE6F02364F19AAB.title: "Nature Rituals"
+	quest.4EE6F02364F19AAB.quest_desc: ["Fertility, flowering, forestation, and animal summoning are the ritual side of farms, landscaping, and passive resource loops."]
+	quest.3327F4B6955D953C.title: "Spell Redstone"
+	quest.3327F4B6955D953C.quest_desc: ["Sensors, prisms, and relays let spells participate in automation instead of staying trapped in a spellbook."]
+	quest.251126865F6658A4.title: "Scroll Filters"
+	quest.251126865F6658A4.quest_desc: ["Allow, deny, and mimic scrolls keep magic logistics from moving the wrong items into the wrong place."]
+	quest.27E0423CF2EDE5CA.title: "Ranged Spell Tools"
+	quest.27E0423CF2EDE5CA.quest_desc: ["Spell bows and crossbows give Ars combat a familiar weapon shape while keeping spell design relevant."]
+	quest.4A7DE019C58ADCED.title: "Alteration Table"
+	quest.4A7DE019C58ADCED.quest_desc: ["The alteration table is where armor threads become real equipment upgrades. The crown is the potion side of that same workshop."]
+	quest.472AEB18096BA0B3.title: "Spell Parchment"
+	quest.472AEB18096BA0B3.quest_desc: ["Parchment and tomes preserve spell setups for turrets, bows, crossbows, and repeatable apparatus work."]
+	quest.1F121A31FD83662D.title: "Spell Foci"
+	quest.1F121A31FD83662D.quest_desc: ["Foci reshape how spells behave in blocks and summons. They are small items with outsized effects on real builds."]
+	quest.504EAD60683A69CE.title: "Advanced Threads"
+	quest.504EAD60683A69CE.quest_desc: ["Stronger threads specialize armor for mobility, survival, fire, cold, and terrain."]
+	quest.0A5C29B73213E435.title: "Ranged Payloads"
+	quest.0A5C29B73213E435.quest_desc: ["Augment arrows and flask cannons turn the ranged spell tools into a loadout instead of just another weapon slot."]
+	quest.3F4B16C3D99B4A8C.title: "Alakarkinos Familiar"
+	quest.3F4B16C3D99B4A8C.quest_desc: ["Alakarkinos adds another worker-style familiar path and potion-adjacent drops, which matters once the magic base is automated."]
+	quest.071E6A67B5E2815C.title: "Quest Book"
+	quest.071E6A67B5E2815C.quest_desc: ["You start with this book. Open it when you want a route, then get back to playing."]
+	quest.0BD9775EC2F17E22.title: "Team Visibility"
+	quest.0BD9775EC2F17E22.quest_desc: ["Use teams for quest progress and party visibility. Claims stay off."]
+	quest.679E84039CC83E1F.title: "Controls"
+	quest.679E84039CC83E1F.quest_desc: ["Search the controls screen for quests, teams, maps, backpacks, voice, and mod tools. Keep the keys you use often close together."]
+	quest.47D4B2D1AC2F6B52.title: "First Tools"
+	quest.47D4B2D1AC2F6B52.quest_desc: ["Make a crafting table and stone pickaxe. This is enough to start mining, food, and shelter."]
+	quest.5EBAF76531EFE0B3.title: "Iron Setup"
+	quest.5EBAF76531EFE0B3.quest_desc: ["Iron unlocks shields, buckets, better tools, and the first serious mod recipes."]
+	quest.6994E27B3631843A.title: "Diamond Setup"
+	quest.6994E27B3631843A.quest_desc: ["Diamonds open enchanting, durable tools, and several early tech and magic recipes."]
+	quest.2AC1F5818F8E5F62.title: "Netherite Push"
+	quest.2AC1F5818F8E5F62.quest_desc: ["Netherite scrap proves you can survive Nether routes and protect higher-value gear."]
+	quest.22FCE01BCF86C9E6.title: "Pick a Path"
+	quest.22FCE01BCF86C9E6.quest_desc: ["Choose the next chapter by what your base needs: power, storage, magic, food, combat, or exploration."]
+
+
+
+
+
+
+
+
+	quest.0E6277D50F146688.title: "Mekanism Tool Ladder"
+	quest.0E6277D50F146688.quest_desc: ["Bronze, lapis, refined glowstone, refined obsidian, and netherite paxels fill useful side tiers."]
+	quest.74C9A2BAA1BD519B.title: "Refined Obsidian Gear"
+	quest.74C9A2BAA1BD519B.quest_desc: ["Refined obsidian gear is the combat-focused endpoint of Mekanism Tools. It deserves its own stop instead of being hidden behind paxels."]
+	quest.4AE646013AE0082D.title: "Free Runner Kit"
+	quest.4AE646013AE0082D.quest_desc: ["Free Runners are the horizontal and fall-damage half of the mobility kit. Armored Free Runners keep that utility relevant in combat zones."]
+	quest.78258BCE6E410194.title: "Breathing and Hazmat Kits"
+	quest.78258BCE6E410194.quest_desc: ["Scuba gear handles oxygen work, while Hazmat gear prepares you for radiation mistakes around fission and waste."]
+	quest.71627A1F99D1C662.title: "Digital Miner Filters"
+	quest.71627A1F99D1C662.quest_desc: ["The Digital Miner is only as useful as its filters and logistics. Configuration Cards, Robits, sorters, and the Oredictionificator are the operational side of the machine."]
+	quest.35F7BC54E56893BC.title: "Dynamic Tank Builds"
+	quest.35F7BC54E56893BC.quest_desc: ["Bulk storage has two jobs: dynamic multiblocks for base infrastructure and upgraded portable tanks for fluids and chemicals in the field."]
+	quest.7747E58462184669.title: "Baby Mob Eggs"
+	quest.7747E58462184669.quest_desc: ["The baby mob eggs are a real Mekanism Additions feature. Keep them as a light side branch instead of pretending they are core tech progression."]
+	quest.7A55ADF49AD8784B.title: "MekaSuit Mobility Modules"
+	quest.7A55ADF49AD8784B.quest_desc: ["MekaSuit mobility is a module path. Jetpack, Elytra, gravitational modulation, and locomotive boosting are different movement answers."]
+	quest.67A3AF161568A9A4.title: "Potion Storage"
+	quest.67A3AF161568A9A4.quest_desc: ["Flasks make stored potion effects portable, and the amplify/extend variants decide whether the kit favors strength or duration."]
+	quest.49F4F8725A804E13.title: "Sourceberry Helper Farm"
+	quest.49F4F8725A804E13.quest_desc: ["Sourceberries are food and mana support, and Starbuncles can help keep the farm moving."]
+	quest.72523D9BDBF02907.title: "Drygmy Mob Jar Loop"
+	quest.72523D9BDBF02907.quest_desc: ["Drygmy farming depends on containment. Use mob jars, containment rituals, and mimic scroll planning before expecting passive mob drops."]
+	quest.4D4E252FBF1E66DE.title: "Bookwyrm Lectern Network"
+	quest.4D4E252FBF1E66DE.quest_desc: ["Bookwyrms expand Storage Lectern access, so the storage automation path should show the worker and the inventories together."]
+	quest.6906C1A337D0A5BA.title: "Ars Creo Source Displays"
+	quest.6906C1A337D0A5BA.quest_desc: ["Ars Creo lets Create Display Links read Source Jars and Spell Turrets. This is the information side of the bridge."]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	quest.3E771B63EE65AA34.title: "Potion Mixing and Diffusion"
+	quest.3E771B63EE65AA34.quest_desc: ["Diffusers and flask cannons turn stored brews into area support and ranged payloads."]
+	quest.47C3B568024D761E.title: "Basic Turret Casting"
+	quest.47C3B568024D761E.quest_desc: ["Basic turrets need parchment and source. Start here before building timed, enchanted, or redstone-controlled casting networks."]
+	quest.7E5260E9404E80F1.title: "Timed and Enchanted Turrets"
+	quest.7E5260E9404E80F1.quest_desc: ["Timer and enchanted turrets expand spell automation once the base can keep source jars stocked."]
+	quest.44ED1EC82630F359.title: "Starbuncle Pickup Routes"
+	quest.44ED1EC82630F359.quest_desc: ["Starbuncles need scroll filters to become useful logistics workers. Allow, deny, and mimic scrolls define safe pickup routes."]
+	quest.7D2AB99721AF5E1A.title: "Wixie Brewing"
+	quest.7D2AB99721AF5E1A.quest_desc: ["Wixies, cauldrons, and potion jars are the brewing automation branch. Protect jars before routing potions through a base."]
+	quest.7808FF9B2FC3171B.title: "Whirlisprig Farming"
+	quest.7808FF9B2FC3171B.quest_desc: ["Whirlisprig automation is about the farm radius and crop targets. Keep magebloom, mendosteen, and sourceberries close enough for the helper to matter."]
+	quest.52C7EA3E76329F4E.title: "Amethyst Golem Harvesting"
+	quest.52C7EA3E76329F4E.quest_desc: ["Amethyst Golems are a small but practical helper branch for crystal collection. Track the thread and the vanilla amethyst pieces that prove the loop is working."]
+	quest.1609AD7F8173922F.title: "Repository Catalog"
+	quest.1609AD7F8173922F.quest_desc: ["After the repository exists, filters and detectors make the catalog useful for shared bases instead of becoming another unlabeled dump."]
+	quest.0E4FA5716EC2DCFB.title: "Ars Creo Potion Tanks"
+	quest.0E4FA5716EC2DCFB.quest_desc: ["Ars Creo bridges potion jars into Create fluid handling. Pair potion jars, Create tanks, and Ars diffusion so potion storage stays readable."]
+	quest.3D70957D073EABF7.title: "Disassembler Charging"
+	quest.3D70957D073EABF7.quest_desc: ["The Atomic Disassembler is only reliable when the energy tablet and chargepad loop can keep it powered in the field."]
+	quest.5A559BD5B4A7B7E3.title: "Jetpack Upgrade Path"
+	quest.5A559BD5B4A7B7E3.quest_desc: ["Move from a standard jetpack to armored flight once hydrogen production and charging are dependable."]
+	quest.4E599A209F5514FD.title: "Plastic Build Palette"
+	quest.4E599A209F5514FD.quest_desc: ["Plastic blocks, roads, slick plastic, reinforced plastic, and glow panels are the visible building-material payoff from the HDPE branch."]
+	quest.1003F92ECFFB5C6F.title: "Walkie-Talkie Channels"
+	quest.1003F92ECFFB5C6F.quest_desc: ["Walkie-Talkies are a side feature of Mekanism Additions. Track the base item without relying on the invalid channel-specific IDs from older logs."]
+	quest.20AC6C90826FE7C0.title: "Balloons and Glow Panels"
+	quest.20AC6C90826FE7C0.quest_desc: ["Balloons and glow panels are cosmetic Additions branches. Use color-family representatives instead of every variant."]
+	quest.2B2878F5DA132E12.title: "Obsidian TNT"
+	quest.2B2878F5DA132E12.quest_desc: ["Obsidian TNT is the destructive side of Mekanism Additions and belongs outside the core machine chain."]
+	quest.46DABE2D7993E278.title: "Meka-Tool Modules"
+	quest.46DABE2D7993E278.quest_desc: ["The Meka-Tool becomes flexible through excavation, vein mining, attack, and shearing modules. Build the tool and the modules together."]
+	quest.6A87CDE31BA9F7EE.title: "MekaSuit Survival Modules"
+	quest.6A87CDE31BA9F7EE.quest_desc: ["Energy, inhalation purification, radiation shielding, and vision modules are the survival side of the MekaSuit branch."]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	chapter.597E298895DC0D15.title: "Extreme Reactors"
+	chapter.597E298895DC0D15.chapter_subtitle: ["Large-scale FE generation, fuel recycling, turbines, and reactor support machines."]
+	quest.71EEC624D67F1E53.title: "Yellorium and Graphite"
+	quest.71EEC624D67F1E53.quest_desc: ["Mine Yellorite for Yellorium and smelt Graphite. These two materials are the foundation for every Extreme Reactors multiblock."]
+	quest.794CEA6B8B379664.title: "Extreme Wrench"
+	quest.794CEA6B8B379664.quest_desc: ["Craft the wrench before committing to larger builds. It flips access ports and fluid ports between input and output modes."]
+	quest.0642DA5D05CD09C8.title: "Basic Reactor Shell"
+	quest.0642DA5D05CD09C8.quest_desc: ["Start with the cheap Basic reactor variant. Casing forms the frame, glass can replace face casing, and the controller activates the completed machine."]
+	quest.420C37BDF61973C1.title: "Fuel Assembly"
+	quest.420C37BDF61973C1.quest_desc: ["Fuel rods belong inside the reactor and control rods cap the rod columns. The solid access port is where Yellorium enters and Cyanite leaves."]
+	quest.431C9B8316BDF4A5.title: "Reactor FE Output"
+	quest.431C9B8316BDF4A5.quest_desc: ["A passive reactor generates FE directly. Use the active FE power tap for output, or a charging port when you want the multiblock to fill compatible items."]
+	quest.2D00A2865A06E98C.title: "Redstone Safety"
+	quest.2D00A2865A06E98C.quest_desc: ["Wire a redstone port into the build once power matters. Automatic shutdowns prevent fuel waste and make reactors safer to leave unattended."]
+	quest.04EDB2710C874A83.title: "Moderators and Heat"
+	quest.04EDB2710C874A83.quest_desc: ["Tune the interior instead of only making the shell larger. Valid moderators move heat away from fuel rods, and control rod insertion trades output for efficiency."]
+	quest.313534B1A5A09C41.title: "Cyanite Waste"
+	quest.313534B1A5A09C41.quest_desc: ["Do not ignore the waste stream. Cyanite is the byproduct of Yellorium fuel and becomes the starting point for better reactor fuels."]
+	quest.5992A5BB4AE4348C.title: "Reprocessor"
+	quest.5992A5BB4AE4348C.quest_desc: ["Build the tall Reprocessor to convert waste into new fuels. It needs casing, a waste injector, an output port, and power."]
+	quest.2DAC61F1FF3FF2EC.title: "Fuel Recycling Chain"
+	quest.2DAC61F1FF3FF2EC.quest_desc: ["Push waste into higher-value fuels and materials. Blutonium and the later exotic ingots are how the mod turns reactor byproducts into progression."]
+	quest.1F9FDA01559BBF89.title: "Reinforced Reactor"
+	quest.1F9FDA01559BBF89.quest_desc: ["Move to Reinforced parts when the starter size is the bottleneck. This variant supports the larger reactor builds and more advanced ports."]
+	quest.345DB0A974DF8BC3.title: "Active Cooling"
+	quest.345DB0A974DF8BC3.quest_desc: ["Active reactors turn coolant into vapor instead of producing FE directly. Add fluid ports so coolant can enter and steam can leave for turbines."]
+	quest.7F910813237C493E.title: "Computer Control"
+	quest.7F910813237C493E.quest_desc: ["Computer ports expose reactor control to automation. Pair this with the CC: Tweaked chapter when you want scripted throttling and safety logic."]
+	quest.6D54E3D349BF8F05.title: "Basic Turbine Frame"
+	quest.6D54E3D349BF8F05.quest_desc: ["Steam needs somewhere to work. A turbine frame, controller, and rotor bearing turn active reactor vapor into a separate power loop."]
+	quest.63A4D5E9353C0C8B.title: "Rotor and Blades"
+	quest.63A4D5E9353C0C8B.quest_desc: ["The rotor converts steam flow into motion. Shaft length and blade count should match the vapor flow you set in the turbine controller."]
+	quest.65B7BA5F7CA917D4.title: "Turbine I/O"
+	quest.65B7BA5F7CA917D4.quest_desc: ["Route steam into the turbine and FE out of it. Charging ports are optional, but useful when you want direct item charging at the multiblock."]
+	quest.6A2FA96C2C7D9747.title: "Induction Coils"
+	quest.6A2FA96C2C7D9747.quest_desc: ["A turbine only becomes a generator when valid coil blocks are engaged near the rotor end. Better materials improve the coil side of the design."]
+	quest.78F8B9B384C6BCAD.title: "Reinforced Turbine"
+	quest.78F8B9B384C6BCAD.quest_desc: ["Scale the turbine once your reactor can supply enough vapor. Reinforced turbines support larger builds and computer-managed control."]
+	quest.1601655982DF68B9.title: "Fluidizer"
+	quest.1601655982DF68B9.quest_desc: ["The Fluidizer turns solid fuels into fluid fuels and can mix fuel sources. Injector count decides whether it runs solid, solid-mixing, or fluid-mixing mode."]
+	quest.4171D08B6241473C.title: "Fluid Reactants"
+	quest.4171D08B6241473C.quest_desc: ["Move beyond ingot-only fueling. Fluid reactants let you pipe fuel and waste streams through larger reactor setups."]
+	quest.0E70CEB6C8E07FE6.title: "Exotic Fuel Fluids"
+	quest.0E70CEB6C8E07FE6.quest_desc: ["Exotic fuel fluids are late progression targets for players who want to optimize the reactor ecosystem."]
+	quest.47517DB82D5945CF.title: "Energizer Core"
+	quest.47517DB82D5945CF.quest_desc: ["Build the Energizer when you need a multiblock energy store and charging station. Its interior is filled with energy cells."]
+	quest.5481DC5659A461BF.title: "Energizer Ports"
+	quest.5481DC5659A461BF.quest_desc: ["Finish the Energizer with passive and active FE ports, charging access, and optional computer control for your base power backbone."]
+
+	chapter.633F016DF4D639F5.title: "Sophisticated Backpacks"
+	chapter.633F016DF4D639F5.chapter_subtitle: ["Portable storage tiers, filtered pickup, backpack upgrades, and field utility loops."]
+	quest.414CC48B8E24D687.title: "First Backpack"
+	quest.414CC48B8E24D687.quest_desc: ["Craft the first backpack before long mining trips. It gives portable storage and room for the first upgrades."]
+	quest.3C2B1B9AEBA7C3A2.title: "Copper Backpack"
+	quest.3C2B1B9AEBA7C3A2.quest_desc: ["Copper is the first storage step. Upgrade when the starter backpack starts filling too quickly."]
+	quest.57FF70A3FC2500C9.title: "Iron Backpack"
+	quest.57FF70A3FC2500C9.quest_desc: ["Iron is where the backpack starts feeling like a real tool, with more space and more upgrade room."]
+	quest.3075F5777320DE5D.title: "Gold and Diamond Packs"
+	quest.3075F5777320DE5D.quest_desc: ["Gold and Diamond tiers are the general-purpose sweet spot for mining trips, raids, and base work."]
+	quest.1B50AD27366FDD4A.title: "Netherite Backpack"
+	quest.1B50AD27366FDD4A.quest_desc: ["Netherite is the top normal backpack tier before stack upgrades multiply the real capacity."]
+	quest.2A1EAFB572BFD9AC.title: "Upgrade Base"
+	quest.2A1EAFB572BFD9AC.quest_desc: ["Most backpack systems start with an Upgrade Base. Craft a batch once you know which roles each pack should fill."]
+	quest.02245101EBC700BD.title: "Pickup and Filters"
+	quest.02245101EBC700BD.quest_desc: ["Build a mining or mob-loot pack around pickup, filter, and magnet upgrades. Filters keep the convenience from becoming inventory noise."]
+	quest.76B2E9E16C8C4E1D.title: "Advanced Gathering"
+	quest.76B2E9E16C8C4E1D.quest_desc: ["Advanced pickup and magnet upgrades add range and better filter control for mining sites and mob farms."]
+	quest.52E0B64C1559D3ED.title: "Deposit, Restock, Refill"
+	quest.52E0B64C1559D3ED.quest_desc: ["Interaction upgrades let a backpack dump blocks, restock kits, and keep selected hotbar stacks filled."]
+	quest.748CA06D034608A6.title: "Advanced Interaction"
+	quest.748CA06D034608A6.quest_desc: ["Upgrade the interaction loop once a backpack has a job. Advanced versions give the filter space needed for building kits and expedition packs."]
+	quest.71A6EB42485B9BE9.title: "Stack Upgrades"
+	quest.71A6EB42485B9BE9.quest_desc: ["Stack upgrades multiply capacity inside the same slot grid. Use them where a backpack has a clear bulk-storage job."]
+	quest.5AE70F6DB8D7953B.title: "Deep Stacking"
+	quest.5AE70F6DB8D7953B.quest_desc: ["Higher stack tiers are for bulk resources, not every bag. Use them where a quarry, farm, or mob grinder creates repeated stacks."]
+	quest.7E49032B032EF1EA.title: "Void Control"
+	quest.7E49032B032EF1EA.quest_desc: ["Void upgrades delete filtered items or overflow. Stack downgrades shrink per-slot capacity so one slot cannot hoard an enormous stack."]
+	quest.0BC902DA60A3EC58.title: "Filter and Sort"
+	quest.0BC902DA60A3EC58.quest_desc: ["Filters deserve their own stop because they define what pickup, magnet, deposit, restock, void, and auto-processing upgrades are allowed to touch."]
+	quest.54323D35C82E9B4E.title: "Field Workbench"
+	quest.54323D35C82E9B4E.quest_desc: ["Put utility stations inside the pack you carry. Crafting, smithing, and anvil upgrades keep repairs and gear work moving away from base."]
+	quest.41A6BCC68647D6F0.title: "Tool Swapper"
+	quest.41A6BCC68647D6F0.quest_desc: ["The tool swapper pulls the right tool from the pack as you mine or fight. The advanced version adds filters and wrench-style swapping."]
+	quest.6B8F6D4A16FCB58F.title: "Create Mounting"
+	quest.6B8F6D4A16FCB58F.quest_desc: ["Sneak-right-click a backpack onto compatible Create contraptions to mount storage, then use Create's wrench to manage the setup."]
+	quest.41283773E9948F55.title: "Potion Brewing Pack"
+	quest.41283773E9948F55.quest_desc: ["Alchemy upgrades put brewing inside the backpack. The advanced version adds the filter space needed to keep potion work from consuming the wrong supplies."]
+	quest.33FD20D960188B4C.title: "Jukebox Pack"
+	quest.33FD20D960188B4C.quest_desc: ["Jukebox upgrades are real portable utility, not decoration-only clutter. The advanced upgrade can carry a larger disc list for travel or base ambience."]
+	quest.38893498572B0627.title: "Portable Furnaces"
+	quest.38893498572B0627.quest_desc: ["Cooking upgrades add manual smelting, smoking, and blasting tabs. They are best for compact field processing before automation is available."]
+	quest.699BC9A6D2EF3756.title: "Auto Processing"
+	quest.699BC9A6D2EF3756.quest_desc: ["Auto-processing upgrades pull and push through their upgrade tab. Use filters carefully so your pack does not burn fuel on the wrong items."]
+	quest.4FC90C61B13377CB.title: "Compacting"
+	quest.4FC90C61B13377CB.quest_desc: ["Compacting upgrades keep nuggets, ingots, blocks, and farm drops under control. Advanced compacting handles both 2x2 and 3x3 recipes."]
+	quest.04734454E14F6DBD.title: "Tank and Battery"
+	quest.04734454E14F6DBD.quest_desc: ["Tank and battery upgrades trade inventory space for portable fluid and FE storage. They scale with pack rows and stack multipliers."]
+	quest.02723F0AFC74B0B3.title: "Pump and XP"
+	quest.02723F0AFC74B0B3.quest_desc: ["Pump fluids between the tank upgrade and the world, then use XP pumping to move experience into tank storage or fill XP buckets for mobile mending setups."]
+	quest.4856CC0F158FDF5E.title: "Feeding Pack"
+	quest.4856CC0F158FDF5E.quest_desc: ["Feeding upgrades turn a travel backpack into a survival kit. The advanced upgrade lets you be more precise about when food is used."]
+	quest.0D68929F2E5AF151.title: "Inception Upgrade"
+	quest.0D68929F2E5AF151.quest_desc: ["Inception allows backpacks inside backpacks. In this config, contained backpack upgrades can still function, so plan nested bags deliberately."]
+	quest.06606C9B1568D423.title: "Everlasting Pack"
+	quest.06606C9B1568D423.quest_desc: ["Everlasting is the survival-friendly endgame protection upgrade. It makes a backpack indestructible and prevents despawn or void loss."]
+
+	chapter.77D71EE4A83C4A7F.title: "Apotheosis"
+	chapter.77D71EE4A83C4A7F.chapter_subtitle: ["World tiers, bosses, gateways, affix gear, gems, Apothic Enchanting, and spawner tuning."]
+	quest.71CDD4C2D635343B.title: "Chronicle of Shadows"
+	quest.71CDD4C2D635343B.quest_desc: ["Craft or open the Chronicle of Shadows early. Apotheosis is split across adventure, enchanting, potion, and spawner systems, and the book exposes the exact local rules."]
+	quest.7EB5447675696AAA.title: "World Tier Select"
+	quest.7EB5447675696AAA.quest_desc: ["Use the Apotheosis world tier screen, usually Ctrl+T. Tiers are per-player, Haven starts after your first affix item, and later tiers must be activated after they unlock."]
+	quest.67B275FE8F07E2EB.title: "First Affix Item"
+	quest.67B275FE8F07E2EB.quest_desc: ["Find your first affix item from loot or an Apothic encounter. Affixes are the base loot system: rarity controls stat count, special effects, and sockets."]
+	quest.7E76878C84A781FC.title: "Apothic Bosses"
+	quest.7E76878C84A781FC.quest_desc: ["Boss Summoners and natural boss events are the repeatable affix-loot path. Expect strong enemies and cursed drops."]
+	quest.7927FA38A1F18C3A.title: "Frontier Loadout"
+	quest.7927FA38A1F18C3A.quest_desc: ["Unlock Frontier by wearing Common affix armor in every armor slot and holding a Common affix weapon. Then activate the tier manually with the world tier screen."]
+	quest.69AEA45FBC96BCD0.title: "Ascent and Invaders"
+	quest.69AEA45FBC96BCD0.quest_desc: ["Ascent requires a full Uncommon affix loadout and an Apothic Invader kill. Invaders announce themselves, arrive with a beam, and drop their affix item. Return to Ctrl+T afterward to activate the tier."]
+	quest.6F8DDA4572FC75ED.title: "Summit: Wither Gate"
+	quest.6F8DDA4572FC75ED.quest_desc: ["Bring a Rare affix loadout and kill the Wither. After this point, affix gear is your normal combat kit."]
+	quest.41FBD6ED522F00A8.title: "Pinnacle: Dragon Gate"
+	quest.41FBD6ED522F00A8.quest_desc: ["Pinnacle asks for an Epic affix loadout and an Ender Dragon kill. Activate it manually after unlock to push boss, invader, and loot scaling to the top tier."]
+	quest.325162ADF7E6807C.title: "Apothic Gateways"
+	quest.325162ADF7E6807C.quest_desc: ["Gateways are staged wave fights at the summoned gate, including Frontier through Pinnacle invader gates. Sigils of Malice push you into the hardest gate recipes."]
+	quest.179629C14D9347FB.title: "Gateway Endgame"
+	quest.179629C14D9347FB.quest_desc: ["The Endless Gateway of Apothic Invaders is the capstone challenge path. Sigil of Supremacy is its trophy material, so do not plan around it until your gear is already absurd."]
+	quest.63A40831BE704D4E.title: "Salvaging Table"
+	quest.63A40831BE704D4E.quest_desc: ["Turn spare affix gear into rarity materials. This is the first controlled step from random loot into crafting your own progression."]
+	quest.03F368EFF4C588AE.title: "Rarity Materials"
+	quest.03F368EFF4C588AE.quest_desc: ["Keep materials from every rarity. Reforging, gem cutting, augmenting, and late recipes all spend them."]
+	quest.68BE0F69A7035FC6.title: "Rebirth Reforging"
+	quest.68BE0F69A7035FC6.quest_desc: ["The Simple Reforging Table can roll affixes up to Rare. Feed it rarity materials and Sigils of Rebirth to turn valid gear into affix gear."]
+	quest.7D4056ED1FAA5756.title: "Full Reforging"
+	quest.7D4056ED1FAA5756.quest_desc: ["The full Reforging Table lifts the rarity ceiling. The upgrade templates turn gem-fused slate and rarity materials into higher-tier forging access."]
+	quest.6AE0F02DE657BBB0.title: "Augmenting Table"
+	quest.6AE0F02DE657BBB0.quest_desc: ["Augmenting is for gear worth keeping. It upgrades or rerolls individual affixes using Sigils of Enhancement and a large experience cost."]
+	quest.31FDF4EACED29C17.title: "Sockets and Cleanup"
+	quest.31FDF4EACED29C17.quest_desc: ["Socketing adds room for gems, withdrawal extracts socketed gems at a cost, and unnaming removes affix naming clutter from items you want to keep clean."]
+	quest.3D7F6BD9847DB234.title: "Gems and Dust"
+	quest.3D7F6BD9847DB234.quest_desc: ["Gems come from loot and kills, especially bosses and invaders. Crush early gems with an anvil or salvage them to build your first dust stockpile."]
+	quest.7E6DFB7193CCBEDA.title: "Gem Cutting"
+	quest.7E6DFB7193CCBEDA.quest_desc: ["Use gem cutting to raise gem purity. Higher purity costs more dust and better rarity materials, so cut only the gems that fit your builds."]
+	quest.079103F734235BEB.title: "Gem Case"
+	quest.079103F734235BEB.quest_desc: ["Store gems in a Gem Case once the collection grows. Its filters help find gems by name or by the gear slot they can socket into."]
+	quest.47CAC64316497292.title: "Ender Gem Case"
+	quest.47CAC64316497292.quest_desc: ["The Ender Gem Case is a high-stat infusion upgrade for gem storage."]
+	quest.3F3DCF6B48A387A6.title: "Enchanting Stats"
+	quest.3F3DCF6B48A387A6.quest_desc: ["Apothic Enchanting is built around Eterna, Quanta, Arcana, stability, and clues. Read shelf tooltips instead of only chasing vanilla bookshelf count."]
+	quest.50BAD48CA98103DC.title: "Level 30 Table"
+	quest.50BAD48CA98103DC.quest_desc: ["Start with the familiar table and fifteen bookshelves. This gives the baseline before the modded shelves push above level 30."]
+	quest.452EE5E875464F09.title: "Hell and Sea Shelves"
+	quest.452EE5E875464F09.quest_desc: ["Use Hellshelves or Seashelves to break into the 30-60 range. Hellshelves lean Nether, while Seashelves lean ocean materials."]
+	quest.7698F7953E31E226.title: "Advanced Element Shelves"
+	quest.7698F7953E31E226.quest_desc: ["The next Hellshelf and Seashelf variants are real stepping stones, not cosmetics. Use them to shape the table before committing to infusion shelves."]
+	quest.36034497D614ACF4.title: "Infusion Shelves"
+	quest.36034497D614ACF4.quest_desc: ["Infusion enchanting upgrades the first modded shelves. Watch stat requirements: some recipes need specific Eterna, Quanta, and Arcana windows."]
+	quest.6606F33A1AC3207F.title: "Shelf Utilities"
+	quest.6606F33A1AC3207F.quest_desc: ["Utility shelves tune the table instead of only increasing raw Eterna. Use them for better clues, filtering, and treasure enchant access."]
+	quest.044451A9C0DB9DFD.title: "Deep Enchanting"
+	quest.044451A9C0DB9DFD.quest_desc: ["Deepshelves start the 60-80 range. They require deepslate progression, infusion, and later Ancient City resources for stronger variants."]
+	quest.6E274BA1C6A1565D.title: "Sculk Shelves"
+	quest.6E274BA1C6A1565D.quest_desc: ["The Sculk shelf path asks you to survive Deep Dark progression. Warden Tendrils are the signal that this is endgame enchanting, not decoration."]
+	quest.413DE907BAC2D8A5.title: "End Shelves"
+	quest.413DE907BAC2D8A5.quest_desc: ["The 80-100 enchanting climb moves through Dragon's Breath, Endshelves, and finally Draconic Endshelves from outer End loot."]
+	quest.1C859AF0BED90F31.title: "Enchantment Library"
+	quest.1C859AF0BED90F31.quest_desc: ["Libraries turn enchanted books into stored points and let you extract exactly what you need. Ender Library is the late high-stat upgrade."]
+	quest.65BED21993876B3A.title: "Tomes and Scrapping"
+	quest.65BED21993876B3A.quest_desc: ["Tomes focus enchant results by item type. Scrapping and extraction tomes are utility tools for recycling and pulling enchantments forward."]
+	quest.14608996D5AD422A.title: "Spawner Harvest"
+	quest.14608996D5AD422A.quest_desc: ["Apothic Spawners allows Silk Touch spawner collection, but this pack requires Silk Touch III, costs extra durability, and drops the spawner empty."]
+	quest.6CE4ADA72759CAF2.title: "Capturing Enchantment"
+	quest.6CE4ADA72759CAF2.quest_desc: ["Roll Capturing on a sword, then kill mobs for spawn eggs. Treat eggs as rare farm starters, not routine drops."]
+	quest.7CBD8521B2A2A9C4.title: "Spawner Tuning"
+	quest.7CBD8521B2A2A9C4.quest_desc: ["Spawner modifiers use vanilla items in hand. Sugar, clocks, fermented spider eyes, and ghast tears tune delay, count, and nearby-entity limits."]
+	quest.2609DC7935157BAA.title: "Spawner Controls"
+	quest.2609DC7935157BAA.quest_desc: ["Spawner modifiers change redstone control, light checks, spawn conditions, and player range. Check JEI before spending rare parts."]
+	quest.0A3DB3B4A56A14C0.title: "Potion Charms"
+	quest.0A3DB3B4A56A14C0.quest_desc: ["Potion Charms turn potion effects into reusable gear. In this pack charms are restricted to Curios slots, so plan the slot before investing."]
+
+	chapter.277CB1EBA30A1D54.title: "Alex's Caves"
+	chapter.277CB1EBA30A1D54.chapter_subtitle: ["Rare cave biomes, Cave Compendium research, biome maps, hazards, mounts, weapons, and exploration tools."]
+	quest.07F539E9375CE294.title: "Cave Compendium"
+	quest.07F539E9375CE294.quest_desc: ["Make the Cave Compendium your field manual. Each rare biome has its own Codex work before the rewards make sense."]
+	quest.0B6D25E6F746FD5A.title: "Tablets and Biome Maps"
+	quest.0B6D25E6F746FD5A.quest_desc: ["Cave Tablets and Cave Maps point you toward the rare cave biomes. Bring supplies; the routes can be long."]
+	quest.10FD929EB284C9C5.title: "Spelunkery Table"
+	quest.10FD929EB284C9C5.quest_desc: ["Use the Spelunkery Table to translate Cave Tablets into Cave Codex entries. After that, treat filled maps as expeditions: bring return travel, spare gear, and vertical escape blocks."]
+	quest.1886D13BFC510405.title: "Special Ability Gear"
+	quest.1886D13BFC510405.quest_desc: ["Bind Alex's Caves Special Ability before relying on cave gear. The Galena Gauntlet is a good early test."]
+	quest.07B26B03499EEB6A.title: "Closest Cave Routes"
+	quest.07B26B03499EEB6A.quest_desc: ["Magnetic Caves and Primordial Caves are the closest map targets in this pack's generation config. Start here when you want lower-risk Alex's Caves progression."]
+	quest.184313B916A4A2BF.title: "Hazard Cave Routes"
+	quest.184313B916A4A2BF.quest_desc: ["Toxic Caves and Abyssal Chasms are harder expeditions with environmental pressure. Abyssal maps need deep ocean terrain, while Toxic maps push inland hazard mining."]
+	quest.01698854AE16954C.title: "Deep Rare Routes"
+	quest.01698854AE16954C.quest_desc: ["Forlorn Hollows and Candy Cavities are the later, rarer cave targets. They reward specialized movement, possession, darkness, and crowd-control kits."]
+	quest.09A54576DA3CD7FA.title: "Magnetic Caves: Neodymium"
+	quest.09A54576DA3CD7FA.quest_desc: ["The Magnetic Caves are built around Galena and two Neodymium polarities. Azure repels, Scarlet attracts, and iron or netherite gear changes how the biome handles you."]
+	quest.5ED46ED1E13E0D02.title: "Magnets and Rails"
+	quest.5ED46ED1E13E0D02.quest_desc: ["Magnets move metal blocks and the levitation rail turns the cave's resource loop into fast transport. Use activators when you want motion without babysitting it."]
+	quest.1DA415F79EBCFFBE.title: "Galena Field Tech"
+	quest.1DA415F79EBCFFBE.quest_desc: ["The Magnetic utility line turns mob drops and Neodymium into practical raid gear: launched tools, electrical defense, and Notor-based movement tricks."]
+	quest.0338A1699D891C2A.title: "Raycat Companion"
+	quest.0338A1699D891C2A.quest_desc: ["Do not overlook Raycats in Toxic Caves. Feed them Radgill to tame an anti-radiation companion before long uranium, waste, and Nucleeper trips."]
+	quest.4EFDA1F5C15D3169.title: "Quarry Smasher"
+	quest.4EFDA1F5C15D3169.quest_desc: ["The quarry line is the dangerous Magnetic endpoint. Treat Quarry Smashers and specialty arrows as controlled terrain tools, not casual base decorations."]
+	quest.29811125F00D9272.title: "Magnetic Threats"
+	quest.29811125F00D9272.quest_desc: ["Magnetrons and Mine Guardians are the branch's combat check. Clear them before treating a Magnetic Cave as a safe resource quarry."]
+	quest.140DB1FC06E3B3F7.title: "Primordial Caves: Old Growth"
+	quest.140DB1FC06E3B3F7.quest_desc: ["The Primordial Caves are a lit underground ecosystem. Limestone gives early weapons, while Pewen and Tree Stars start the taming and food loop."]
+	quest.3C84880BCDFBB20E.title: "Amber Monoliths"
+	quest.3C84880BCDFBB20E.quest_desc: ["Amber Monoliths slowly repopulate nearby animals. Use them where passive mobs matter."]
+	quest.3737D087D44C1CE1.title: "Dinosaur Husbandry"
+	quest.3737D087D44C1CE1.quest_desc: ["Biome Treats and eggs turn the biome from sightseeing into mount and animal progression. Subterranodons, Tremorsaurus, Atlatitans, and smaller dinosaurs fill travel, combat, and utility roles."]
+	quest.0B0F504E7EDC1943.title: "Rare Dinosaur Goals"
+	quest.0B0F504E7EDC1943.quest_desc: ["Tremorzilla and Atlatitan goals are prestige-tier Primordial progression. Split these out mentally from ordinary animal eggs."]
+	quest.07FE6E9707744929.title: "Field Food and Hide"
+	quest.07FE6E9707744929.quest_desc: ["The cave foods are functional buffs and taming tools, while hide and bone drops push the animal loop into armor, weapons, and utility crafting."]
+	quest.6386F2AECA032EB3.title: "Primordial Apex Hunt"
+	quest.6386F2AECA032EB3.quest_desc: ["Luxtructosaurus starts with an Ominous Catalyst in a volcano. Tremorzilla is the raised kaiju route; fight it far from anything valuable."]
+	quest.76903705948B7BCC.title: "Toxic Caves: Radiation"
+	quest.76903705948B7BCC.quest_desc: ["The Toxic Caves are hostile resource country: uranium, acid, sulfur, and radiation. Do not treat this branch like normal mining unless you enjoy gear damage."]
+	quest.3782BCC47FD515D4.title: "Hazmat Protection"
+	quest.3782BCC47FD515D4.quest_desc: ["Polymer Plates become Hazmat armor, reducing acid and radiation pressure. Without it, sustained Acid and Irradiated effects can kill you faster than you can heal."]
+	quest.4FE040EE594D51F1.title: "Toxic Threats"
+	quest.4FE040EE594D51F1.quest_desc: ["Brainiacs, Nucleepers, and Gammaroaches are the combat test before Toxic tech feels controlled. Nucleepers give you time, but not much room for mistakes."]
+	quest.69DD6C0B381DCFD7.title: "Nuclear Furnace"
+	quest.69DD6C0B381DCFD7.quest_desc: ["The Nuclear Furnace is useful, but its waste loop is dangerous. Plan containment before producing Unrefined Waste."]
+	quest.38FD74D6FDB072EF.title: "Raygun Fuel Loop"
+	quest.38FD74D6FDB072EF.quest_desc: ["Uranium Rods fuel the Raygun and Radon bottles feed side crafting. The Raygun hits fast, applies radiation, and depends on the Toxic fuel loop."]
+	quest.427F7E38BE23578F.title: "Nuclear Bomb Protocol"
+	quest.427F7E38BE23578F.quest_desc: ["The Nuclear Bomb is destructive enough to reshape a base. Use sirens and remote detonators deliberately."]
+	quest.45DFDB4E98331226.title: "Abyssal Chasm: Deep Water"
+	quest.45DFDB4E98331226.quest_desc: ["The Abyssal Chasm is underwater exploration, not a normal cave. Pearls, sea glass, bioluminescence, and Abyssmarine are the resource base."]
+	quest.6CABCF00D7232668.title: "Diving Suit"
+	quest.6CABCF00D7232668.quest_desc: ["Diving gear and Floaters make long chasm trips survivable. Drowned can spawn with gear here, but the pack lowers that chance, so ruins matter."]
+	quest.5A17A5072F74C317.title: "Submarine Work"
+	quest.5A17A5072F74C317.quest_desc: ["The Submarine changes the chasm from a swim into a salvage route. Depth Charges, Depth Glass, ruins, mussels, and Abyssmarine all support longer underwater work."]
+	quest.0A66A69C9FAE77B2.title: "Deep One Relics"
+	quest.0A66A69C9FAE77B2.quest_desc: ["The Deep One path turns Abyssal materials into altar play, summoning tools, and strong ocean weapons. This is the branch's artifact progression."]
+	quest.563767B8272FEAE5.title: "Abyssal Threats"
+	quest.563767B8272FEAE5.quest_desc: ["Hullbreakers and Deep One elites require a real underwater kit. Finish the branch by clearing them."]
+	quest.542D38F63D2D6BF7.title: "Forlorn Hollows: Darkness"
+	quest.542D38F63D2D6BF7.quest_desc: ["The Forlorn Hollows punish careless light, and Watchers can possess your camera. Guano, Guanostone, Coprolith, and Thornwood start the loop."]
+	quest.016B15037B65FD63.title: "Moth Control"
+	quest.016B15037B65FD63.quest_desc: ["Moth Dust weaponizes scent marking, while Moth Balls help control light-source harassment. This is the safe way to hold ground in the Hollows."]
+	quest.5A6074D292F8865D.title: "Possession Tools"
+	quest.5A6074D292F8865D.quest_desc: ["Occult Gems become possession and scouting tools. In this pack Totems of Possession can affect players, so this branch has real anarchy utility."]
+	quest.37B67D7F48535847.title: "Darkness Gear"
+	quest.37B67D7F48535847.quest_desc: ["The Cloak line is charged flight and stealth-flavored mobility. Bind the special ability key before counting on it."]
+	quest.384133A6D892AA59.title: "Forlorn Weapons"
+	quest.384133A6D892AA59.quest_desc: ["The Hollows weapon branch favors delayed hits, dark arrows, and Forsaken trophies. It is a compact but nasty combat loop."]
+	quest.52A0E77C470EB303.title: "Watcher and Forsaken"
+	quest.52A0E77C470EB303.quest_desc: ["Handle the possession threat and the Forsaken fight to finish the Hollows branch."]
+	quest.22119CE784AE4564.title: "Candy Cavity: Sugar Biome"
+	quest.22119CE784AE4564.quest_desc: ["Candy Cavity looks silly but has real food, mobility, and crowd-control rewards. Start with soda, Sundrops, candy cane, and the Confection Oven."]
+	quest.0EBD58ABEB0D1915.title: "Bounce and Hook"
+	quest.0EBD58ABEB0D1915.quest_desc: ["Rainbounce Boots and Candy Cane Hooks turn the cake cliffs into movement tech. Dual hooks reduce downtime between grapples."]
+	quest.71CA3EAB0B3BAFC8.title: "Candicorn Mount"
+	quest.71CA3EAB0B3BAFC8.quest_desc: ["Candicorns are the Candy Cavity mount loop. Bring Caramel Apples for taming before treating this biome as only food and weapon loot."]
+	quest.59304EC509D179F1.title: "Sweet Crowd Control"
+	quest.59304EC509D179F1.quest_desc: ["Candy weapons are bounce, ricochet, frost, and area-control tools. The branch is playful, but the combat uses are practical."]
+	quest.4B7C923B38CA8A85.title: "Sugar Rush Kit"
+	quest.4B7C923B38CA8A85.quest_desc: ["The food side manages Sugar Rush, phantom pressure, satiety, and a novelty armor set. It is worth preparing before extended Candy Cavity trips."]
+	quest.3BF522F69440E4A3.title: "Candy Cavity Threats"
+	quest.3BF522F69440E4A3.quest_desc: ["Clear Gum Worms, Gummy Bears, Caramel Cubes, and Licowitches to prove the sugary branch is under control."]
+
+	chapter.796DC6BB3DDEB8AD.title: "Artifacts"
+	chapter.796DC6BB3DDEB8AD.chapter_subtitle: ["Curios-slot loot, mimics, mobility trinkets, survival artifacts, combat gloves, and utility loadouts."]
+	quest.6B9F1F7E1F5A523E.title: "Artifact Hunting"
+	quest.6B9F1F7E1F5A523E.quest_desc: ["Artifacts come from structure loot, archaeology, campsites, mimics, and rare equipped mobs."]
+	quest.3AC46EB61EFF3E66.title: "Curios Slot Plan"
+	quest.3AC46EB61EFF3E66.quest_desc: ["Artifacts uses Curios slot tags: head, face, necklace, hands, belt, feet, plus the all-slot Whoopee Cushion. Build loadouts by slot conflict, not only by rarity."]
+	quest.4F8768A269BCE0D0.title: "Campsites and Mimics"
+	quest.4F8768A269BCE0D0.quest_desc: ["Underground campsites can hold artifact loot or a Mimic. Kill at least one Mimic and keep suspicious campsite chests at arm's length until you know the tell."]
+	quest.11C4D07BC544DC48.title: "Cow Food Drops"
+	quest.11C4D07BC544DC48.quest_desc: ["Everlasting Beef and Eternal Steak are rare cow or mooshroom drops. They turn livestock luck into repeatable expedition food."]
+	quest.48D6BC6DD8BFA06B.title: "Movement Basics"
+	quest.48D6BC6DD8BFA06B.quest_desc: ["The first movement kit is double jump, fall control, sprint speed, and jump height. These are the artifacts that immediately change exploration tempo."]
+	quest.008866F62D3138EC.title: "Escape Mobility"
+	quest.008866F62D3138EC.quest_desc: ["Flight bursts, non-consumed pearl play, emergency teleport protection, and knockback all belong in the escape kit. These matter more on a hostile server than raw speed."]
+	quest.66E95CCD54C62CF1.title: "Water Kit"
+	quest.66E95CCD54C62CF1.quest_desc: ["Snorkel, Flippers, Aqua-Dashers, and Charm of Sinking cover breathing, swim speed, sprinting over water, and controlled underwater movement."]
+	quest.6E038DCFBD2F978B.title: "Terrain Kit"
+	quest.6E038DCFBD2F978B.quest_desc: ["Terrain artifacts solve fire, lava, powdered snow, knockback, ice, passive hunger recovery, and creeper or phantom pressure. Swap these in before biome-specific travel."]
+	quest.3BA0008866233534.title: "Vision and Stealth"
+	quest.3BA0008866233534.quest_desc: ["Night Vision Goggles are basic cave value, while invisibility and shrinking can change how you scout, hide, and move through cramped entrances."]
+	quest.4DB76A16D38932CF.title: "Combat Gloves"
+	quest.4DB76A16D38932CF.quest_desc: ["Hands-slot artifacts are the active workhorse slot: mining speed, attack speed, damage, fire, lifesteal, and auto-smelting. Pick for the job, then protect that slot."]
+	quest.37CCB83B3FB0CDED.title: "Retaliation Necklaces"
+	quest.37CCB83B3FB0CDED.quest_desc: ["Necklaces and bracelets are reactive combat tools: more invulnerability time, speed after damage, lightning, fire, thorns, and wither pressure."]
+	quest.32C9A3BB1429C91B.title: "Core Survival Curios"
+	quest.32C9A3BB1429C91B.quest_desc: ["These are cross-slot survival staples: negative-effect cleanup, item magnetism, max health, and emergency fire resistance options."]
+	quest.600790FD16E3B547.title: "Loot and Trade Curios"
+	quest.600790FD16E3B547.quest_desc: ["Not every artifact is combat. Fortune, Looting, extra entity XP, villager reputation, fishing bonuses, and mount speed all feed long-term progression."]
+	quest.1701C5A8DD9E6991.title: "Food Utility"
+	quest.1701C5A8DD9E6991.quest_desc: ["Food artifacts are expedition sustain: faster eating and drinking, haste after food, and non-consumed meat. They are quiet until a long trip goes sideways."]
+
+	chapter.3EEDB2A10BBDE8A3.title: "CC: Tweaked"
+	chapter.3EEDB2A10BBDE8A3.chapter_subtitle: ["Programmable computers, disks, wired networks, monitors, pocket computers, turtles, peripherals, and server-safe HTTP rules."]
+	quest.3417F8BF724A88BD.title: "First Computer"
+	quest.3417F8BF724A88BD.quest_desc: ["Craft a computer, open it, and label it. Start with help, programs, edit, and lua."]
+	quest.53EA75403737FDFA.title: "Disks and Disk Drives"
+	quest.53EA75403737FDFA.quest_desc: ["Use Disk Drives and floppy disks to move startup scripts between bases. Treasure Disks are loot curiosities, but normal disks are the real deployment tool."]
+	quest.352E2CB39BD0AAD0.title: "Advanced Computer"
+	quest.352E2CB39BD0AAD0.quest_desc: ["Advanced Computers add color and better terminal ergonomics. Use them for dashboards, control rooms, and scripts you actually read often."]
+	quest.08B5656B9BEB8A45.title: "Server Rules"
+	quest.08B5656B9BEB8A45.quest_desc: ["HTTP is available with server-side limits. Keep scripts simple, and do not expect command computers in normal play."]
+	quest.3C149FC0644E4220.title: "Wired Network"
+	quest.3C149FC0644E4220.quest_desc: ["Cable plus wired modems exposes attached peripherals by name. Use it for monitors, storage, machines, and control panels."]
+	quest.0543F602F29E5239.title: "Redstone I/O"
+	quest.0543F602F29E5239.quest_desc: ["Redstone Relays make automation visible and reversible. Use them for doors, alarms, traps, reactors, and any control signal you want a computer to own."]
+	quest.2E1CEEE245907027.title: "Monitor Walls"
+	quest.2E1CEEE245907027.quest_desc: ["Use monitors for compact status screens. Update only what changes."]
+	quest.151D4A1EE0257A33.title: "Output Peripherals"
+	quest.151D4A1EE0257A33.quest_desc: ["Speakers, Printers, and printed pages turn scripts into alerts, labels, books, and field notes. Speaker note throughput is intentionally modest on this server."]
+	quest.3A58B0A58164353F.title: "Wireless Modems"
+	quest.3A58B0A58164353F.quest_desc: ["Use rednet or modem channels for remote bases, relays, and computer-to-computer messages."]
+	quest.328F9F46EBCDCB73.title: "Pocket Computers"
+	quest.328F9F46EBCDCB73.quest_desc: ["Pocket Computers are field terminals. Craft them with wireless or speaker upgrades when you want remote control, chat-free coordination, or portable alerts."]
+	quest.093D2CF638B4F03D.title: "GitHub Script Fetching"
+	quest.093D2CF638B4F03D.quest_desc: ["Use HTTP for approved script sources, then keep local copies on disks. Do not assume every website is reachable from a computer."]
+	quest.5186A821F23F3456.title: "Runtime Limits"
+	quest.5186A821F23F3456.quest_desc: ["Keep scripts small, clean up files, and yield often."]
+	quest.126A452514460780.title: "First Turtle"
+	quest.126A452514460780.quest_desc: ["Turtles are programmable workers. In this pack they require fuel, so treat fuel logistics as part of every mining, farming, or building script."]
+	quest.396B395B20E15A73.title: "Advanced Turtle"
+	quest.396B395B20E15A73.quest_desc: ["Advanced Turtles give the same worker concept a better interface. Use them when debugging scripts matters more than the cheaper recipe."]
+	quest.6B2F15D6B284E6AE.title: "Turtle Tool Jobs"
+	quest.6B2F15D6B284E6AE.quest_desc: ["Turtle upgrades define the job: mine, fell, dig, farm, fight, or craft."]
+	quest.68F28830C6FC8C67.title: "Remote Turtle Ops"
+	quest.68F28830C6FC8C67.quest_desc: ["Pair wireless and speaker upgrades with simple status signals. Remote workers need fuel plans."]
+
+	chapter.421BBE17D7FB2CC9.title: "Farmer's Delight"
+	chapter.421BBE17D7FB2CC9.chapter_subtitle: ["Knives, wild crops, rich soil, cooking stations, meal effects, feast blocks, storage, and food automation."]
+	quest.3BF84AF629D4EB13.title: "First Knife"
+	quest.3BF84AF629D4EB13.quest_desc: ["Craft a Knife early. Knives harvest Straw from grasses and crops, guarantee extra animal cuts, and open the mod's real resource loop."]
+	quest.6B0AB67E12BEBD8D.title: "Knife Upgrades"
+	quest.6B0AB67E12BEBD8D.quest_desc: ["Better knives are reliable field tools for butchery, crop work, and close combat."]
+	quest.2880AF42BF16BEDD.title: "Straw and Canvas"
+	quest.2880AF42BF16BEDD.quest_desc: ["Straw is the dry utility material behind canvas, mats, ropes, safety nets, and several farm builds. Cut crops with knives instead of treating Straw as random loot."]
+	quest.3513FEB3E5756F01.title: "Wild Crops"
+	quest.3513FEB3E5756F01.quest_desc: ["Collect cabbage, tomato, onion, and rice starts before trying to sustain the full cooking tree."]
+	quest.052AC9C74A5011F4.title: "Crop Fields"
+	quest.052AC9C74A5011F4.quest_desc: ["Convert wild starts into real fields and storage blocks. Villages can help rebuild a food supply after raids."]
+	quest.084E791ED96E337A.title: "Vanilla Crop Crates"
+	quest.084E791ED96E337A.quest_desc: ["Use these for carrot, potato, and beetroot bulk storage beside the Farmer's Delight crop crates."]
+	quest.189F9325CA00D6D5.title: "Rice and Sushi Rolls"
+	quest.189F9325CA00D6D5.quest_desc: ["Rice enables the roll family. Keep rolls near the crop loop because they depend on cooked rice and cutting-board prep."]
+	quest.450F44BB613665FA.title: "Rotten Tomato"
+	quest.450F44BB613665FA.quest_desc: ["The Rotten Tomato is the mod's thrown projectile item. It is not food progression, but it belongs with the farm side path."]
+	quest.2CD31FBD988AC70B.title: "Tomato Ropes"
+	quest.2CD31FBD988AC70B.quest_desc: ["Tomatoes climb ropes. Use rope and safety nets for vertical farms and cheap cave access."]
+	quest.3669E2D1FD23A062.title: "Rich Soil Cycle"
+	quest.3669E2D1FD23A062.quest_desc: ["Organic Compost becomes Rich Soil and Rich Soil Farmland. Scale it where long-term food output matters."]
+	quest.6627987878EBCA82.title: "Kitchen Storage"
+	quest.6627987878EBCA82.quest_desc: ["Baskets, cabinets, and tatami are compact kitchen infrastructure. Use them for ingredients and servings instead of dumping food into general bulk storage."]
+	quest.7770EB27668F1032.title: "Cutting Board"
+	quest.7770EB27668F1032.quest_desc: ["The Cutting Board turns tools into consistent ingredients. It is the clean start of Farmer's Delight automation."]
+	quest.44D3406BE96DE346.title: "Cutting Variety"
+	quest.44D3406BE96DE346.quest_desc: ["The board has far more than animal drops. Slices, chops, cuts, leaves, and pumpkin pieces are the ingredient vocabulary for the rest of the kitchen."]
+	quest.38DB08F4A445B401.title: "Raw Prep Line"
+	quest.38DB08F4A445B401.quest_desc: ["Dough, pasta, sauce, and pie crust are intermediate ingredients. Stock these before cooking sessions so the pot and oven work becomes batchable."]
+	quest.51D425BF69744472.title: "Pies and Desserts"
+	quest.51D425BF69744472.quest_desc: ["Pie crust should become real desserts. These are the placeable sweets, slices, cookies, and cold snacks that make the kitchen feel complete."]
+	quest.11C209374BA6788C.title: "Stove and Cooking Pot"
+	quest.11C209374BA6788C.quest_desc: ["The Stove and Cooking Pot are the center of soups, stews, pasta, and feast prep."]
+	quest.0B9B1D2ED7449AFB.title: "Skillet Cooking"
+	quest.0B9B1D2ED7449AFB.quest_desc: ["The Skillet handles quick field cooking and smaller ingredients. It is the bridge between raw cuts and practical sandwiches or bowls."]
+	quest.650C60225EB6C78F.title: "Skillet Meat Line"
+	quest.650C60225EB6C78F.quest_desc: ["The skillet meat line turns cut ingredients into finished proteins. It is the fastest path from knife harvests to serious travel food."]
+	quest.6F69DFFE64BECAB9.title: "Everyday Meals"
+	quest.6F69DFFE64BECAB9.quest_desc: ["Everyday meals turn farm output into portable sustain. These are the foods you actually carry before saving feast blocks for base/group use."]
+	quest.3F677C540933269F.title: "Rice and Dumpling Mains"
+	quest.3F677C540933269F.quest_desc: ["Rice, cabbage, meat, and vegetables become the mod's compact everyday mains. This is the food loop most players will mass-produce."]
+	quest.79675CC2D61CCDD6.title: "Pot Meals"
+	quest.79675CC2D61CCDD6.quest_desc: ["Pot meals are where Comfort and Nourishment planning begins. Use tooltips to compare food effects."]
+	quest.1AC52099075A48D6.title: "Salads"
+	quest.1AC52099075A48D6.quest_desc: ["Salads are the lighter produce branch, including Nether and glow-berry variants. They make crop diversity matter beyond stews."]
+	quest.22612D96C2030CDE.title: "Comfort and Nourishment"
+	quest.22612D96C2030CDE.quest_desc: ["Comfort helps regeneration, while Nourishment slows food drain. These effects make simple meals worth carrying."]
+	quest.5810D650C5C80C6E.title: "Feast Blocks"
+	quest.5810D650C5C80C6E.quest_desc: ["Feast blocks are base food infrastructure: placeable, sliceable, and useful for group staging before raids, expeditions, or long build sessions."]
+	quest.559690C0D47DEA47.title: "Drinks and Cures"
+	quest.559690C0D47DEA47.quest_desc: ["Drinks solve effects and small recovery problems without burning high-value combat food. Keep them in kits for caves, Nether trips, and boss routes."]
+	quest.4895BFF76EA6883D.title: "Animal Feed"
+	quest.4895BFF76EA6883D.quest_desc: ["Dog Food and Horse Feed convert the farm into pet and mount support. On an anarchy server, recovering mounts and wolves quickly is practical logistics."]
+
+	chapter.3665C4F1C23CD262.title: "Iron Chests"
+	chapter.3665C4F1C23CD262.chapter_subtitle: ["Compact chest upgrades, migration items, trapped variants, blast-resistant storage, and visual crystal storage."]
+	quest.4593764DDB4C0A5B.title: "Upgrade From Wood"
+	quest.4593764DDB4C0A5B.quest_desc: ["Iron Chests is about upgrading storage in place. Wood-to-Copper and Wood-to-Iron upgrades are the cleanest way to expand early chests without unpacking them."]
+	quest.15366AEB1E9BC9D6.title: "Copper and Iron Chests"
+	quest.15366AEB1E9BC9D6.quest_desc: ["Copper and Iron are the affordable expansion tiers. Use upgrades when an existing chest already has contents, and direct crafting for new storage walls."]
+	quest.61110EDA25CA9730.title: "Gold Tier"
+	quest.61110EDA25CA9730.quest_desc: ["Gold Chests are the first comfortable bulk tier. They are good for bases that are not ready for specialized storage networks yet."]
+	quest.48855D350C2B855F.title: "Diamond Tier"
+	quest.48855D350C2B855F.quest_desc: ["Diamond Chests are the practical top-tier workhorse. They hold a lot without needing power, cables, or a controller block."]
+	quest.15137E80C4342273.title: "Crystal Visibility"
+	quest.15137E80C4342273.quest_desc: ["Crystal Chests trade concealment for visibility. Use them where seeing contents is useful, not where you are trying to hide valuables."]
+	quest.5A4D17562105F6F9.title: "Obsidian Storage"
+	quest.5A4D17562105F6F9.quest_desc: ["Obsidian Chests are the defensive branch. They are the better target for an anarchy base where storage durability matters more than display."]
+	quest.72C6B4B458FEDBAD.title: "Trapped Variants"
+	quest.72C6B4B458FEDBAD.quest_desc: ["Trapped variants let storage emit redstone signals when opened. Use them for alarms, decoy rooms, and practical door or light automation."]
+	quest.6D1733A090F84CB6.title: "DirtChest 9000"
+	quest.6D1733A090F84CB6.quest_desc: ["The DirtChest is a joke item, but it is still installed and can be used as a decoy. Do not mistake it for real storage progression."]
+
+	chapter.3C3BE3985111BEE8.title: "Relics"
+	chapter.3C3BE3985111BEE8.chapter_subtitle: ["Relic discovery, research keybinds, leveling, mobility relics, dimension loot routes, and combat/survival loadouts."]
+	quest.6106252C873F3D0E.title: "Relic Discovery"
+	quest.6106252C873F3D0E.quest_desc: ["Relics come from loot and grow stronger with use. Keep duplicates until you know what each one can do."]
+	quest.59D2B534EC324B7A.title: "Research and Leveling"
+	quest.59D2B534EC324B7A.quest_desc: ["Bind Relics research and ability controls. Research and leveling happen through relic use, not a table."]
+	quest.4779FA19B95D4F49.title: "Overworld Utility"
+	quest.4779FA19B95D4F49.quest_desc: ["Overworld relics cover extra slots, mobs, movement, bounce, and hiding before dimension-specific hunts."]
+	quest.265F0D7B9E399593.title: "Water Relics"
+	quest.265F0D7B9E399593.quest_desc: ["Water relics split between swimming, walking on water, trident-style pressure, and shock/paralysis control. Keep these near ocean and cave-diving kits."]
+	quest.54A6996841585D56.title: "Frost Relics"
+	quest.54A6996841585D56.quest_desc: ["Frost relics come from cold and mountain-style routes. They turn snow, ice, freezing, and impact control into a real biome kit."]
+	quest.24308CF21187ED7D.title: "Nether Relics"
+	quest.24308CF21187ED7D.quest_desc: ["Nether relics bias toward Nether, ruined portal, bastion, lava, and fire-themed loot routes. They are the branch for heat, Piglin trade, reflection, and space control."]
+	quest.050D0247FD9DC62D.title: "End Relics"
+	quest.050D0247FD9DC62D.quest_desc: ["End relics focus on teleport control, Enderman interaction, Elytra boosting, phantom bridging, and vanish/backstab play. These are late scouting tools."]
+	quest.7DB2F869BD7CB3CB.title: "Combat Relics"
+	quest.7DB2F869BD7CB3CB.quest_desc: ["Combat relics are build-defining: rage, cloning, spores, faith, anti-heal pressure, and Infinite Ham sustain. Level them before judging their final strength."]
+	quest.4323ADF8433D9659.title: "Travel and Escape"
+	quest.4323ADF8433D9659.quest_desc: ["Travel relics are escape tools: mirror teleports, phantom paths, Elytra boosts, blink control, and space tricks."]
+
+	chapter.7C1733193B1BDB9F.title: "The Aether"
+	chapter.7C1733193B1BDB9F.chapter_subtitle: ["Portal entry, native tools, Ambrosium machines, Life Shards, Moas, accessories, dungeons, bosses, and rare loot."]
+	quest.6469C513602F45A6.title: "Ascend to the Aether"
+	quest.6469C513602F45A6.quest_desc: ["Build the portal and enter the Aether. Bring the right tools, and keep parachutes ready until you know the islands."]
+	quest.0AF805B6682F6A98.title: "Sleep and Fall Routes"
+	quest.0AF805B6682F6A98.quest_desc: ["Treat beds, parachutes, and fall routes as base logistics. The dimension rewards players who plan exits before exploring."]
+	quest.25DB777D53B9F1B0.title: "Skyroot Foothold"
+	quest.25DB777D53B9F1B0.quest_desc: ["Start with Skyroot. Native tools avoid the Aether tool debuff, and Skyroot tools are the right early pick for harvesting native ore drops."]
+	quest.353F782103DFA4AC.title: "Skyroot Utility"
+	quest.353F782103DFA4AC.quest_desc: ["Skyroot is the utility wood line. Poison and Remedy buckets are real field tools."]
+	quest.0262070A4B50AA75.title: "Holystone and Ambrosium"
+	quest.0262070A4B50AA75.quest_desc: ["Holystone is the stone backbone of the dimension. Ambrosium powers altar work and is edible in this pack, while Icestone opens freezer recipes."]
+	quest.66D58A14C2DD1B91.title: "Aether Workstations"
+	quest.66D58A14C2DD1B91.quest_desc: ["Craft the Altar, Freezer, and Incubator before chasing bosses. The Altar consumes Ambrosium, the Freezer changes materials, and the Incubator starts the Moa line."]
+	quest.550564C5D78D482D.title: "Altar Processing"
+	quest.550564C5D78D482D.quest_desc: ["Use the Altar for enchanted materials and Aerogel. Aerogel is useful blast-resistant cover."]
+	quest.468F8DCA8AC44819.title: "Altar Repair"
+	quest.468F8DCA8AC44819.quest_desc: ["The Altar has a large repair recipe set for Aether gear. This is one of the mod's most important quality-of-life loops, especially for rare dungeon equipment."]
+	quest.7DE1C52E48079190.title: "Freezer and Incubator"
+	quest.7DE1C52E48079190.quest_desc: ["The Freezer and Incubator are the practical base machines: transform native blocks and start companion/mount progression instead of treating Aether loot as random clutter."]
+	quest.19C3EA4F2DE3D1A1.title: "Zanite Gear"
+	quest.19C3EA4F2DE3D1A1.quest_desc: ["Zanite is the first real Aether metal tier. Make tools and gloves early, because this pack requires gloves for armor-set abilities."]
+	quest.69A25ED53688ADAE.title: "Gravitite Gear"
+	quest.69A25ED53688ADAE.quest_desc: ["Gravitite becomes useful after Altar processing, and Silver Dungeons can also surface Gravitite gear. It is the dimensional gear jump before the dungeon armor economy takes over."]
+	quest.53315C7E2F6EECAE.title: "Gravitite Armor Set"
+	quest.53315C7E2F6EECAE.quest_desc: ["Complete the Gravitite armor path with gloves. The glove requirement makes partial sets less valuable than they look."]
+	quest.51EC66D45BADAB51.title: "Life and Food"
+	quest.51EC66D45BADAB51.quest_desc: ["Life Shards raise your health, while berries and apples keep early dungeon runs stable."]
+	quest.41802B3800DCAAA3.title: "Swets and Gummy Food"
+	quest.41802B3800DCAAA3.quest_desc: ["Swets are both mob pressure and utility drops. Gummy Swets belong in the same food and cape branch."]
+	quest.0A6CE63FEC0FA1B8.title: "Moa Incubation"
+	quest.0A6CE63FEC0FA1B8.quest_desc: ["Use the Incubator to turn eggs into rideable Moas. In an anarchy pack, a flying mount is a logistics tool as much as an exploration reward."]
+	quest.090522F5EF70536B.title: "Passive Wildlife"
+	quest.090522F5EF70536B.quest_desc: ["Aerbunnies, Aerwhales, Phygs, Flying Cows, Sheepuffs, and Moas affect travel, drops, or farming routes."]
+	quest.6440BA0966EE4EDC.title: "Cloud Movement"
+	quest.6440BA0966EE4EDC.quest_desc: ["Aether movement is terrain-driven: Aerclouds, Quicksoil, and Golden Feather routing can decide whether you survive void gaps and island fights."]
+	quest.22D52022270E2014.title: "Accessory Slots"
+	quest.22D52022270E2014.quest_desc: ["Aether adds ring, pendant, glove, cape, and shield slots. Start this early because armor sets want matching gloves."]
+	quest.201A251149FDD32F.title: "Zanite and Ice Accessories"
+	quest.201A251149FDD32F.quest_desc: ["Accessories turn Aether loot into real loadouts. Rings, pendants, and capes are worth staging in kits before entering dungeons."]
+	quest.4630F4D3D4ABC437.title: "Aechor Plants and Darts"
+	quest.4630F4D3D4ABC437.quest_desc: ["Aechor Plants and dart shooters are the ranged side loop. Use them to learn Aether combat spacing before boss arenas."]
+	quest.6E8F74F529330D3A.title: "Bronze Dungeon"
+	quest.6E8F74F529330D3A.quest_desc: ["Bronze Dungeons test native mining and combat. The Slider is the first boss gate; locked and trapped dungeon stones are intentionally not required quest items."]
+	quest.1C52853BDF573769.title: "Slider Rewards"
+	quest.1C52853BDF573769.quest_desc: ["Sentry Boots and the carved disc are easy to miss when players loot fast and leave."]
+	quest.4F1FAA9127E8A57D.title: "Silver Dungeon"
+	quest.4F1FAA9127E8A57D.quest_desc: ["Silver Dungeons are the Valkyrie route. Defeat Valkyries, challenge the Queen, and claim the Silver Key before chasing the loot set."]
+	quest.18BBA260228695F3.title: "Valkyrie Equipment"
+	quest.18BBA260228695F3.quest_desc: ["Valkyrie loot covers reach, mining, mobility, and accessories. Keep the cape with your travel kit."]
+	quest.47B330131D22BDCC.title: "Gold Dungeon"
+	quest.47B330131D22BDCC.quest_desc: ["Gold Dungeons finish the main boss line. The Sun Spirit unlocks the highest-value loot chase."]
+	quest.668F1ED518491393.title: "Sun Altar"
+	quest.668F1ED518491393.quest_desc: ["Sun Altars change time in the Aether. On a public server, do not assume the sky stays how you left it."]
+	quest.16751A01B608F5DB.title: "Phoenix Set"
+	quest.16751A01B608F5DB.quest_desc: ["Phoenix gear is the fire-themed dungeon set. Keep gloves with the armor so the set works as expected."]
+	quest.75E6222EFD583A1F.title: "Neptune Set"
+	quest.75E6222EFD583A1F.quest_desc: ["Neptune is the rare Bronze Dungeon water-survival armor branch. Track it beside Slider rewards."]
+	quest.4F34340D55BF6E66.title: "Obsidian Set"
+	quest.4F34340D55BF6E66.quest_desc: ["Obsidian armor is made by freezing a worn Phoenix set in water. It trades the fire set into a defensive armor branch instead of dropping from dungeon loot."]
+	quest.6D1BDC3A5A79272C.title: "Unique Loot Tools"
+	quest.6D1BDC3A5A79272C.quest_desc: ["These are the memorable dungeon and rare-loot tools. Keep the weapons, cloak, stones, and utility items together."]
+	quest.471946D9BF9DAD8C.title: "Aether Records"
+	quest.471946D9BF9DAD8C.quest_desc: ["The music discs are an optional collection branch. Slider's carved disc is tracked with the Bronze Dungeon reward, while these cover the rest of the Aether record hunt."]
+
+	chapter.35AF19FBF8FC7D81.title: "2b2m Utilities"
+	chapter.35AF19FBF8FC7D81.chapter_subtitle: ["Small utility mods worth knowing before you settle in."]
+	quest.634C224EC0BF3FC2.title: "Utility Mods"
+	quest.634C224EC0BF3FC2.quest_desc: ["Small tools that make the pack easier to play. Set up what you use and move on."]
+	quest.053336DE11DE4826.title: "KeyBind Bundles"
+	quest.053336DE11DE4826.quest_desc: ["Use bundles for groups of modded keys instead of memorizing scattered bindings."]
+	quest.0ECBEB1392BEB364.title: "FTB Ultimine Rules"
+	quest.0ECBEB1392BEB364.quest_desc: ["Ultimine works with valid tools and supports the pack's modded ores, logs, and leaves."]
+	quest.3D2348D05EAC521E.title: "Just Zoom"
+	quest.3D2348D05EAC521E.quest_desc: ["A simple zoom key is useful for scouting terrain, bases, and nameplates from a distance."]
+	quest.57665BCE666048BC.title: "Simple Voice Chat"
+	quest.57665BCE666048BC.quest_desc: ["Use proximity voice for local coordination. Groups are available for private chat."]
+	quest.3838233AC62018E1.title: "Maps and Waypoints"
+	quest.3838233AC62018E1.quest_desc: ["Use waypoints and deathpoints to keep travel readable. Clean up old markers when they stop being useful."]
+	quest.0F4AED586A66857E.title: "Energy Meter"
+	quest.0F4AED586A66857E.quest_desc: ["Use this when a power setup looks wrong. It is for checking real FE flow instead of guessing."]
+	quest.763E400AC4E4DB0C.title: "Trash Slot"
+	quest.763E400AC4E4DB0C.quest_desc: ["Fast cleanup for junk items. Slow down before deleting anything rare."]
+	quest.704578BAEC4BF8E6.title: "Trash Cans"
+	quest.704578BAEC4BF8E6.quest_desc: ["Trash Cans are for controlled overflow from farms, pipes, and storage systems."]
+
+	chapter.0F6B95099CCE913E.title: "Worldgen Notes"
+	chapter.0F6B95099CCE913E.chapter_subtitle: ["Terralith, Incendium, and Nullscape change terrain, structures, loot routes, and anarchy travel without clean modded item-task progression."]
+	quest.54DCADB4A0ABE06E.title: "Not Vanilla Terrain"
+	quest.54DCADB4A0ABE06E.quest_desc: ["These Stardust Labs worldgen mods are terrain and structure content first. Focus on scouting, routes, and survival planning."]
+	quest.32A698A611C3B61D.title: "Terralith Overworld"
+	quest.32A698A611C3B61D.quest_desc: ["Terralith changes terrain without adding new blocks. Expect base hiding, travel speed, and biome hunting to feel different."]
+	quest.1701A6A1A2387EA1.title: "Overworld Structure Routes"
+	quest.1701A6A1A2387EA1.quest_desc: ["Treat fortified villages, mage towers, spires, desert outposts, lodges, rubble, and underground structures as loot and waypoint routes rather than a single progression chain."]
+	quest.71B416003A8B0D3B.title: "Redstone Recipe Notes"
+	quest.71B416003A8B0D3B.quest_desc: ["Terralith also carries a small set of vanilla redstone alternate recipes: piston, dropper, dispenser, observer, lever, and stone-slab cobblestone conversion."]
+	quest.0A8103F71239108F.title: "Incendium Nether"
+	quest.0A8103F71239108F.quest_desc: ["Incendium makes the Nether more varied and less predictable. Scout routes before moving valuables through them."]
+	quest.5957BAEF5E0750D6.title: "Nether Structures and Loot"
+	quest.5957BAEF5E0750D6.quest_desc: ["Incendium structures are route targets, not a clean item progression. Mark the useful ones and move carefully."]
+	quest.0FB9E68639FFDC7E.title: "Nullscape End"
+	quest.0FB9E68639FFDC7E.quest_desc: ["Nullscape keeps the End alien and vertical. Expect scouting risk around barrens, crystals, skeletons, and rifts."]
+	quest.532B138C3390082A.title: "Anarchy Route Planning"
+	quest.532B138C3390082A.quest_desc: ["Treat terrain as strategy. Mark return paths, split travel kits, and scout structure routes before using them."]
+
+	chapter.605C4FF5CAEFD78C.title: "Mowzie's Mobs"
+	chapter.605C4FF5CAEFD78C.chapter_subtitle: ["Boss hunts, biome encounters, masks, blessings, rare weapons, geomancer gear, and anarchy-useful combat tools."]
+	quest.54467AF8F19F962B.title: "Boss Hunts"
+	quest.54467AF8F19F962B.quest_desc: ["Mowzie's Mobs is not passive ambience. Boss bars, out-of-combat healing, and respawn resets make these hunts worth planning before you chase the unique tools."]
+	quest.621DBEB402987BCE.title: "Foliaath Ambush"
+	quest.621DBEB402987BCE.quest_desc: ["Foliaaths turn jungle travel into an ambush check. Bring reach, clear sightlines, and collect seeds."]
+	quest.7B0A3E4010A2380E.title: "Naga Cliffs"
+	quest.7B0A3E4010A2380E.quest_desc: ["Nagas are a separate mobility threat from Foliaaths. The Naga Fang Dagger has poison and backstab value, which matters for ambush play."]
+	quest.013273E65D9AED13.title: "Darts and Blowgun"
+	quest.013273E65D9AED13.quest_desc: ["Darts, Blowgun, and Spear are the low-tech ranged branch. Use them to learn spacing before boss fights."]
+	quest.2443AA3BB4A83FC4.title: "Grottol Choice"
+	quest.2443AA3BB4A83FC4.quest_desc: ["Grottols offer two useful routes: kill one for the cave hunt, or capture one for a quieter utility prize."]
+	quest.116ED33A98BA3C77.title: "Captured Grottol"
+	quest.116ED33A98BA3C77.quest_desc: ["Capture is the quieter Grottol route. Keep the captured block separate from the direct kill path."]
+	quest.46CD3E5C7A9306C4.title: "Lantern Jelly"
+	quest.46CD3E5C7A9306C4.quest_desc: ["Lanterns are the glowing cave encounter after Grottols. Their drop is Glowing Jelly; the Petiole disc belongs to Frostmaw's special drop path."]
+	quest.1C97769B9E7F02D7.title: "Umvuthana Masks"
+	quest.1C97769B9E7F02D7.quest_desc: ["Umvuthana masks are not cosmetic filler. They feed disguise, grove infiltration, and the later Sol Visage minion loop."]
+	quest.08E4ACC1E13090C0.title: "Umvuthi and Sun's Blessing"
+	quest.08E4ACC1E13090C0.quest_desc: ["Umvuthi is the Sunbird boss. Sun's Blessing and the Sol Visage turn the fight into a lasting combat branch."]
+	quest.7ECF295818CBB17B.title: "Frostmaw"
+	quest.7ECF295818CBB17B.quest_desc: ["Frostmaws are snowy-biome boss encounters. The Ice Crystal, Petiole disc, and Frostmaw drops all belong here."]
+	quest.012F86795F0FE21A.title: "Ferrous Wroughtnaut"
+	quest.012F86795F0FE21A.quest_desc: ["Ferrous Wroughtnaut is the heavy-armor duel. The axe and helm are the prize."]
+	quest.26CFC1496A77F5B5.title: "Earthrend Gauntlet"
+	quest.26CFC1496A77F5B5.quest_desc: ["Earthrend Gauntlet comes from Tongbi's parkour test, not Wroughtnaut. Pay the Bluff Rod fee, clear the test, then use the unbreakable tunneling tool for terrain control."]
+	quest.336DC4C0F7A4C93C.title: "Sculptor Challenge"
+	quest.336DC4C0F7A4C93C.quest_desc: ["Tongbi, the Sculptor, is a challenge encounter and fight. The test blocks placing, breaking, teleporting, and flying."]
+	quest.0378F3F6A93DB5F9.title: "Geomancer Kit"
+	quest.0378F3F6A93DB5F9.quest_desc: ["The Geomancer kit is the reward loop around Sculptor progression. Keep the staff, robe pieces, and sand tools together so players understand the system."]
+	quest.3EB6CFD6E0AEEE6F.title: "Elokosa Moon Paws"
+	quest.3EB6CFD6E0AEEE6F.quest_desc: ["Elokosa Paws are moon-phase effect tools with limited uses. Save them for fights that justify the cost."]
+	quest.22A90024F6A20407.title: "Bluff Rod"
+	quest.22A90024F6A20407.quest_desc: ["Bluffs are a smaller encounter, but the Bluff Rod is the fee for Tongbi's parkour test. Keep it on the Sculptor branch so Earthrend progression is readable."]
+	quest.23F68281D5BF80FF.title: "Signals and Decor"
+	quest.23F68281D5BF80FF.quest_desc: ["The non-combat block set is small but visible: gong signals, painted acacia, thatch, clawed logs, and raked sand fit arena builds and trophy rooms."]
+
+	chapter.121E77C06730F736.title: "Quark"
+	chapter.121E77C06730F736.chapter_subtitle: ["QoL systems, field tools, automation oddities, Matrix Enchanting, world finds, and mob-side progression."]
+	quest.1118EACC1433C5E4.title: "Quark Systems"
+	quest.1118EACC1433C5E4.quest_desc: ["Quark is broad, so this chapter focuses on tools, storage, automation, exploration, and a few notable oddities."]
+	quest.37A033636F464FDC.title: "Inventory Management"
+	quest.37A033636F464FDC.quest_desc: ["Use sorting, transfers, shulker handling, armor swaps, and hotbar tools to cut down on base chores."]
+	quest.0C10FF5107428C36.title: "Field Tools"
+	quest.0C10FF5107428C36.quest_desc: ["Trowel randomizes block placement, Seed Pouch handles farming, Abacus measures areas, and Pathfinder's Quill drives the map-trading exploration route."]
+	quest.470ED3B8C138AF13.title: "Small Travel Tricks"
+	quest.470ED3B8C138AF13.quest_desc: ["Torch Arrows light distance work, Cloud in a Bottle stores cloud blocks, and Bucket of Slime makes slime transport reusable."]
+	quest.31BE37CEB68EBC7A.title: "Ambient Discs"
+	quest.31BE37CEB68EBC7A.quest_desc: ["Ambient discs are optional collection goals from Quark's tool and tweak modules. Endermosh also appears in End City loot, so the set doubles as a light exploration checklist."]
+	quest.5E1EEC89C9443B05.title: "Bulk Blocks"
+	quest.5E1EEC89C9443B05.quest_desc: ["Crates and sacks compress awkward farm and mob drops. They are useful before bigger storage mods and still work as compact, readable bulk stockpiles later."]
+	quest.54830BC7AB44ADD8.title: "Backpacks and Hides"
+	quest.54830BC7AB44ADD8.quest_desc: ["Quark Backpacks are an early carry option. They do not replace the full Sophisticated Backpacks path."]
+	quest.7B871039BF011620.title: "Building Palette"
+	quest.7B871039BF011620.quest_desc: ["Grab the representative stone families, Soul Sandstone, framed glass, glass item frames, and rope to start the building palette."]
+	quest.250369E02DFCF295.title: "Blossom and Ashen Finds"
+	quest.250369E02DFCF295.quest_desc: ["Blossom trees are biome finds, while Ashen wood comes from the Ancient Wood route. Hollow logs and Ancient Fruit make these more than decorative wood variants."]
+	quest.7ABC44B70AC8F622.title: "Stone and End Finds"
+	quest.7ABC44B70AC8F622.quest_desc: ["New stone, glow shrooms, permafrost, Dragon Scales, Duskbound blocks, and Myalite make exploration worth checking."]
+	quest.273E1C72C77E9310.title: "Corundum and Lamps"
+	quest.273E1C72C77E9310.quest_desc: ["Corundum generates in caves, grows, moves with collateral updates, and feeds the lamp/rune ecosystem. This is the compact branch for lighting and color materials."]
+	quest.09E820AD438C05B0.title: "Starter Automation"
+	quest.09E820AD438C05B0.quest_desc: ["Chutes move items, Feeding Troughs handle animals, and Ender Watchers turn line-of-sight into redstone."]
+	quest.600C7808DA186EAF.title: "Motion Redstone"
+	quest.600C7808DA186EAF.quest_desc: ["Gravisand, Iron Rods, Randomizers, and Obsidian Plates are small blocks with real contraption value."]
+	quest.3D04170051B7B500.title: "Copper Pipes"
+	quest.3D04170051B7B500.quest_desc: ["Pipes and Encased Pipes move loose items without becoming a full storage network."]
+	quest.25662D9D34AD63F4.title: "Magnet Lab"
+	quest.25662D9D34AD63F4.quest_desc: ["Magnets push and pull magnetic blocks and entities. Use them as a small physics and utility branch."]
+	quest.796B4BC2A2D142D1.title: "Matrix Enchanting"
+	quest.796B4BC2A2D142D1.quest_desc: ["Matrix Enchanting replaces the normal table flow. Bookshelves, books, underwater setups, and candles all matter."]
+	quest.79003319AD145AAA.title: "Runes and Ancient Tomes"
+	quest.79003319AD145AAA.quest_desc: ["Runes recolor enchantments. Ancient Tomes push selected enchantments past the normal cap."]
+	quest.3FEC5C981DB9EF85.title: "Influenced Rolls"
+	quest.3FEC5C981DB9EF85.quest_desc: ["Use candle colors around Matrix Enchanting to bias outcomes before committing expensive rolls."]
+	quest.1CBEFAD9F9143016.title: "Underground Hunts"
+	quest.1CBEFAD9F9143016.quest_desc: ["Quark's progression-like loot comes from finding special mobs underground and in dangerous biomes. These branches are small, but they unlock real tools."]
+	quest.1D36DE269D324175.title: "Stoneling Heart"
+	quest.1D36DE269D324175.quest_desc: ["Stonelings spawn below Y 0 in the Overworld. Sneak up, break the shell, and claim the Heart of Diamond that gates multiple Quark oddities."]
+	quest.290BCE109630AC17.title: "Pickarang"
+	quest.290BCE109630AC17.quest_desc: ["The Pickarang is a thrown mining tool that returns after use. It is handy for awkward blocks and field work."]
+	quest.68A6F0BA1197D335.title: "Flamerang"
+	quest.68A6F0BA1197D335.quest_desc: ["Flamerang is the Netherite-level upgrade with better durability and damage. Use it as a field tool, not a miracle miner."]
+	quest.4C64AE04AF41C8A4.title: "Tiny Potato"
+	quest.4C64AE04AF41C8A4.quest_desc: ["Tiny Potato is a novelty endpoint on the Heart of Diamond route."]
+	quest.2DC44E86E36659D4.title: "Forgotten and Wraith"
+	quest.2DC44E86E36659D4.quest_desc: ["Forgotten replace some low-depth skeletons and drop the hat. Wraiths spawn in Soul Sand Valley and connect the soul-bead branch to dangerous Nether travel."]
+	quest.2AC387AF47904DA4.title: "Oretoise Regrowth"
+	quest.2AC387AF47904DA4.quest_desc: ["Oretoises are not a kill objective. Mine the shell, then feed Glow Berries to encourage regrowth."]
+	quest.33534BF554FFF81A.title: "Monster Box"
+	quest.33534BF554FFF81A.quest_desc: ["Monster Boxes are high-risk underground encounters. Treat them like traps with loot, not decoration."]
+	quest.67C2FE5A75CCE133.title: "Surface and Nether Mobs"
+	quest.67C2FE5A75CCE133.quest_desc: ["Some Quark mobs are utility encounters rather than progression gates. Capture, tame, or farm them for the specific behavior they provide."]
+	quest.0F1542B072446E15.title: "Crabs and Resilience"
+	quest.0F1542B072446E15.quest_desc: ["Crabs are beach mobs with a brewing branch. Resilience belongs with the potion-effect completion path."]
+	quest.3F10C1BD619B6E40.title: "Foxhound Furnace Buddy"
+	quest.3F10C1BD619B6E40.quest_desc: ["Foxhounds spawn in Nether Wastes and Basalt Deltas. Tame one with coal while under Fire Resistance, then use its furnace-speedup behavior as a small base utility."]
+
+
+
+
+	chapter.7A6B1E6E7DA4ED10.title: "GraveStone Mod"
+	chapter.7A6B1E6E7DA4ED10.chapter_subtitle: ["Death-item recovery, configured for open looting."]
+
+	quest.38ABD5D0C979747B.title: "Grave Recovery"
+	quest.38ABD5D0C979747B.quest_desc: ["Graves store death drops. In this pack they are open loot when broken, so recover fast."]
+	quest.01A1AEA004E6551E.title: "Obituary"
+	quest.01A1AEA004E6551E.quest_desc: ["The obituary records the death location, dimension, time, and item list."]
+	chapter.3F1214B3A786DD0E.title: "Create Suite"
+
+	quest.33E764CA23BFDA00.title: "Andesite Alloy"
+	quest.33E764CA23BFDA00.quest_desc: ["Create starts with andesite alloy. Stockpile it; almost every machine line consumes more than expected."]
+	quest.762FEA54AFACA2A2.title: "Andesite Casing"
+	quest.762FEA54AFACA2A2.quest_desc: ["Andesite casing is the first real machine frame. Most early Create blocks are built around it."]
+	quest.2ABA0B1FC5328A8A.title: "Shafts and Cogwheels"
+	quest.2ABA0B1FC5328A8A.quest_desc: ["Shafts and cogwheels are the grammar of Create rotation: direction, speed, and where stress travels."]
+	quest.5E314DA4EE7F4EBB.title: "Wrench and Goggles"
+	quest.5E314DA4EE7F4EBB.quest_desc: ["The wrench edits machines in-world. Engineer's goggles make stress, speed, and contents visible before a build tears itself apart."]
+	quest.20F414B51D102365.title: "Starter Rotation"
+	quest.20F414B51D102365.quest_desc: ["Water wheels are quiet, cheap, and stable enough to bootstrap most early processing."]
+	quest.63119AC834588B3E.title: "Fan Processing"
+	quest.63119AC834588B3E.quest_desc: ["Encased fans unlock bulk washing, smoking, blasting, and haunting recipes. A hand crank is enough for quick field work."]
+	quest.7EC40D6D0ABF3B96.title: "Bulk Washing"
+	quest.7EC40D6D0ABF3B96.quest_desc: ["Fan washing turns crushed ores and other loose inputs into useful outputs without single-item furnace pacing."]
+	quest.5B291F6D3B26800B.title: "Bulk Haunting"
+	quest.5B291F6D3B26800B.quest_desc: ["Haunting is the soul-fire side of fan processing. Powdered obsidian and experience nuggets are good reminders that this is a distinct recipe family."]
+	quest.59F9A541023AEC8B.title: "Pressing Line"
+	quest.59F9A541023AEC8B.quest_desc: ["The press turns ingots into sheets and starts the compact machine-line pattern used throughout Create."]
+	quest.6C55E47E3CF18CDE.title: "Mixing Line"
+	quest.6C55E47E3CF18CDE.quest_desc: ["A mixer, basin, and burner are the first serious recipe hub. Brass, food, alloys, and addon chemistry all branch from here."]
+	quest.77085137F972D8E6.title: "Belts and Funnels"
+	quest.77085137F972D8E6.quest_desc: ["Belts and funnels turn single machines into production lines. Keep filters and overflow paths in mind from the start."]
+	quest.5B60CC0ACDC67DED.title: "Deployers, Saws, and Drills"
+	quest.5B60CC0ACDC67DED.quest_desc: ["Deployers, saws, drills, and ploughs turn Create into automation."]
+	quest.097D7CDA886548D5.title: "Crushing Wheels"
+	quest.097D7CDA886548D5.quest_desc: ["Crushing wheels are bulky but important for ore processing and several high-throughput factory loops."]
+	quest.6A6670DE044AF6F9.title: "Brass Production"
+	quest.6A6670DE044AF6F9.quest_desc: ["Brass opens precision mechanisms, filters, trains, and stock control."]
+	quest.75A32D56F20B54BC.title: "Smart Logistics"
+	quest.75A32D56F20B54BC.quest_desc: ["Brass logistics lets a base route by intent instead of just direction. This is the branch for controlled item flow."]
+	quest.71A4667998FE84AD.title: "Filters"
+	quest.71A4667998FE84AD.quest_desc: ["Filters keep belts, vaults, packages, and deployers from becoming junk pipes."]
+	quest.3F45C4312E857874.title: "Precision Automation"
+	quest.3F45C4312E857874.quest_desc: ["Precision mechanisms are sequenced assembly milestones and the gateway to compact factories."]
+	quest.76AB0B00C3DFA008.title: "Mechanical Arm"
+	quest.76AB0B00C3DFA008.quest_desc: ["Mechanical arms move chosen items between chosen targets. They are excellent for burners, train loading, and compact assembly cells."]
+	quest.6DD8B8C9545DC22F.title: "Copper Casing"
+	quest.6DD8B8C9545DC22F.quest_desc: ["Copper casing opens fluid machines and wearable air equipment."]
+	quest.7A61C4D0A3F2CBFB.title: "Fluid Network"
+	quest.7A61C4D0A3F2CBFB.quest_desc: ["Pipes, pumps, and valves move fluids predictably. Smart pipes keep mixed systems from contaminating each other."]
+	quest.194B5800B65B503E.title: "Tanks, Spouts, and Pulleys"
+	quest.194B5800B65B503E.quest_desc: ["Tanks and spouts turn fluids into factory inputs. Hose pulleys are the large-reservoir tool."]
+	quest.3E5B636A914B4DBF.title: "Backtank and Diving"
+	quest.3E5B636A914B4DBF.quest_desc: ["Backtanks power air tools and underwater gear. They also pair naturally with the Potato Cannon branch."]
+	quest.10DFE9E544951699.title: "Steam Power"
+	quest.10DFE9E544951699.quest_desc: ["Steam engines scale rotation beyond starter wheels. Check stress before chaining machines together."]
+	quest.6FC91488C0F157D4.title: "Speed Control"
+	quest.6FC91488C0F157D4.quest_desc: ["Speed controllers, gearshifts, clutches, and chain drives make factories tunable instead of fragile."]
+	quest.07AA33F16009E3B7.title: "Stress and Speed Readouts"
+	quest.07AA33F16009E3B7.quest_desc: ["Measure a kinetic network before scaling it. Guessing RPM and stress is how compact factories break."]
+	quest.0EAF130066D7B45C.title: "Bearings and Windmills"
+	quest.0EAF130066D7B45C.quest_desc: ["Bearings are the first step from fixed machines to moving contraptions."]
+	quest.3D2B4349A625191F.title: "Pistons and Pulleys"
+	quest.3D2B4349A625191F.quest_desc: ["Pistons and pulleys move blocks through space. Keep chassis range limits and collision space in mind."]
+	quest.0FBA59D717D38424.title: "Chassis and Glue"
+	quest.0FBA59D717D38424.quest_desc: ["Chassis, stickers, and glue decide what a contraption actually carries."]
+	quest.37A0F43860FBAA38.title: "Elevators"
+	quest.37A0F43860FBAA38.quest_desc: ["Elevator pulleys make vertical movement clean enough for bases and factories."]
+	quest.6F72929BAFB0B59A.title: "Gantry Lines"
+	quest.6F72929BAFB0B59A.quest_desc: ["Gantry shafts are precise linear motion for farms, builders, and deployer arrays."]
+	quest.4A1FB7DDD17A6413.title: "Cart Contraptions"
+	quest.4A1FB7DDD17A6413.quest_desc: ["Cart assemblers are the bridge between rails and compact moving machines."]
+	quest.2EDB73C3088B697E.title: "Schematics"
+	quest.2EDB73C3088B697E.quest_desc: ["Schematics are powerful for self-builds. Do not load a schematic you do not trust."]
+	quest.63CF73908E6EE85B.title: "Schematic Planning"
+	quest.63CF73908E6EE85B.quest_desc: ["The schematic item and quill are the planning step. Keep this separate from firing a cannon full of materials at a build site."]
+	quest.793565E14422634A.title: "Cardboard and Packagers"
+	quest.793565E14422634A.quest_desc: ["Create 6 package logistics starts with cardboard and packagers, then grows into stock-aware remote requests."]
+	quest.53BA5455FC8029A1.title: "Stock Network"
+	quest.53BA5455FC8029A1.quest_desc: ["Stock links and requesters can automate base supply chains. Do not assume they replace access control."]
+	quest.5F5059D051415DD6.title: "Frogports and Factory Floor"
+	quest.5F5059D051415DD6.quest_desc: ["Frogports, postboxes, factory gauges, and chain conveyors make package networks feel like real logistics."]
+	quest.29E582737F93B7AB.title: "Cardboard Disguise"
+	quest.29E582737F93B7AB.quest_desc: ["Cardboard gear is a fun Create side path with obvious hostile-use potential in anarchy play."]
+	quest.5873C08EDC850789.title: "Display Network"
+	quest.5873C08EDC850789.quest_desc: ["Display links and boards turn factory state into readable information."]
+	quest.7D371CCB2619B295.title: "Wireless Redstone"
+	quest.7D371CCB2619B295.quest_desc: ["Redstone links and contacts let contraptions communicate without ugly wiring everywhere."]
+	quest.2793E192D399EC2D.title: "Tracks and Stations"
+	quest.2793E192D399EC2D.quest_desc: ["Train tracks are sequenced assembly and belong in the brass age. Stations define routes; they do not define territory."]
+	quest.7642D4E949FAC7BB.title: "Train Assembly"
+	quest.7642D4E949FAC7BB.quest_desc: ["Schedules are the player-facing piece that turns a station build into a train route."]
+	quest.7BC03B551165A0FF.title: "Train Signals"
+	quest.7BC03B551165A0FF.quest_desc: ["Signals prevent train collisions, not player conflict. Treat rail corridors as infrastructure, not protection."]
+	quest.0BF7F97AE3B2E598.title: "Train Operations"
+	quest.0BF7F97AE3B2E598.quest_desc: ["Controls and train doors turn a rail line into a usable route for teams and supply runs."]
+	quest.4FB8428ED8C49646.title: "Toolboxes"
+	quest.4FB8428ED8C49646.quest_desc: ["Toolboxes and clipboards are practical team-factory gear. One color represents the full cosmetic family."]
+	quest.6EC9EA2BB6145149.title: "Potato Cannon and Symmetry"
+	quest.6EC9EA2BB6145149.quest_desc: ["Create has a few handheld toys with real utility. The Potato Cannon likes pressurized air; the wand helps build cleanly."]
+	quest.5673878DA4C7B29B.title: "Electrum Tier"
+	quest.5673878DA4C7B29B.quest_desc: ["Crafts & Additions uses Create processing to make electrum, then turns it into the electrical branch."]
+	quest.14EFEA57D23B4275.title: "Rolling Mill"
+	quest.14EFEA57D23B4275.quest_desc: ["The rolling mill produces rods and specialty parts for wires, connectors, and addon machines."]
+	quest.12DE6E936E4F320D.title: "Connectors and Wires"
+	quest.12DE6E936E4F320D.quest_desc: ["Wires and connectors bridge Create machines to FE networks without turning the whole base into cable spaghetti."]
+	quest.138B81FF64DEAB94.title: "Rotation to FE"
+	quest.138B81FF64DEAB94.quest_desc: ["Alternators convert rotation into FE. Watch the alternator-to-motor loop when wiring power."]
+	quest.53AB613103BD2054.title: "FE to Rotation"
+	quest.53AB613103BD2054.quest_desc: ["Electric motors let power grids drive Create shafts. Accumulators smooth the input side."]
+	quest.12F896DEAC2AA217.title: "Portable Energy Interface"
+	quest.12F896DEAC2AA217.quest_desc: ["Portable energy and adapters connect moving builds, displays, and ComputerCraft-style control surfaces."]
+	quest.721A98BD1ADC3359.title: "Tesla Coil"
+	quest.721A98BD1ADC3359.quest_desc: ["Tesla coils and barbed wire are defensive utility. In anarchy, treat placement like any other trap."]
+	quest.7E947DA65BE50308.title: "Biofuel Loop"
+	quest.7E947DA65BE50308.quest_desc: ["Biofuel gives Create farms another energy and burner path."]
+	quest.705853B64F9EDD44.title: "Diamond Sandpaper"
+	quest.705853B64F9EDD44.quest_desc: ["Diamond grit sandpaper is a small but useful upgrade for polished materials and deployer automation."]
+	quest.4046F92612A4FE75.title: "Physics Assembler"
+	quest.4046F92612A4FE75.quest_desc: ["The Aeronautics bundle includes Simulated, the physics base for airships, ground vehicles, and tank tracks."]
+	quest.7FBB7823F807A44E.title: "Sable Mechanisms"
+	quest.7FBB7823F807A44E.quest_desc: ["Engine assemblies and gyroscopic mechanisms are sequenced-assembly gates for serious physics vehicles."]
+	quest.7E3D4AF50BAA47CE.title: "Cockpit Controls"
+	quest.7E3D4AF50BAA47CE.quest_desc: ["A vehicle needs a control surface before it becomes more than a moving block pile."]
+	quest.4D6E4D277650B8D3.title: "Swivels and Springs"
+	quest.4D6E4D277650B8D3.quest_desc: ["Swivels, springs, and directional gearing make physics builds steerable and recoverable."]
+	quest.6A86CF25E9ECE3B9.title: "Vehicle Sensors"
+	quest.6A86CF25E9ECE3B9.quest_desc: ["Sensors are the difference between a vehicle and a controlled platform."]
+	quest.6115589592787434.title: "Simulated Redstone Logic"
+	quest.6115589592787434.quest_desc: ["Linked receivers, magnets, accumulators, and analog transmission let Sable builds react without fixed wiring."]
+	quest.0141C72DB68D9EB5.title: "Ropes and Docking"
+	quest.0141C72DB68D9EB5.quest_desc: ["Ropes, winches, and docking connectors let mobile builds interact with other mobile builds."]
+	quest.601E2F7EC7A7F528.title: "Sails and Portable Engines"
+	quest.601E2F7EC7A7F528.quest_desc: ["One sail and one portable engine represent the color families. The auger parts support heavier vehicle machinery."]
+	quest.6E9BE30504ADFF56.title: "Simulated Specials"
+	quest.6E9BE30504ADFF56.quest_desc: ["These are specialty controls and attachment tools for more experimental Sable builds."]
+	quest.44AAE151386DF145.title: "Hot Air Flight"
+	quest.44AAE151386DF145.quest_desc: ["Hot air burners and envelopes are the simple Aeronautics lift path."]
+	quest.34063733819C2584.title: "Propellers"
+	quest.34063733819C2584.quest_desc: ["Propellers move airships from floating platforms into controllable machines."]
+	quest.55BB78B776CA1163.title: "Levitite"
+	quest.55BB78B776CA1163.quest_desc: ["Levitite is the Aeronautics material path for stronger lift and late vehicle parts."]
+	quest.2200EE1CE1C88249.title: "Sky Gear"
+	quest.2200EE1CE1C88249.quest_desc: ["Aviator gear, steam vents, and mounted cannons make airships useful and dangerous."]
+	quest.31D88B99EE46E09D.title: "Propulsion Materials"
+	quest.31D88B99EE46E09D.quest_desc: ["Propulsion adds platinum to mine and resin to process. Build this supply before mounting engines on a craft."]
+	quest.3775CECFD87869D2.title: "Burners, Stirling, and Fluids"
+	quest.3775CECFD87869D2.quest_desc: ["Burners, Stirling power, and flight fluids feed the fuel-propulsion side. Turpentine is the native liquid to test first."]
+	quest.7677D375A25026F6.title: "Fuel Thrusters"
+	quest.7677D375A25026F6.quest_desc: ["Thrusters apply force to Sable crafts. Vector variants are for control."]
+	quest.33438B84C1ABE817.title: "Ion and Coral Power"
+	quest.33438B84C1ABE817.quest_desc: ["Ion thrust trades fuel tanks for FE. Coral generation and cables are the native power path."]
+	quest.762CF57C711AD3E2.title: "Wings and Attitude"
+	quest.762CF57C711AD3E2.quest_desc: ["Wings shape the craft instead of only pushing it harder. Copycat wings keep builds readable without wasting mass."]
+	quest.6CB9C339576139B4.title: "Control Surfaces"
+	quest.6CB9C339576139B4.quest_desc: ["Reaction wheels, tilt adapters, and redstone transmission make thrust controllable from the craft."]
+	quest.5D02925D4621688E.title: "Propulsion Build Tools"
+	quest.5D02925D4621688E.quest_desc: ["These tools are for assembling, moving, cloning, or cleaning up glued propulsion builds. Use them deliberately."]
+	quest.5F69C6058DD78CE6.title: "Ground Vehicles"
+	quest.5F69C6058DD78CE6.quest_desc: ["Offroad is the ground-vehicle side of the Aeronautics bundle."]
+	quest.02A74BE9980CA980.title: "Boreheads"
+	quest.02A74BE9980CA980.quest_desc: ["Boreheads and rockcutting wheels turn vehicles into terrain tools."]
+	quest.4B0C2D6B8B8E7089.title: "Suspension Tracks"
+	quest.4B0C2D6B8B8E7089.quest_desc: ["Create: Tracks is tank-style suspension for Sable vehicles, not extra train rails."]
+	quest.7BA306366D0A045A.title: "Cannon Foundry"
+	quest.7BA306366D0A045A.quest_desc: ["Big Cannons starts with foundry work before it becomes artillery."]
+	quest.22256DB603D1E5AF.title: "Bronze Cannon Metal"
+	quest.22256DB603D1E5AF.quest_desc: ["Bronze is the first cannon-material tier and a good place to learn casting."]
+	quest.4A1C97B3F9955236.title: "Cast Iron Cannon Metal"
+	quest.4A1C97B3F9955236.quest_desc: ["Cast iron upgrades the cannon material ladder and feeds early autocannon work."]
+	quest.7ADC4814C1432BF4.title: "Steel Cannon Metal"
+	quest.7ADC4814C1432BF4.quest_desc: ["Steel is where cannons become a real anarchy-server threat."]
+	quest.5C56C82D8058C390.title: "Nethersteel Cannon Metal"
+	quest.5C56C82D8058C390.quest_desc: ["Nethersteel is the heavy end of the cannon-material ladder."]
+	quest.62F4648D802FF0F1.title: "Cannon Moulds"
+	quest.62F4648D802FF0F1.quest_desc: ["Moulds decide what shape of cannon part leaves the foundry."]
+	quest.1073DBB00F1DA0F7.title: "Cannon Workshop"
+	quest.1073DBB00F1DA0F7.quest_desc: ["Builders, welders, and drills are the fabrication tools before a cannon can fire."]
+	quest.297C8A7FAA896259.title: "Cannon Mounts"
+	quest.297C8A7FAA896259.quest_desc: ["Mounts and carriages make cannons usable. Place them like they matter."]
+	quest.7BAF7B089E70846B.title: "Cannon Cores"
+	quest.7BAF7B089E70846B.quest_desc: ["Representative barrels and chambers cover the core cannon families."]
+	quest.110E44469975964B.title: "Breech Variants"
+	quest.110E44469975964B.quest_desc: ["Breeches determine loading style and safe cannon handling."]
+	quest.2E854E31066485A9.title: "Powder Chemistry"
+	quest.2E854E31066485A9.quest_desc: ["Propellant chemistry controls range, risk, and how much damage a mistake can cause."]
+	quest.2A71E13C9A72DA42.title: "Powder Charges and Cartridges"
+	quest.2A71E13C9A72DA42.quest_desc: ["Charges and cartridges are the practical ammo packaging step."]
+	quest.0F7750401F199992.title: "Shells and Shot"
+	quest.0F7750401F199992.quest_desc: ["This is the dangerous part of Create Big Cannons: AP, HE, shrapnel, smoke, fluid, grapeshot, and shot."]
+	quest.02584D5CD2CA0EA4.title: "Fuzes"
+	quest.02584D5CD2CA0EA4.quest_desc: ["Fuzes decide when shells detonate. Test them away from anything important."]
+	quest.50EE746D6580FC77.title: "Autocannon Line"
+	quest.50EE746D6580FC77.quest_desc: ["Autocannons trade cannon-scale payloads for repeatable fire and specialized rounds."]
+	quest.5743B0A50E8E4130.title: "Mortars"
+	quest.5743B0A50E8E4130.quest_desc: ["Mortars and drop shells are compact indirect-fire tools."]
+	quest.53C5DFFFC79D46E0.title: "Crew Safety"
+	quest.53C5DFFFC79D46E0.quest_desc: ["Gas masks, rammers, worms, and block armor checks keep the crew alive and the cannon serviceable."]
+	quest.60EB71536FD22537.title: "Advanced Cannon Moulds"
+	quest.60EB71536FD22537.quest_desc: ["CBC:AT adds new cannon families. Start with the moulds that unlock rifling, suppressors, heavy autocannons, twins, and rockets."]
+	quest.638C2DEC85DEBE30.title: "Rifled Barrels and Fittings"
+	quest.638C2DEC85DEBE30.quest_desc: ["Rifled barrels and fittings are precision cannon upgrades, not a separate starter path."]
+	quest.4AE045CCDFCF2DCE.title: "Heavy Autocannon"
+	quest.4AE045CCDFCF2DCE.quest_desc: ["Heavy autocannons sit between normal autocannons and full big-cannon payloads."]
+	quest.72237F712BD3BEAE.title: "Twin Autocannons"
+	quest.72237F712BD3BEAE.quest_desc: ["Twin autocannons trade build complexity for volume of fire. Give them room and ammo handling."]
+	quest.3AFB93B1572074A2.title: "Rocket Pods"
+	quest.3AFB93B1572074A2.quest_desc: ["Rocket pods are the Advanced Technologies branch for mobile burst damage and airship payloads."]
+	quest.2F48F471A0A53E10.title: "Medium Rockets"
+	quest.2F48F471A0A53E10.quest_desc: ["Medium rockets are their own rail-and-payload branch. They hit harder than the small pod rockets and need their own stockpile."]
+	quest.395241FCFD22175B.title: "Caseless and Charged Shot"
+	quest.395241FCFD22175B.quest_desc: ["Caseless and charged munitions compress the loading loop. Keep storage and safety separate from normal shells."]
+	quest.058D4EC4FF9D0D2D.title: "Advanced Autocannon Rounds"
+	quest.058D4EC4FF9D0D2D.quest_desc: ["APDS, APDSFS, HE, and HE-I rounds give autocannons real target choices."]
+	quest.4FFE540F50E79FFD.title: "Heavy Autocannon Rounds"
+	quest.4FFE540F50E79FFD.quest_desc: ["Heavy autocannon ammunition is its own supply chain: cartridges first, specialized payloads second."]
+	quest.7FC5190551384C78.title: "Starbuncle Wheel"
+	quest.7FC5190551384C78.quest_desc: ["Ars Creo belongs mainly in the Ars chapter. The Starbuncle Wheel is the Create-side bridge."]
+	reward_table.63254D7046EC5DF0.title: "2b2m Arcane Supplies"
+	reward_table.6E08CBE2B0C9A70A.title: "2b2m Expedition Cache"
+	reward_table.2C891E3E985434E0.title: "2b2m Industry Parts"
+	reward_table.039995230CD252AF.title: "2b2m Storage Parts"
+	reward_table.3491AC3E31E068F9.title: "2b2m Summit Cache"
+	reward_table.798ACBF43E380000.title: "2b2m Survival Supplies"
+}

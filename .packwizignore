@@ -1,0 +1,20 @@
+# .packwizignore follows gitignore syntax. Files listed here are kept in git
+# for maintainers but excluded from packwiz indexes and CurseForge exports.
+
+/.git/
+/.github/
+/.gitattributes
+/.gitignore
+/.packwizignore
+/README.md
+/docs/
+/scripts/
+/dist/
+*.zip
+*.mrpack
+
+# Local/generated client state that should never become canonical pack content.
+/config/jei/world/
+/config/sodium-fingerprint.json
+*.bak
+*.backup*

@@ -1,0 +1,286 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "2b2m_utilities"
+	group: "65F80771E7B84A8C"
+	icon: {
+		id: "energymeter:meter"
+	}
+	id: "35AF19FBF8FC7D81"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "energymeter:meter"
+			}
+			id: "634C224EC0BF3FC2"
+			shape: "hexagon"
+			tasks: [{
+				id: "523B461FE35661C1"
+				item: { count: 1, id: "minecraft:compass" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["634C224EC0BF3FC2"]
+			icon: {
+				id: "minecraft:bundle"
+			}
+			id: "053336DE11DE4826"
+			rewards: [
+				{
+					count: 8
+					id: "2D3145B609C67341"
+					item: {
+						count: 1
+						id: "minecraft:string"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "52F92E214AF02427"
+					item: {
+						count: 1
+						id: "minecraft:leather"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "4AE5F0CEB289D580"
+				item: { count: 1, id: "minecraft:bundle" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["634C224EC0BF3FC2"]
+			icon: {
+				id: "minecraft:diamond_pickaxe"
+			}
+			id: "0ECBEB1392BEB364"
+			rewards: [
+				{
+					count: 32
+					id: "7D5DBC791DC69404"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "37B0695B505804FB"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "1A7A64555B8E8BB8"
+					item: { count: 1, id: "minecraft:diamond_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "4758E3B9B980DAE7"
+					item: { count: 1, id: "minecraft:iron_axe" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["634C224EC0BF3FC2"]
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "3D2348D05EAC521E"
+			shape: "circle"
+			tasks: [{
+				id: "4D82A3AB90EE2045"
+				item: { count: 1, id: "minecraft:spyglass" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["634C224EC0BF3FC2"]
+			icon: {
+				id: "minecraft:goat_horn"
+			}
+			id: "57665BCE666048BC"
+			shape: "circle"
+			tasks: [{
+				id: "1EAC8BB4B3430702"
+				item: { count: 1, id: "minecraft:goat_horn" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["634C224EC0BF3FC2"]
+			icon: {
+				id: "minecraft:filled_map"
+			}
+			id: "3838233AC62018E1"
+			rewards: [
+				{
+					count: 16
+					id: "465C3BB4D9481645"
+					item: {
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5699FF4E0B77A649"
+					item: {
+						count: 1
+						id: "minecraft:feather"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "2F5FCFFB92C721E2"
+					item: { count: 1, id: "minecraft:map" }
+					type: "item"
+				}
+				{
+					id: "4C709F116B592348"
+					item: { count: 1, id: "minecraft:compass" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["634C224EC0BF3FC2"]
+			icon: {
+				id: "energymeter:meter"
+			}
+			id: "0F4AED586A66857E"
+			rewards: [
+				{
+					count: 16
+					id: "5482394F085BA40B"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5220CBA56287B5AF"
+					item: {
+						count: 1
+						id: "minecraft:comparator"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					id: "49C43F1BA1FB437F"
+					item: { count: 1, id: "energymeter:meter" }
+					type: "item"
+				}
+				{
+					id: "18D8E84AB9D4AC6E"
+					item: { count: 1, id: "energymeter:monitor" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["634C224EC0BF3FC2"]
+			icon: {
+				id: "minecraft:lava_bucket"
+			}
+			id: "763E400AC4E4DB0C"
+			shape: "square"
+			tasks: [{
+				id: "076ADE54869C6996"
+				item: { count: 1, id: "minecraft:lava_bucket" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["763E400AC4E4DB0C"]
+			icon: {
+				id: "trashcans:ultimate_trash_can"
+			}
+			id: "704578BAEC4BF8E6"
+			rewards: [
+				{
+					count: 2
+					id: "539EC07E7E1A5C6D"
+					item: {
+						count: 1
+						id: "minecraft:hopper"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0D4226F0C384D551"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					id: "4CDF4C7C461171C6"
+					item: { count: 1, id: "trashcans:item_trash_can" }
+					type: "item"
+				}
+				{
+					id: "71D959D890BC54C1"
+					item: { count: 1, id: "trashcans:liquid_trash_can" }
+					type: "item"
+				}
+				{
+					id: "11F94036CF5DA5C8"
+					item: { count: 1, id: "trashcans:energy_trash_can" }
+					type: "item"
+				}
+				{
+					id: "5C273D7424BB65CA"
+					item: { count: 1, id: "trashcans:ultimate_trash_can" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 4.0d
+		}
+	]
+}

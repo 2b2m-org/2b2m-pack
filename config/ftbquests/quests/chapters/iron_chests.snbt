@@ -1,0 +1,301 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "iron_chests"
+	group: "627EB6D4BDB9ACAD"
+	icon: {
+		id: "ironchest:iron_chest"
+	}
+	id: "3665C4F1C23CD262"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "ironchest:wood_to_iron_chest_upgrade"
+			}
+			id: "4593764DDB4C0A5B"
+			rewards: [{
+				count: 4
+				id: "421FD58DF104FF77"
+				item: {
+					count: 1
+					id: "minecraft:chest"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "72AFDC35B4D72A2B"
+					item: { count: 1, id: "ironchest:wood_to_copper_chest_upgrade" }
+					type: "item"
+				}
+				{
+					id: "0CB468D83CE51514"
+					item: { count: 1, id: "ironchest:wood_to_iron_chest_upgrade" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4593764DDB4C0A5B"]
+			icon: {
+				id: "ironchest:iron_chest"
+			}
+			id: "15366AEB1E9BC9D6"
+			rewards: [{
+				count: 8
+				id: "542FFE4C07C0125E"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "2F05F549B896414F"
+					item: { count: 1, id: "ironchest:copper_chest" }
+					type: "item"
+				}
+				{
+					id: "449FDB2A9CF4912E"
+					item: { count: 1, id: "ironchest:iron_chest" }
+					type: "item"
+				}
+				{
+					id: "25D84AFCFCC1CF16"
+					item: { count: 1, id: "ironchest:copper_to_iron_chest_upgrade" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15366AEB1E9BC9D6"]
+			icon: {
+				id: "ironchest:gold_chest"
+			}
+			id: "61110EDA25CA9730"
+			rewards: [{
+				count: 8
+				id: "7A21101C8ADB65E7"
+				item: {
+					count: 1
+					id: "minecraft:gold_ingot"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "5DBB7102A5A9AEE2"
+					item: { count: 1, id: "ironchest:gold_chest" }
+					type: "item"
+				}
+				{
+					id: "66EADBCBEACF7F52"
+					item: { count: 1, id: "ironchest:iron_to_gold_chest_upgrade" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61110EDA25CA9730"]
+			icon: {
+				id: "ironchest:diamond_chest"
+			}
+			id: "48855D350C2B855F"
+			rewards: [
+				{
+					count: 2
+					id: "18978B7DB4FFB58C"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2396482FB4DA403A"
+					table_id: 259402431322018479L
+					type: "random"
+				}
+				{
+					id: "44D8F1CD49A57D33"
+					type: "xp"
+					xp: 35
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "212139DD7E2ADD46"
+					item: { count: 1, id: "ironchest:diamond_chest" }
+					type: "item"
+				}
+				{
+					id: "3C669394865A92C5"
+					item: { count: 1, id: "ironchest:gold_to_diamond_chest_upgrade" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48855D350C2B855F"]
+			icon: {
+				id: "ironchest:crystal_chest"
+			}
+			id: "15137E80C4342273"
+			rewards: [{
+				count: 16
+				id: "331914886BA87242"
+				item: {
+					count: 1
+					id: "minecraft:glass"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					id: "2F532A142E72CFC5"
+					item: { count: 1, id: "ironchest:crystal_chest" }
+					type: "item"
+				}
+				{
+					id: "5A5D95E98703D724"
+					item: { count: 1, id: "ironchest:diamond_to_crystal_chest_upgrade" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["48855D350C2B855F"]
+			icon: {
+				id: "ironchest:obsidian_chest"
+			}
+			id: "5A4D17562105F6F9"
+			rewards: [
+				{
+					count: 16
+					id: "430866CB15796CC2"
+					item: {
+						count: 1
+						id: "minecraft:obsidian"
+					}
+					type: "item"
+				}
+				{
+					id: "6592BF47A5B07682"
+					table_id: 259402431322018479L
+					type: "random"
+				}
+				{
+					id: "4AC4E7A4276B5185"
+					type: "xp"
+					xp: 35
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "3E4B109B20A7C835"
+					item: { count: 1, id: "ironchest:obsidian_chest" }
+					type: "item"
+				}
+				{
+					id: "0BA01DA01C5F4D94"
+					item: { count: 1, id: "ironchest:diamond_to_obsidian_chest_upgrade" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15366AEB1E9BC9D6"]
+			icon: {
+				id: "ironchest:trapped_diamond_chest"
+			}
+			id: "72C6B4B458FEDBAD"
+			rewards: [{
+				count: 16
+				id: "62FCA7DB2CE9C9D8"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "1399789691EE9DD6"
+					item: { count: 1, id: "ironchest:trapped_copper_chest" }
+					type: "item"
+				}
+				{
+					id: "70013782283B19C1"
+					item: { count: 1, id: "ironchest:trapped_iron_chest" }
+					type: "item"
+				}
+				{
+					id: "0C3F26BD766FAC6D"
+					item: { count: 1, id: "ironchest:trapped_gold_chest" }
+					type: "item"
+				}
+				{
+					id: "3F5E95B27950DC4B"
+					item: { count: 1, id: "ironchest:trapped_diamond_chest" }
+					type: "item"
+				}
+				{
+					id: "6AAAF26FFA1DD0B5"
+					item: { count: 1, id: "ironchest:trapped_crystal_chest" }
+					type: "item"
+				}
+				{
+					id: "34A2C585A926CA3D"
+					item: { count: 1, id: "ironchest:trapped_obsidian_chest" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4593764DDB4C0A5B"]
+			icon: {
+				id: "ironchest:dirt_chest"
+			}
+			id: "6D1733A090F84CB6"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "252528400365058D"
+					item: { count: 1, id: "ironchest:dirt_chest" }
+					type: "item"
+				}
+				{
+					id: "1E64ED685FA37D52"
+					item: { count: 1, id: "ironchest:trapped_dirt_chest" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 4.0d
+		}
+	]
+}

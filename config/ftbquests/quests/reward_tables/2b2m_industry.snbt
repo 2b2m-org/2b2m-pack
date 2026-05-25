@@ -1,0 +1,107 @@
+{
+	icon: {
+		id: "minecraft:redstone"
+	}
+	id: "2C891E3E985434E0"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			count: 16
+			id: "59DEC9FF65E9D616"
+			item: {
+				count: 1
+				id: "minecraft:redstone"
+			}
+			random_bonus: 16
+			weight: 8.0f
+		}
+		{
+			count: 16
+			id: "210A274EBEEBED2B"
+			item: {
+				count: 1
+				id: "minecraft:copper_ingot"
+			}
+			random_bonus: 16
+			weight: 6.0f
+		}
+		{
+			count: 8
+			id: "5BEBB9864AA4A88B"
+			item: {
+				count: 1
+				id: "minecraft:iron_ingot"
+			}
+			random_bonus: 8
+			weight: 6.0f
+		}
+		{
+			count: 8
+			id: "6552FB51BFEEDAD2"
+			item: {
+				count: 1
+				id: "minecraft:quartz"
+			}
+			random_bonus: 8
+			weight: 4.0f
+		}
+		{
+			id: "09AD240C21F5B24F"
+			item: {
+				count: 1
+				id: "minecraft:hopper"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 16
+			id: "05B148A8C9BE5C7C"
+			item: {
+				count: 1
+				id: "create:shaft"
+			}
+			random_bonus: 16
+			weight: 4.0f
+		}
+		{
+			count: 8
+			id: "08DB143F58FA083B"
+			item: {
+				count: 1
+				id: "create:andesite_alloy"
+			}
+			random_bonus: 8
+			weight: 4.0f
+		}
+		{
+			count: 2
+			id: "01D96B191D9FE424"
+			item: {
+				count: 1
+				id: "mekanism:basic_control_circuit"
+			}
+			random_bonus: 2
+			weight: 3.0f
+		}
+		{
+			id: "4F07C6F11C458A71"
+			item: {
+				count: 1
+				id: "mekanism:upgrade_speed"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 8
+			id: "50C2C2F20CC1B3DE"
+			item: {
+				count: 1
+				id: "bigreactors:graphite_ingot"
+			}
+			random_bonus: 8
+			weight: 3.0f
+		}
+	]
+	use_title: true
+}

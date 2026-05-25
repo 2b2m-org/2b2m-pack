@@ -1,0 +1,15 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#yungsextras:has_structure/swamp_structures",
+  "features": [
+    "yungsextras:swamp/pillars/swamp_pillar_0",
+    "yungsextras:swamp/cubbies/swamp_cubby_0",
+    "yungsextras:swamp/cubbies/swamp_cubby_4",
+    "yungsextras:swamp/arches/swamp_arch_0",
+    "yungsextras:swamp/arches/swamp_arch_5",
+    "yungsextras:swamp/double_arches/swamp_double_arch_0",
+    "yungsextras:swamp/double_arches/swamp_double_arch_11",
+    "yungsextras:swamp/misc/swamp_church"
+  ],
+  "step": "surface_structures"
+}

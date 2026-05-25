@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 9,
+  "currentVersion": "1.3.3-alpha.1",
+  "modpackName": "2b2m",
+  "modpackAuthor": "jugglebubbles",
+  "modpackReleaseType": "alpha",
+  "updateCheckerId": "https://raw.githubusercontent.com/2b2m-org/2b2m-misc/main/2b2m-update-feed/",
+  "advanced": {
+    "bccEnabled": false,
+    "expandButton": false,
+    "updateCheckerType": 2,
+    "addButton": true,
+    "buttonXOffset": 24,
+    "buttonYOffset": -24,
+    "retroWarning": false,
+    "modpackMods": []
+  }
+}

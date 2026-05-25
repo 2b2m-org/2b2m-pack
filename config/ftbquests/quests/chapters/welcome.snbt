@@ -1,0 +1,252 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "welcome"
+	group: "65F80771E7B84A8C"
+	icon: {
+		id: "minecraft:compass"
+	}
+	id: "678A1FBCC7A873DC"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "ftbquests:book"
+			}
+			id: "071E6A67B5E2815C"
+			shape: "hexagon"
+			tasks: [{
+				id: "585CCE4835C40A74"
+				item: { count: 1, id: "ftbquests:book" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["071E6A67B5E2815C"]
+			icon: {
+				id: "minecraft:filled_map"
+			}
+			id: "0BD9775EC2F17E22"
+			shape: "circle"
+			tasks: [
+				{
+					id: "119D77096CBE8950"
+					item: { count: 1, id: "minecraft:filled_map" }
+					type: "item"
+				}
+				{
+					id: "71A991CC95E190B4"
+					item: { count: 1, id: "minecraft:spyglass" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0BD9775EC2F17E22"]
+			icon: {
+				id: "minecraft:clock"
+			}
+			id: "679E84039CC83E1F"
+			shape: "circle"
+			tasks: [
+				{
+					id: "56ACCF9426BF699A"
+					item: { count: 1, id: "minecraft:clock" }
+					type: "item"
+				}
+				{
+					id: "6292C8435F751E7B"
+					item: { count: 1, id: "minecraft:crafting_table" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["679E84039CC83E1F"]
+			icon: {
+				id: "minecraft:stone_pickaxe"
+			}
+			id: "47D4B2D1AC2F6B52"
+			rewards: [
+				{
+					count: 32
+					id: "47F46B283A068663"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7761E7DFA5681D2B"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					id: "14F4A524312857B2"
+					item: { count: 1, id: "minecraft:crafting_table" }
+					type: "item"
+				}
+				{
+					id: "4073A96E74550A38"
+					item: { count: 1, id: "minecraft:stone_pickaxe" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["47D4B2D1AC2F6B52"]
+			icon: {
+				id: "minecraft:iron_ingot"
+			}
+			id: "5EBAF76531EFE0B3"
+			rewards: [
+				{
+					id: "2FF8C4F196D3C44D"
+					item: {
+						count: 1
+						id: "minecraft:shield"
+					}
+					type: "item"
+				}
+				{
+					id: "4532D4CB2591BEDD"
+					item: {
+						count: 1
+						id: "minecraft:bucket"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "361AC7CF43E47D4F"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5EBAF76531EFE0B3"]
+			icon: {
+				id: "minecraft:diamond"
+			}
+			id: "6994E27B3631843A"
+			rewards: [
+				{
+					count: 8
+					id: "5D034B436B8F1E9A"
+					item: {
+						count: 1
+						id: "minecraft:obsidian"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3157BECD917B9A81"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2A45E25D8E29A747"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6994E27B3631843A"]
+			icon: {
+				id: "minecraft:netherite_scrap"
+			}
+			id: "2AC1F5818F8E5F62"
+			rewards: [
+				{
+					count: 8
+					id: "35D66F961DB9CC3B"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "039F0FB3EE529744"
+					item: {
+						count: 1
+						id: "minecraft:fire_charge"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "2202508FCA1B3827"
+				item: { count: 1, id: "minecraft:netherite_scrap" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5EBAF76531EFE0B3"]
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "22FCE01BCF86C9E6"
+			optional: true
+			rewards: [
+				{
+					id: "26BC11ACA90ED819"
+					table_id: 8758036675251666944L
+					type: "random"
+				}
+				{
+					id: "6A1E3EDA42224C6C"
+					type: "xp"
+					xp: 35
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3E14B7F63B51F9B1"
+					item: { count: 1, id: "minecraft:compass" }
+					type: "item"
+				}
+				{
+					id: "351B993A5B1970C8"
+					item: { count: 1, id: "minecraft:book" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 5.0d
+		}
+	]
+}

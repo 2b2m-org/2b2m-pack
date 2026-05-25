@@ -1,0 +1,61 @@
+{
+	icon: {
+		id: "minecraft:ender_pearl"
+	}
+	id: "6E08CBE2B0C9A70A"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			count: 4
+			id: "6B93A873AE78BB52"
+			item: {
+				count: 1
+				id: "minecraft:ender_pearl"
+			}
+			random_bonus: 4
+			weight: 6.0f
+		}
+		{
+			count: 8
+			id: "10AC807CD830F04B"
+			item: {
+				count: 1
+				id: "minecraft:obsidian"
+			}
+			random_bonus: 8
+			weight: 5.0f
+		}
+		{
+			count: 8
+			id: "3413C64510A11B83"
+			item: {
+				count: 1
+				id: "minecraft:golden_carrot"
+			}
+			random_bonus: 8
+			weight: 5.0f
+		}
+		{
+			count: 8
+			id: "17F6D2B4F060E51A"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+			random_bonus: 8
+			weight: 4.0f
+		}
+		{
+			id: "3371D75CE9E0DA61"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+			random_bonus: 1
+			weight: 2.0f
+		}
+		{ id: "17A0F0D1EA2DE165", item: { count: 1, id: "minecraft:totem_of_undying" } }
+	]
+	use_title: true
+}
