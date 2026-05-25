@@ -36,10 +36,7 @@ cat > "$tmp_dir/instance.cfg" <<EOF
 ConfigVersion=1.3
 InstanceType=OneSix
 MCLaunchMethod=LauncherPart
-MaxMemAlloc=8192
-MinMemAlloc=1024
 OverrideCommands=true
-OverrideMemory=true
 PreLaunchCommand="\$INST_JAVA" -jar "$bootstrap_jar" "$pack_url"
 name=2b2m
 EOF
