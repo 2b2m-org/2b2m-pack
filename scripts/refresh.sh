@@ -6,3 +6,5 @@ cd "$repo_root"
 
 scripts/clean-generated.sh
 packwiz refresh
+scripts/apply-preserve-policy.sh
+packwiz refresh

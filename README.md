@@ -22,6 +22,10 @@ Refresh the pack index after manual file changes:
 scripts/refresh.sh
 ```
 
+`scripts/refresh.sh` also reapplies the config preservation policy so shipped
+config files seed new installs without overwriting local edits during
+packwiz-based updates.
+
 Build the CurseForge upload zip:
 
 ```sh

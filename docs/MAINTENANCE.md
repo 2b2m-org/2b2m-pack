@@ -28,3 +28,23 @@ The cleanup script removes common local-only files:
 - JEI world-local history/bookmarks
 - Sodium fingerprint data
 - accidentally bundled CC: Tweaked jar, since it is tracked via Modrinth metadata
+
+## Config Preservation
+
+Pack config files are seeded into new installs but should not clobber local
+changes on packwiz-based updates. `scripts/refresh.sh` runs
+`scripts/apply-preserve-policy.sh`, which marks these index entries with
+`preserve = true`:
+
+- `config/**`
+- `defaultconfigs/**`
+- `options.txt`
+- `servers.dat`
+- `keybind_bundles.json`
+
+Do not mark `mods/*.pw.toml` or `kubejs/**` as preserved. Mod metadata and
+pack gameplay scripts need to update authoritatively.
+
+CurseForge exports do not have an equivalent per-file preserve flag in their
+manifest format, so this preservation policy is for packwiz-aware installs and
+updates.
