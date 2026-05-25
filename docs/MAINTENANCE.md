@@ -11,7 +11,7 @@ running Minecraft instance without cleaning generated state first.
 4. Run `scripts/export-curseforge.sh`.
 5. Import the generated zip into a fresh launcher profile when the change is risky.
 6. Upload with `scripts/upload-curseforge.sh`.
-7. Run `scripts/publish-website-packwiz.sh` to update the website-hosted packwiz tree.
+7. Run `scripts/publish-website-packwiz.sh` to update the website-hosted packwiz tree and Prism/MultiMC instance zip.
 8. Commit and push the pack source changes.
 
 ## Pack Health Commands
