@@ -32,6 +32,16 @@ Build the CurseForge upload zip:
 scripts/export-curseforge.sh
 ```
 
+Build a Modrinth `.mrpack`:
+
+```sh
+scripts/export-modrinth.sh
+```
+
+The current Modrinth export works, but most dependencies are still tracked via
+CurseForge metadata, so packwiz embeds those jars in the `.mrpack`. See
+`docs/MODRINTH.md` before publishing it publicly.
+
 Upload an exported zip to CurseForge:
 
 ```sh
