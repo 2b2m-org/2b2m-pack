@@ -38,9 +38,10 @@ Build a Modrinth `.mrpack`:
 scripts/export-modrinth.sh
 ```
 
-The current Modrinth export works, but most dependencies are still tracked via
-CurseForge metadata, so packwiz embeds those jars in the `.mrpack`. See
-`docs/MODRINTH.md` before publishing it publicly.
+The Modrinth export converts exact SHA-1 matches to Modrinth metadata in a
+temporary export tree, then embeds only the remaining CurseForge-only jar
+exceptions. See `docs/MODRINTH.md` and the generated
+`dist/modrinth-export-report.md` before publishing it publicly.
 
 Upload an exported zip to CurseForge:
 
@@ -50,6 +51,16 @@ scripts/upload-curseforge.sh dist/2b2m-1.3.3-curseforge.zip release "Release 1.3
 
 The upload script reads `/root/.config/curseforge/upload-api-token.env` by
 default. Do not commit API tokens or generated export zips.
+
+Useful pack health checks:
+
+```sh
+packwiz list --version
+scripts/refresh.sh
+git diff --check
+unzip -t dist/2b2m-1.3.3-curseforge.zip
+unzip -t dist/2b2m-1.3.3.mrpack
+```
 
 ## Notes
 

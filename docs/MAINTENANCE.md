@@ -13,6 +13,24 @@ running Minecraft instance without cleaning generated state first.
 6. Upload with `scripts/upload-curseforge.sh`.
 7. Commit and push the pack source changes.
 
+## Pack Health Commands
+
+There is no single packwiz doctor command, but these commands cover the useful
+checks:
+
+```sh
+packwiz list --version
+scripts/refresh.sh
+git diff --check
+scripts/export-curseforge.sh
+scripts/export-modrinth.sh
+unzip -t dist/2b2m-1.3.3-curseforge.zip
+unzip -t dist/2b2m-1.3.3.mrpack
+```
+
+Use `packwiz update --all` only on a branch or when you are ready to review a
+real dependency bump. It mutates metadata instead of reporting pending updates.
+
 ## Importing From a CurseForge Export
 
 For a future full re-import, use a clean branch or temp directory:

@@ -12,29 +12,51 @@ The output is:
 dist/2b2m-<version>.mrpack
 ```
 
-## Current State
+The export also writes these ignored reports:
 
-The pack can be exported to `.mrpack`, and the generated archive validates with
-`unzip -t`.
+```text
+dist/modrinth-export-report.json
+dist/modrinth-export-report.md
+```
 
-This is not yet a clean Modrinth-native pack. Most dependencies are currently
-tracked with CurseForge metadata, so packwiz embeds those jars into
-`overrides/mods/` in the `.mrpack`. Only dependencies with Modrinth metadata can
-be listed as normal Modrinth downloads in `modrinth.index.json`.
+## Export Model
 
-As of the first export:
+The canonical repo keeps CurseForge metadata for CurseForge-hosted mods. That
+keeps `scripts/export-curseforge.sh` producing a normal CurseForge manifest
+instead of embedding jars that CurseForge already hosts.
 
-- 1 dependency is represented as a Modrinth manifest download: CC: Tweaked.
-- 128 dependency jars are embedded in `overrides/mods/`.
-- Create Aeronautics requires a manual-download cache entry because CurseForge
-  does not provide that file through the packwiz download path.
+For Modrinth, `scripts/export-modrinth.sh` builds from a temporary copy of the
+repo:
 
-`scripts/export-modrinth.sh` seeds the Create Aeronautics cache from known local
-2b2m server/dev paths when the jar hash matches `mods/create-aeronautics.pw.toml`.
+1. Refresh the canonical pack index and preserve policy.
+2. Copy the repo to a temporary export tree, excluding `.git` and `dist/`.
+3. Query Modrinth by the exact SHA-1 from each CurseForge metadata file.
+4. Rewrite only exact hash matches in the temporary tree to Modrinth metadata.
+5. Run `packwiz modrinth export` from the temporary tree.
+6. Copy the finished `.mrpack` and report files back to `dist/`.
+
+The source files in `mods/*.pw.toml` are not converted in place.
+
+## Current Coverage
+
+The current exact-hash lookup converts 88 CurseForge metadata files to Modrinth
+metadata in the temporary export tree. Together with the one canonical Modrinth
+entry, the expected `.mrpack` has 89 Modrinth manifest downloads.
+
+The remaining 40 CurseForge metadata files do not currently have an exact
+Modrinth file hash match, so packwiz embeds those jars in `overrides/mods/`.
+Review `dist/modrinth-export-report.md` after each export before publishing the
+pack publicly.
+
+Create Aeronautics is now covered by the exact Modrinth hash conversion, so the
+Modrinth export no longer needs a local manual-download cache seed for that jar.
 
 ## Publishing Notes
 
-Modrinth accepts `.mrpack` uploads, but public publishing requires permission to
-redistribute any embedded third-party jars. The long-term cleanup path is to
-replace CurseForge metadata with Modrinth metadata wherever the exact file exists
-on Modrinth. That will shrink the `.mrpack` and reduce redistribution risk.
+Modrinth accepts `.mrpack` uploads. Public publishing still requires permission
+to redistribute any embedded third-party jars. Do not treat the generated
+`.mrpack` as publication-ready until the embedded jar exception list has been
+reviewed for the release.
+
+If more projects later publish the same files on Modrinth, the export script
+will pick them up automatically by SHA-1 on the next run.
