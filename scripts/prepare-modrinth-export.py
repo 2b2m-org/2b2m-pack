@@ -238,6 +238,27 @@ def copy_repo_to_temp(repo_root: Path, temp_parent: Path) -> Path:
     return temp_repo
 
 
+def copy_public_packwiz_tree(source: Path, target: Path) -> None:
+    if target.exists():
+        shutil.rmtree(target)
+
+    def ignore(_directory: str, names: list[str]) -> set[str]:
+        ignored = {
+            ".git",
+            ".gitattributes",
+            ".gitignore",
+            ".packwizignore",
+            "__pycache__",
+            "dist",
+            "docs",
+            "README.md",
+            "scripts",
+        }
+        return {name for name in names if name in ignored}
+
+    shutil.copytree(source, target, ignore=ignore)
+
+
 def run(command: list[str], cwd: Path) -> None:
     print("+ " + " ".join(command), flush=True)
     subprocess.run(command, cwd=cwd, check=True)
@@ -386,6 +407,16 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Keep the temporary converted pack tree for inspection.",
     )
+    parser.add_argument(
+        "--packwiz-tree-output",
+        type=Path,
+        help="Copy the converted packwiz tree to this path after refresh.",
+    )
+    parser.add_argument(
+        "--skip-mrpack",
+        action="store_true",
+        help="Prepare/copy the converted packwiz tree without building a .mrpack.",
+    )
     return parser.parse_args()
 
 
@@ -414,6 +445,14 @@ def main() -> int:
         )
 
         run(["scripts/refresh.sh"], temp_repo)
+
+        if args.packwiz_tree_output:
+            tree_output = args.packwiz_tree_output.resolve()
+            copy_public_packwiz_tree(temp_repo, tree_output)
+            print(f"Wrote converted packwiz tree to {tree_output}")
+
+        if args.skip_mrpack:
+            return 0
 
         temp_output = temp_repo / "dist" / output.name
         temp_output.parent.mkdir(parents=True, exist_ok=True)

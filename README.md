@@ -52,6 +52,22 @@ scripts/upload-curseforge.sh dist/2b2m-1.3.3-curseforge.zip release "Release 1.3
 The upload script reads `/root/.config/curseforge/upload-api-token.env` by
 default. Do not commit API tokens or generated export zips.
 
+Publish the packwiz source tree to the website:
+
+```sh
+scripts/publish-website-packwiz.sh
+```
+
+This publishes a temporary exact-hash Modrinth-converted tree, not the
+canonical CurseForge-first source files. That keeps packwiz-installer users away
+from known manual CurseForge downloads such as Create Aeronautics.
+
+The public installer URL is:
+
+```text
+https://2b2m.org/packwiz/pack.toml
+```
+
 Useful pack health checks:
 
 ```sh
