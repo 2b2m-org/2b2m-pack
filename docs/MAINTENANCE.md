@@ -62,6 +62,9 @@ changes on packwiz-based updates. `scripts/refresh.sh` runs
 - `servers.dat`
 - `keybind_bundles.json`
 
+`config/modpack-update-checker/config.json` is intentionally excluded from
+preservation so feed URL changes ship to existing packwiz installs.
+
 Do not mark `mods/*.pw.toml` or `kubejs/**` as preserved. Mod metadata and
 pack gameplay scripts need to update authoritatively.
 

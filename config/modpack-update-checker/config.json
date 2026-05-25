@@ -4,7 +4,7 @@
   "modpackName": "2b2m",
   "modpackAuthor": "jugglebubbles",
   "modpackReleaseType": "alpha",
-  "updateCheckerId": "https://raw.githubusercontent.com/2b2m-org/2b2m-misc/main/2b2m-update-feed/",
+  "updateCheckerId": "https://raw.githubusercontent.com/2b2m-org/2b2m-pack/main/update-feed/",
   "advanced": {
     "bccEnabled": false,
     "expandButton": false,

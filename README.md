@@ -11,6 +11,7 @@ This repository manages the pack that is published to CurseForge project `153050
 - `pack.toml` and `index.toml`: packwiz pack metadata and file index.
 - `mods/*.pw.toml`: pinned mod metadata from CurseForge and Modrinth.
 - `config/`, `defaultconfigs/`, `kubejs/`, `options.txt`, `servers.dat`: pack overrides.
+- `update-feed/`: public Modpack Update Checker metadata and changelogs.
 - `scripts/`: local maintainer commands. These are excluded from pack exports.
 - `dist/`: generated exports. This directory is ignored by git.
 

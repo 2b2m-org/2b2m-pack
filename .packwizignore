@@ -9,6 +9,7 @@
 /README.md
 /docs/
 /scripts/
+/update-feed/
 /dist/
 *.zip
 *.mrpack

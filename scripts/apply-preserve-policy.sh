@@ -7,14 +7,25 @@ cd "$repo_root"
 tmp="$(mktemp)"
 awk '
 function should_preserve(path) {
+  if (path == "config/modpack-update-checker/config.json") {
+    return 0
+  }
   return path ~ /^(config\/|defaultconfigs\/|options\.txt$|servers\.dat$|keybind_bundles\.json$)/
+}
+
+function should_force_unpreserve(path) {
+  return path == "config/modpack-update-checker/config.json"
 }
 
 function flush_block() {
   if (!in_block) {
     return
   }
-  if (should_preserve(file_path)) {
+  if (should_force_unpreserve(file_path)) {
+    if (has_preserve) {
+      sub(/preserve = true/, "preserve = false", block)
+    }
+  } else if (should_preserve(file_path)) {
     if (has_preserve) {
       sub(/preserve = false/, "preserve = true", block)
     } else {
