@@ -38,8 +38,12 @@ if [[ -z "$token" ]]; then
   exit 1
 fi
 
-display_name="$(basename "$zip_path")"
-display_name="${display_name%.zip}.zip"
+zip_name="$(basename "$zip_path")"
+if [[ "$zip_name" == *-curseforge.zip ]]; then
+  display_name="${zip_name%-curseforge.zip}.zip"
+else
+  display_name="$zip_name"
+fi
 if [[ -z "$changelog" ]]; then
   changelog="Pack export ${display_name}"
 fi
