@@ -163,8 +163,6 @@ key_key.simplytooltips.cycle_tab:key.keyboard.unknown
 key_key.simplytooltips.capture_gif:key.keyboard.unknown
 key_key.createbigcannons.pitch_mode:key.keyboard.unknown
 key_key.createbigcannons.fire_controlled_cannon:key.mouse.left
-key_xray.config.toggle:key.keyboard.backslash
-key_xray.config.open:key.keyboard.unknown
 key_key.jei.toggleOverlay:key.keyboard.o:CONTROL
 key_key.jei.focusSearch:key.keyboard.f:CONTROL
 key_key.jei.previousPage:key.keyboard.unknown
@@ -286,10 +284,6 @@ key_gui.xaero_toggle_tracked_players_on_map:key.keyboard.unknown
 key_gui.xaero_toggle_tracked_players_in_world:key.keyboard.unknown
 key_gui.xaero_toggle_pac_chunk_claims:key.keyboard.unknown
 key_gui.xaero_pac_key_open_menu:key.keyboard.apostrophe
-key_key.freecam.toggle:key.keyboard.f4
-key_key.freecam.playerControl:key.keyboard.unknown
-key_key.freecam.tripodReset:key.keyboard.unknown
-key_key.freecam.configGui:key.keyboard.unknown
 key_key.tracks.open_tuning:key.keyboard.j
 key_justzoom.keybinds.keybind.zoom:key.keyboard.c
 key_key.ftbultimine:key.keyboard.grave.accent

@@ -108,3 +108,19 @@ reviewed for the release.
 
 If more projects later publish the same files on Modrinth, the export script
 will pick them up automatically by SHA-1 on the next run.
+
+## Upload Readiness
+
+As of the May 25, 2026 audit, the generated `.mrpack` is structurally valid and
+the pack source plus generated CurseForge/Modrinth exports have no `xray`,
+`x-ray`, `freecam`, `baritone`, `meteor`, `wurst`, or `aristois` path/content
+matches.
+
+The remaining public-upload blocker is embedded jar redistribution. The 89
+manifest downloads are covered by Modrinth-hosted files. The 40 embedded
+CurseForge-only jars still need one of these before public submission:
+
+- an exact matching file published on Modrinth,
+- an open-source license that allows redistribution,
+- a project description statement allowing use in Modrinth modpacks, or
+- explicit author permission attached in the Modrinth moderation tab.

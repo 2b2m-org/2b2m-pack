@@ -1106,11 +1106,6 @@ hash = "1ac1fd9694773ef1ec8af42c9cc8a908a1b618fa6fb6031c27305383e97f70c7"
 preserve = true
 
 [[files]]
-file = "config/freecam.json5"
-hash = "442d3c73c8d0c64a2445ef0c31b618db0034a2f452bf15751ec337287f34ef0c"
-preserve = true
-
-[[files]]
 file = "config/ftblibrary-client.snbt"
 hash = "6b06df13ca5d57ce34da46699ecbc4d2c9dfb68684c9c4c5526974b6c9fecb80"
 preserve = true
@@ -1977,7 +1972,7 @@ preserve = true
 
 [[files]]
 file = "config/voicechat/voicechat-client.properties"
-hash = "ca67c9156fc16d47eb96f80a3df1e92c0ea66f7c0e20e1672859c7ab0aff5790"
+hash = "b6aee7e36e6d1bc02664e2acc44205540e1a098833e8ff178db4a34186cb2e4c"
 preserve = true
 
 [[files]]
@@ -2071,16 +2066,6 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 preserve = true
 
 [[files]]
-file = "config/xray-client.toml"
-hash = "4b86460c56685b398ea00af978e413c9bc84c7c2026d5f48e926b099d2e15581"
-preserve = true
-
-[[files]]
-file = "config/xray/block_store.json"
-hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
-preserve = true
-
-[[files]]
 file = "config/yacl.json5"
 hash = "121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e"
 preserve = true
@@ -2123,7 +2108,7 @@ hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
 
 [[files]]
 file = "kubejs/config/defaultoptions.txt"
-hash = "17da2d6de758bcad0534efcc18fc399486aabef32ffddbff6a903f4c521a3b12"
+hash = "e8e3afe4380ac68f3feaacb8328a8758b090c76d68b13038103d205f9c37b250"
 
 [[files]]
 file = "kubejs/config/web_server.json"
