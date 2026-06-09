@@ -31,13 +31,16 @@ trap cleanup EXIT
 mkdir -p "$tmp_dir/minecraft"
 curl -fsSL -o "$tmp_dir/minecraft/$bootstrap_jar" "$bootstrap_url"
 
+# Prism/QSettings requires escaped quotes here; raw quotes can be re-saved into a
+# command where arguments are joined together on current Prism builds.
+
 cat > "$tmp_dir/instance.cfg" <<EOF
 [General]
 ConfigVersion=1.3
 InstanceType=OneSix
 MCLaunchMethod=LauncherPart
 OverrideCommands=true
-PreLaunchCommand="\$INST_JAVA" -jar "$bootstrap_jar" "$pack_url"
+PreLaunchCommand=\"\$INST_JAVA\" -jar \"$bootstrap_jar\" \"$pack_url\"
 name=2b2m
 EOF
 
