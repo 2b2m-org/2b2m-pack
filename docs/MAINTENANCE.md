@@ -26,8 +26,8 @@ git diff --check
 scripts/export-curseforge.sh
 scripts/export-modrinth.sh
 scripts/publish-website-packwiz.sh
-unzip -t dist/2b2m-1.3.3-curseforge.zip
-unzip -t dist/2b2m-1.3.3.mrpack
+unzip -t dist/2b2m-1.4.1-curseforge.zip
+unzip -t dist/2b2m-1.4.1.mrpack
 ```
 
 Use `packwiz update --all` only on a branch or when you are ready to review a

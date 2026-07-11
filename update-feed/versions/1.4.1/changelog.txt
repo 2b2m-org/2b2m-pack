@@ -1,0 +1,6 @@
+2b2m 1.4.1
+
+- Updates the July 11 mod set, including JEI, Balm, Lithostitched, Open Parties and Claims, Sophisticated Backpacks, Structurize, Waystones, Sodium, and Xaero's maps.
+- Updates the server runtime to NeoForge 21.1.230.
+- Isolates GenericEvents airship control frequencies per gameplay instance so identical duel schematics cannot collide.
+- Audits server-side packaging: mixed-side mods such as Jade remain installed, while purely client-side mods and libraries are excluded.

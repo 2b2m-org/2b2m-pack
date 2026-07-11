@@ -47,7 +47,7 @@ exceptions. See `docs/MODRINTH.md` and the generated
 Upload an exported zip to CurseForge:
 
 ```sh
-scripts/upload-curseforge.sh dist/2b2m-1.3.3-curseforge.zip release "Release 1.3.3"
+scripts/upload-curseforge.sh dist/2b2m-1.4.1-curseforge.zip release "Release 1.4.1"
 ```
 
 The upload script reads `/root/.config/curseforge/upload-api-token.env` by
@@ -81,8 +81,8 @@ Useful pack health checks:
 packwiz list --version
 scripts/refresh.sh
 git diff --check
-unzip -t dist/2b2m-1.3.3-curseforge.zip
-unzip -t dist/2b2m-1.3.3.mrpack
+unzip -t dist/2b2m-1.4.1-curseforge.zip
+unzip -t dist/2b2m-1.4.1.mrpack
 ```
 
 ## Notes

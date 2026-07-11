@@ -7,3 +7,16 @@ PlayerEvents.loggedIn(event => {
     player.give(Item.of('ftbquests:book'))
   }
 })
+
+if (Platform.isLoaded('createaddition')) {
+  ServerEvents.recipes(event => {
+    event.remove({ id: 'createaddition:crafting/spool' })
+    event.shaped('16x createaddition:spool', [
+      'P P',
+      ' N '
+    ], {
+      P: '#c:plates/iron',
+      N: '#c:nuggets/iron'
+    }).id('kubejs:createaddition_spool')
+  })
+}

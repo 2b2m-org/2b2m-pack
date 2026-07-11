@@ -1,6 +1,6 @@
 name = "Modpack Update Checker"
 filename = "modpack-update-checker-1.21.1-neoforge-0.15.6.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

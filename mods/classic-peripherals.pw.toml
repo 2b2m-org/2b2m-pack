@@ -1,13 +1,13 @@
 name = "Classic Peripherals"
-filename = "classicperipherals-0.5.0-neoforge-1.21.1.jar"
+filename = "classicperipherals-0.5.1-neoforge-1.21.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "0dd6f87d4c479ca4217c788f62e2a9a648dc8c71"
+hash = "ae4d034d67f6516a05f887cffaf0bafd33b59ed4"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8119222
+file-id = 8144652
 project-id = 1397210

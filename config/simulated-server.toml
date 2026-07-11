@@ -49,12 +49,12 @@
 	#Maximum amount of blocks in a structure assemble-able by Physics Assemblers, Swivel Bearings, or other means.
 	# Default: 128000
 	# Range: > 1
-	maxBlocksMoved = 8192
+	maxBlocksMoved = 32768
 	#.
 	#Maximum range in blocks which honey glue may initially be placed
 	# Default: 48
 	# Range: > 1
-	honeyGlueRange = 24
+	honeyGlueRange = 48
 	#.
 	#Maximum range in blocks which merging glue may be placed by items such as slime balls
 	# Default: 4.0
@@ -207,6 +207,16 @@
 	# Default: 96.0
 	# Range: 0.0 ~ 256.0
 	max_swivel_bearing_speed = 64.0
+	#.
+	#The maximum FE capacity of Docking Connectors
+	# Default: 10000
+	# Range: > 0
+	docking_connector_fe_capacity = 10000
+	#.
+	#The maximum FE/t throughput of Docking Connectors
+	# Default: 10000
+	# Range: > 0
+	docking_connector_fe_throughput = 10000
 
 #.
 #Equipment and gadgets added by Simulated

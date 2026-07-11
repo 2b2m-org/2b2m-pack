@@ -1,6 +1,6 @@
 name = "Konkrete"
 filename = "konkrete_neoforge_1.9.9_MC_1.21.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

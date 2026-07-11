@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "tracks:track_mount",
+    {
+      "id": "tracks:suspension_track",
+      "required": false
+    },
+    {
+      "id": "tracks:track_drive_wheel",
+      "required": false
+    }
+  ]
+}

@@ -33,8 +33,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "65F5DB2200758E1C"
-				item: { count: 1, id: "apotheosis:boss_summoner" }
-				type: "item"
+				type: "checkmark"
 			}]
 			x: 3.0d
 			y: 0.0d

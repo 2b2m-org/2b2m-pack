@@ -1,0 +1,13 @@
+name = "Sable: True Impact"
+filename = "true_impact-1.1.0-gamma-hotfix.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ff0ead978cbe62a32359177664df0a00337fdc06"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8245603
+project-id = 1544491
