@@ -36,6 +36,7 @@
 				}
 			]
 			shape: "hexagon"
+			size: 1.6d
 			tasks: [
 				{
 					id: "7345F971A36A7E04"
@@ -48,7 +49,7 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: 1.5d
 			y: 0.0d
 		}
 		{
@@ -57,7 +58,7 @@
 				id: "farmersdelight:netherite_knife"
 			}
 			id: "6B0AB67E12BEBD8D"
-			shape: "diamond"
+			shape: "circle"
 			tasks: [
 				{
 					id: "3691ADF42BFE74A5"
@@ -75,8 +76,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -2.0d
+			x: -4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3BF84AF629D4EB13"]
@@ -84,7 +85,7 @@
 				id: "farmersdelight:straw"
 			}
 			id: "2880AF42BF16BEDD"
-			shape: "diamond"
+			shape: "circle"
 			tasks: [
 				{
 					id: "3542AD4598E24D03"
@@ -107,8 +108,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 0.0d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3BF84AF629D4EB13"]
@@ -116,7 +117,7 @@
 				id: "farmersdelight:wild_tomatoes"
 			}
 			id: "3513FEB3E5756F01"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 				{
 					id: "01DCF1B47233B90F"
@@ -139,8 +140,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: -1.5d
+			x: 4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3513FEB3E5756F01"]
@@ -157,7 +158,8 @@
 				}
 				type: "item"
 			}]
-			shape: "square"
+			shape: "gear"
+			size: 1.4d
 			tasks: [
 				{
 					id: "567FFA92EA338EF6"
@@ -205,8 +207,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -4.0d
+			x: -2.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["052AC9C74A5011F4"]
@@ -214,7 +216,8 @@
 				id: "farmersdelight:carrot_crate"
 			}
 			id: "084E791ED96E337A"
-			shape: "square"
+			shape: "octagon"
+			size: 1.2d
 			tasks: [
 				{
 					id: "6429171EE7BFFAFF"
@@ -232,8 +235,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -6.0d
+			x: -0.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["052AC9C74A5011F4"]
@@ -241,7 +244,8 @@
 				id: "farmersdelight:salmon_roll"
 			}
 			id: "189F9325CA00D6D5"
-			shape: "rsquare"
+			shape: "octagon"
+			size: 1.2d
 			tasks: [
 				{
 					id: "5FA91ABFF8BAE5D4"
@@ -269,8 +273,8 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
-			y: -2.5d
+			x: -3.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["052AC9C74A5011F4"]
@@ -278,14 +282,15 @@
 				id: "farmersdelight:rotten_tomato"
 			}
 			id: "450F44BB613665FA"
-			shape: "rsquare"
+			shape: "octagon"
+			size: 1.2d
 			tasks: [{
 				id: "447FE7E867A89142"
 				item: { count: 1, id: "farmersdelight:rotten_tomato" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: -5.5d
+			x: -6.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["3513FEB3E5756F01"]
@@ -293,7 +298,7 @@
 				id: "farmersdelight:rope"
 			}
 			id: "2CD31FBD988AC70B"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 				{
 					id: "3814D5B8D47D9570"
@@ -316,8 +321,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: -3.5d
+			x: -5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["3513FEB3E5756F01"]
@@ -334,7 +339,7 @@
 				}
 				type: "item"
 			}]
-			shape: "square"
+			shape: "circle"
 			tasks: [
 				{
 					id: "623034D23B7C5F49"
@@ -352,8 +357,8 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: -1.5d
+			x: -7.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2880AF42BF16BEDD"]
@@ -361,7 +366,7 @@
 				id: "farmersdelight:wooden_basket"
 			}
 			id: "6627987878EBCA82"
-			shape: "rsquare"
+			shape: "circle"
 			tasks: [
 				{
 					id: "0D7928934E81E934"
@@ -384,8 +389,8 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: 0.0d
+			x: -12.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["3BF84AF629D4EB13"]
@@ -402,7 +407,7 @@
 				}
 				type: "item"
 			}]
-			shape: "hexagon"
+			shape: "circle"
 			tasks: [
 				{
 					id: "60FE9C0A0D65245F"
@@ -430,8 +435,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 2.0d
+			x: 9.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7770EB27668F1032"]
@@ -439,7 +444,7 @@
 				id: "farmersdelight:salmon_slice"
 			}
 			id: "44D3406BE96DE346"
-			shape: "hexagon"
+			shape: "circle"
 			tasks: [
 				{
 					id: "1DC2248EF8C6FF67"
@@ -473,7 +478,7 @@
 				}
 			]
 			x: 2.5d
-			y: 2.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -484,7 +489,7 @@
 				id: "farmersdelight:wheat_dough"
 			}
 			id: "38DB08F4A445B401"
-			shape: "hexagon"
+			shape: "circle"
 			tasks: [
 				{
 					id: "5538E7867006022A"
@@ -507,8 +512,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 4.0d
+			x: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["38DB08F4A445B401"]
@@ -516,7 +521,8 @@
 				id: "farmersdelight:apple_pie"
 			}
 			id: "51D425BF69744472"
-			shape: "rsquare"
+			shape: "octagon"
+			size: 1.2d
 			tasks: [
 				{
 					id: "6EA2F2595BF4290A"
@@ -579,8 +585,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: 4.0d
+			x: 4.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["3BF84AF629D4EB13"]
@@ -608,7 +614,7 @@
 					type: "item"
 				}
 			]
-			shape: "hexagon"
+			shape: "circle"
 			tasks: [
 				{
 					id: "4DAA6E784B6F1F83"
@@ -621,8 +627,8 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: 1.5d
+			x: 14.0d
+			y: 3.0d
 		}
 		{
 			id: "0B9B1D2ED7449AFB"
@@ -635,6 +641,8 @@
 				}
 				type: "item"
 			}]
+			shape: "hexagon"
+			size: 1.6d
 			tasks: [
 				{
 					id: "21169C612679905D"
@@ -662,8 +670,8 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
-			y: -1.0d
+			x: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0B9B1D2ED7449AFB"]
@@ -671,7 +679,7 @@
 				id: "farmersdelight:steak_and_potatoes"
 			}
 			id: "650C60225EB6C78F"
-			shape: "hexagon"
+			shape: "circle"
 			tasks: [
 				{
 					id: "5AD4A005D3D42F90"
@@ -714,8 +722,8 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: -1.5d
+			x: -14.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0B9B1D2ED7449AFB"]
@@ -723,7 +731,7 @@
 				id: "farmersdelight:hamburger"
 			}
 			id: "6F69DFFE64BECAB9"
-			shape: "rsquare"
+			shape: "circle"
 			tasks: [
 				{
 					id: "73131180FA172F6D"
@@ -756,8 +764,8 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: 0.0d
+			x: -9.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["052AC9C74A5011F4"]
@@ -765,7 +773,8 @@
 				id: "farmersdelight:fried_rice"
 			}
 			id: "3F677C540933269F"
-			shape: "rsquare"
+			shape: "octagon"
+			size: 1.2d
 			tasks: [
 				{
 					id: "04B02133ED8EDEEF"
@@ -793,8 +802,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: -5.5d
+			x: -9.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["11C209374BA6788C"]
@@ -823,7 +832,7 @@
 					xp: 35
 				}
 			]
-			shape: "rsquare"
+			shape: "circle"
 			tasks: [
 				{
 					id: "05FA2CF8B6EF5D42"
@@ -876,8 +885,8 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: 4.0d
+			x: 12.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["79675CC2D61CCDD6"]
@@ -885,7 +894,8 @@
 				id: "farmersdelight:mixed_salad"
 			}
 			id: "1AC52099075A48D6"
-			shape: "rsquare"
+			shape: "octagon"
+			size: 1.2d
 			tasks: [
 				{
 					id: "1A6F0FC1F000F4BF"
@@ -913,8 +923,8 @@
 					type: "item"
 				}
 			]
-			x: -2.5d
-			y: 6.0d
+			x: 12.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["79675CC2D61CCDD6"]
@@ -922,7 +932,7 @@
 				id: "farmersdelight:bone_broth"
 			}
 			id: "22612D96C2030CDE"
-			shape: "rsquare"
+			shape: "circle"
 			tasks: [
 				{
 					id: "06209EC10AF883CC"
@@ -955,8 +965,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 6.0d
+			x: 9.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["22612D96C2030CDE"]
@@ -986,6 +996,7 @@
 				}
 			]
 			shape: "octagon"
+			size: 1.2d
 			tasks: [
 				{
 					id: "636064C12C3DD218"
@@ -1029,7 +1040,7 @@
 				}
 			]
 			x: 0.0d
-			y: 8.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["11C209374BA6788C"]
@@ -1046,7 +1057,7 @@
 				}
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "circle"
 			tasks: [
 				{
 					id: "3AC242A00AE3FE49"
@@ -1069,8 +1080,8 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
-			y: 2.0d
+			x: 9.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["052AC9C74A5011F4"]
@@ -1087,7 +1098,8 @@
 				}
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "octagon"
+			size: 1.2d
 			tasks: [
 				{
 					id: "2E0CED07314A5246"
@@ -1100,8 +1112,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: -4.0d
+			x: -12.0d
+			y: 9.0d
 		}
 	]
 }

@@ -1122,97 +1122,97 @@ preserve = true
 
 [[files]]
 file = "config/ftbquests/quests/chapters/2b2m_utilities.snbt"
-hash = "2316fd36dadb236af10cbd1bbb9f838a456393a9a9cfbce6f65c99ecf70245bc"
+hash = "40c55961dd9e2c70bc8e01494deea983911edb0c96339b1b8c79918429385730"
 preserve = true
 
 [[files]]
 file = "config/ftbquests/quests/chapters/alexs_caves.snbt"
-hash = "bc4a72e4b964c1b7b19862f06c314a9f42820b5a972a34afe711182a0a2f030b"
+hash = "8ff9516509c9173a7a2b683bccf16276f9724578c462104052cbd39240f2d255"
 preserve = true
 
 [[files]]
 file = "config/ftbquests/quests/chapters/apotheosis.snbt"
-hash = "dfb7b86004b39fd052c6caa2db456c6d0e26242479b648d76be6a5cc1e2fe688"
+hash = "7ab4ca6dec7c6b4860248d33a9dad867fb812f60c837001edf679db0b2616007"
 preserve = true
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ars_nouveau.snbt"
-hash = "a1dd2f68d74e239d9a3a4851828d24db019fcd9301dcef67d832348506d3c4fa"
+hash = "ed1b1cc2e3a508174d3df41493788897832ae7717b151949414e08223ee654ae"
 preserve = true
 
 [[files]]
 file = "config/ftbquests/quests/chapters/artifacts.snbt"
-hash = "86c63e60866a56a89501529979e3bca7614385dec03683c8445aacf9501459b5"
+hash = "f793c14d16ec47af5f87ec3f19e336b414bee521668ddfa992f02d74b1df781f"
 preserve = true
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cc_tweaked.snbt"
-hash = "d76c20b773a31d0775e41f49b5a43081a5181fa7df6bc90b399eade06b3f6821"
+hash = "57f7e2a6c9d516af9ca65e9dc6fae5ecc293ccc9ca5a6dd31fe6f840fbe08a64"
 preserve = true
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "3f42ed7f5f93c6929c61c5edb8b0e5513a93e9b78953a276dd6a403564d3a128"
+hash = "0b19636a36e64f1e8680c4c54db5060128d6fb0902e869656309bc227302dff7"
 preserve = true
 
 [[files]]
 file = "config/ftbquests/quests/chapters/extreme_reactors.snbt"
-hash = "cd276db88056ffaf209bbc4afe6a50c6b30c6c2d23f854760ed83f7d1020b5c9"
+hash = "92249b80c2993b9541f2890fc02b7e7dd836eab093007eec17d1255be5f33ba0"
 preserve = true
 
 [[files]]
 file = "config/ftbquests/quests/chapters/farmers_delight.snbt"
-hash = "395e2e5c56ad80a881c1ec11a28736201b5ce5b4c7f596e56023af1e03a28d90"
+hash = "a9de280bffffa4dc87193470afd687999cbf4ce0346a7074a3a6d0d14c910410"
 preserve = true
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gravestone.snbt"
-hash = "d6ae125a7fe2fea3693e01d209fce7cdc1fea4d800faac3e3b4e029bb8bc372c"
+hash = "b8d048a40a8af48ccbb90cf771a104601877bd564e0a90541a4de4b7ff5bfc65"
 preserve = true
 
 [[files]]
 file = "config/ftbquests/quests/chapters/iron_chests.snbt"
-hash = "ff3b0085a3d1e7cc4c07c9a27f57fc0886bb9671de46178803c9d5f144dd6f4f"
+hash = "e1c9b2a428be4edf9149ef84f6c4f0a1e5fe7f53b9b7f6ae8b70e5c85bd9bf13"
 preserve = true
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanism.snbt"
-hash = "ec702af9ef3af3b4e43cb8da0321ea6a427172e4683c4c8d63acf4d1eb266728"
+hash = "b94a3c0f1ad2d29be09907e7ab44e29c13d3394ebdea96e5207014547f67765c"
 preserve = true
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mowzies_mobs.snbt"
-hash = "207db80f943f1923b5dca61e9e54727b7d86047e3caf2da2c29a042783769484"
+hash = "b8df50aabb2dc58f36ceb490159c35bc7d5c9d50534b1dbc5f8abcc4eceaf274"
 preserve = true
 
 [[files]]
 file = "config/ftbquests/quests/chapters/quark.snbt"
-hash = "99bb9c7f78611318bf6c8eb4218b191251e21143649dedf5e5145b48a72ae2e3"
+hash = "ce79abc458f8ba1d28079b3a07fd54cae4d9cb9480b3944bd29b936e6892d9c8"
 preserve = true
 
 [[files]]
 file = "config/ftbquests/quests/chapters/relics.snbt"
-hash = "d5f347acb06f7e716cdbc95965f8ef269715153e95f102a791001cfdd528fa75"
+hash = "561d413dfda760a705ff3fedcf737c8c6476b53bd1a230fc525b0212d8757bde"
 preserve = true
 
 [[files]]
 file = "config/ftbquests/quests/chapters/sophisticated_backpacks.snbt"
-hash = "fba0b46e6bab25c821de59f2d1985005b3d62ea99ebfd75cd9ef2c83d196ac50"
+hash = "bfb8717865ac9fe22a460439a124f0fe2714fcf46f53f2c2ca2b9ea963f8da70"
 preserve = true
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_aether.snbt"
-hash = "34f7a370c468a0c63bdb2e0296e1c60ddeebb36c0c8fd600dd0decdfa11b9e6d"
+hash = "c263e3352e9bca71673048214a7b4e29e7cfce71614ef4510c2810a741e4c403"
 preserve = true
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome.snbt"
-hash = "c0e05dd5b5027764232d75e7d866da177aa90cb54e2494b94462338cdbe29e03"
+hash = "c445afa27b906d01d228f10656ba83852f0a861d0959f0a5dfd2b55b0d0e80af"
 preserve = true
 
 [[files]]
 file = "config/ftbquests/quests/chapters/worldgen_notes.snbt"
-hash = "0f8e372ca1c997a4278258c14eea5678da93cfb87ae5289e87dd18314bf496fd"
+hash = "5b7300a6f83534db7f8c6b8c49b7ee609a138d44e27a97ee7ec4e3ec4a46f219"
 preserve = true
 
 [[files]]

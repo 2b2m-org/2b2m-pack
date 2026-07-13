@@ -16,6 +16,7 @@
 			}
 			id: "1118EACC1433C5E4"
 			shape: "hexagon"
+			size: 1.6d
 			tasks: [{
 				id: "0A27F395F95C0447"
 				item: { count: 1, id: "quark:abacus" }
@@ -39,7 +40,7 @@
 				}
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "6049520AD9326D9B"
@@ -52,8 +53,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 0.0d
+			x: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["37A033636F464FDC"]
@@ -70,7 +71,8 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "gear"
+			size: 1.4d
 			tasks: [
 				{
 					id: "647EA927E1D26417"
@@ -88,8 +90,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: -2.0d
+			x: 6.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["0C10FF5107428C36"]
@@ -97,7 +99,7 @@
 				id: "quark:bottled_cloud"
 			}
 			id: "470ED3B8C138AF13"
-			shape: "circle"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "2CB450FE41C31F6D"
@@ -115,8 +117,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: -4.0d
+			x: 1.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["0C10FF5107428C36"]
@@ -124,7 +126,7 @@
 				id: "quark:music_disc_clock"
 			}
 			id: "31BE37CEB68EBC7A"
-			shape: "circle"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "069001381195B160"
@@ -172,8 +174,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: -3.5d
+			x: 4.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["37A033636F464FDC"]
@@ -181,7 +183,7 @@
 				id: "quark:crate"
 			}
 			id: "5E1EEC89C9443B05"
-			shape: "square"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "545E70EEBD048DB5"
@@ -269,8 +271,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: 2.0d
+			x: -4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["5E1EEC89C9443B05"]
@@ -278,7 +280,7 @@
 				id: "quark:backpack"
 			}
 			id: "54830BC7AB44ADD8"
-			shape: "square"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "0706F8F6185C8228"
@@ -306,8 +308,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: 4.0d
+			x: -3.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["5E1EEC89C9443B05"]
@@ -315,7 +317,7 @@
 				id: "quark:limestone"
 			}
 			id: "7B871039BF011620"
-			shape: "square"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "58BA8465BBA4E084"
@@ -353,12 +355,13 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: 2.0d
+			x: -7.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["1118EACC1433C5E4"]
 			id: "250369E02DFCF295"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "05D6E3975652F18B"
@@ -401,8 +404,8 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: -1.5d
+			x: -3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7B871039BF011620"]
@@ -410,7 +413,7 @@
 				id: "quark:myalite_crystal"
 			}
 			id: "7ABC44B70AC8F622"
-			shape: "circle"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "2BA5BEB45EF78E66"
@@ -468,8 +471,8 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: 4.0d
+			x: -7.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["7B871039BF011620"]
@@ -477,7 +480,7 @@
 				id: "quark:red_corundum"
 			}
 			id: "273E1C72C77E9310"
-			shape: "circle"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "4B98A0CB6E3C11AF"
@@ -515,8 +518,8 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: 4.0d
+			x: -10.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["37A033636F464FDC"]
@@ -544,7 +547,7 @@
 					type: "item"
 				}
 			]
-			shape: "rsquare"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "1040B5A13A58C36B"
@@ -562,8 +565,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: 2.0d
+			x: -6.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["09E820AD438C05B0"]
@@ -580,7 +583,7 @@
 				}
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "0E743F97326768C9"
@@ -603,8 +606,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: 4.0d
+			x: -8.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["600C7808DA186EAF"]
@@ -621,7 +624,7 @@
 				}
 				type: "item"
 			}]
-			shape: "square"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "6FE43650D6514034"
@@ -634,8 +637,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 6.0d
+			x: -11.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["600C7808DA186EAF"]
@@ -663,14 +666,14 @@
 					type: "item"
 				}
 			]
-			shape: "square"
+			shape: "hexagon"
 			tasks: [{
 				id: "62E683DD79D099AD"
 				item: { count: 1, id: "quark:magnet" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 6.0d
+			x: -11.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1118EACC1433C5E4"]
@@ -699,14 +702,14 @@
 					xp: 35
 				}
 			]
-			shape: "diamond"
+			shape: "hexagon"
 			tasks: [{
 				id: "1DCDDF99BEE94B09"
 				item: { count: 1, id: "quark:matrix_enchanter" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -9.0d
+			x: -1.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["796B4BC2A2D142D1"]
@@ -714,7 +717,7 @@
 				id: "quark:smithing_template_rune"
 			}
 			id: "79003319AD145AAA"
-			shape: "diamond"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "00186C2DA26567C9"
@@ -742,8 +745,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: -10.5d
+			x: -3.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["796B4BC2A2D142D1"]
@@ -751,7 +754,7 @@
 				id: "quark:matrix_enchanter"
 			}
 			id: "3FEC5C981DB9EF85"
-			shape: "diamond"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "62C37084EE0EA777"
@@ -764,8 +767,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: -9.0d
+			x: -1.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["0C10FF5107428C36"]
@@ -783,7 +786,8 @@
 				}
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "gear"
+			size: 1.4d
 			tasks: [
 				{
 					id: "26F676ABAB99619D"
@@ -796,8 +800,8 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
-			y: -2.0d
+			x: 8.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1CBEFAD9F9143016"]
@@ -805,7 +809,7 @@
 				id: "quark:diamond_heart"
 			}
 			id: "1D36DE269D324175"
-			shape: "octagon"
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "quark:stoneling"
@@ -819,8 +823,8 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
-			y: -5.5d
+			x: 10.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["1D36DE269D324175"]
@@ -828,14 +832,14 @@
 				id: "quark:pickarang"
 			}
 			id: "290BCE109630AC17"
-			shape: "octagon"
+			shape: "hexagon"
 			tasks: [{
 				id: "1BAF84B3B990E71E"
 				item: { count: 1, id: "quark:pickarang" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: -6.5d
+			x: 11.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["290BCE109630AC17"]
@@ -844,13 +848,14 @@
 			}
 			id: "68A6F0BA1197D335"
 			shape: "octagon"
+			size: 1.2d
 			tasks: [{
 				id: "390115E9C20516A8"
 				item: { count: 1, id: "quark:flamerang" }
 				type: "item"
 			}]
-			x: 11.0d
-			y: -6.5d
+			x: 13.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["1D36DE269D324175"]
@@ -858,14 +863,15 @@
 				id: "quark:tiny_potato"
 			}
 			id: "4C64AE04AF41C8A4"
-			shape: "circle"
+			shape: "octagon"
+			size: 1.2d
 			tasks: [{
 				id: "07C6026046814BD6"
 				item: { count: 1, id: "quark:tiny_potato" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: -5.0d
+			x: 13.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1CBEFAD9F9143016"]
@@ -873,7 +879,7 @@
 				id: "quark:forgotten_hat"
 			}
 			id: "2DC44E86E36659D4"
-			shape: "octagon"
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "quark:forgotten"
@@ -898,8 +904,8 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: -3.0d
+			x: 11.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1CBEFAD9F9143016"]
@@ -916,7 +922,7 @@
 				}
 				type: "item"
 			}]
-			shape: "octagon"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "405BAFB13DAB1F21"
@@ -929,8 +935,8 @@
 					type: "item"
 				}
 			]
-			x: 9.5d
-			y: -2.0d
+			x: 10.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["1CBEFAD9F9143016"]
@@ -951,14 +957,15 @@
 					xp: 35
 				}
 			]
-			shape: "octagon"
+			shape: "diamond"
+			size: 0.8d
 			tasks: [{
 				id: "5181CF34D025A1DC"
 				item: { count: 1, id: "quark:monster_box" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: -1.0d
+			x: 7.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["0C10FF5107428C36"]
@@ -967,7 +974,8 @@
 			}
 			id: "67C2FE5A75CCE133"
 			optional: true
-			shape: "rsquare"
+			shape: "diamond"
+			size: 0.8d
 			tasks: [
 				{
 					id: "66091D00CF917119"
@@ -980,8 +988,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -3.5d
+			x: 1.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["67C2FE5A75CCE133"]
@@ -1011,7 +1019,8 @@
 					xp: 35
 				}
 			]
-			shape: "circle"
+			shape: "diamond"
+			size: 0.8d
 			tasks: [
 				{
 					entity: "quark:crab"
@@ -1041,7 +1050,7 @@
 				}
 			]
 			x: 4.0d
-			y: -5.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["67C2FE5A75CCE133"]
@@ -1049,7 +1058,7 @@
 				id: "quark:blaze_lantern"
 			}
 			id: "3F10C1BD619B6E40"
-			shape: "circle"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "68FEFF61A52EE741"
@@ -1062,8 +1071,8 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
-			y: -3.5d
+			x: 0.0d
+			y: 11.5d
 		}
 	]
 }

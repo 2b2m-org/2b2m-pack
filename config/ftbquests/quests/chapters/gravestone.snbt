@@ -45,6 +45,7 @@
 				}
 			]
 			shape: "hexagon"
+			size: 1.6d
 			tasks: [{
 				id: "1AD403B688684F1D"
 				item: { count: 1, id: "gravestone:gravestone" }

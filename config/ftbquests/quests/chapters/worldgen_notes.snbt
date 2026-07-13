@@ -16,6 +16,7 @@
 			}
 			id: "54DCADB4A0ABE06E"
 			shape: "hexagon"
+			size: 1.6d
 			tasks: [
 				{
 					id: "254546A39B1FFCDB"
@@ -37,7 +38,7 @@
 				id: "minecraft:grass_block"
 			}
 			id: "32A698A611C3B61D"
-			shape: "circle"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "23498C2F1D7969EE"
@@ -51,7 +52,7 @@
 				}
 			]
 			x: 3.0d
-			y: -5.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["32A698A611C3B61D"]
@@ -79,7 +80,7 @@
 					type: "item"
 				}
 			]
-			shape: "circle"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "38A0E6EADF8C86F1"
@@ -92,8 +93,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: -6.0d
+			x: 2.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["32A698A611C3B61D"]
@@ -101,7 +102,7 @@
 				id: "minecraft:piston"
 			}
 			id: "71B416003A8B0D3B"
-			shape: "square"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "0BC9A82282667850"
@@ -119,8 +120,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: -3.0d
+			x: 6.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["54DCADB4A0ABE06E"]
@@ -148,7 +149,7 @@
 					type: "item"
 				}
 			]
-			shape: "circle"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "6112DD1458FB5277"
@@ -161,8 +162,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 0.0d
+			x: 3.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0A8103F71239108F"]
@@ -189,7 +190,7 @@
 					type: "item"
 				}
 			]
-			shape: "octagon"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "234F6C61D01FE046"
@@ -202,8 +203,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 0.0d
+			x: 6.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["54DCADB4A0ABE06E"]
@@ -241,7 +242,7 @@
 					xp: 35
 				}
 			]
-			shape: "circle"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "3A96445417C8AD8D"
@@ -254,8 +255,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 5.0d
+			x: 1.5d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -297,7 +298,8 @@
 					xp: 35
 				}
 			]
-			shape: "diamond"
+			shape: "octagon"
+			size: 1.2d
 			tasks: [
 				{
 					id: "093BF3381E36EF0D"
@@ -315,8 +317,8 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: 0.0d
+			x: 4.0d
+			y: -9.0d
 		}
 	]
 }

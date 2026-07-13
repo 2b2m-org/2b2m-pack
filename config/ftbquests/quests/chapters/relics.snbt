@@ -38,6 +38,7 @@
 				}
 			]
 			shape: "hexagon"
+			size: 1.6d
 			tasks: [{
 				id: "28268532595490E9"
 				item: { count: 1, id: "relics:relic_experience_bottle" }
@@ -157,14 +158,15 @@
 					xp: 35
 				}
 			]
-			shape: "hexagon"
+			shape: "gear"
+			size: 1.4d
 			tasks: [{
 				id: "0BE12124D6826B47"
 				item: { count: 1, id: "relics:relic_experience_bottle" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.0d
+			x: 0.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["59D2B534EC324B7A"]
@@ -243,8 +245,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: -3.0d
+			x: 4.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["59D2B534EC324B7A"]
@@ -382,7 +384,7 @@
 				}
 			]
 			x: 6.0d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["59D2B534EC324B7A"]
@@ -479,8 +481,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 3.0d
+			x: 0.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["59D2B534EC324B7A"]
@@ -537,7 +539,7 @@
 				}
 				type: "item"
 			}]
-			shape: "diamond"
+			shape: "circle"
 			tasks: [
 				{
 					id: "454ED231E94B7909"
@@ -565,8 +567,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 7.0d
+			x: -6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["59D2B534EC324B7A"]
@@ -620,7 +622,7 @@
 				}
 				type: "item"
 			}]
-			shape: "diamond"
+			shape: "circle"
 			tasks: [
 				{
 					id: "60C2EE7C66124437"
@@ -648,8 +650,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: -7.0d
+			x: -4.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["24308CF21187ED7D"]
@@ -727,7 +729,8 @@
 				}
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "diamond"
+			size: 0.8d
 			tasks: [
 				{
 					id: "34F4B0056B4FF5A8"
@@ -755,8 +758,8 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: 7.0d
+			x: -9.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["050D0247FD9DC62D"]
@@ -811,14 +814,15 @@
 				}
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "diamond"
+			size: 0.8d
 			tasks: [{
 				id: "58BC2509D409D707"
 				item: { components: { "relics:data": { abilities: { abilities: { teleport: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { cooldown: { initialValue: 172.14497d }, distance: { initialValue: 374.59826d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:magic_mirror" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: -7.0d
+			x: -5.5d
+			y: -7.5d
 		}
 	]
 }

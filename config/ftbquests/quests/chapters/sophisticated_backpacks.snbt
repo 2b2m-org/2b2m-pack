@@ -23,7 +23,8 @@
 				}
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "hexagon"
+			size: 1.6d
 			tasks: [{
 				id: "4CBAF4DA4A65F475"
 				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
@@ -46,14 +47,14 @@
 				}
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "square"
 			tasks: [{
 				id: "512AEE941E36D51E"
 				item: { count: 1, id: "sophisticatedbackpacks:copper_backpack" }
 				type: "item"
 			}]
 			x: 3.0d
-			y: 0.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["3C2B1B9AEBA7C3A2"]
@@ -69,14 +70,14 @@
 				}
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "square"
 			tasks: [{
 				id: "1751E5DBAE729BB8"
 				item: { count: 1, id: "sophisticatedbackpacks:iron_backpack" }
 				type: "item"
 			}]
 			x: 6.0d
-			y: 0.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["57FF70A3FC2500C9"]
@@ -104,7 +105,7 @@
 					xp: 35
 				}
 			]
-			shape: "rsquare"
+			shape: "square"
 			tasks: [
 				{
 					id: "5C968F5AB012BA5F"
@@ -118,7 +119,7 @@
 				}
 			]
 			x: 9.0d
-			y: 0.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["3075F5777320DE5D"]
@@ -126,14 +127,14 @@
 				id: "sophisticatedbackpacks:netherite_backpack"
 			}
 			id: "1B50AD27366FDD4A"
-			shape: "octagon"
+			shape: "square"
 			tasks: [{
 				id: "64AD7E6332905714"
 				item: { count: 1, id: "sophisticatedbackpacks:netherite_backpack" }
 				type: "item"
 			}]
 			x: 12.0d
-			y: 0.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["414CC48B8E24D687"]
@@ -149,14 +150,15 @@
 				}
 				type: "item"
 			}]
-			shape: "hexagon"
+			shape: "gear"
+			size: 1.4d
 			tasks: [{
 				id: "769BCECE7417B5C1"
 				item: { count: 1, id: "sophisticatedbackpacks:upgrade_base" }
 				type: "item"
 			}]
 			x: 3.0d
-			y: -5.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["2A1EAFB572BFD9AC"]
@@ -172,7 +174,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "square"
 			tasks: [
 				{
 					id: "51C9B7E485439DA4"
@@ -186,7 +188,7 @@
 				}
 			]
 			x: 6.0d
-			y: -8.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["02245101EBC700BD"]
@@ -194,7 +196,7 @@
 				id: "sophisticatedbackpacks:advanced_magnet_upgrade"
 			}
 			id: "76B2E9E16C8C4E1D"
-			shape: "circle"
+			shape: "square"
 			tasks: [
 				{
 					id: "1506074B4750E8C1"
@@ -208,7 +210,7 @@
 				}
 			]
 			x: 9.0d
-			y: -8.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2A1EAFB572BFD9AC"]
@@ -225,7 +227,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "square"
 			tasks: [
 				{
 					id: "1FE01E38CD04EBEB"
@@ -244,7 +246,7 @@
 				}
 			]
 			x: 6.0d
-			y: -5.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["52E0B64C1559D3ED"]
@@ -252,7 +254,7 @@
 				id: "sophisticatedbackpacks:advanced_deposit_upgrade"
 			}
 			id: "748CA06D034608A6"
-			shape: "circle"
+			shape: "square"
 			tasks: [
 				{
 					id: "38332C28C2E516B5"
@@ -271,7 +273,7 @@
 				}
 			]
 			x: 9.0d
-			y: -5.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -282,7 +284,7 @@
 				id: "sophisticatedbackpacks:stack_upgrade_tier_1"
 			}
 			id: "71A6EB42485B9BE9"
-			shape: "hexagon"
+			shape: "square"
 			tasks: [
 				{
 					id: "760546B8758E4604"
@@ -300,8 +302,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: -2.5d
+			x: 9.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["71A6EB42485B9BE9"]
@@ -309,7 +311,7 @@
 				id: "sophisticatedbackpacks:stack_upgrade_omega_tier"
 			}
 			id: "5AE70F6DB8D7953B"
-			shape: "hexagon"
+			shape: "square"
 			tasks: [
 				{
 					id: "24A37E376F8B2237"
@@ -327,8 +329,8 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: -2.5d
+			x: 12.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5AE70F6DB8D7953B"]
@@ -336,7 +338,8 @@
 				id: "sophisticatedbackpacks:void_upgrade"
 			}
 			id: "7E49032B032EF1EA"
-			shape: "diamond"
+			shape: "octagon"
+			size: 1.2d
 			tasks: [
 				{
 					id: "369D204B391F7325"
@@ -364,8 +367,8 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: -2.5d
+			x: 15.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["414CC48B8E24D687"]
@@ -373,7 +376,7 @@
 				id: "sophisticatedbackpacks:filter_upgrade"
 			}
 			id: "0BC902DA60A3EC58"
-			shape: "pentagon"
+			shape: "square"
 			tasks: [
 				{
 					id: "3F7D2567B7A6A6DC"
@@ -386,7 +389,7 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -395,7 +398,8 @@
 				id: "sophisticatedbackpacks:crafting_upgrade"
 			}
 			id: "54323D35C82E9B4E"
-			shape: "pentagon"
+			shape: "gear"
+			size: 1.4d
 			tasks: [
 				{
 					id: "09DB297A8BE5D20C"
@@ -418,8 +422,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 5.0d
+			x: 6.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["54323D35C82E9B4E"]
@@ -427,7 +431,7 @@
 				id: "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
 			}
 			id: "41A6BCC68647D6F0"
-			shape: "pentagon"
+			shape: "square"
 			tasks: [
 				{
 					id: "6D5C54949C8A0CA4"
@@ -440,8 +444,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 5.0d
+			x: 9.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["54323D35C82E9B4E"]
@@ -449,14 +453,14 @@
 				id: "create:wrench"
 			}
 			id: "6B8F6D4A16FCB58F"
-			shape: "pentagon"
+			shape: "square"
 			tasks: [{
 				id: "4C63E7F8ABC146AC"
 				item: { count: 1, id: "create:wrench" }
 				type: "item"
 			}]
 			x: 9.0d
-			y: 5.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["54323D35C82E9B4E"]
@@ -464,7 +468,7 @@
 				id: "sophisticatedbackpacks:advanced_alchemy_upgrade"
 			}
 			id: "41283773E9948F55"
-			shape: "diamond"
+			shape: "square"
 			tasks: [
 				{
 					id: "292350152B27B0B3"
@@ -477,8 +481,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 8.0d
+			x: 9.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["3075F5777320DE5D"]
@@ -486,7 +490,7 @@
 				id: "sophisticatedbackpacks:advanced_jukebox_upgrade"
 			}
 			id: "33FD20D960188B4C"
-			shape: "octagon"
+			shape: "square"
 			tasks: [
 				{
 					id: "0FBC2D6ED6A8E624"
@@ -499,8 +503,8 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: 2.5d
+			x: 12.0d
+			y: -12.5d
 		}
 		{
 			dependencies: ["54323D35C82E9B4E"]
@@ -517,7 +521,7 @@
 				}
 				type: "item"
 			}]
-			shape: "diamond"
+			shape: "square"
 			tasks: [
 				{
 					id: "23DD007B76DC6891"
@@ -535,8 +539,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 14.0d
+			x: 9.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["38893498572B0627"]
@@ -565,7 +569,7 @@
 					xp: 35
 				}
 			]
-			shape: "diamond"
+			shape: "square"
 			tasks: [
 				{
 					id: "0A1351609836859C"
@@ -583,8 +587,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 14.0d
+			x: 12.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["699BC9A6D2EF3756"]
@@ -592,7 +596,8 @@
 				id: "sophisticatedbackpacks:advanced_compacting_upgrade"
 			}
 			id: "4FC90C61B13377CB"
-			shape: "diamond"
+			shape: "octagon"
+			size: 1.2d
 			tasks: [
 				{
 					id: "4CA106BE232C2025"
@@ -605,8 +610,8 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: 14.0d
+			x: 15.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["38893498572B0627"]
@@ -633,7 +638,7 @@
 					type: "item"
 				}
 			]
-			shape: "octagon"
+			shape: "square"
 			tasks: [
 				{
 					id: "134C1F69961915C9"
@@ -646,8 +651,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 18.0d
+			x: 12.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["2A1EAFB572BFD9AC"]
@@ -660,6 +665,7 @@
 				}
 				type: "item"
 			}]
+			shape: "square"
 			tasks: [
 				{
 					id: "6193E483669E1F6C"
@@ -682,8 +688,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: -8.0d
+			x: 6.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["748CA06D034608A6"]
@@ -691,7 +697,7 @@
 				id: "sophisticatedbackpacks:advanced_feeding_upgrade"
 			}
 			id: "4856CC0F158FDF5E"
-			shape: "pentagon"
+			shape: "square"
 			tasks: [
 				{
 					id: "432BD09E23BAEA3F"
@@ -705,7 +711,7 @@
 				}
 			]
 			x: 12.0d
-			y: -5.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["1B50AD27366FDD4A"]
@@ -725,14 +731,14 @@
 					xp: 35
 				}
 			]
-			shape: "octagon"
+			shape: "square"
 			tasks: [{
 				id: "25DAC13EFA89B686"
 				item: { count: 1, id: "sophisticatedbackpacks:inception_upgrade" }
 				type: "item"
 			}]
 			x: 15.0d
-			y: 0.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["0D68929F2E5AF151"]
@@ -741,6 +747,7 @@
 			}
 			id: "06606C9B1568D423"
 			shape: "octagon"
+			size: 1.2d
 			tasks: [{
 				id: "1B66E1CE4EF78FCD"
 				item: { count: 1, id: "sophisticatedbackpacks:everlasting_upgrade" }

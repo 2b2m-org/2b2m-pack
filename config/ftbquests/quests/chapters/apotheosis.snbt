@@ -16,6 +16,7 @@
 			}
 			id: "71CDD4C2D635343B"
 			shape: "hexagon"
+			size: 1.6d
 			tasks: [{
 				id: "620C8F6FF2849266"
 				item: { count: 1, id: "patchouli:guide_book" }
@@ -30,13 +31,13 @@
 				id: "apotheosis:boss_summoner"
 			}
 			id: "7EB5447675696AAA"
-			shape: "hexagon"
+			shape: "circle"
 			tasks: [{
 				id: "65F5DB2200758E1C"
 				type: "checkmark"
 			}]
 			x: 3.0d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7EB5447675696AAA"]
@@ -53,14 +54,14 @@
 				}
 				type: "item"
 			}]
-			shape: "hexagon"
+			shape: "circle"
 			tasks: [{
 				id: "30FA6002C322D65E"
 				item: { count: 1, id: "apotheosis:common_material" }
 				type: "item"
 			}]
 			x: 6.0d
-			y: 0.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["67B275FE8F07E2EB"]
@@ -76,14 +77,14 @@
 				}
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "circle"
 			tasks: [{
 				id: "1AB0DDB74BE6F6C0"
 				item: { count: 1, id: "apotheosis:boss_summoner" }
 				type: "item"
 			}]
 			x: 9.0d
-			y: -5.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["67B275FE8F07E2EB"]
@@ -91,7 +92,7 @@
 				id: "minecraft:iron_sword"
 			}
 			id: "7927FA38A1F18C3A"
-			shape: "rsquare"
+			shape: "circle"
 			tasks: [
 				{
 					id: "61C2DD7AEF40476C"
@@ -109,8 +110,8 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: -5.0d
+			x: 9.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["7927FA38A1F18C3A"]
@@ -118,14 +119,14 @@
 				id: "apotheosis:uncommon_material"
 			}
 			id: "69AEA45FBC96BCD0"
-			shape: "rsquare"
+			shape: "circle"
 			tasks: [{
 				id: "0C1938B52C51B8BE"
 				item: { count: 1, id: "apotheosis:uncommon_material" }
 				type: "item"
 			}]
-			x: 15.0d
-			y: -5.0d
+			x: 12.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["69AEA45FBC96BCD0"]
@@ -146,7 +147,8 @@
 					xp: 120
 				}
 			]
-			shape: "octagon"
+			shape: "diamond"
+			size: 0.8d
 			tasks: [
 				{
 					id: "3B924AAC936FD3F5"
@@ -159,8 +161,8 @@
 					type: "item"
 				}
 			]
-			x: 18.0d
-			y: -5.0d
+			x: 15.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["6F8DDA4572FC75ED"]
@@ -168,7 +170,7 @@
 				id: "apotheosis:epic_material"
 			}
 			id: "41FBD6ED522F00A8"
-			shape: "rsquare"
+			shape: "circle"
 			tasks: [
 				{
 					id: "3CCADB9348B65608"
@@ -181,8 +183,8 @@
 					type: "item"
 				}
 			]
-			x: 21.0d
-			y: -5.0d
+			x: 18.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["41FBD6ED522F00A8"]
@@ -190,14 +192,14 @@
 				id: "apotheosis:sigil_of_malice"
 			}
 			id: "325162ADF7E6807C"
-			shape: "rsquare"
+			shape: "circle"
 			tasks: [{
 				id: "0EA453DFD17B72FC"
 				item: { count: 1, id: "apotheosis:sigil_of_malice" }
 				type: "item"
 			}]
-			x: 24.0d
-			y: -5.0d
+			x: 21.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["325162ADF7E6807C"]
@@ -218,14 +220,15 @@
 					xp: 75
 				}
 			]
-			shape: "octagon"
+			shape: "diamond"
+			size: 0.8d
 			tasks: [{
 				id: "2C739834A287F422"
 				item: { count: 1, id: "apotheosis:sigil_of_supremacy" }
 				type: "item"
 			}]
-			x: 27.0d
-			y: -5.0d
+			x: 24.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["67B275FE8F07E2EB"]
@@ -242,14 +245,14 @@
 				}
 				type: "item"
 			}]
-			shape: "diamond"
+			shape: "circle"
 			tasks: [{
 				id: "6EE8168279E72AF0"
 				item: { count: 1, id: "apotheosis:salvaging_table" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 5.0d
+			x: 9.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["63A40831BE704D4E"]
@@ -257,7 +260,7 @@
 				id: "apotheosis:rare_material"
 			}
 			id: "03F368EFF4C588AE"
-			shape: "diamond"
+			shape: "circle"
 			tasks: [
 				{
 					id: "186A4373939C9DFD"
@@ -285,8 +288,8 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: 5.0d
+			x: 12.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["03F368EFF4C588AE"]
@@ -303,7 +306,7 @@
 				}
 				type: "item"
 			}]
-			shape: "diamond"
+			shape: "circle"
 			tasks: [
 				{
 					id: "5C114819E4483955"
@@ -316,8 +319,8 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: 5.0d
+			x: 15.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["68BE0F69A7035FC6"]
@@ -325,7 +328,7 @@
 				id: "apotheosis:reforging_table"
 			}
 			id: "7D4056ED1FAA5756"
-			shape: "diamond"
+			shape: "circle"
 			tasks: [
 				{
 					id: "2C3CF12E2EFA6321"
@@ -348,8 +351,8 @@
 					type: "item"
 				}
 			]
-			x: 15.0d
-			y: 5.0d
+			x: 18.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["7D4056ED1FAA5756"]
@@ -357,7 +360,7 @@
 				id: "apotheosis:augmenting_table"
 			}
 			id: "6AE0F02DE657BBB0"
-			shape: "diamond"
+			shape: "circle"
 			tasks: [
 				{
 					id: "7DFB1D4A4547121B"
@@ -370,8 +373,8 @@
 					type: "item"
 				}
 			]
-			x: 18.0d
-			y: 5.0d
+			x: 21.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["68BE0F69A7035FC6"]
@@ -379,7 +382,7 @@
 				id: "apotheosis:sigil_of_socketing"
 			}
 			id: "31FDF4EACED29C17"
-			shape: "diamond"
+			shape: "circle"
 			tasks: [
 				{
 					id: "35E3031AE8E863DE"
@@ -397,8 +400,8 @@
 					type: "item"
 				}
 			]
-			x: 15.0d
-			y: 8.0d
+			x: 18.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["63A40831BE704D4E"]
@@ -419,8 +422,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 11.0d
+			x: 12.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["3D7F6BD9847DB234"]
@@ -462,8 +465,8 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: 11.0d
+			x: 15.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["7E6DFB7193CCBEDA"]
@@ -477,8 +480,8 @@
 				item: { count: 1, id: "apotheosis:gem_case" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 11.0d
+			x: 18.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["079103F734235BEB"]
@@ -487,14 +490,15 @@
 			}
 			id: "47CAC64316497292"
 			optional: true
-			shape: "circle"
+			shape: "diamond"
+			size: 0.8d
 			tasks: [{
 				id: "5B1BEA54F0E7F4DF"
 				item: { count: 1, id: "apotheosis:ender_gem_case" }
 				type: "item"
 			}]
-			x: 15.0d
-			y: 11.0d
+			x: 21.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["71CDD4C2D635343B"]
@@ -511,14 +515,14 @@
 				}
 				type: "item"
 			}]
-			shape: "hexagon"
+			shape: "circle"
 			tasks: [{
 				id: "4F245FB1578CDE33"
 				item: { count: 1, id: "minecraft:enchanting_table" }
 				type: "item"
 			}]
 			x: 3.0d
-			y: -9.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3F3DCF6B48A387A6"]
@@ -535,7 +539,7 @@
 				}
 				type: "item"
 			}]
-			shape: "hexagon"
+			shape: "circle"
 			tasks: [
 				{
 					id: "3EDCF8CB58D768A4"
@@ -549,7 +553,7 @@
 				}
 			]
 			x: 6.0d
-			y: -9.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["50BAD48CA98103DC"]
@@ -566,7 +570,7 @@
 				}
 				type: "item"
 			}]
-			shape: "hexagon"
+			shape: "circle"
 			tasks: [
 				{
 					id: "1FC95D849CA56A67"
@@ -580,7 +584,7 @@
 				}
 			]
 			x: 9.0d
-			y: -9.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["452EE5E875464F09"]
@@ -588,7 +592,7 @@
 				id: "apothic_enchanting:blazing_hellshelf"
 			}
 			id: "7698F7953E31E226"
-			shape: "hexagon"
+			shape: "circle"
 			tasks: [
 				{
 					id: "6682714D18490329"
@@ -612,7 +616,7 @@
 				}
 			]
 			x: 12.0d
-			y: -9.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["7698F7953E31E226"]
@@ -620,7 +624,7 @@
 				id: "apothic_enchanting:infused_hellshelf"
 			}
 			id: "36034497D614ACF4"
-			shape: "hexagon"
+			shape: "circle"
 			tasks: [
 				{
 					id: "0875582E248639E9"
@@ -634,7 +638,7 @@
 				}
 			]
 			x: 15.0d
-			y: -9.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["36034497D614ACF4"]
@@ -642,7 +646,7 @@
 				id: "apothic_enchanting:sightshelf"
 			}
 			id: "6606F33A1AC3207F"
-			shape: "hexagon"
+			shape: "circle"
 			tasks: [
 				{
 					id: "06CA9F06EAD18A35"
@@ -661,7 +665,7 @@
 				}
 			]
 			x: 18.0d
-			y: -12.0d
+			y: -15.5d
 		}
 		{
 			dependencies: ["36034497D614ACF4"]
@@ -669,7 +673,7 @@
 				id: "apothic_enchanting:deepshelf"
 			}
 			id: "044451A9C0DB9DFD"
-			shape: "hexagon"
+			shape: "circle"
 			tasks: [
 				{
 					id: "525EA33549876D91"
@@ -688,7 +692,7 @@
 				}
 			]
 			x: 18.0d
-			y: -9.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["044451A9C0DB9DFD"]
@@ -696,7 +700,7 @@
 				id: "apothic_enchanting:soul_touched_sculkshelf"
 			}
 			id: "6E274BA1C6A1565D"
-			shape: "hexagon"
+			shape: "circle"
 			tasks: [
 				{
 					id: "18BBBA34B700FF09"
@@ -720,7 +724,7 @@
 				}
 			]
 			x: 21.0d
-			y: -9.0d
+			y: -19.0d
 		}
 		{
 			dependencies: ["6E274BA1C6A1565D"]
@@ -728,7 +732,7 @@
 				id: "apothic_enchanting:draconic_endshelf"
 			}
 			id: "413DE907BAC2D8A5"
-			shape: "hexagon"
+			shape: "circle"
 			tasks: [
 				{
 					id: "295CBACF7C8683B0"
@@ -747,7 +751,7 @@
 				}
 			]
 			x: 24.0d
-			y: -9.0d
+			y: -14.5d
 		}
 		{
 			dependencies: ["413DE907BAC2D8A5"]
@@ -764,7 +768,8 @@
 				}
 				type: "item"
 			}]
-			shape: "square"
+			shape: "octagon"
+			size: 1.2d
 			tasks: [
 				{
 					id: "149A6E531576F68D"
@@ -778,7 +783,7 @@
 				}
 			]
 			x: 27.0d
-			y: -9.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["6606F33A1AC3207F"]
@@ -786,7 +791,7 @@
 				id: "apothic_enchanting:scrap_tome"
 			}
 			id: "65BED21993876B3A"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 				{
 					id: "515D57A04EAC5CED"
@@ -850,7 +855,7 @@
 				}
 			]
 			x: 21.0d
-			y: -12.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["7EB5447675696AAA"]
@@ -858,14 +863,14 @@
 				id: "minecraft:spawner"
 			}
 			id: "14608996D5AD422A"
-			shape: "pentagon"
+			shape: "circle"
 			tasks: [{
 				id: "7E93B893D9D20E58"
 				item: { count: 1, id: "minecraft:spawner" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 10.0d
+			x: 6.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["14608996D5AD422A"]
@@ -873,14 +878,14 @@
 				id: "minecraft:zombie_spawn_egg"
 			}
 			id: "6CE4ADA72759CAF2"
-			shape: "pentagon"
+			shape: "circle"
 			tasks: [{
 				id: "0E985B436E45BD2F"
 				item: { count: 1, id: "minecraft:zombie_spawn_egg" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 13.0d
+			x: 9.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["14608996D5AD422A"]
@@ -897,7 +902,7 @@
 				}
 				type: "item"
 			}]
-			shape: "pentagon"
+			shape: "circle"
 			tasks: [
 				{
 					id: "4F3416E9BC1345B3"
@@ -920,8 +925,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 13.0d
+			x: 9.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["7CBD8521B2A2A9C4"]
@@ -929,7 +934,7 @@
 				id: "minecraft:comparator"
 			}
 			id: "2609DC7935157BAA"
-			shape: "pentagon"
+			shape: "circle"
 			tasks: [
 				{
 					id: "248DCBBFE5927D7D"
@@ -957,8 +962,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 13.0d
+			x: 12.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["3F3DCF6B48A387A6"]
@@ -982,7 +987,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -12.0d
+			y: -7.5d
 		}
 	]
 }

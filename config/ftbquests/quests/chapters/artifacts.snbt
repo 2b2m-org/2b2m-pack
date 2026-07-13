@@ -142,6 +142,7 @@
 				}
 			]
 			shape: "hexagon"
+			size: 1.6d
 			tasks: [
 				{
 					id: "4CD651864F08BF1F"
@@ -200,14 +201,15 @@
 				id: "artifacts:whoopee_cushion"
 			}
 			id: "3AC46EB61EFF3E66"
-			shape: "hexagon"
+			shape: "gear"
+			size: 1.4d
 			tasks: [{
 				id: "03924EC9B0DC922C"
 				item: { components: { "relics:data": { abilities: { abilities: { push: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.25452d }, radius: { initialValue: 4.00332d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:whoopee_cushion" }
 				type: "item"
 			}]
 			x: 3.0d
-			y: 0.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6B9F1F7E1F5A523E"]
@@ -257,7 +259,7 @@
 				}
 				type: "item"
 			}]
-			shape: "diamond"
+			shape: "circle"
 			tasks: [{
 				entity: "artifacts:mimic"
 				id: "700F8FEAD3701887"
@@ -273,7 +275,7 @@
 				id: "artifacts:everlasting_beef"
 			}
 			id: "11C4D07BC544DC48"
-			shape: "diamond"
+			shape: "circle"
 			tasks: [
 				{
 					id: "573D2ED96AFE23C0"
@@ -287,7 +289,7 @@
 				}
 			]
 			x: 3.0d
-			y: 5.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3AC46EB61EFF3E66"]
@@ -339,7 +341,8 @@
 				}
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "diamond"
+			size: 0.8d
 			tasks: [
 				{
 					id: "09A584D61DDF3BDE"
@@ -363,7 +366,7 @@
 				}
 			]
 			x: 6.0d
-			y: -8.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["48D6BC6DD8BFA06B"]
@@ -430,7 +433,8 @@
 					xp: 35
 				}
 			]
-			shape: "rsquare"
+			shape: "diamond"
+			size: 0.8d
 			tasks: [
 				{
 					id: "74BA7CD65F4A5A96"
@@ -454,7 +458,7 @@
 				}
 			]
 			x: 9.0d
-			y: -8.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["3AC46EB61EFF3E66"]
@@ -522,7 +526,8 @@
 				}
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "diamond"
+			size: 0.8d
 			tasks: [
 				{
 					id: "7AB9E09F3CE82CC2"
@@ -546,7 +551,7 @@
 				}
 			]
 			x: 6.0d
-			y: -4.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["3AC46EB61EFF3E66"]
@@ -564,7 +569,8 @@
 				}
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "diamond"
+			size: 0.8d
 			tasks: [
 				{
 					id: "094709BD2C0F60B7"
@@ -649,7 +655,7 @@
 				}
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "circle"
 			tasks: [
 				{
 					id: "27A4126785C1A676"
@@ -668,7 +674,7 @@
 				}
 			]
 			x: 6.0d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3AC46EB61EFF3E66"]
@@ -720,7 +726,8 @@
 				}
 				type: "item"
 			}]
-			shape: "square"
+			shape: "diamond"
+			size: 0.8d
 			tasks: [
 				{
 					id: "1C77A682267D5273"
@@ -754,7 +761,7 @@
 				}
 			]
 			x: 6.0d
-			y: 8.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["4DB76A16D38932CF"]
@@ -803,7 +810,8 @@
 			}
 			id: "37CCB83B3FB0CDED"
 			optional: true
-			shape: "square"
+			shape: "diamond"
+			size: 0.8d
 			tasks: [
 				{
 					id: "5697F10321133E94"
@@ -837,7 +845,7 @@
 				}
 			]
 			x: 9.0d
-			y: 8.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["6E038DCFBD2F978B"]
@@ -900,7 +908,8 @@
 					xp: 35
 				}
 			]
-			shape: "rsquare"
+			shape: "octagon"
+			size: 1.2d
 			tasks: [
 				{
 					id: "759BF9D69664C35D"
@@ -966,7 +975,7 @@
 				id: "artifacts:superstitious_hat"
 			}
 			id: "600790FD16E3B547"
-			shape: "pentagon"
+			shape: "circle"
 			tasks: [
 				{
 					id: "7F7652C49D7C9D5D"
@@ -999,8 +1008,8 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: 4.0d
+			x: 6.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["11C4D07BC544DC48"]
@@ -1073,6 +1082,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
+			size: 0.8d
 			tasks: [
 				{
 					id: "2C6089D9462F3154"
@@ -1091,7 +1101,7 @@
 				}
 			]
 			x: 6.0d
-			y: 12.0d
+			y: -14.0d
 		}
 	]
 }

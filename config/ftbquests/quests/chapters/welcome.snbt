@@ -16,6 +16,7 @@
 			}
 			id: "071E6A67B5E2815C"
 			shape: "hexagon"
+			size: 1.6d
 			tasks: [{
 				id: "585CCE4835C40A74"
 				item: { count: 1, id: "ftbquests:book" }
@@ -43,8 +44,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: -2.0d
+			x: 0.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["0BD9775EC2F17E22"]
@@ -65,8 +66,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: -2.0d
+			x: 4.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["679E84039CC83E1F"]
@@ -94,7 +95,7 @@
 					type: "item"
 				}
 			]
-			shape: "square"
+			shape: "circle"
 			tasks: [
 				{
 					id: "14F4A524312857B2"
@@ -107,8 +108,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 2.0d
+			x: 4.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["47D4B2D1AC2F6B52"]
@@ -134,14 +135,14 @@
 					type: "item"
 				}
 			]
-			shape: "square"
+			shape: "circle"
 			tasks: [{
 				id: "361AC7CF43E47D4F"
 				item: { count: 1, id: "minecraft:iron_ingot" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 2.0d
+			x: 0.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["5EBAF76531EFE0B3"]
@@ -169,14 +170,14 @@
 					type: "item"
 				}
 			]
-			shape: "diamond"
+			shape: "circle"
 			tasks: [{
 				id: "2A45E25D8E29A747"
 				item: { count: 1, id: "minecraft:diamond" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 1.0d
+			x: -4.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["6994E27B3631843A"]
@@ -205,13 +206,14 @@
 				}
 			]
 			shape: "octagon"
+			size: 1.2d
 			tasks: [{
 				id: "2202508FCA1B3827"
 				item: { count: 1, id: "minecraft:netherite_scrap" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 1.0d
+			x: -4.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["5EBAF76531EFE0B3"]
@@ -232,7 +234,8 @@
 					xp: 35
 				}
 			]
-			shape: "hexagon"
+			shape: "diamond"
+			size: 0.8d
 			tasks: [
 				{
 					id: "3E14B7F63B51F9B1"
@@ -245,8 +248,8 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: 5.0d
+			x: 0.0d
+			y: 8.0d
 		}
 	]
 }

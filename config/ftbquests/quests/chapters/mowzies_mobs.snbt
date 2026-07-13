@@ -35,6 +35,7 @@
 				}
 			]
 			shape: "hexagon"
+			size: 1.6d
 			tasks: [{
 				id: "26C527DF2D8AAA97"
 				item: { count: 1, id: "mowziesmobs:gong" }
@@ -72,8 +73,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: -8.0d
+			x: 1.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["54467AF8F19F962B"]
@@ -101,7 +102,7 @@
 				}
 			]
 			x: 3.0d
-			y: -4.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["7B0A3E4010A2380E"]
@@ -136,7 +137,7 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
+			x: 5.5d
 			y: -4.0d
 		}
 		{
@@ -152,8 +153,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 3.0d
-			y: 0.0d
+			x: 4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2443AA3BB4A83FC4"]
@@ -162,14 +163,15 @@
 			}
 			id: "116ED33A98BA3C77"
 			optional: true
-			shape: "circle"
+			shape: "diamond"
+			size: 0.8d
 			tasks: [{
 				id: "35B15C221BBB9FB0"
 				item: { count: 1, id: "mowziesmobs:captured_grottol" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -1.0d
+			x: 7.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2443AA3BB4A83FC4"]
@@ -200,8 +202,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 2.0d
+			x: 5.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["621DBEB402987BCE"]
@@ -218,7 +220,7 @@
 				}
 				type: "item"
 			}]
-			shape: "hexagon"
+			shape: "circle"
 			tasks: [
 				{
 					entity: "mowziesmobs:umvuthana"
@@ -263,8 +265,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: -10.0d
+			x: 2.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["1C97769B9E7F02D7"]
@@ -284,7 +286,8 @@
 					xp: 35
 				}
 			]
-			shape: "rsquare"
+			shape: "octagon"
+			size: 1.2d
 			tasks: [
 				{
 					entity: "mowziesmobs:umvuthi"
@@ -298,8 +301,8 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: -10.0d
+			x: 3.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["54467AF8F19F962B"]
@@ -328,7 +331,7 @@
 					xp: 35
 				}
 			]
-			shape: "rsquare"
+			shape: "circle"
 			tasks: [
 				{
 					entity: "mowziesmobs:frostmaw"
@@ -347,8 +350,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 5.0d
+			x: 1.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["54467AF8F19F962B"]
@@ -356,7 +359,7 @@
 				id: "mowziesmobs:wrought_axe"
 			}
 			id: "012F86795F0FE21A"
-			shape: "rsquare"
+			shape: "circle"
 			tasks: [
 				{
 					entity: "mowziesmobs:ferrous_wroughtnaut"
@@ -375,8 +378,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 8.0d
+			x: -1.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["22A90024F6A20407"]
@@ -397,14 +400,15 @@
 					xp: 75
 				}
 			]
-			shape: "octagon"
+			shape: "diamond"
+			size: 0.8d
 			tasks: [{
 				id: "751357FF73A0842E"
 				item: { count: 1, id: "mowziesmobs:earthrend_gauntlet" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 12.0d
+			x: -8.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["54467AF8F19F962B"]
@@ -421,15 +425,15 @@
 				}
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "circle"
 			tasks: [{
 				entity: "mowziesmobs:sculptor"
 				id: "716B6BEA208968B2"
 				type: "kill"
 				value: 1L
 			}]
-			x: 3.0d
-			y: 9.0d
+			x: -4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["336DC4C0F7A4C93C"]
@@ -446,7 +450,7 @@
 				}
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "circle"
 			tasks: [
 				{
 					id: "286456F4852490A0"
@@ -479,8 +483,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 8.0d
+			x: -5.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["336DC4C0F7A4C93C"]
@@ -522,8 +526,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 10.0d
+			x: -7.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["336DC4C0F7A4C93C"]
@@ -545,8 +549,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 12.0d
+			x: -5.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["54467AF8F19F962B"]
@@ -554,7 +558,7 @@
 				id: "mowziesmobs:gong"
 			}
 			id: "23F68281D5BF80FF"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 				{
 					id: "762F6E011F81C974"
@@ -587,8 +591,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 10.0d
+			x: -1.0d
+			y: -4.0d
 		}
 	]
 }

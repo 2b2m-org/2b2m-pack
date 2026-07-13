@@ -16,6 +16,7 @@
 			}
 			id: "634C224EC0BF3FC2"
 			shape: "hexagon"
+			size: 1.6d
 			tasks: [{
 				id: "523B461FE35661C1"
 				item: { count: 1, id: "minecraft:compass" }
@@ -50,14 +51,14 @@
 					type: "item"
 				}
 			]
-			shape: "circle"
+			shape: "hexagon"
 			tasks: [{
 				id: "4AE5F0CEB289D580"
 				item: { count: 1, id: "minecraft:bundle" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -5.0d
+			x: 1.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["634C224EC0BF3FC2"]
@@ -85,7 +86,7 @@
 					type: "item"
 				}
 			]
-			shape: "circle"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "1A7A64555B8E8BB8"
@@ -98,8 +99,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: -2.0d
+			x: 2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["634C224EC0BF3FC2"]
@@ -107,14 +108,14 @@
 				id: "minecraft:spyglass"
 			}
 			id: "3D2348D05EAC521E"
-			shape: "circle"
+			shape: "hexagon"
 			tasks: [{
 				id: "4D82A3AB90EE2045"
 				item: { count: 1, id: "minecraft:spyglass" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.0d
+			x: 3.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["634C224EC0BF3FC2"]
@@ -122,14 +123,14 @@
 				id: "minecraft:goat_horn"
 			}
 			id: "57665BCE666048BC"
-			shape: "circle"
+			shape: "hexagon"
 			tasks: [{
 				id: "1EAC8BB4B3430702"
 				item: { count: 1, id: "minecraft:goat_horn" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 4.0d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["634C224EC0BF3FC2"]
@@ -157,7 +158,7 @@
 					type: "item"
 				}
 			]
-			shape: "circle"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "2F5FCFFB92C721E2"
@@ -170,8 +171,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 7.0d
+			x: 3.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["634C224EC0BF3FC2"]
@@ -199,7 +200,7 @@
 					type: "item"
 				}
 			]
-			shape: "square"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "49C43F1BA1FB437F"
@@ -212,8 +213,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: -2.0d
+			x: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["634C224EC0BF3FC2"]
@@ -221,13 +222,13 @@
 				id: "minecraft:lava_bucket"
 			}
 			id: "763E400AC4E4DB0C"
-			shape: "square"
+			shape: "hexagon"
 			tasks: [{
 				id: "076ADE54869C6996"
 				item: { count: 1, id: "minecraft:lava_bucket" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 1.0d
 			y: 4.0d
 		}
 		{
@@ -256,7 +257,7 @@
 					type: "item"
 				}
 			]
-			shape: "square"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "4CDF4C7C461171C6"
@@ -279,8 +280,8 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: 4.0d
+			x: 1.5d
+			y: 7.0d
 		}
 	]
 }

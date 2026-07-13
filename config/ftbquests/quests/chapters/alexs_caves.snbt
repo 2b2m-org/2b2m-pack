@@ -35,6 +35,7 @@
 				}
 			]
 			shape: "hexagon"
+			size: 1.6d
 			tasks: [{
 				id: "37CEC20270D4A731"
 				item: { count: 1, id: "alexscaves:cave_book" }
@@ -76,8 +77,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 0.0d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0B6D25E6F746FD5A"]
@@ -94,7 +95,8 @@
 				}
 				type: "item"
 			}]
-			shape: "hexagon"
+			shape: "gear"
+			size: 1.4d
 			tasks: [
 				{
 					id: "7B4EB3C9D1607B96"
@@ -107,8 +109,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 0.0d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["10FD929EB284C9C5"]
@@ -116,14 +118,14 @@
 				id: "alexscaves:galena_gauntlet"
 			}
 			id: "1886D13BFC510405"
-			shape: "circle"
+			shape: "hexagon"
 			tasks: [{
 				id: "56F54A4F202A8C06"
 				item: { count: 1, id: "alexscaves:galena_gauntlet" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 3.0d
+			x: -7.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["10FD929EB284C9C5"]
@@ -144,8 +146,8 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: -6.0d
+			x: -2.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["10FD929EB284C9C5"]
@@ -166,8 +168,8 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: 0.0d
+			x: 2.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["10FD929EB284C9C5"]
@@ -188,8 +190,8 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: 6.0d
+			x: 7.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["07B26B03499EEB6A"]
@@ -217,7 +219,7 @@
 					type: "item"
 				}
 			]
-			shape: "diamond"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "591D0DC1892F9807"
@@ -240,8 +242,8 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: -10.0d
+			x: -6.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["09A54576DA3CD7FA"]
@@ -258,7 +260,7 @@
 				}
 				type: "item"
 			}]
-			shape: "diamond"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "07582B906A1B1807"
@@ -281,8 +283,8 @@
 					type: "item"
 				}
 			]
-			x: 15.0d
-			y: -10.0d
+			x: -10.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["5ED46ED1E13E0D02"]
@@ -299,7 +301,7 @@
 				}
 				type: "item"
 			}]
-			shape: "diamond"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "72C7FF4B12CF3070"
@@ -317,8 +319,8 @@
 					type: "item"
 				}
 			]
-			x: 18.0d
-			y: -10.0d
+			x: -10.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["76903705948B7BCC"]
@@ -326,7 +328,7 @@
 				id: "alexscaves:radgill"
 			}
 			id: "0338A1699D891C2A"
-			shape: "diamond"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "14260988AC93E279"
@@ -344,8 +346,8 @@
 					type: "item"
 				}
 			]
-			x: 21.0d
-			y: 3.0d
+			x: 0.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["1DA415F79EBCFFBE"]
@@ -362,7 +364,7 @@
 				}
 				type: "item"
 			}]
-			shape: "diamond"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "79DDC1766B085CAB"
@@ -385,8 +387,8 @@
 					type: "item"
 				}
 			]
-			x: 21.0d
-			y: -10.0d
+			x: -6.5d
+			y: 21.0d
 		}
 		{
 			dependencies: ["4EFDA1F5C15D3169"]
@@ -394,7 +396,8 @@
 				id: "alexscaves:resistor_shield"
 			}
 			id: "29811125F00D9272"
-			shape: "diamond"
+			shape: "octagon"
+			size: 1.2d
 			tasks: [
 				{
 					entity: "alexscaves:magnetron"
@@ -409,8 +412,8 @@
 					value: 1L
 				}
 			]
-			x: 24.0d
-			y: -10.0d
+			x: -4.5d
+			y: 24.0d
 		}
 		{
 			dependencies: ["07B26B03499EEB6A"]
@@ -418,7 +421,7 @@
 				id: "alexscaves:tree_star"
 			}
 			id: "140DB1FC06E3B3F7"
-			shape: "square"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "390FD8176AF455FD"
@@ -441,8 +444,8 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: -5.0d
+			x: -9.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["140DB1FC06E3B3F7"]
@@ -450,7 +453,7 @@
 				id: "alexscaves:amber_monolith"
 			}
 			id: "3C84880BCDFBB20E"
-			shape: "square"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "6A265004617862FA"
@@ -468,8 +471,8 @@
 					type: "item"
 				}
 			]
-			x: 15.0d
-			y: -5.0d
+			x: -13.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["3C84880BCDFBB20E"]
@@ -477,7 +480,7 @@
 				id: "alexscaves:biome_treat"
 			}
 			id: "3737D087D44C1CE1"
-			shape: "square"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "65238DACA8C80C28"
@@ -510,8 +513,8 @@
 					type: "item"
 				}
 			]
-			x: 18.0d
-			y: -5.0d
+			x: -13.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["3737D087D44C1CE1"]
@@ -519,7 +522,8 @@
 				id: "alexscaves:tremorzilla_egg"
 			}
 			id: "0B0F504E7EDC1943"
-			shape: "square"
+			shape: "octagon"
+			size: 1.2d
 			tasks: [
 				{
 					id: "32BA7E4FC26A5296"
@@ -532,8 +536,8 @@
 					type: "item"
 				}
 			]
-			x: 21.0d
-			y: -7.0d
+			x: -9.5d
+			y: 21.0d
 		}
 		{
 			dependencies: ["3737D087D44C1CE1"]
@@ -541,7 +545,7 @@
 				id: "alexscaves:primordial_soup"
 			}
 			id: "07FE6E9707744929"
-			shape: "square"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "2F57ADEC7EDD231F"
@@ -574,8 +578,8 @@
 					type: "item"
 				}
 			]
-			x: 21.0d
-			y: -4.0d
+			x: -12.5d
+			y: 21.0d
 		}
 		{
 			dependencies: ["07FE6E9707744929"]
@@ -596,7 +600,8 @@
 					xp: 75
 				}
 			]
-			shape: "octagon"
+			shape: "diamond"
+			size: 0.8d
 			tasks: [
 				{
 					id: "4864B42CCB3FABAF"
@@ -616,8 +621,8 @@
 					value: 1L
 				}
 			]
-			x: 24.0d
-			y: -4.0d
+			x: -10.5d
+			y: 24.0d
 		}
 		{
 			dependencies: ["184313B916A4A2BF"]
@@ -625,7 +630,7 @@
 				id: "alexscaves:uranium"
 			}
 			id: "76903705948B7BCC"
-			shape: "pentagon"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "33A97F38C2A0BA3B"
@@ -648,8 +653,8 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: 0.0d
+			x: 1.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["76903705948B7BCC"]
@@ -666,7 +671,7 @@
 				}
 				type: "item"
 			}]
-			shape: "pentagon"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "75927BE325842819"
@@ -694,8 +699,8 @@
 					type: "item"
 				}
 			]
-			x: 15.0d
-			y: 0.0d
+			x: -2.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["3782BCC47FD515D4"]
@@ -703,7 +708,7 @@
 				id: "alexscaves:nuclear_siren"
 			}
 			id: "4FE040EE594D51F1"
-			shape: "pentagon"
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "alexscaves:brainiac"
@@ -724,8 +729,8 @@
 					value: 1L
 				}
 			]
-			x: 18.0d
-			y: -2.0d
+			x: 3.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["3782BCC47FD515D4"]
@@ -742,7 +747,7 @@
 				}
 				type: "item"
 			}]
-			shape: "pentagon"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "5E1A6D58B89FE11B"
@@ -765,8 +770,8 @@
 					type: "item"
 				}
 			]
-			x: 18.0d
-			y: 0.0d
+			x: 0.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["3782BCC47FD515D4"]
@@ -784,7 +789,8 @@
 				}
 				type: "item"
 			}]
-			shape: "pentagon"
+			shape: "diamond"
+			size: 0.8d
 			tasks: [
 				{
 					id: "6C0B373A8E5A7205"
@@ -802,8 +808,8 @@
 					type: "item"
 				}
 			]
-			x: 18.0d
-			y: 2.0d
+			x: -2.5d
+			y: 18.0d
 		}
 		{
 			dependencies: ["69DD6C0B381DCFD7"]
@@ -824,7 +830,8 @@
 					xp: 120
 				}
 			]
-			shape: "octagon"
+			shape: "diamond"
+			size: 0.8d
 			tasks: [
 				{
 					id: "5E0023D85496562F"
@@ -847,8 +854,8 @@
 					type: "item"
 				}
 			]
-			x: 21.0d
-			y: 0.0d
+			x: 0.5d
+			y: 21.0d
 		}
 		{
 			dependencies: ["184313B916A4A2BF"]
@@ -856,7 +863,7 @@
 				id: "alexscaves:pearl"
 			}
 			id: "45DFDB4E98331226"
-			shape: "circle"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "4094661CFB13F396"
@@ -879,8 +886,8 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: 5.0d
+			x: -1.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["45DFDB4E98331226"]
@@ -897,7 +904,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "6B91844A7F57F0F0"
@@ -925,8 +932,8 @@
 					type: "item"
 				}
 			]
-			x: 15.0d
-			y: 5.0d
+			x: -5.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["6CABCF00D7232668"]
@@ -944,7 +951,8 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "diamond"
+			size: 0.8d
 			tasks: [
 				{
 					id: "3A5E38A331AA4FA7"
@@ -962,8 +970,8 @@
 					type: "item"
 				}
 			]
-			x: 18.0d
-			y: 5.0d
+			x: -5.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["5A17A5072F74C317"]
@@ -971,7 +979,7 @@
 				id: "alexscaves:sea_staff"
 			}
 			id: "0A66A69C9FAE77B2"
-			shape: "circle"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "4AB8AD02264F2500"
@@ -999,8 +1007,8 @@
 					type: "item"
 				}
 			]
-			x: 21.0d
-			y: 5.0d
+			x: -2.0d
+			y: 21.0d
 		}
 		{
 			dependencies: ["0A66A69C9FAE77B2"]
@@ -1020,7 +1028,8 @@
 					xp: 35
 				}
 			]
-			shape: "circle"
+			shape: "octagon"
+			size: 1.2d
 			tasks: [
 				{
 					entity: "alexscaves:hullbreaker"
@@ -1041,8 +1050,8 @@
 					value: 1L
 				}
 			]
-			x: 24.0d
-			y: 5.0d
+			x: 0.5d
+			y: 24.0d
 		}
 		{
 			dependencies: ["01698854AE16954C"]
@@ -1059,7 +1068,7 @@
 				}
 				type: "item"
 			}]
-			shape: "triangle"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "46E522BDB2FD6E6C"
@@ -1082,8 +1091,8 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: 10.0d
+			x: 9.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["542D38F63D2D6BF7"]
@@ -1091,7 +1100,7 @@
 				id: "alexscaves:moth_dust"
 			}
 			id: "016B15037B65FD63"
-			shape: "triangle"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "126C233DB9BECA51"
@@ -1104,8 +1113,8 @@
 					type: "item"
 				}
 			]
-			x: 15.0d
-			y: 8.0d
+			x: 13.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["542D38F63D2D6BF7"]
@@ -1113,7 +1122,7 @@
 				id: "alexscaves:totem_of_possession"
 			}
 			id: "5A6074D292F8865D"
-			shape: "triangle"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "613D56408F90ADCD"
@@ -1131,8 +1140,8 @@
 					type: "item"
 				}
 			]
-			x: 15.0d
-			y: 12.0d
+			x: 10.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["5A6074D292F8865D"]
@@ -1140,7 +1149,7 @@
 				id: "alexscaves:cloak_of_darkness"
 			}
 			id: "37B67D7F48535847"
-			shape: "triangle"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "238A02F4C43A96F6"
@@ -1168,8 +1177,8 @@
 					type: "item"
 				}
 			]
-			x: 18.0d
-			y: 12.0d
+			x: 10.5d
+			y: 18.0d
 		}
 		{
 			dependencies: ["016B15037B65FD63"]
@@ -1177,7 +1186,7 @@
 				id: "alexscaves:dreadbow"
 			}
 			id: "384133A6D892AA59"
-			shape: "triangle"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "373BD36442DAE24A"
@@ -1195,8 +1204,8 @@
 					type: "item"
 				}
 			]
-			x: 18.0d
-			y: 8.0d
+			x: 13.0d
+			y: 18.0d
 		}
 		{
 			dependencies: [
@@ -1207,7 +1216,8 @@
 				id: "alexscaves:forsaken_idol"
 			}
 			id: "52A0E77C470EB303"
-			shape: "triangle"
+			shape: "octagon"
+			size: 1.2d
 			tasks: [
 				{
 					entity: "alexscaves:watcher"
@@ -1222,8 +1232,8 @@
 					value: 1L
 				}
 			]
-			x: 21.0d
-			y: 10.0d
+			x: 12.5d
+			y: 21.0d
 		}
 		{
 			dependencies: ["01698854AE16954C"]
@@ -1240,7 +1250,7 @@
 				}
 				type: "item"
 			}]
-			shape: "octagon"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "2CA46C1E9FFE1EBC"
@@ -1263,8 +1273,8 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: 16.0d
+			x: 6.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["22119CE784AE4564"]
@@ -1272,7 +1282,7 @@
 				id: "alexscaves:candy_cane_hook"
 			}
 			id: "0EBD58ABEB0D1915"
-			shape: "octagon"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "64F89B3366F100D1"
@@ -1295,7 +1305,7 @@
 					type: "item"
 				}
 			]
-			x: 15.0d
+			x: 8.0d
 			y: 15.0d
 		}
 		{
@@ -1304,14 +1314,14 @@
 				id: "alexscaves:caramel_apple"
 			}
 			id: "71CA3EAB0B3BAFC8"
-			shape: "octagon"
+			shape: "hexagon"
 			tasks: [{
 				id: "7775115BE704CEEB"
 				item: { count: 1, id: "alexscaves:caramel_apple" }
 				type: "item"
 			}]
-			x: 15.0d
-			y: 18.0d
+			x: 5.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["0EBD58ABEB0D1915"]
@@ -1328,7 +1338,7 @@
 				}
 				type: "item"
 			}]
-			shape: "octagon"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "49421B16C3843FE6"
@@ -1356,8 +1366,8 @@
 					type: "item"
 				}
 			]
-			x: 18.0d
-			y: 15.0d
+			x: 8.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["59304EC509D179F1"]
@@ -1365,7 +1375,7 @@
 				id: "alexscaves:gingerbread_chestplate"
 			}
 			id: "4B7C923B38CA8A85"
-			shape: "octagon"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "0946D926045F55B9"
@@ -1403,8 +1413,8 @@
 					type: "item"
 				}
 			]
-			x: 21.0d
-			y: 15.0d
+			x: 8.5d
+			y: 21.0d
 		}
 		{
 			dependencies: ["4B7C923B38CA8A85"]
@@ -1425,7 +1435,8 @@
 					xp: 35
 				}
 			]
-			shape: "octagon"
+			shape: "diamond"
+			size: 0.8d
 			tasks: [
 				{
 					entity: "alexscaves:gum_worm"
@@ -1464,8 +1475,8 @@
 					value: 1L
 				}
 			]
-			x: 24.0d
-			y: 15.0d
+			x: 10.5d
+			y: 24.0d
 		}
 	]
 }

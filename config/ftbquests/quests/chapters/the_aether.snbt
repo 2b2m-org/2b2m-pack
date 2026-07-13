@@ -24,6 +24,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
+			size: 1.6d
 			tasks: [
 				{
 					id: "6F2A35E2C6981116"
@@ -45,7 +46,7 @@
 				id: "aether:skyroot_bed"
 			}
 			id: "0AF805B6682F6A98"
-			shape: "circle"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "737A58C924AD92A5"
@@ -58,8 +59,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 3.0d
+			x: -2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6469C513602F45A6"]
@@ -76,7 +77,7 @@
 				}
 				type: "item"
 			}]
-			shape: "square"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "1C01408AB9DC843D"
@@ -109,8 +110,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 0.0d
+			x: 2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["25DB777D53B9F1B0"]
@@ -118,7 +119,7 @@
 				id: "aether:skyroot_remedy_bucket"
 			}
 			id: "353F782103DFA4AC"
-			shape: "square"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "6C4C5EC8E8813255"
@@ -171,8 +172,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 3.0d
+			x: -2.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["25DB777D53B9F1B0"]
@@ -180,7 +181,7 @@
 				id: "aether:ambrosium_shard"
 			}
 			id: "0262070A4B50AA75"
-			shape: "square"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "752FA8C3CEF7AA0E"
@@ -208,8 +209,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 0.0d
+			x: 2.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["0262070A4B50AA75"]
@@ -226,7 +227,8 @@
 				}
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "gear"
+			size: 1.4d
 			tasks: [
 				{
 					id: "01F0AF37D952038D"
@@ -244,8 +246,8 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: 0.0d
+			x: 0.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["66D58A14C2DD1B91"]
@@ -262,7 +264,7 @@
 				}
 				type: "item"
 			}]
-			shape: "diamond"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "3799DDB491DA04AA"
@@ -275,8 +277,8 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: -4.0d
+			x: 7.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["550564C5D78D482D"]
@@ -284,7 +286,7 @@
 				id: "aether:altar"
 			}
 			id: "468F8DCA8AC44819"
-			shape: "diamond"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "461FF8CFFCABABFA"
@@ -297,8 +299,8 @@
 					type: "item"
 				}
 			]
-			x: 15.0d
-			y: -7.0d
+			x: 9.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["66D58A14C2DD1B91"]
@@ -315,7 +317,7 @@
 				}
 				type: "item"
 			}]
-			shape: "diamond"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "7CB21BEB8CC44817"
@@ -333,8 +335,8 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: 3.0d
+			x: -7.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["550564C5D78D482D"]
@@ -342,7 +344,7 @@
 				id: "aether:zanite_pickaxe"
 			}
 			id: "19C3EA4F2DE3D1A1"
-			shape: "square"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "11D29F68A4BB2247"
@@ -375,8 +377,8 @@
 					type: "item"
 				}
 			]
-			x: 15.0d
-			y: -4.0d
+			x: 14.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["19C3EA4F2DE3D1A1"]
@@ -384,7 +386,7 @@
 				id: "aether:gravitite_pickaxe"
 			}
 			id: "69A25ED53688ADAE"
-			shape: "square"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "51969C44811EBD65"
@@ -402,8 +404,8 @@
 					type: "item"
 				}
 			]
-			x: 18.0d
-			y: -4.0d
+			x: 3.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["69A25ED53688ADAE"]
@@ -411,7 +413,7 @@
 				id: "aether:gravitite_chestplate"
 			}
 			id: "53315C7E2F6EECAE"
-			shape: "octagon"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "2C8048728741D15B"
@@ -439,8 +441,8 @@
 					type: "item"
 				}
 			]
-			x: 21.0d
-			y: -4.0d
+			x: 4.0d
+			y: -21.0d
 		}
 		{
 			dependencies: ["66D58A14C2DD1B91"]
@@ -457,7 +459,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "46CE6CBC73800DC4"
@@ -480,8 +482,8 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: 8.0d
+			x: -2.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["51EC66D45BADAB51"]
@@ -489,7 +491,7 @@
 				id: "aether:swet_ball"
 			}
 			id: "41802B3800DCAAA3"
-			shape: "circle"
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "aether:blue_swet"
@@ -524,8 +526,8 @@
 					type: "item"
 				}
 			]
-			x: 15.0d
-			y: 9.0d
+			x: -3.5d
+			y: -15.0d
 		}
 		{
 			dependencies: ["7DE1C52E48079190"]
@@ -533,7 +535,7 @@
 				id: "aether:black_moa_egg"
 			}
 			id: "0A6CE63FEC0FA1B8"
-			shape: "circle"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "3C3F21BC5233DEB9"
@@ -557,8 +559,8 @@
 					value: 1L
 				}
 			]
-			x: 15.0d
-			y: 6.0d
+			x: -11.5d
+			y: -15.0d
 		}
 		{
 			dependencies: ["51EC66D45BADAB51"]
@@ -566,7 +568,7 @@
 				id: "aether:blue_berry"
 			}
 			id: "090522F5EF70536B"
-			shape: "circle"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "2DDA10828C2FC7D7"
@@ -579,8 +581,8 @@
 					type: "item"
 				}
 			]
-			x: 18.0d
-			y: 9.0d
+			x: -6.5d
+			y: -15.0d
 		}
 		{
 			dependencies: ["7DE1C52E48079190"]
@@ -597,7 +599,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "58E5FB9613EFED69"
@@ -630,8 +632,8 @@
 					type: "item"
 				}
 			]
-			x: 15.0d
-			y: 3.0d
+			x: -14.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["66D58A14C2DD1B91"]
@@ -639,7 +641,7 @@
 				id: "aether:iron_ring"
 			}
 			id: "22D52022270E2014"
-			shape: "rsquare"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "6585B8FF4A887E0C"
@@ -687,8 +689,8 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: -10.0d
+			x: 2.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["22D52022270E2014"]
@@ -696,7 +698,7 @@
 				id: "aether:zanite_ring"
 			}
 			id: "201A251149FDD32F"
-			shape: "rsquare"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "344E03A25F719960"
@@ -739,8 +741,8 @@
 					type: "item"
 				}
 			]
-			x: 15.0d
-			y: -10.0d
+			x: 4.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["22D52022270E2014"]
@@ -748,7 +750,7 @@
 				id: "aether:poison_dart_shooter"
 			}
 			id: "4630F4D3D4ABC437"
-			shape: "circle"
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "aether:aechor_plant"
@@ -810,8 +812,8 @@
 					type: "item"
 				}
 			]
-			x: 15.0d
-			y: -13.0d
+			x: 1.5d
+			y: -15.0d
 		}
 		{
 			dependencies: [
@@ -822,7 +824,7 @@
 				id: "aether:bronze_dungeon_key"
 			}
 			id: "6E8F74F529330D3A"
-			shape: "octagon"
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "aether:sentry"
@@ -842,8 +844,8 @@
 					type: "item"
 				}
 			]
-			x: 18.0d
-			y: -13.0d
+			x: -3.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["6E8F74F529330D3A"]
@@ -860,7 +862,7 @@
 				}
 				type: "item"
 			}]
-			shape: "octagon"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "131CE7DA0CDF27C3"
@@ -873,8 +875,8 @@
 					type: "item"
 				}
 			]
-			x: 21.0d
-			y: -13.0d
+			x: -1.0d
+			y: -21.0d
 		}
 		{
 			dependencies: ["1C52853BDF573769"]
@@ -882,7 +884,7 @@
 				id: "aether:silver_dungeon_key"
 			}
 			id: "4F1FAA9127E8A57D"
-			shape: "octagon"
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "aether:valkyrie"
@@ -902,8 +904,8 @@
 					type: "item"
 				}
 			]
-			x: 24.0d
-			y: -13.0d
+			x: 0.0d
+			y: -24.0d
 		}
 		{
 			dependencies: ["4F1FAA9127E8A57D"]
@@ -911,7 +913,7 @@
 				id: "aether:valkyrie_lance"
 			}
 			id: "18BBA260228695F3"
-			shape: "octagon"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "44BA63627F4A986C"
@@ -944,8 +946,8 @@
 					type: "item"
 				}
 			]
-			x: 27.0d
-			y: -13.0d
+			x: 0.0d
+			y: -27.0d
 		}
 		{
 			dependencies: ["18BBA260228695F3"]
@@ -965,7 +967,7 @@
 					xp: 120
 				}
 			]
-			shape: "octagon"
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "aether:sun_spirit"
@@ -979,8 +981,8 @@
 					type: "item"
 				}
 			]
-			x: 30.0d
-			y: -13.0d
+			x: 0.0d
+			y: -30.0d
 		}
 		{
 			dependencies: ["47B330131D22BDCC"]
@@ -1009,14 +1011,15 @@
 					xp: 35
 				}
 			]
-			shape: "diamond"
+			shape: "octagon"
+			size: 1.2d
 			tasks: [{
 				id: "3417A9280D1F22ED"
 				item: { count: 1, id: "aether:sun_altar" }
 				type: "item"
 			}]
-			x: 33.0d
-			y: -13.0d
+			x: 3.0d
+			y: -33.0d
 		}
 		{
 			dependencies: ["47B330131D22BDCC"]
@@ -1024,7 +1027,7 @@
 				id: "aether:phoenix_bow"
 			}
 			id: "16751A01B608F5DB"
-			shape: "octagon"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "08FDD8A44340429A"
@@ -1057,8 +1060,8 @@
 					type: "item"
 				}
 			]
-			x: 30.0d
-			y: -9.0d
+			x: 0.0d
+			y: -33.0d
 		}
 		{
 			dependencies: ["6E8F74F529330D3A"]
@@ -1066,7 +1069,7 @@
 				id: "aether:neptune_chestplate"
 			}
 			id: "75E6222EFD583A1F"
-			shape: "octagon"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "18E9F94C5A5CBE35"
@@ -1094,8 +1097,8 @@
 					type: "item"
 				}
 			]
-			x: 21.0d
-			y: -9.0d
+			x: -4.0d
+			y: -21.0d
 		}
 		{
 			dependencies: ["16751A01B608F5DB"]
@@ -1104,6 +1107,7 @@
 			}
 			id: "4F34340D55BF6E66"
 			shape: "octagon"
+			size: 1.2d
 			tasks: [
 				{
 					id: "73E9B304530BAF2B"
@@ -1131,8 +1135,8 @@
 					type: "item"
 				}
 			]
-			x: 33.0d
-			y: -9.0d
+			x: 1.5d
+			y: -36.0d
 		}
 		{
 			dependencies: ["47B330131D22BDCC"]
@@ -1140,7 +1144,7 @@
 				id: "aether:cloud_staff"
 			}
 			id: "6D1BDC3A5A79272C"
-			shape: "diamond"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "612647BE73356528"
@@ -1208,8 +1212,8 @@
 					type: "item"
 				}
 			]
-			x: 33.0d
-			y: -16.0d
+			x: -3.0d
+			y: -33.0d
 		}
 		{
 			dependencies: ["6D1BDC3A5A79272C"]
@@ -1217,7 +1221,8 @@
 				id: "aether:music_disc_aether_tune"
 			}
 			id: "471946D9BF9DAD8C"
-			shape: "circle"
+			shape: "octagon"
+			size: 1.2d
 			tasks: [
 				{
 					id: "627082DE3649BC05"
@@ -1245,8 +1250,8 @@
 					type: "item"
 				}
 			]
-			x: 36.0d
-			y: -16.0d
+			x: -1.5d
+			y: -36.0d
 		}
 	]
 }
