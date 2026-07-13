@@ -122,7 +122,7 @@
 	quest.35A523E2807E7FEC.title: "Magebloom Supply"
 	quest.35A523E2807E7FEC.quest_desc: ["Magebloom turns early magic into repeatable crafting. Grow fiber before the apparatus starts eating your stock."]
 	quest.662EC040BC2984A0.title: "Scribe Real Spells"
-	quest.662EC040BC2984A0.quest_desc: ["A scribe table turns spell ideas into usable configurations. Keep it near your book and glyph storage."]
+	quest.662EC040BC2984A0.quest_desc: ["A Scribe's Table unlocks new glyphs from your spell book. Blank parchment is for copying configured spells later."]
 	quest.6F5978C0520E90C8.title: "Starter Glyph Set"
 	quest.6F5978C0520E90C8.quest_desc: ["Projectile, touch, self, harm, heal, break, and light cover most early field work without overcomplicating the book."]
 	quest.34F1531F002DBD08.title: "Shape and Power Augments"
@@ -1292,7 +1292,7 @@
 	quest.762CF57C711AD3E2.title: "Wings and Attitude"
 	quest.762CF57C711AD3E2.quest_desc: ["Wings shape the craft instead of only pushing it harder. Copycat wings keep builds readable without wasting mass."]
 	quest.6CB9C339576139B4.title: "Control Surfaces"
-	quest.6CB9C339576139B4.quest_desc: ["Reaction wheels, tilt adapters, and redstone transmission make thrust controllable from the craft."]
+	quest.6CB9C339576139B4.quest_desc: ["Control cabling, tilt adapters, and redstone transmission make thrust controllable from the craft."]
 	quest.5D02925D4621688E.title: "Propulsion Build Tools"
 	quest.5D02925D4621688E.quest_desc: ["These tools are for assembling, moving, cloning, or cleaning up glued propulsion builds. Use them deliberately."]
 	quest.5F69C6058DD78CE6.title: "Ground Vehicles"

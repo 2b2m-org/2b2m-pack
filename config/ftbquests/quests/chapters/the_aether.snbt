@@ -420,7 +420,7 @@
 				}
 				{
 					id: "42CC21BE990AF75D"
-					item: { }
+					item: { count: 1, id: "aether:gravitite_chestplate" }
 					type: "item"
 				}
 				{

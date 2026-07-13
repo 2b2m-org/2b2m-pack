@@ -357,6 +357,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["1118EACC1433C5E4"]
 			id: "250369E02DFCF295"
 			tasks: [
 				{
@@ -400,8 +401,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 0.0d
+			x: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7B871039BF011620"]

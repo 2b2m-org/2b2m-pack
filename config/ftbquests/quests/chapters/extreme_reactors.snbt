@@ -255,14 +255,15 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["0642DA5D05CD09C8"]
 			id: "313534B1A5A09C41"
 			tasks: [{
 				id: "45B8CA210B6C41D0"
 				item: { count: 1, id: "bigreactors:cyanite_ingot" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 7.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["313534B1A5A09C41"]
@@ -581,6 +582,7 @@
 			y: -6.0d
 		}
 		{
+			dependencies: ["6D54E3D349BF8F05"]
 			id: "6A2FA96C2C7D9747"
 			tasks: [
 				{
@@ -599,8 +601,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 0.0d
+			x: 18.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["65B7BA5F7CA917D4"]
@@ -659,7 +661,7 @@
 				}
 				{
 					id: "3584AB44C80D9356"
-					item: { }
+					item: { count: 1, id: "bigreactors:fluidizerfluidinjector" }
 					type: "item"
 				}
 				{

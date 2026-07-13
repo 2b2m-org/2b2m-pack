@@ -1137,7 +1137,7 @@ preserve = true
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ars_nouveau.snbt"
-hash = "f16cdbcd9a5c04ba2719df0f5e3d93aee9ca666e8b19d938849a33e23b66de33"
+hash = "a1dd2f68d74e239d9a3a4851828d24db019fcd9301dcef67d832348506d3c4fa"
 preserve = true
 
 [[files]]
@@ -1147,22 +1147,22 @@ preserve = true
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cc_tweaked.snbt"
-hash = "03d263df213fcd39a333080867f3356b85faee1b9d3a4f0bb613a58c29ac33e6"
+hash = "d76c20b773a31d0775e41f49b5a43081a5181fa7df6bc90b399eade06b3f6821"
 preserve = true
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "46d50724b37690ad8aadecaef847c3c1c62a59886f1fd701066fc261be503a67"
+hash = "3f42ed7f5f93c6929c61c5edb8b0e5513a93e9b78953a276dd6a403564d3a128"
 preserve = true
 
 [[files]]
 file = "config/ftbquests/quests/chapters/extreme_reactors.snbt"
-hash = "fcd1f6c1662b8d878067180a5894e55fb01df1121a5f830bada660b2aca54e99"
+hash = "cd276db88056ffaf209bbc4afe6a50c6b30c6c2d23f854760ed83f7d1020b5c9"
 preserve = true
 
 [[files]]
 file = "config/ftbquests/quests/chapters/farmers_delight.snbt"
-hash = "cc0738981741a157c6a7126a2f22060522befc042a286a7015de2bafc2bf7f97"
+hash = "395e2e5c56ad80a881c1ec11a28736201b5ce5b4c7f596e56023af1e03a28d90"
 preserve = true
 
 [[files]]
@@ -1187,7 +1187,7 @@ preserve = true
 
 [[files]]
 file = "config/ftbquests/quests/chapters/quark.snbt"
-hash = "71733f137b6b7c8eeaa166e3c136868b1fde2d051cd70b344981950c9608e5df"
+hash = "99bb9c7f78611318bf6c8eb4218b191251e21143649dedf5e5145b48a72ae2e3"
 preserve = true
 
 [[files]]
@@ -1197,12 +1197,12 @@ preserve = true
 
 [[files]]
 file = "config/ftbquests/quests/chapters/sophisticated_backpacks.snbt"
-hash = "3bcb9dd42aafc9490677b22ad56299ea903e64c1d45e432349b1b19831c40444"
+hash = "fba0b46e6bab25c821de59f2d1985005b3d62ea99ebfd75cd9ef2c83d196ac50"
 preserve = true
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_aether.snbt"
-hash = "019b3cff229d4d2843fcd28eaeab7dc5c8ff9fb66618f5846b838eea351fa873"
+hash = "34f7a370c468a0c63bdb2e0296e1c60ddeebb36c0c8fd600dd0decdfa11b9e6d"
 preserve = true
 
 [[files]]
@@ -1222,7 +1222,7 @@ preserve = true
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "ddd04ecc2371bc819aac88bcb8fa8d16145bad596e82f09baf275560d246b3fb"
+hash = "c396c39a8d253501e381572f414d7a6473e562f189fcb69de3ddd3ba1e05509b"
 preserve = true
 
 [[files]]

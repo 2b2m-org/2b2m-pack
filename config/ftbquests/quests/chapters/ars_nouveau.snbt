@@ -90,8 +90,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 0.0d
+			x: 4.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["34B121230FFC802B"]
@@ -193,7 +193,7 @@
 				id: "6BDECE4F4582FF4D"
 				item: {
 					count: 1
-					id: "ars_nouveau:blank_glyph"
+					id: "ars_nouveau:blank_parchment"
 				}
 				type: "item"
 			}]
@@ -202,11 +202,6 @@
 				{
 					id: "760CA76A352CF3C5"
 					item: { count: 1, id: "ars_nouveau:scribes_table" }
-					type: "item"
-				}
-				{
-					id: "5BD9458C908E2B74"
-					item: { count: 1, id: "ars_nouveau:blank_glyph" }
 					type: "item"
 				}
 			]
@@ -722,7 +717,7 @@
 				}
 				{
 					id: "70BFB2194F2C9B9F"
-					item: { }
+					item: { count: 1, id: "ars_nouveau:relay_warp" }
 					type: "item"
 				}
 			]
@@ -1814,7 +1809,7 @@
 				}
 				{
 					id: "4E6E605F381208A1"
-					item: { }
+					item: { count: 1, id: "ars_nouveau:thread_gliding" }
 					type: "item"
 				}
 				{

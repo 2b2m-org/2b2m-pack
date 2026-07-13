@@ -390,8 +390,8 @@
 				item: { count: 1, id: "computercraft:turtle_normal" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["126A452514460780"]

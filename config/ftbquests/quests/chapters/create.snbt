@@ -2554,20 +2554,15 @@
 		{
 			dependencies: ["762CF57C711AD3E2"]
 			icon: {
-				components: {
-					"ftbquests:missing_item": "createpropulsion:reaction_wheel"
-				}
-				id: "ftbquests:missing_item"
+				id: "createpropulsion:tilt_adapter"
 			}
 			id: "6CB9C339576139B4"
 			rewards: [{
+				count: 8
 				id: "02969977C9ECB763"
 				item: {
-					components: {
-						"ftbquests:missing_item": "createpropulsion:reaction_wheel"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "createpropulsion:cable"
 				}
 				type: "item"
 			}]
@@ -2575,7 +2570,7 @@
 			tasks: [
 				{
 					id: "6BA5C43C1ADD7A3D"
-					item: { components: { "ftbquests:missing_item": "createpropulsion:reaction_wheel" }, count: 1, id: "ftbquests:missing_item" }
+					item: { count: 1, id: "createpropulsion:cable" }
 					type: "item"
 				}
 				{
@@ -2595,7 +2590,7 @@
 				}
 				{
 					id: "198803446CD1ED49"
-					item: { components: { "ftbquests:missing_item": "createpropulsion:assembly_gauge" }, count: 1, id: "ftbquests:missing_item" }
+					item: { count: 1, id: "createpropulsion:cable_hub" }
 					type: "item"
 				}
 			]

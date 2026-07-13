@@ -662,8 +662,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 0.0d
+			x: -3.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0B9B1D2ED7449AFB"]
@@ -789,7 +789,7 @@
 				}
 				{
 					id: "0BA09D2AD161E167"
-					item: { }
+					item: { count: 1, id: "farmersdelight:cabbage_rolls" }
 					type: "item"
 				}
 			]
