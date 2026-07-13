@@ -250,7 +250,7 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["66D58A14C2DD1B91"]
+			dependencies: ["19C3EA4F2DE3D1A1"]
 			icon: {
 				id: "aether:enchanted_gravitite"
 			}
@@ -277,11 +277,11 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
-			y: -12.0d
+			x: 2.5d
+			y: -18.0d
 		}
 		{
-			dependencies: ["550564C5D78D482D"]
+			dependencies: ["66D58A14C2DD1B91"]
 			icon: {
 				id: "aether:altar"
 			}
@@ -299,8 +299,8 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: -15.0d
+			x: 10.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["66D58A14C2DD1B91"]
@@ -335,11 +335,11 @@
 					type: "item"
 				}
 			]
-			x: -7.5d
+			x: -10.0d
 			y: -12.0d
 		}
 		{
-			dependencies: ["550564C5D78D482D"]
+			dependencies: ["468F8DCA8AC44819"]
 			icon: {
 				id: "aether:zanite_pickaxe"
 			}
@@ -377,11 +377,11 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
+			x: 10.5d
 			y: -15.0d
 		}
 		{
-			dependencies: ["19C3EA4F2DE3D1A1"]
+			dependencies: ["550564C5D78D482D"]
 			icon: {
 				id: "aether:gravitite_pickaxe"
 			}
@@ -404,8 +404,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: -18.0d
+			x: 4.0d
+			y: -21.0d
 		}
 		{
 			dependencies: ["69A25ED53688ADAE"]
@@ -441,8 +441,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -21.0d
+			x: 2.5d
+			y: -24.0d
 		}
 		{
 			dependencies: ["66D58A14C2DD1B91"]
@@ -482,7 +482,7 @@
 					type: "item"
 				}
 			]
-			x: -2.5d
+			x: -5.0d
 			y: -12.0d
 		}
 		{
@@ -526,7 +526,7 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
+			x: 0.0d
 			y: -15.0d
 		}
 		{
@@ -559,7 +559,7 @@
 					value: 1L
 				}
 			]
-			x: -11.5d
+			x: -7.5d
 			y: -15.0d
 		}
 		{
@@ -581,7 +581,7 @@
 					type: "item"
 				}
 			]
-			x: -6.5d
+			x: -2.5d
 			y: -15.0d
 		}
 		{
@@ -632,11 +632,11 @@
 					type: "item"
 				}
 			]
-			x: -14.0d
+			x: -10.5d
 			y: -15.0d
 		}
 		{
-			dependencies: ["66D58A14C2DD1B91"]
+			dependencies: ["201A251149FDD32F"]
 			icon: {
 				id: "aether:iron_ring"
 			}
@@ -689,11 +689,11 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: -12.0d
+			x: 5.0d
+			y: -15.0d
 		}
 		{
-			dependencies: ["22D52022270E2014"]
+			dependencies: ["66D58A14C2DD1B91"]
 			icon: {
 				id: "aether:zanite_ring"
 			}
@@ -741,11 +741,11 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -15.0d
+			x: 0.0d
+			y: -12.0d
 		}
 		{
-			dependencies: ["22D52022270E2014"]
+			dependencies: ["66D58A14C2DD1B91"]
 			icon: {
 				id: "aether:poison_dart_shooter"
 			}
@@ -812,8 +812,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: -15.0d
+			x: 5.0d
+			y: -12.0d
 		}
 		{
 			dependencies: [
@@ -844,7 +844,7 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
+			x: -2.5d
 			y: -18.0d
 		}
 		{
@@ -904,7 +904,7 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: -2.5d
 			y: -24.0d
 		}
 		{

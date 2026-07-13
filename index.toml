@@ -1147,7 +1147,7 @@ preserve = true
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cc_tweaked.snbt"
-hash = "57f7e2a6c9d516af9ca65e9dc6fae5ecc293ccc9ca5a6dd31fe6f840fbe08a64"
+hash = "774bf8435eded9e3025db027fed1e12bd210ab57f0cec8b900ac099b05593a0b"
 preserve = true
 
 [[files]]
@@ -1202,12 +1202,12 @@ preserve = true
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_aether.snbt"
-hash = "c263e3352e9bca71673048214a7b4e29e7cfce71614ef4510c2810a741e4c403"
+hash = "4e2ceebed1c24f999719acf03aa4947d82ad62e1ddefff3df0b5284b60fdc250"
 preserve = true
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome.snbt"
-hash = "c445afa27b906d01d228f10656ba83852f0a861d0959f0a5dfd2b55b0d0e80af"
+hash = "9782ead7210df27873320fb42ebd6116775c4b8954aa7e2aeb807d730dc5878f"
 preserve = true
 
 [[files]]

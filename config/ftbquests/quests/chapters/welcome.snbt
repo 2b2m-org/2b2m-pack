@@ -26,7 +26,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["071E6A67B5E2815C"]
+			dependencies: ["5EBAF76531EFE0B3"]
 			icon: {
 				id: "minecraft:filled_map"
 			}
@@ -44,8 +44,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -5.0d
+			x: 4.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0BD9775EC2F17E22"]
@@ -66,11 +66,11 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: -2.5d
+			x: 0.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["679E84039CC83E1F"]
+			dependencies: ["071E6A67B5E2815C"]
 			icon: {
 				id: "minecraft:stone_pickaxe"
 			}
@@ -108,8 +108,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: 2.5d
+			x: 0.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["47D4B2D1AC2F6B52"]
@@ -141,11 +141,11 @@
 				item: { count: 1, id: "minecraft:iron_ingot" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 5.0d
+			x: 4.5d
+			y: -2.5d
 		}
 		{
-			dependencies: ["5EBAF76531EFE0B3"]
+			dependencies: ["679E84039CC83E1F"]
 			icon: {
 				id: "minecraft:diamond"
 			}
@@ -248,8 +248,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 8.0d
+			x: 7.0d
+			y: -4.0d
 		}
 	]
 }

@@ -42,7 +42,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3417F8BF724A88BD"]
@@ -107,7 +107,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -2.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["3417F8BF724A88BD"]
@@ -129,7 +129,7 @@
 				}
 			]
 			x: 3.0d
-			y: 2.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["53EA75403737FDFA"]
@@ -178,7 +178,7 @@
 				}
 			]
 			x: 6.0d
-			y: 8.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["3C149FC0644E4220"]
@@ -194,7 +194,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 4.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["3C149FC0644E4220"]
@@ -226,7 +226,7 @@
 				}
 			]
 			x: 9.0d
-			y: 1.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3C149FC0644E4220"]
@@ -284,7 +284,7 @@
 				}
 			]
 			x: 9.0d
-			y: -1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3C149FC0644E4220"]
@@ -306,7 +306,7 @@
 				}
 			]
 			x: 9.0d
-			y: -4.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3A58B0A58164353F"]
@@ -356,7 +356,7 @@
 				}
 			]
 			x: 6.0d
-			y: 3.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["08B5656B9BEB8A45"]
@@ -378,9 +378,10 @@
 				}
 			]
 			x: 6.0d
-			y: 1.0d
+			y: -6.0d
 		}
 		{
+			dependencies: ["3417F8BF724A88BD"]
 			id: "126A452514460780"
 			rewards: [{
 				count: 2
@@ -391,15 +392,14 @@
 				}
 				type: "item"
 			}]
-			shape: "hexagon"
-			size: 1.6d
+			shape: "square"
 			tasks: [{
 				id: "7FBA7C03D244A129"
 				item: { count: 1, id: "computercraft:turtle_normal" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -1.5d
+			x: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["126A452514460780"]
@@ -413,8 +413,8 @@
 				item: { count: 1, id: "computercraft:turtle_advanced" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -7.0d
+			x: 6.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["396B395B20E15A73"]
@@ -422,7 +422,8 @@
 				id: "minecraft:diamond_pickaxe"
 			}
 			id: "6B2F15D6B284E6AE"
-			shape: "square"
+			shape: "octagon"
+			size: 1.2d
 			tasks: [
 				{
 					id: "519D7FEA943B9EAC"
@@ -455,8 +456,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: -6.0d
+			x: 9.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["396B395B20E15A73"]
@@ -494,7 +495,8 @@
 					xp: 75
 				}
 			]
-			shape: "square"
+			shape: "octagon"
+			size: 1.2d
 			tasks: [
 				{
 					id: "35D901D4031EB1A9"
@@ -512,8 +514,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: -8.5d
+			x: 9.0d
+			y: -8.0d
 		}
 	]
 }
