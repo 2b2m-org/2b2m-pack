@@ -912,25 +912,25 @@
 	quest.6D1733A090F84CB6.quest_desc: ["The DirtChest is a joke item, but it is still installed and can be used as a decoy. Do not mistake it for real storage progression."]
 
 	chapter.3C3BE3985111BEE8.title: "Relics"
-	chapter.3C3BE3985111BEE8.chapter_subtitle: ["Relic discovery, research keybinds, leveling, mobility relics, dimension loot routes, and combat/survival loadouts."]
+	chapter.3C3BE3985111BEE8.chapter_subtitle: ["Find the current Relics roster in loot, learn each item's abilities, and level the pieces that fit your build."]
 	quest.6106252C873F3D0E.title: "Relic Discovery"
-	quest.6106252C873F3D0E.quest_desc: ["Relics come from loot and grow stronger with use. Keep duplicates until you know what each one can do."]
+	quest.6106252C873F3D0E.quest_desc: ["Relics appear in generated loot and grow stronger through their own actions. Check this off after finding your first relic, and keep duplicates until you have compared their rolls."]
 	quest.59D2B534EC324B7A.title: "Research and Leveling"
-	quest.59D2B534EC324B7A.quest_desc: ["Bind Relics research and ability controls. Research and leveling happen through relic use, not a table."]
-	quest.4779FA19B95D4F49.title: "Overworld Utility"
-	quest.4779FA19B95D4F49.quest_desc: ["Overworld relics cover extra slots, mobs, movement, bounce, and hiding before dimension-specific hunts."]
-	quest.265F0D7B9E399593.title: "Water Relics"
-	quest.265F0D7B9E399593.quest_desc: ["Water relics split between swimming, walking on water, trident-style pressure, and shock/paralysis control. Keep these near ocean and cave-diving kits."]
-	quest.54A6996841585D56.title: "Frost Relics"
-	quest.54A6996841585D56.quest_desc: ["Frost relics come from cold and mountain-style routes. They turn snow, ice, freezing, and impact control into a real biome kit."]
-	quest.24308CF21187ED7D.title: "Nether Relics"
-	quest.24308CF21187ED7D.quest_desc: ["Nether relics bias toward Nether, ruined portal, bastion, lava, and fire-themed loot routes. They are the branch for heat, Piglin trade, reflection, and space control."]
-	quest.050D0247FD9DC62D.title: "End Relics"
-	quest.050D0247FD9DC62D.quest_desc: ["End relics focus on teleport control, Enderman interaction, Elytra boosting, phantom bridging, and vanish/backstab play. These are late scouting tools."]
-	quest.7DB2F869BD7CB3CB.title: "Combat Relics"
-	quest.7DB2F869BD7CB3CB.quest_desc: ["Combat relics are build-defining: rage, cloning, spores, faith, anti-heal pressure, and Infinite Ham sustain. Level them before judging their final strength."]
-	quest.4323ADF8433D9659.title: "Travel and Escape"
-	quest.4323ADF8433D9659.quest_desc: ["Travel relics are escape tools: mirror teleports, phantom paths, Elytra boosts, blink control, and space tricks."]
+	quest.59D2B534EC324B7A.quest_desc: ["Open a relic's description, bind the Relics controls you use, and read its experience sources before choosing upgrades. Check this off once your controls are ready; relics level through use, not at a table."]
+	quest.4779FA19B95D4F49.title: "Movement and Momentum"
+	quest.4779FA19B95D4F49.quest_desc: ["Roller Skates build speed while running, the Springy Boot turns crouch-jumps and landings into controlled bounces, and the Kinetic Belt preserves aerial momentum for softer travel."]
+	quest.265F0D7B9E399593.title: "Water and Liquids"
+	quest.265F0D7B9E399593.quest_desc: ["The Jellyfish Necklace heals and stabilizes you in water or rain while charging electric arcs. The Cut Glass Boot stores selected liquids and lets you walk across matching surfaces."]
+	quest.54A6996841585D56.title: "Recovery and Protection"
+	quest.54A6996841585D56.quest_desc: ["The Leafy Mantle rewards moving through foliage, the Ghostly Mantle controls enemies and can prevent a lethal hit, and the Sphere of Self-Sacrifice trades health now for recovery and defense."]
+	quest.24308CF21187ED7D.title: "Utility and Companions"
+	quest.24308CF21187ED7D.quest_desc: ["Build around pets, mounts, food, shared relic experience, and Piglin bartering with the Hunting Belt, Rider Flute, Chef's Hat, Experience Disperser, and Piglin Mask."]
+	quest.050D0247FD9DC62D.title: "Mantles and Evasion"
+	quest.050D0247FD9DC62D.quest_desc: ["The Midnight Mantle changes with the moon and hides you in darkness. The Glitchy Mantle creates deceptive copies, makes attacks miss, and can turn open air into a temporary path."]
+	quest.7DB2F869BD7CB3CB.title: "Retaliation and Risk"
+	quest.7DB2F869BD7CB3CB.quest_desc: ["The Reflective Necklace stores part of incoming damage for a counterattack, the Shield of Retaliation rewards precise parries, and the Seven Deadly Sins ring grants powerful bonuses with equally real drawbacks."]
+	quest.4323ADF8433D9659.title: "Space and Time"
+	quest.4323ADF8433D9659.quest_desc: ["The Chorus Staff blinks forward through space. The Clot of Time rewinds you along your recent path, making both relics powerful escape tools when their limits are understood."]
 
 	chapter.7C1733193B1BDB9F.title: "The Aether"
 	chapter.7C1733193B1BDB9F.chapter_subtitle: ["Portal entry, native tools, Ambrosium machines, Life Shards, Moas, accessories, dungeons, bosses, and rare loot."]
@@ -951,7 +951,7 @@
 	quest.468F8DCA8AC44819.title: "Altar Repair"
 	quest.468F8DCA8AC44819.quest_desc: ["The Altar has a large repair recipe set for Aether gear. This is one of the mod's most important quality-of-life loops, especially for rare dungeon equipment."]
 	quest.7DE1C52E48079190.title: "Freezer and Incubator"
-	quest.7DE1C52E48079190.quest_desc: ["The Freezer and Incubator are the practical base machines: transform native blocks and start companion/mount progression instead of treating Aether loot as random clutter."]
+	quest.7DE1C52E48079190.quest_desc: ["The Freezer and Incubator are the practical base machines: transform native blocks and start companion or mount progression. Moa eggs come only from Silver Dungeon loot, so return to this branch after finding one there."]
 	quest.19C3EA4F2DE3D1A1.title: "Zanite Gear"
 	quest.19C3EA4F2DE3D1A1.quest_desc: ["Zanite is the first real Aether metal tier. Make tools and gloves early, because this pack requires gloves for armor-set abilities."]
 	quest.69A25ED53688ADAE.title: "Gravitite Gear"

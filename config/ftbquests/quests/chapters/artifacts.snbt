@@ -4,63 +4,6 @@
 	filename: "artifacts"
 	group: "0AED6A67D2E6878C"
 	icon: {
-		components: {
-			"relics:data": {
-				abilities: {
-					abilities: {
-						glider: {
-							extender: {
-								cooldown: 0
-								cooldownCap: 0
-								ticking: 0b
-							}
-							lock: {
-								breaks: 5
-							}
-							points: 0
-							research: {
-								links: { }
-								researched: 0b
-							}
-							stats: {
-								cooldown: {
-									initialValue: 1.63183d
-								}
-								count: {
-									initialValue: 1.9123d
-								}
-							}
-						}
-						shield: {
-							extender: {
-								cooldown: 0
-								cooldownCap: 0
-								ticking: 0b
-							}
-							lock: {
-								breaks: 0
-							}
-							points: 0
-							research: {
-								links: { }
-								researched: 0b
-							}
-							stats: {
-								knockback: {
-									initialValue: 2.17075d
-								}
-							}
-						}
-					}
-				}
-				leveling: {
-					experience: 0
-					level: 0
-					luck: 0
-					points: 0
-				}
-			}
-		}
 		id: "artifacts:umbrella"
 	}
 	id: "796DC6BB3DDEB8AD"
@@ -69,63 +12,6 @@
 	quests: [
 		{
 			icon: {
-				components: {
-					"relics:data": {
-						abilities: {
-							abilities: {
-								glider: {
-									extender: {
-										cooldown: 0
-										cooldownCap: 0
-										ticking: 0b
-									}
-									lock: {
-										breaks: 5
-									}
-									points: 0
-									research: {
-										links: { }
-										researched: 0b
-									}
-									stats: {
-										cooldown: {
-											initialValue: 1.83466d
-										}
-										count: {
-											initialValue: 2.47984d
-										}
-									}
-								}
-								shield: {
-									extender: {
-										cooldown: 0
-										cooldownCap: 0
-										ticking: 0b
-									}
-									lock: {
-										breaks: 0
-									}
-									points: 0
-									research: {
-										links: { }
-										researched: 0b
-									}
-									stats: {
-										knockback: {
-											initialValue: 1.2202d
-										}
-									}
-								}
-							}
-						}
-						leveling: {
-							experience: 0
-							level: 0
-							luck: 0
-							points: 0
-						}
-					}
-				}
 				id: "artifacts:umbrella"
 			}
 			id: "6B9F1F7E1F5A523E"
@@ -146,12 +32,12 @@
 			tasks: [
 				{
 					id: "4CD651864F08BF1F"
-					item: { components: { "relics:data": { abilities: { abilities: { glider: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { cooldown: { initialValue: 1.62721d }, count: { initialValue: 2.13252d } } }, shield: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { knockback: { initialValue: 2.87018d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:umbrella" }
+					item: { count: 1, id: "artifacts:umbrella" }
 					type: "item"
 				}
 				{
 					id: "2B87B946D2B7D0B9"
-					item: { components: { "relics:data": { abilities: { abilities: { heart: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { amount: { initialValue: 4.94217d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:crystal_heart" }
+					item: { count: 1, id: "artifacts:crystal_heart" }
 					type: "item"
 				}
 			]
@@ -161,43 +47,6 @@
 		{
 			dependencies: ["6B9F1F7E1F5A523E"]
 			icon: {
-				components: {
-					"relics:data": {
-						abilities: {
-							abilities: {
-								push: {
-									extender: {
-										cooldown: 0
-										cooldownCap: 0
-										ticking: 0b
-									}
-									lock: {
-										breaks: 5
-									}
-									points: 0
-									research: {
-										links: { }
-										researched: 0b
-									}
-									stats: {
-										chance: {
-											initialValue: 0.33972d
-										}
-										radius: {
-											initialValue: 3.92935d
-										}
-									}
-								}
-							}
-						}
-						leveling: {
-							experience: 0
-							level: 0
-							luck: 0
-							points: 0
-						}
-					}
-				}
 				id: "artifacts:whoopee_cushion"
 			}
 			id: "3AC46EB61EFF3E66"
@@ -205,7 +54,7 @@
 			size: 1.4d
 			tasks: [{
 				id: "03924EC9B0DC922C"
-				item: { components: { "relics:data": { abilities: { abilities: { push: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.25452d }, radius: { initialValue: 4.00332d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:whoopee_cushion" }
+				item: { count: 1, id: "artifacts:whoopee_cushion" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -214,40 +63,6 @@
 		{
 			dependencies: ["6B9F1F7E1F5A523E"]
 			icon: {
-				components: {
-					"relics:data": {
-						abilities: {
-							abilities: {
-								attractor: {
-									extender: {
-										cooldown: 0
-										cooldownCap: 0
-										ticking: 0b
-									}
-									lock: {
-										breaks: 5
-									}
-									points: 0
-									research: {
-										links: { }
-										researched: 0b
-									}
-									stats: {
-										radius: {
-											initialValue: 4.46219d
-										}
-									}
-								}
-							}
-						}
-						leveling: {
-							experience: 0
-							level: 0
-							luck: 0
-							points: 0
-						}
-					}
-				}
 				id: "artifacts:universal_attractor"
 			}
 			id: "4F8768A269BCE0D0"
@@ -294,40 +109,6 @@
 		{
 			dependencies: ["3AC46EB61EFF3E66"]
 			icon: {
-				components: {
-					"relics:data": {
-						abilities: {
-							abilities: {
-								jump: {
-									extender: {
-										cooldown: 0
-										cooldownCap: 0
-										ticking: 0b
-									}
-									lock: {
-										breaks: 5
-									}
-									points: 0
-									research: {
-										links: { }
-										researched: 0b
-									}
-									stats: {
-										count: {
-											initialValue: 1.55406d
-										}
-									}
-								}
-							}
-						}
-						leveling: {
-							experience: 0
-							level: 0
-							luck: 0
-							points: 0
-						}
-					}
-				}
 				id: "artifacts:cloud_in_a_bottle"
 			}
 			id: "48D6BC6DD8BFA06B"
@@ -346,22 +127,22 @@
 			tasks: [
 				{
 					id: "09A584D61DDF3BDE"
-					item: { components: { "relics:data": { abilities: { abilities: { jump: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { count: { initialValue: 1.55541d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:cloud_in_a_bottle" }
+					item: { count: 1, id: "artifacts:cloud_in_a_bottle" }
 					type: "item"
 				}
 				{
 					id: "6737DF1C2D302134"
-					item: { components: { "relics:data": { abilities: { abilities: { glider: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { cooldown: { initialValue: 1.93205d }, count: { initialValue: 1.60592d } } }, shield: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { knockback: { initialValue: 2.07975d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:umbrella" }
+					item: { count: 1, id: "artifacts:umbrella" }
 					type: "item"
 				}
 				{
 					id: "3B6D7A7724071C3E"
-					item: { components: { "relics:data": { abilities: { abilities: { runner: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { speed: { initialValue: 0.67538d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:running_shoes" }
+					item: { count: 1, id: "artifacts:running_shoes" }
 					type: "item"
 				}
 				{
 					id: "0B2DA27A1BFAC033"
-					item: { components: { "relics:data": { abilities: { abilities: { hold: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { duration: { initialValue: 4.55158d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:bunny_hoppers" }
+					item: { count: 1, id: "artifacts:bunny_hoppers" }
 					type: "item"
 				}
 			]
@@ -371,43 +152,6 @@
 		{
 			dependencies: ["48D6BC6DD8BFA06B"]
 			icon: {
-				components: {
-					"relics:data": {
-						abilities: {
-							abilities: {
-								teleport: {
-									extender: {
-										cooldown: 0
-										cooldownCap: 0
-										ticking: 0b
-									}
-									lock: {
-										breaks: 5
-									}
-									points: 0
-									research: {
-										links: { }
-										researched: 0b
-									}
-									stats: {
-										cooldown: {
-											initialValue: 126.95726d
-										}
-										distance: {
-											initialValue: 8.78408d
-										}
-									}
-								}
-							}
-						}
-						leveling: {
-							experience: 0
-							level: 0
-							luck: 0
-							points: 0
-						}
-					}
-				}
 				id: "artifacts:warp_drive"
 			}
 			id: "008866F62D3138EC"
@@ -438,22 +182,22 @@
 			tasks: [
 				{
 					id: "74BA7CD65F4A5A96"
-					item: { components: { "relics:data": { abilities: { abilities: { flying: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { speed: { initialValue: 0.25662d }, time: { initialValue: 3.77617d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:helium_flamingo" }
+					item: { count: 1, id: "artifacts:helium_flamingo" }
 					type: "item"
 				}
 				{
 					id: "5D80DC9327740FAD"
-					item: { components: { "relics:data": { abilities: { abilities: { past: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.02852d }, radius: { initialValue: 5.62074d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:chorus_totem" }
+					item: { count: 1, id: "artifacts:chorus_totem" }
 					type: "item"
 				}
 				{
 					id: "40EF90C15DD4A4A4"
-					item: { components: { "relics:data": { abilities: { abilities: { teleport: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { cooldown: { initialValue: 136.96794d }, distance: { initialValue: 8.43131d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:warp_drive" }
+					item: { count: 1, id: "artifacts:warp_drive" }
 					type: "item"
 				}
 				{
 					id: "6C994A4785D2566B"
-					item: { components: { "relics:data": { abilities: { abilities: { discarding: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { interaction: { initialValue: 0.3944d } } }, interaction: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { range: { initialValue: 0.34325d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:pocket_piston" }
+					item: { count: 1, id: "artifacts:pocket_piston" }
 					type: "item"
 				}
 			]
@@ -463,56 +207,6 @@
 		{
 			dependencies: ["3AC46EB61EFF3E66"]
 			icon: {
-				components: {
-					"relics:data": {
-						abilities: {
-							abilities: {
-								diving: {
-									extender: {
-										cooldown: 0
-										cooldownCap: 0
-										ticking: 0b
-									}
-									lock: {
-										breaks: 5
-									}
-									points: 0
-									research: {
-										links: { }
-										researched: 0b
-									}
-									stats: {
-										duration: {
-											initialValue: 9.0558d
-										}
-									}
-								}
-								passive: {
-									extender: {
-										cooldown: 0
-										cooldownCap: 0
-										ticking: 0b
-									}
-									lock: {
-										breaks: 5
-									}
-									points: 0
-									research: {
-										links: { }
-										researched: 0b
-									}
-									stats: { }
-								}
-							}
-						}
-						leveling: {
-							experience: 0
-							level: 0
-							luck: 0
-							points: 0
-						}
-					}
-				}
 				id: "artifacts:snorkel"
 			}
 			id: "66E95CCD54C62CF1"
@@ -531,12 +225,12 @@
 			tasks: [
 				{
 					id: "7AB9E09F3CE82CC2"
-					item: { components: { "relics:data": { abilities: { abilities: { diving: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { duration: { initialValue: 9.08191d } } }, passive: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:snorkel" }
+					item: { count: 1, id: "artifacts:snorkel" }
 					type: "item"
 				}
 				{
 					id: "74F51C1004F819F3"
-					item: { components: { "relics:data": { abilities: { abilities: { swimmer: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { modifier: { initialValue: 0.2724d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:flippers" }
+					item: { count: 1, id: "artifacts:flippers" }
 					type: "item"
 				}
 				{
@@ -546,7 +240,7 @@
 				}
 				{
 					id: "51AD82E8575015AE"
-					item: { components: { "relics:data": { abilities: { abilities: { dipping: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { air: { initialValue: 0.20697d } } }, dive: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:charm_of_sinking" }
+					item: { count: 1, id: "artifacts:charm_of_sinking" }
 					type: "item"
 				}
 			]
@@ -574,7 +268,7 @@
 			tasks: [
 				{
 					id: "094709BD2C0F60B7"
-					item: { components: { "relics:data": { abilities: { abilities: { hell: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { duration: { initialValue: 45.43026d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:obsidian_skull" }
+					item: { count: 1, id: "artifacts:obsidian_skull" }
 					type: "item"
 				}
 				{
@@ -584,22 +278,22 @@
 				}
 				{
 					id: "269A6C5B7957C7A0"
-					item: { components: { "relics:data": { abilities: { abilities: { passive: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { } }, speed: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { amount: { initialValue: 0.37652d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:snowshoes" }
+					item: { count: 1, id: "artifacts:snowshoes" }
 					type: "item"
 				}
 				{
 					id: "12B9FB812F9AF823"
-					item: { components: { "relics:data": { abilities: { abilities: { passive: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { } }, resistance: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { modifier: { initialValue: 0.26498d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:steadfast_spikes" }
+					item: { count: 1, id: "artifacts:steadfast_spikes" }
 					type: "item"
 				}
 				{
 					id: "62D0082AD4F0E3EB"
-					item: { components: { "relics:data": { abilities: { abilities: { devouring: { extender: { cooldown: 0, cooldownCap: 0, ticking: 1b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { frequency: { initialValue: 137.7599d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:rooted_boots" }
+					item: { count: 1, id: "artifacts:rooted_boots" }
 					type: "item"
 				}
 				{
 					id: "064994CAD5D9B00B"
-					item: { components: { "relics:data": { abilities: { abilities: { fall: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { modifier: { initialValue: 2.29614d } } }, passive: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { } }, resurrected: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.05765d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:kitty_slippers" }
+					item: { count: 1, id: "artifacts:kitty_slippers" }
 					type: "item"
 				}
 			]
@@ -609,40 +303,6 @@
 		{
 			dependencies: ["3AC46EB61EFF3E66"]
 			icon: {
-				components: {
-					"relics:data": {
-						abilities: {
-							abilities: {
-								vision: {
-									extender: {
-										cooldown: 0
-										cooldownCap: 0
-										ticking: 1b
-									}
-									lock: {
-										breaks: 5
-									}
-									points: 0
-									research: {
-										links: { }
-										researched: 0b
-									}
-									stats: {
-										amount: {
-											initialValue: 0.13066d
-										}
-									}
-								}
-							}
-						}
-						leveling: {
-							experience: 0
-							level: 0
-							luck: 0
-							points: 0
-						}
-					}
-				}
 				id: "artifacts:night_vision_goggles"
 			}
 			id: "3BA0008866233534"
@@ -659,17 +319,17 @@
 			tasks: [
 				{
 					id: "27A4126785C1A676"
-					item: { components: { "relics:data": { abilities: { abilities: { vision: { extender: { cooldown: 0, cooldownCap: 0, ticking: 1b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { amount: { initialValue: 0.11622d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:night_vision_goggles" }
+					item: { count: 1, id: "artifacts:night_vision_goggles" }
 					type: "item"
 				}
 				{
 					id: "4B9B52ABCC4C5861"
-					item: { components: { "relics:data": { abilities: { abilities: { invisible: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { time: { initialValue: 86.6593d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:scarf_of_invisibility" }
+					item: { count: 1, id: "artifacts:scarf_of_invisibility" }
 					type: "item"
 				}
 				{
 					id: "25571CEBCAE04F94"
-					item: { components: { "relics:data": { abilities: { abilities: { shrinking: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { multiplier: { initialValue: 0.28564d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:charm_of_shrinking" }
+					item: { count: 1, id: "artifacts:charm_of_shrinking" }
 					type: "item"
 				}
 			]
@@ -679,40 +339,6 @@
 		{
 			dependencies: ["3AC46EB61EFF3E66"]
 			icon: {
-				components: {
-					"relics:data": {
-						abilities: {
-							abilities: {
-								power: {
-									extender: {
-										cooldown: 0
-										cooldownCap: 0
-										ticking: 0b
-									}
-									lock: {
-										breaks: 5
-									}
-									points: 0
-									research: {
-										links: { }
-										researched: 0b
-									}
-									stats: {
-										amount: {
-											initialValue: 0.96451d
-										}
-									}
-								}
-							}
-						}
-						leveling: {
-							experience: 0
-							level: 0
-							luck: 0
-							points: 0
-						}
-					}
-				}
 				id: "artifacts:power_glove"
 			}
 			id: "4DB76A16D38932CF"
@@ -731,32 +357,32 @@
 			tasks: [
 				{
 					id: "1C77A682267D5273"
-					item: { components: { "relics:data": { abilities: { abilities: { fast_mining: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { modifier: { initialValue: 0.2406d } } }, passive: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:digging_claws" }
+					item: { count: 1, id: "artifacts:digging_claws" }
 					type: "item"
 				}
 				{
 					id: "50C41BB11F950433"
-					item: { components: { "relics:data": { abilities: { abilities: { claws: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { modifier: { initialValue: 0.09024d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:feral_claws" }
+					item: { count: 1, id: "artifacts:feral_claws" }
 					type: "item"
 				}
 				{
 					id: "13448CDC520EF6FD"
-					item: { components: { "relics:data": { abilities: { abilities: { power: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { amount: { initialValue: 0.81075d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:power_glove" }
+					item: { count: 1, id: "artifacts:power_glove" }
 					type: "item"
 				}
 				{
 					id: "0A5598B824891D41"
-					item: { components: { "relics:data": { abilities: { abilities: { caster: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.20645d }, damage: { initialValue: 0.1269d }, duration: { initialValue: 32.53604d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:fire_gauntlet" }
+					item: { count: 1, id: "artifacts:fire_gauntlet" }
 					type: "item"
 				}
 				{
 					id: "19EBDD37FCCE51B7"
-					item: { components: { "relics:data": { abilities: { abilities: { vampire: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { amount: { initialValue: 0.13501d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:vampiric_glove" }
+					item: { count: 1, id: "artifacts:vampiric_glove" }
 					type: "item"
 				}
 				{
 					id: "2FED5A6EFE2DF74E"
-					item: { components: { "relics:data": { abilities: { abilities: { heater: { extender: { cooldown: 0, cooldownCap: 0, ticking: 1b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { capacity: { initialValue: 22.52398d }, duration: { initialValue: 131.09716d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:pickaxe_heater" }
+					item: { count: 1, id: "artifacts:pickaxe_heater" }
 					type: "item"
 				}
 			]
@@ -766,46 +392,6 @@
 		{
 			dependencies: ["4DB76A16D38932CF"]
 			icon: {
-				components: {
-					"relics:data": {
-						abilities: {
-							abilities: {
-								poison: {
-									extender: {
-										cooldown: 0
-										cooldownCap: 0
-										ticking: 0b
-									}
-									lock: {
-										breaks: 5
-									}
-									points: 0
-									research: {
-										links: { }
-										researched: 0b
-									}
-									stats: {
-										chance: {
-											initialValue: 0.18228d
-										}
-										multiplier: {
-											initialValue: 0.07855d
-										}
-										time: {
-											initialValue: 3.71417d
-										}
-									}
-								}
-							}
-						}
-						leveling: {
-							experience: 0
-							level: 0
-							luck: 0
-							points: 0
-						}
-					}
-				}
 				id: "artifacts:thorn_pendant"
 			}
 			id: "37CCB83B3FB0CDED"
@@ -815,32 +401,32 @@
 			tasks: [
 				{
 					id: "5697F10321133E94"
-					item: { components: { "relics:data": { abilities: { abilities: { invulnerability: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { modifier: { initialValue: 0.30473d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:cross_necklace" }
+					item: { count: 1, id: "artifacts:cross_necklace" }
 					type: "item"
 				}
 				{
 					id: "2ADFF32816F2C9C0"
-					item: { components: { "relics:data": { abilities: { abilities: { panic: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { movement: { initialValue: 0.10825d }, radius: { initialValue: 7.98312d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:panic_necklace" }
+					item: { count: 1, id: "artifacts:panic_necklace" }
 					type: "item"
 				}
 				{
 					id: "01F1DF96E7EA87A7"
-					item: { components: { "relics:data": { abilities: { abilities: { lightning: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.18481d }, damage: { initialValue: 1.54452d } } }, passive: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:shock_pendant" }
+					item: { count: 1, id: "artifacts:shock_pendant" }
 					type: "item"
 				}
 				{
 					id: "5B713C3082CF27B3"
-					item: { components: { "relics:data": { abilities: { abilities: { fire: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.28625d }, time: { initialValue: 2.30767d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:flame_pendant" }
+					item: { count: 1, id: "artifacts:flame_pendant" }
 					type: "item"
 				}
 				{
 					id: "09EA6D703ED41EEC"
-					item: { components: { "relics:data": { abilities: { abilities: { poison: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.11741d }, multiplier: { initialValue: 0.09745d }, time: { initialValue: 2.21671d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:thorn_pendant" }
+					item: { count: 1, id: "artifacts:thorn_pendant" }
 					type: "item"
 				}
 				{
 					id: "05280F13B289C7E6"
-					item: { components: { "relics:data": { abilities: { abilities: { passive: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { } }, withered: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.33421d }, time: { initialValue: 2.18954d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:withered_bracelet" }
+					item: { count: 1, id: "artifacts:withered_bracelet" }
 					type: "item"
 				}
 			]
@@ -850,40 +436,6 @@
 		{
 			dependencies: ["6E038DCFBD2F978B"]
 			icon: {
-				components: {
-					"relics:data": {
-						abilities: {
-							abilities: {
-								heart: {
-									extender: {
-										cooldown: 0
-										cooldownCap: 0
-										ticking: 0b
-									}
-									lock: {
-										breaks: 5
-									}
-									points: 0
-									research: {
-										links: { }
-										researched: 0b
-									}
-									stats: {
-										amount: {
-											initialValue: 3.24222d
-										}
-									}
-								}
-							}
-						}
-						leveling: {
-							experience: 0
-							level: 0
-							luck: 0
-							points: 0
-						}
-					}
-				}
 				id: "artifacts:crystal_heart"
 			}
 			id: "32C9A3BB1429C91B"
@@ -913,22 +465,22 @@
 			tasks: [
 				{
 					id: "759BF9D69664C35D"
-					item: { components: { "relics:data": { abilities: { abilities: { antidote: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { amount: { initialValue: 0.31419d } } }, devourer: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { duration: { initialValue: 1.14775d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:antidote_vessel" }
+					item: { count: 1, id: "artifacts:antidote_vessel" }
 					type: "item"
 				}
 				{
 					id: "53B7D39799E4D334"
-					item: { components: { "relics:data": { abilities: { abilities: { attractor: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { radius: { initialValue: 4.95438d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:universal_attractor" }
+					item: { count: 1, id: "artifacts:universal_attractor" }
 					type: "item"
 				}
 				{
 					id: "21E5A8C13C75AF54"
-					item: { components: { "relics:data": { abilities: { abilities: { heart: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { amount: { initialValue: 2.7816d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:crystal_heart" }
+					item: { count: 1, id: "artifacts:crystal_heart" }
 					type: "item"
 				}
 				{
 					id: "73417E411BF59366"
-					item: { components: { "relics:data": { abilities: { abilities: { fire: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.27581d }, time: { initialValue: 2.16886d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:flame_pendant" }
+					item: { count: 1, id: "artifacts:flame_pendant" }
 					type: "item"
 				}
 			]
@@ -938,40 +490,6 @@
 		{
 			dependencies: ["3AC46EB61EFF3E66"]
 			icon: {
-				components: {
-					"relics:data": {
-						abilities: {
-							abilities: {
-								looting: {
-									extender: {
-										cooldown: 0
-										cooldownCap: 0
-										ticking: 0b
-									}
-									lock: {
-										breaks: 5
-									}
-									points: 0
-									research: {
-										links: { }
-										researched: 0b
-									}
-									stats: {
-										chance: {
-											initialValue: 0.17209d
-										}
-									}
-								}
-							}
-						}
-						leveling: {
-							experience: 0
-							level: 0
-							luck: 0
-							points: 0
-						}
-					}
-				}
 				id: "artifacts:superstitious_hat"
 			}
 			id: "600790FD16E3B547"
@@ -979,32 +497,32 @@
 			tasks: [
 				{
 					id: "7F7652C49D7C9D5D"
-					item: { components: { "relics:data": { abilities: { abilities: { luck: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.12345d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:lucky_scarf" }
+					item: { count: 1, id: "artifacts:lucky_scarf" }
 					type: "item"
 				}
 				{
 					id: "4A198D829FFB37D2"
-					item: { components: { "relics:data": { abilities: { abilities: { looting: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.14932d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:superstitious_hat" }
+					item: { count: 1, id: "artifacts:superstitious_hat" }
 					type: "item"
 				}
 				{
 					id: "517D62641CC29BB7"
-					item: { components: { "relics:data": { abilities: { abilities: { hook: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { amount: { initialValue: 0.29236d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:golden_hook" }
+					item: { count: 1, id: "artifacts:golden_hook" }
 					type: "item"
 				}
 				{
 					id: "7947553F24D01A63"
-					item: { components: { "relics:data": { abilities: { abilities: { discount: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { multiplier: { initialValue: 11.77079d } } }, passive: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:villager_hat" }
+					item: { count: 1, id: "artifacts:villager_hat" }
 					type: "item"
 				}
 				{
 					id: "637213F280772C5E"
-					item: { components: { "relics:data": { abilities: { abilities: { catch: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.19834d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:anglers_hat" }
+					item: { count: 1, id: "artifacts:anglers_hat" }
 					type: "item"
 				}
 				{
 					id: "5FC3FE94693CD3EE"
-					item: { components: { "relics:data": { abilities: { abilities: { cowboy: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { speed: { initialValue: 0.20082d } } }, overlord: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { time: { initialValue: 2.81724d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:cowboy_hat" }
+					item: { count: 1, id: "artifacts:cowboy_hat" }
 					type: "item"
 				}
 			]
@@ -1014,60 +532,6 @@
 		{
 			dependencies: ["11C4D07BC544DC48"]
 			icon: {
-				components: {
-					"relics:data": {
-						abilities: {
-							abilities: {
-								onion: {
-									extender: {
-										cooldown: 0
-										cooldownCap: 0
-										ticking: 0b
-									}
-									lock: {
-										breaks: 5
-									}
-									points: 0
-									research: {
-										links: { }
-										researched: 0b
-									}
-									stats: {
-										amount: {
-											initialValue: 0.01095d
-										}
-									}
-								}
-								saturation: {
-									extender: {
-										cooldown: 0
-										cooldownCap: 0
-										ticking: 0b
-									}
-									lock: {
-										breaks: 0
-									}
-									points: 0
-									research: {
-										links: { }
-										researched: 0b
-									}
-									stats: {
-										chance: {
-											initialValue: 0.11448d
-										}
-									}
-								}
-							}
-						}
-						leveling: {
-							experience: 0
-							level: 0
-							luck: 0
-							points: 0
-						}
-					}
-				}
 				id: "artifacts:onion_ring"
 			}
 			id: "1701C5A8DD9E6991"
@@ -1086,17 +550,17 @@
 			tasks: [
 				{
 					id: "2C6089D9462F3154"
-					item: { components: { "relics:data": { abilities: { abilities: { drinking: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { speed: { initialValue: 0.39097d } } }, nutrition: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { hunger: { initialValue: 2.72378d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:plastic_drinking_hat" }
+					item: { count: 1, id: "artifacts:plastic_drinking_hat" }
 					type: "item"
 				}
 				{
 					id: "74CA0382BED59EAD"
-					item: { components: { "relics:data": { abilities: { abilities: { drinking: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { speed: { initialValue: 0.35509d } } }, nutrition: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { hunger: { initialValue: 2.89996d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:novelty_drinking_hat" }
+					item: { count: 1, id: "artifacts:novelty_drinking_hat" }
 					type: "item"
 				}
 				{
 					id: "64A780E3CB78FB4F"
-					item: { components: { "relics:data": { abilities: { abilities: { onion: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { amount: { initialValue: 0.01467d } } }, saturation: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.0639d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:onion_ring" }
+					item: { count: 1, id: "artifacts:onion_ring" }
 					type: "item"
 				}
 			]

@@ -87,7 +87,7 @@
 				}
 			]
 			x: 0.0d
-			y: -6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["3578CC0231CBAD1A"]
@@ -215,8 +215,8 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: -9.0d
+			x: 1.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["0C648479C807D3A4"]
@@ -250,8 +250,8 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
-			y: -12.0d
+			x: 1.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["2E660C09B669636C"]
@@ -282,8 +282,8 @@
 					type: "item"
 				}
 			]
-			x: -5.0d
-			y: -15.0d
+			x: 2.5d
+			y: -12.5d
 		}
 		{
 			dependencies: ["6C562CEFC2B19792"]
@@ -323,8 +323,8 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
-			y: -18.0d
+			x: 2.5d
+			y: -15.0d
 		}
 		{
 			dependencies: ["2E660C09B669636C"]
@@ -374,8 +374,8 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: -15.0d
+			x: 4.0d
+			y: -12.5d
 		}
 		{
 			dependencies: ["3A67C4D16A275242"]
@@ -431,8 +431,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: -9.0d
+			x: 7.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["65D3BC8E9C97409E"]
@@ -471,8 +471,8 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: -12.0d
+			x: 7.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["29C40DC4111D01CE"]
@@ -503,8 +503,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: -15.0d
+			x: 7.0d
+			y: -12.5d
 		}
 		{
 			dependencies: ["297F1AC202A53E67"]
@@ -535,8 +535,8 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: -18.0d
+			x: 7.5d
+			y: -15.0d
 		}
 		{
 			dependencies: ["297F1AC202A53E67"]
@@ -550,8 +550,8 @@
 				item: { count: 1, id: "mekanism:quantum_entangloporter" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -18.0d
+			x: 6.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["3A67C4D16A275242"]
@@ -597,8 +597,8 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
-			y: -6.0d
+			x: -7.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["5673DC4805ADD1D0"]
@@ -643,8 +643,8 @@
 					type: "item"
 				}
 			]
-			x: -5.0d
-			y: -9.0d
+			x: -7.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["5673DC4805ADD1D0"]
@@ -690,8 +690,8 @@
 					type: "item"
 				}
 			]
-			x: -7.0d
-			y: -6.0d
+			x: -8.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["44C12C4E74678B30"]
@@ -730,8 +730,8 @@
 					type: "item"
 				}
 			]
-			x: -10.5d
-			y: -6.0d
+			x: -8.5d
+			y: -12.5d
 		}
 		{
 			dependencies: ["68723CE4B0884AE5"]
@@ -771,8 +771,8 @@
 					type: "item"
 				}
 			]
-			x: -12.0d
-			y: -9.0d
+			x: -8.5d
+			y: -15.0d
 		}
 		{
 			dependencies: ["5673DC4805ADD1D0"]
@@ -817,8 +817,8 @@
 					type: "item"
 				}
 			]
-			x: -5.0d
-			y: -3.0d
+			x: -5.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["644BA35C36A5E766"]
@@ -863,8 +863,8 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: -3.0d
+			x: -4.5d
+			y: -12.5d
 		}
 		{
 			dependencies: ["0871D8A9B2E45F06"]
@@ -904,8 +904,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: -3.0d
+			x: -3.5d
+			y: -15.0d
 		}
 		{
 			dependencies: ["644BA35C36A5E766"]
@@ -940,8 +940,8 @@
 					type: "item"
 				}
 			]
-			x: -10.5d
-			y: 0.0d
+			x: -6.5d
+			y: -12.5d
 		}
 		{
 			dependencies: ["32FF13ABB2684779"]
@@ -976,8 +976,8 @@
 					type: "item"
 				}
 			]
-			x: -12.0d
-			y: -3.0d
+			x: -6.5d
+			y: -15.0d
 		}
 		{
 			dependencies: ["186A8CA3D655C856"]
@@ -1029,8 +1029,8 @@
 					type: "item"
 				}
 			]
-			x: -14.0d
-			y: -6.0d
+			x: -6.5d
+			y: -17.5d
 		}
 		{
 			dependencies: ["7067599829D08E0D"]
@@ -1075,8 +1075,8 @@
 					type: "item"
 				}
 			]
-			x: -5.0d
-			y: -21.0d
+			x: 2.5d
+			y: -17.5d
 		}
 		{
 			dependencies: ["6507417031A73615"]
@@ -1112,8 +1112,8 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
-			y: -24.0d
+			x: 2.5d
+			y: -20.0d
 		}
 		{
 			dependencies: ["6E16E79FACA36D0E"]
@@ -1307,8 +1307,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -12.0d
+			x: 5.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["2A235F2D4585A74D"]
@@ -1379,8 +1379,8 @@
 					type: "item"
 				}
 			]
-			x: -7.0d
-			y: -12.0d
+			x: -0.5d
+			y: -12.5d
 		}
 		{
 			dependencies: ["232FFAAAFEA857C0"]
@@ -1429,8 +1429,8 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: -6.0d
+			x: -3.5d
+			y: -17.5d
 		}
 		{
 			dependencies: ["38D28A1B2836C4F2"]
@@ -1461,8 +1461,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: -9.0d
+			x: -3.5d
+			y: -20.0d
 		}
 		{
 			dependencies: ["55F3A927EEA20C7C"]
@@ -1502,8 +1502,8 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: -12.0d
+			x: -3.5d
+			y: -22.5d
 		}
 		{
 			dependencies: ["43C25762B3E1B616"]
@@ -1548,8 +1548,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: -15.0d
+			x: -4.5d
+			y: -25.0d
 		}
 		{
 			dependencies: ["43C25762B3E1B616"]
@@ -1639,8 +1639,8 @@
 					type: "item"
 				}
 			]
-			x: 10.5d
-			y: -12.0d
+			x: -3.0d
+			y: -25.0d
 		}
 		{
 			dependencies: ["12D5053F41E850A8"]
@@ -1675,8 +1675,8 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: -18.0d
+			x: -5.5d
+			y: -27.5d
 		}
 		{
 			dependencies: ["34A540012C5F3CFD"]
@@ -1731,8 +1731,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: -21.0d
+			x: -6.0d
+			y: -30.0d
 		}
 		{
 			dependencies: ["12D5053F41E850A8"]
@@ -1786,8 +1786,8 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: -15.0d
+			x: -3.0d
+			y: -27.5d
 		}
 		{
 			dependencies: ["0871D8A9B2E45F06"]
@@ -1818,8 +1818,8 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
-			y: 0.0d
+			x: -5.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["78CF186856901F3E"]
@@ -1835,8 +1835,8 @@
 				item: { count: 1, id: "mekanism:antiprotonic_nucleosynthesizer" }
 				type: "item"
 			}]
-			x: 10.5d
-			y: -18.0d
+			x: -3.0d
+			y: -30.0d
 		}
 		{
 			dependencies: ["5CFB9BA53B3F87F4"]
@@ -1867,8 +1867,8 @@
 					type: "item"
 				}
 			]
-			x: -7.0d
-			y: 0.0d
+			x: -5.0d
+			y: -17.5d
 		}
 		{
 			dependencies: ["1AE586352A24381A"]
@@ -1926,8 +1926,8 @@
 					type: "item"
 				}
 			]
-			x: -9.0d
-			y: -3.0d
+			x: -5.0d
+			y: -20.0d
 		}
 		{
 			dependencies: ["4CFFA6E284050BC3"]
@@ -1958,8 +1958,8 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: -21.0d
+			x: 5.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["0E6277D50F146688"]
@@ -1985,8 +1985,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -24.0d
+			x: 5.0d
+			y: -12.5d
 		}
 		{
 			dependencies: ["341940BF43BDC8AC"]
@@ -2034,7 +2034,7 @@
 					type: "item"
 				}
 			]
-			x: -9.0d
+			x: -0.5d
 			y: -15.0d
 		}
 		{
@@ -2056,8 +2056,8 @@
 					type: "item"
 				}
 			]
-			x: -10.5d
-			y: -12.0d
+			x: -2.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["5427DED19B6876D8"]
@@ -2098,8 +2098,8 @@
 					type: "item"
 				}
 			]
-			x: -9.0d
-			y: -9.0d
+			x: 1.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["0CBB3A3828BC3944"]
@@ -2167,8 +2167,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: -21.0d
+			x: 7.5d
+			y: -17.5d
 		}
 		{
 			dependencies: ["76B71570751F18F4"]
@@ -2205,8 +2205,8 @@
 					type: "item"
 				}
 			]
-			x: -5.0d
-			y: -27.0d
+			x: 2.5d
+			y: -22.5d
 		}
 		{
 			dependencies: ["4E599A209F5514FD"]
@@ -2220,8 +2220,8 @@
 				item: { count: 1, id: "mekanismadditions:walkie_talkie" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: -30.0d
+			x: 3.0d
+			y: -25.0d
 		}
 		{
 			dependencies: ["4E599A209F5514FD"]
@@ -2252,8 +2252,8 @@
 					type: "item"
 				}
 			]
-			x: -7.0d
-			y: -30.0d
+			x: 1.5d
+			y: -25.0d
 		}
 		{
 			dependencies: ["4E599A209F5514FD"]
@@ -2267,8 +2267,8 @@
 				item: { count: 1, id: "mekanismadditions:obsidian_tnt" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -27.0d
+			x: 4.5d
+			y: -25.0d
 		}
 		{
 			dependencies: ["4E599A209F5514FD"]
@@ -2294,8 +2294,8 @@
 					type: "item"
 				}
 			]
-			x: -9.0d
-			y: -27.0d
+			x: 0.0d
+			y: -25.0d
 		}
 		{
 			dependencies: ["34A540012C5F3CFD"]
@@ -2341,8 +2341,8 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: -21.0d
+			x: -4.5d
+			y: -30.0d
 		}
 		{
 			dependencies: ["40BD00DB0BCC000A"]
@@ -2374,8 +2374,8 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: -24.0d
+			x: -7.0d
+			y: -32.5d
 		}
 		{
 			dependencies: ["40BD00DB0BCC000A"]
@@ -2416,8 +2416,8 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: -24.0d
+			x: -5.5d
+			y: -32.5d
 		}
 	]
 }

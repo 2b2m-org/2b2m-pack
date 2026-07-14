@@ -222,7 +222,7 @@ preserve = true
 
 [[files]]
 file = "config/apotheosis/enchantments.cfg"
-hash = "25014e14d231321d24c319190be9ab47644b8e949acb6c0cab0a6032ee3cb1cd"
+hash = "c5c67398dcea369a20b8c2f30f1c0d2f9902ed66b6924f3ad1c9f1ccbffe3d53"
 preserve = true
 
 [[files]]
@@ -1132,17 +1132,17 @@ preserve = true
 
 [[files]]
 file = "config/ftbquests/quests/chapters/apotheosis.snbt"
-hash = "7ab4ca6dec7c6b4860248d33a9dad867fb812f60c837001edf679db0b2616007"
+hash = "c8eb3de4818ceb87e6db856803190262181e112eb2ec8bdb6d6d3731bd3a6d10"
 preserve = true
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ars_nouveau.snbt"
-hash = "ed1b1cc2e3a508174d3df41493788897832ae7717b151949414e08223ee654ae"
+hash = "8a95fe2e164b5a06d922df005e7f1849e2d8a0518f9de94633512d2eb1342690"
 preserve = true
 
 [[files]]
 file = "config/ftbquests/quests/chapters/artifacts.snbt"
-hash = "f793c14d16ec47af5f87ec3f19e336b414bee521668ddfa992f02d74b1df781f"
+hash = "eef5b2dff099a6c3d96b33bfb92b4b9b92ada438b7abf9de156a32555c6ca51e"
 preserve = true
 
 [[files]]
@@ -1177,7 +1177,7 @@ preserve = true
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanism.snbt"
-hash = "b94a3c0f1ad2d29be09907e7ab44e29c13d3394ebdea96e5207014547f67765c"
+hash = "554bde9b91aeee517f71fffc606b9ffe6f005e9537b5e72e6c790eeb8ea7ff5c"
 preserve = true
 
 [[files]]
@@ -1192,17 +1192,17 @@ preserve = true
 
 [[files]]
 file = "config/ftbquests/quests/chapters/relics.snbt"
-hash = "561d413dfda760a705ff3fedcf737c8c6476b53bd1a230fc525b0212d8757bde"
+hash = "bd47a27a6a1c9b9e9013fe24584d681d6671a5118f6a44f7895768fe8cafda73"
 preserve = true
 
 [[files]]
 file = "config/ftbquests/quests/chapters/sophisticated_backpacks.snbt"
-hash = "bfb8717865ac9fe22a460439a124f0fe2714fcf46f53f2c2ca2b9ea963f8da70"
+hash = "76d430a41e8988756e22d5941c3d78f3999a783018672a21202100248c53cece"
 preserve = true
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_aether.snbt"
-hash = "4e2ceebed1c24f999719acf03aa4947d82ad62e1ddefff3df0b5284b60fdc250"
+hash = "8a66d90dbdf695c30e00b75dacb420943750dfe74e4b80cf8138c0ff3870f66a"
 preserve = true
 
 [[files]]
@@ -1212,7 +1212,7 @@ preserve = true
 
 [[files]]
 file = "config/ftbquests/quests/chapters/worldgen_notes.snbt"
-hash = "5b7300a6f83534db7f8c6b8c49b7ee609a138d44e27a97ee7ec4e3ec4a46f219"
+hash = "b254cb4dcafabc8c3ffcd94b0bd1e9662dbd07d90300981ee417d31828f32157"
 preserve = true
 
 [[files]]
@@ -1222,7 +1222,7 @@ preserve = true
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "c396c39a8d253501e381572f414d7a6473e562f189fcb69de3ddd3ba1e05509b"
+hash = "14126eb2df047976522a93a73bbd72dbf92d38a01f2685d50b94b7f781268e43"
 preserve = true
 
 [[files]]
@@ -2188,6 +2188,10 @@ hash = "a0aaf5a820d6f1cbffc00cfbf287669830b546d1f634008dc5ecc5a76c789775"
 [[files]]
 file = "kubejs/data/c/tags/block/ores/uranium.json"
 hash = "c4733c5b90ec2f6be2a8fbb11607df81cb784eb10779c0eb26941d98be3a9ac9"
+
+[[files]]
+file = "kubejs/data/c/tags/block/relocation_not_supported.json"
+hash = "2b7ff62b148458a24b24069d67e8a5b344890e8467351e4d8de91cc74d7e8b81"
 
 [[files]]
 file = "kubejs/data/cataclysm/worldgen/structure_set/acropolis.json"

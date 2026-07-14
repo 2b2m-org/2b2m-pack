@@ -12,6 +12,7 @@
 	quests: [
 		{
 			icon: {
+				components: { "patchouli:book": "apotheosis:apoth_chronicle" }
 				id: "patchouli:guide_book"
 			}
 			id: "71CDD4C2D635343B"
@@ -19,7 +20,8 @@
 			size: 1.6d
 			tasks: [{
 				id: "620C8F6FF2849266"
-				item: { count: 1, id: "patchouli:guide_book" }
+				item: { components: { "patchouli:book": "apotheosis:apoth_chronicle" }, count: 1, id: "patchouli:guide_book" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 0.0d

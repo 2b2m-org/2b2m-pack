@@ -277,8 +277,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: -18.0d
+			x: 8.5d
+			y: -16.5d
 		}
 		{
 			dependencies: ["66D58A14C2DD1B91"]
@@ -299,8 +299,8 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: -12.0d
+			x: 9.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["66D58A14C2DD1B91"]
@@ -335,7 +335,7 @@
 					type: "item"
 				}
 			]
-			x: -10.0d
+			x: -7.5d
 			y: -12.0d
 		}
 		{
@@ -377,7 +377,7 @@
 					type: "item"
 				}
 			]
-			x: 10.5d
+			x: 14.0d
 			y: -15.0d
 		}
 		{
@@ -404,8 +404,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -21.0d
+			x: 3.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["69A25ED53688ADAE"]
@@ -441,8 +441,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: -24.0d
+			x: 4.0d
+			y: -21.0d
 		}
 		{
 			dependencies: ["66D58A14C2DD1B91"]
@@ -482,7 +482,7 @@
 					type: "item"
 				}
 			]
-			x: -5.0d
+			x: -2.5d
 			y: -12.0d
 		}
 		{
@@ -526,7 +526,7 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: -3.5d
 			y: -15.0d
 		}
 		{
@@ -552,14 +552,8 @@
 					item: { count: 1, id: "aether:black_moa_egg" }
 					type: "item"
 				}
-				{
-					entity: "aether:moa"
-					id: "5DB16E3A71567F3D"
-					type: "kill"
-					value: 1L
-				}
 			]
-			x: -7.5d
+			x: -11.5d
 			y: -15.0d
 		}
 		{
@@ -581,7 +575,7 @@
 					type: "item"
 				}
 			]
-			x: -2.5d
+			x: -6.5d
 			y: -15.0d
 		}
 		{
@@ -632,7 +626,7 @@
 					type: "item"
 				}
 			]
-			x: -10.5d
+			x: -14.0d
 			y: -15.0d
 		}
 		{
@@ -689,8 +683,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: -15.0d
+			x: 3.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["66D58A14C2DD1B91"]
@@ -741,8 +735,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -12.0d
+			x: 4.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["66D58A14C2DD1B91"]
@@ -812,8 +806,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: -12.0d
+			x: 1.5d
+			y: -15.0d
 		}
 		{
 			dependencies: [
@@ -844,7 +838,7 @@
 					type: "item"
 				}
 			]
-			x: -2.5d
+			x: -3.0d
 			y: -18.0d
 		}
 		{
@@ -904,7 +898,7 @@
 					type: "item"
 				}
 			]
-			x: -2.5d
+			x: 0.0d
 			y: -24.0d
 		}
 		{
