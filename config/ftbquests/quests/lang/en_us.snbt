@@ -1356,9 +1356,9 @@
 	quest.7FC5190551384C78.title: "Starbuncle Wheel"
 	quest.7FC5190551384C78.quest_desc: ["Ars Creo belongs mainly in the Ars chapter. The Starbuncle Wheel is the Create-side bridge."]
 	chapter.2FD662A2AAA88D92.title: "Boss Atlas"
-	chapter.2FD662A2AAA88D92.chapter_subtitle: ["Every boss tracked by the 2b2m website, grouped by mod in a six-spoke constellation."]
+	chapter.2FD662A2AAA88D92.chapter_subtitle: ["Every boss tracked by the 2b2m website leaderboard, grouped by mod in a six-spoke constellation."]
 	quest.FF26A3E0CAB38C54.title: "The Boss Constellation"
-	quest.FF26A3E0CAB38C54.quest_desc: ["This atlas mirrors the website's 19-boss roster. Check the central atlas, then activate a diamond mod sigil to unlock its hunt. Circle, hexagon, and octagon boss nodes mark the 10-, 20-, and 30-point website tiers. Kill tasks use normal Minecraft kill credit, so land the finishing blow."]
+	quest.FF26A3E0CAB38C54.quest_desc: ["This atlas mirrors the 19-boss roster used by the website leaderboard. Check the central atlas, then activate a diamond mod sigil to unlock its hunt. Circle, hexagon, and octagon boss nodes mark the leaderboard's 10-, 20-, and 30-point tiers. Kill tasks use normal Minecraft kill credit, so land the finishing blow."]
 	quest.45ACF13E182DBA59.title: "Minecraft Bosses"
 	quest.45ACF13E182DBA59.quest_desc: ["The Ender Dragon and Wither are the vanilla pair. Check this sigil to activate both hunts."]
 	quest.0D4FC516F48B8679.title: "The Aether Bosses"
@@ -1370,7 +1370,7 @@
 	quest.31E4C0467DBA776C.title: "Cataclysm Bosses"
 	quest.31E4C0467DBA776C.quest_desc: ["Eight L_Ender's Cataclysm bosses form the outer fortress arc. Check this sigil to activate the full gauntlet."]
 	quest.C01389CBBEFC2A7D.title: "Alex's Caves Bosses"
-	quest.C01389CBBEFC2A7D.quest_desc: ["Luxtructosaurus is the Alex's Caves boss tracked by the server leaderboard. Check this sigil to activate the hunt."]
+	quest.C01389CBBEFC2A7D.quest_desc: ["Luxtructosaurus is the Alex's Caves boss tracked by the website leaderboard. Check this sigil to activate the hunt."]
 	quest.3611A721BE3C388C.title: "Ender Dragon"
 	quest.3611A721BE3C388C.quest_desc: ["Defeat the Ender Dragon in the End. Leaderboard tier: 10 points."]
 	quest.A65C093656912D6A.title: "Wither"

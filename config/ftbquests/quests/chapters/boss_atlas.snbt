@@ -87,7 +87,7 @@
 		{
 			dependencies: ["FF26A3E0CAB38C54"]
 			icon: {
-				id: "cataclysm:ignis_spawn_egg"
+				id: "cataclysm:witherite_ingot"
 			}
 			id: "31E4C0467DBA776C"
 			shape: "diamond"
@@ -133,7 +133,7 @@
 		{
 			dependencies: ["45ACF13E182DBA59"]
 			icon: {
-				id: "minecraft:nether_star"
+				id: "minecraft:wither_skeleton_skull"
 			}
 			id: "A65C093656912D6A"
 			shape: "circle"
