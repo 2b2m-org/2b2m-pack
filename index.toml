@@ -1146,6 +1146,11 @@ hash = "eef5b2dff099a6c3d96b33bfb92b4b9b92ada438b7abf9de156a32555c6ca51e"
 preserve = true
 
 [[files]]
+file = "config/ftbquests/quests/chapters/boss_atlas.snbt"
+hash = "fadcec985e2ccca05770c58cfe01e80e05525bee68585f2b075a104e94e26b84"
+preserve = true
+
+[[files]]
 file = "config/ftbquests/quests/chapters/cc_tweaked.snbt"
 hash = "774bf8435eded9e3025db027fed1e12bd210ab57f0cec8b900ac099b05593a0b"
 preserve = true
@@ -1222,7 +1227,7 @@ preserve = true
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "14126eb2df047976522a93a73bbd72dbf92d38a01f2685d50b94b7f781268e43"
+hash = "a5b749c370917cac5b6490448ce31f87c0931fe0a2b567d5088f0fe0f74dd8ed"
 preserve = true
 
 [[files]]

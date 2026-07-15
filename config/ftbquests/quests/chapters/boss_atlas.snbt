@@ -1,0 +1,435 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "boss_atlas"
+	group: "0AED6A67D2E6878C"
+	icon: {
+		id: "minecraft:nether_star"
+	}
+	id: "2FD662A2AAA88D92"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "FF26A3E0CAB38C54"
+			shape: "gear"
+			size: 1.8d
+			tasks: [{
+				id: "2AE9277301ABF744"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["FF26A3E0CAB38C54"]
+			icon: {
+				id: "minecraft:dragon_head"
+			}
+			id: "45ACF13E182DBA59"
+			shape: "diamond"
+			size: 1.4d
+			tasks: [{
+				id: "C2B9ADDEC2781B29"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["FF26A3E0CAB38C54"]
+			icon: {
+				id: "aether:book_of_lore"
+			}
+			id: "0D4FC516F48B8679"
+			shape: "diamond"
+			size: 1.4d
+			tasks: [{
+				id: "19A4B9EF9720BCAB"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["FF26A3E0CAB38C54"]
+			icon: {
+				id: "ars_nouveau:worn_notebook"
+			}
+			id: "793DB6F3D9237F00"
+			shape: "diamond"
+			size: 1.4d
+			tasks: [{
+				id: "A6543A5590F2C622"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["FF26A3E0CAB38C54"]
+			icon: {
+				id: "mowziesmobs:wrought_axe"
+			}
+			id: "9A7DA59795F81968"
+			shape: "diamond"
+			size: 1.4d
+			tasks: [{
+				id: "BE3DC2178D70998F"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["FF26A3E0CAB38C54"]
+			icon: {
+				id: "cataclysm:ignis_spawn_egg"
+			}
+			id: "31E4C0467DBA776C"
+			shape: "diamond"
+			size: 1.4d
+			tasks: [{
+				id: "DD17575883B291D9"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["FF26A3E0CAB38C54"]
+			icon: {
+				id: "alexscaves:cave_book"
+			}
+			id: "C01389CBBEFC2A7D"
+			shape: "diamond"
+			size: 1.4d
+			tasks: [{
+				id: "6C7C8694E7CBEC0F"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["45ACF13E182DBA59"]
+			icon: {
+				id: "minecraft:dragon_egg"
+			}
+			id: "3611A721BE3C388C"
+			shape: "circle"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "495AF101987E1A5A"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["45ACF13E182DBA59"]
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "A65C093656912D6A"
+			shape: "circle"
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "B0B8AB5D5873D959"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["0D4FC516F48B8679"]
+			icon: {
+				id: "aether:slider_spawn_egg"
+			}
+			id: "5A2750D4E3FDC269"
+			shape: "circle"
+			tasks: [{
+				entity: "aether:slider"
+				id: "7DF3CD813F5CB14C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 13.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0D4FC516F48B8679"]
+			icon: {
+				id: "aether:valkyrie_queen_spawn_egg"
+			}
+			id: "C60D1BC3478B2ED7"
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				entity: "aether:valkyrie_queen"
+				id: "D5363EA02E4A5F54"
+				type: "kill"
+				value: 1L
+			}]
+			x: 16.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0D4FC516F48B8679"]
+			icon: {
+				id: "aether:sun_spirit_spawn_egg"
+			}
+			id: "EBB9E2608FC6BC3E"
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				entity: "aether:sun_spirit"
+				id: "C53B0DD963BB70AC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["793DB6F3D9237F00"]
+			icon: {
+				id: "ars_nouveau:wilden_tribute"
+			}
+			id: "961FE69F20C1A0FB"
+			shape: "circle"
+			tasks: [{
+				entity: "ars_nouveau:wilden_boss"
+				id: "E205EB546B400D3D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 13.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["9A7DA59795F81968"]
+			icon: {
+				id: "mowziesmobs:wroughtnaut_spawn_egg"
+			}
+			id: "E28CB4724C6585D0"
+			shape: "circle"
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				id: "20BF78507DF6BF81"
+				type: "kill"
+				value: 1L
+			}]
+			x: -12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["9A7DA59795F81968"]
+			icon: {
+				id: "mowziesmobs:frostmaw_spawn_egg"
+			}
+			id: "BE6BF4137C980C98"
+			shape: "circle"
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				id: "2B747B706EBB6813"
+				type: "kill"
+				value: 1L
+			}]
+			x: -15.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["9A7DA59795F81968"]
+			icon: {
+				id: "mowziesmobs:umvuthi_spawn_egg"
+			}
+			id: "95F9D7A7314882E5"
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				id: "C2BFEC75882D936D"
+				type: "kill"
+				value: 1L
+			}]
+			x: -15.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["9A7DA59795F81968"]
+			icon: {
+				id: "mowziesmobs:sculptor_spawn_egg"
+			}
+			id: "84776213D0EBA2E3"
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				entity: "mowziesmobs:sculptor"
+				id: "AC86BF6076DF00EB"
+				type: "kill"
+				value: 1L
+			}]
+			x: -12.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["31E4C0467DBA776C"]
+			icon: {
+				id: "cataclysm:ender_guardian_spawn_egg"
+			}
+			id: "3CDCAB7CC3123C0F"
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				id: "182CED4F655A829D"
+				type: "kill"
+				value: 1L
+			}]
+			x: -11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["31E4C0467DBA776C"]
+			icon: {
+				id: "cataclysm:netherite_monstrosity_spawn_egg"
+			}
+			id: "4E198BBF2F53EFD6"
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				id: "3442EEBF9DA73947"
+				type: "kill"
+				value: 1L
+			}]
+			x: -13.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["31E4C0467DBA776C"]
+			icon: {
+				id: "cataclysm:ignis_spawn_egg"
+			}
+			id: "0D08AE7094BE3108"
+			shape: "octagon"
+			size: 1.4d
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "18A2870DE57C84BE"
+				type: "kill"
+				value: 1L
+			}]
+			x: -15.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["31E4C0467DBA776C"]
+			icon: {
+				id: "cataclysm:the_harbinger_spawn_egg"
+			}
+			id: "807FE99612BD01D9"
+			shape: "octagon"
+			size: 1.4d
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "9BF0448D16836830"
+				type: "kill"
+				value: 1L
+			}]
+			x: -16.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["31E4C0467DBA776C"]
+			icon: {
+				id: "cataclysm:the_leviathan_spawn_egg"
+			}
+			id: "FCCC82729C9E3F69"
+			shape: "octagon"
+			size: 1.4d
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "CD41ADFDC39AFFF4"
+				type: "kill"
+				value: 1L
+			}]
+			x: -16.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["31E4C0467DBA776C"]
+			icon: {
+				id: "cataclysm:ancient_remnant_spawn_egg"
+			}
+			id: "3B1686104E8CB449"
+			shape: "octagon"
+			size: 1.4d
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				id: "BA9AB016A47D140D"
+				type: "kill"
+				value: 1L
+			}]
+			x: -15.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["31E4C0467DBA776C"]
+			icon: {
+				id: "cataclysm:maledictus_spawn_egg"
+			}
+			id: "B5835C183FE225BE"
+			shape: "octagon"
+			size: 1.4d
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				id: "85333A4DE055E3DE"
+				type: "kill"
+				value: 1L
+			}]
+			x: -13.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["31E4C0467DBA776C"]
+			icon: {
+				id: "cataclysm:scylla_spawn_egg"
+			}
+			id: "71F7986F4C44B1BD"
+			shape: "octagon"
+			size: 1.4d
+			tasks: [{
+				entity: "cataclysm:scylla"
+				id: "974563FBEEA3CBFD"
+				type: "kill"
+				value: 1L
+			}]
+			x: -11.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["C01389CBBEFC2A7D"]
+			icon: {
+				id: "alexscaves:spawn_egg_luxtructosaurus"
+			}
+			id: "47BCCB2901E14BCA"
+			shape: "octagon"
+			size: 1.4d
+			tasks: [{
+				entity: "alexscaves:luxtructosaurus"
+				id: "F416F38D0F532CCA"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 13.0d
+		}
+	]
+}

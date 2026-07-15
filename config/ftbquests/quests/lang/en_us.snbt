@@ -1355,6 +1355,60 @@
 	quest.4FFE540F50E79FFD.quest_desc: ["Heavy autocannon ammunition is its own supply chain: cartridges first, specialized payloads second."]
 	quest.7FC5190551384C78.title: "Starbuncle Wheel"
 	quest.7FC5190551384C78.quest_desc: ["Ars Creo belongs mainly in the Ars chapter. The Starbuncle Wheel is the Create-side bridge."]
+	chapter.2FD662A2AAA88D92.title: "Boss Atlas"
+	chapter.2FD662A2AAA88D92.chapter_subtitle: ["Every boss tracked by the 2b2m website, grouped by mod in a six-spoke constellation."]
+	quest.FF26A3E0CAB38C54.title: "The Boss Constellation"
+	quest.FF26A3E0CAB38C54.quest_desc: ["This atlas mirrors the website's 19-boss roster. Check the central atlas, then activate a diamond mod sigil to unlock its hunt. Circle, hexagon, and octagon boss nodes mark the 10-, 20-, and 30-point website tiers. Kill tasks use normal Minecraft kill credit, so land the finishing blow."]
+	quest.45ACF13E182DBA59.title: "Minecraft Bosses"
+	quest.45ACF13E182DBA59.quest_desc: ["The Ender Dragon and Wither are the vanilla pair. Check this sigil to activate both hunts."]
+	quest.0D4FC516F48B8679.title: "The Aether Bosses"
+	quest.0D4FC516F48B8679.quest_desc: ["Bronze, Silver, and Gold Dungeons culminate in the Slider, Valkyrie Queen, and Sun Spirit. Check this sigil to activate all three hunts."]
+	quest.793DB6F3D9237F00.title: "Ars Nouveau Bosses"
+	quest.793DB6F3D9237F00.quest_desc: ["The Wilden Chimera is Ars Nouveau's boss entry, summoned through Wilden progression. Check this sigil to activate the hunt."]
+	quest.9A7DA59795F81968.title: "Mowzie's Mobs Bosses"
+	quest.9A7DA59795F81968.quest_desc: ["Ferrous Wroughtnaut, Frostmaw, Umvuthi, and Tongbi the Sculptor form this four-boss arc. Check this sigil to activate their hunts."]
+	quest.31E4C0467DBA776C.title: "Cataclysm Bosses"
+	quest.31E4C0467DBA776C.quest_desc: ["Eight L_Ender's Cataclysm bosses form the outer fortress arc. Check this sigil to activate the full gauntlet."]
+	quest.C01389CBBEFC2A7D.title: "Alex's Caves Bosses"
+	quest.C01389CBBEFC2A7D.quest_desc: ["Luxtructosaurus is the Alex's Caves boss tracked by the server leaderboard. Check this sigil to activate the hunt."]
+	quest.3611A721BE3C388C.title: "Ender Dragon"
+	quest.3611A721BE3C388C.quest_desc: ["Defeat the Ender Dragon in the End. Leaderboard tier: 10 points."]
+	quest.A65C093656912D6A.title: "Wither"
+	quest.A65C093656912D6A.quest_desc: ["Summon and defeat the Wither. Pick the battlefield carefully; it does not respect bases. Leaderboard tier: 10 points."]
+	quest.5A2750D4E3FDC269.title: "Slider"
+	quest.5A2750D4E3FDC269.quest_desc: ["Defeat the Slider at the end of a Bronze Dungeon. Leaderboard tier: 10 points."]
+	quest.C60D1BC3478B2ED7.title: "Valkyrie Queen"
+	quest.C60D1BC3478B2ED7.quest_desc: ["Defeat the Valkyrie Queen in a Silver Dungeon. Leaderboard tier: 20 points."]
+	quest.EBB9E2608FC6BC3E.title: "Sun Spirit"
+	quest.EBB9E2608FC6BC3E.quest_desc: ["Defeat the Sun Spirit in a Gold Dungeon. Leaderboard tier: 20 points."]
+	quest.961FE69F20C1A0FB.title: "Wilden Chimera"
+	quest.961FE69F20C1A0FB.quest_desc: ["Summon and defeat the Wilden Chimera through the Wilden ritual path. Leaderboard tier: 10 points."]
+	quest.E28CB4724C6585D0.title: "Ferrous Wroughtnaut"
+	quest.E28CB4724C6585D0.quest_desc: ["Defeat the Ferrous Wroughtnaut by surviving its armored duel and exploiting its openings. Leaderboard tier: 10 points."]
+	quest.BE6BF4137C980C98.title: "Frostmaw"
+	quest.BE6BF4137C980C98.quest_desc: ["Find and defeat a sleeping Frostmaw in the frozen wilds. Leaderboard tier: 10 points."]
+	quest.95F9D7A7314882E5.title: "Umvuthi, the Sunbird"
+	quest.95F9D7A7314882E5.quest_desc: ["Defeat Umvuthi, the Sunbird, and survive its solar magic. Leaderboard tier: 20 points."]
+	quest.84776213D0EBA2E3.title: "Tongbi, the Sculptor"
+	quest.84776213D0EBA2E3.quest_desc: ["Complete Tongbi's challenge and defeat the Sculptor. Leaderboard tier: 20 points."]
+	quest.3CDCAB7CC3123C0F.title: "Ender Guardian"
+	quest.3CDCAB7CC3123C0F.quest_desc: ["Defeat the Ender Guardian in its ruined citadel. Leaderboard tier: 20 points."]
+	quest.4E198BBF2F53EFD6.title: "Netherite Monstrosity"
+	quest.4E198BBF2F53EFD6.quest_desc: ["Defeat the Netherite Monstrosity in the Nether. Bring sustained damage and room to move. Leaderboard tier: 20 points."]
+	quest.0D08AE7094BE3108.title: "Ignis"
+	quest.0D08AE7094BE3108.quest_desc: ["Defeat Ignis and withstand the arena's fire pressure. Leaderboard tier: 30 points."]
+	quest.807FE99612BD01D9.title: "The Harbinger"
+	quest.807FE99612BD01D9.quest_desc: ["Defeat the Harbinger and its long-range weapons. Leaderboard tier: 30 points."]
+	quest.FCCC82729C9E3F69.title: "The Leviathan"
+	quest.FCCC82729C9E3F69.quest_desc: ["Defeat the Leviathan in an environment and loadout suited to underwater combat. Leaderboard tier: 30 points."]
+	quest.3B1686104E8CB449.title: "Ancient Remnant"
+	quest.3B1686104E8CB449.quest_desc: ["Defeat the Ancient Remnant and stay clear of its crushing charges. Leaderboard tier: 30 points."]
+	quest.B5835C183FE225BE.title: "Maledictus"
+	quest.B5835C183FE225BE.quest_desc: ["Defeat Maledictus and survive its relentless melee pressure. Leaderboard tier: 30 points."]
+	quest.71F7986F4C44B1BD.title: "Scylla"
+	quest.71F7986F4C44B1BD.quest_desc: ["Defeat Scylla with gear prepared for an aquatic boss arena. Leaderboard tier: 30 points."]
+	quest.47BCCB2901E14BCA.title: "Luxtructosaurus"
+	quest.47BCCB2901E14BCA.quest_desc: ["Use an Ominous Catalyst in a volcano and defeat the Luxtructosaurus that emerges. Leaderboard tier: 30 points."]
 	reward_table.63254D7046EC5DF0.title: "2b2m Arcane Supplies"
 	reward_table.6E08CBE2B0C9A70A.title: "2b2m Expedition Cache"
 	reward_table.2C891E3E985434E0.title: "2b2m Industry Parts"
