@@ -32,9 +32,10 @@ All four archives pass ZIP integrity checks. The three client artifacts contain 
 - The exact post-removal Mac candidate has all 124 server-capable Packwiz jars and reaches `Done (4.949s)` on NeoForge `21.1.248` while loading the existing eight-dimension staging world.
 - Before the removal, the world and all 11 removed runtime files were preserved under `backups/minecolonies-removal-20260806T175157-0400`. The world archive SHA-256 is `8b5e61d39a6c8d7f583e26e4dcb989d4afd89cd40d8c08295d5b2765452c6b33`.
 - The staging Packwiz tree and client downloads are published only under `staging.2b2m.org`; production remains unchanged.
+- A clean Packwiz bootstrap from the public staging URL downloaded all 634 indexed files, including exactly 144 client jars, with none of the removed mods or server-only `Generic*` and Dupe Guard jars.
 - The earlier Home PC join validated the pre-removal 1.5.0 candidate only. The Home PC went offline before these artifacts were built, so a post-removal client join remains a release gate.
 
-This removal test is an idle-server boot canary, not a player, capacity, or long-soak result. After seven minutes the server remained up at roughly 0.7-0.9 ms rolling tick time and 6.0 GiB process RSS. The post-removal client join is still required.
+This removal test is an idle-server canary, not a player, capacity, or long-soak result. After 69 minutes the server remained responsive with no post-startup errors or exceptions, roughly 0.6 ms recent tick time, 8-9% CPU across a short sample, and 6.0 GiB process RSS. The post-removal client join is still required.
 
 Advanced Peripherals logs two nonfatal optional-compat class probes for absent MineColonies classes. The candidate also retains the existing nonfatal dedicated-server class-filtering, Tracks tag, and advancement diagnostics seen before this removal. CBC Advanced Technologies rejects three cutting recipes during reload; its current `0.1.4c` jar still completes startup and declares the installed Create and Create Big Cannons versions compatible.
 
