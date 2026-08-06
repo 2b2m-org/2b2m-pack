@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/Advancedperipherals/peripherals.toml"
+hash = "74d5b73b19564ca97c43197ad70bea88df13f3be7d96fb3240d2c375f9d2e05d"
+preserve = true
+
+[[files]]
 file = "config/DistantHorizons.toml"
 hash = "6c501c9f74dbf57de5357d52441d49dd95a969eef9136f67811c5fc953645012"
 preserve = true
