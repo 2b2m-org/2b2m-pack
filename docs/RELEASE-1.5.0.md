@@ -29,10 +29,12 @@ All four archives pass ZIP integrity checks. The three client artifacts contain 
 
 ## Staging Evidence
 
-- The exact Mac candidate has all 130 server-capable Packwiz jars with matching hashes and reaches `Done (5.317s)` on NeoForge `21.1.248`.
+- The exact Mac candidate has all 130 server-capable Packwiz jars with matching hashes and reaches `Done (5.102s)` after a clean configuration restart on NeoForge `21.1.248`.
 - MineColonies discovery completes with the restored compatibility set.
 - The staging Packwiz tree and client downloads are published only under `staging.2b2m.org`; production remains unchanged.
-- The clean Home PC Prism instance downloaded the corrected staging feed, authenticated `topher4022`, joined the private Mac endpoint, and completed Sable UDP authentication without an immediate disconnect.
+- The clean Home PC Prism instance downloaded the corrected staging feed, authenticated `topher4022`, joined the private Mac endpoint, and completed Sable UDP authentication. After the planned Mac restart it automatically rejoined and connected directly to Simple Voice Chat on `100.87.45.11:24454`.
+
+This is a one-player canary, not a capacity or long-soak result. A short post-restart sample showed a 5.5 ms rolling server tick and 4.7 ms last tick, with about 7.0 GiB process RSS and 3.5 GiB heap used. The first cold join before the restart briefly reached a 45.4 ms rolling tick and a 114.1 ms last tick, then recovered without a disconnect.
 
 The candidate retains the existing nonfatal dedicated-server class-filtering, Tracks tag, and advancement diagnostics also seen in production. CBC Advanced Technologies additionally rejects three cutting recipes during reload; its current `0.1.4c` jar still completes startup and declares the installed Create and Create Big Cannons versions compatible.
 
