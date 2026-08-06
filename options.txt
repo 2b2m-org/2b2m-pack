@@ -158,7 +158,7 @@ key_key.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.unknown
 key_simulated.keyinfo.rotate_mode:key.keyboard.unknown
 key_simulated.keyinfo.scroll_up:key.keyboard.unknown
 key_simulated.keyinfo.scroll_down:key.keyboard.unknown
-key_key.relics.active_abilities_list:key.keyboard.unknown
+key_key.relics.active_abilities_list:key.keyboard.left.alt
 key_key.relics.research_relic:key.keyboard.left.shift
 key_key.cataclysm.ability:key.keyboard.unknown
 key_key.cataclysm.helmet_ability:key.keyboard.unknown
@@ -330,18 +330,6 @@ key_quark.keybind.narrator_full_readout:key.keyboard.unknown
 key_quark.keybind.variant_selector:key.keyboard.unknown
 key_create_radar.key.binocular.use:key.keyboard.unknown
 key_create_radar.key.binocular.fire:key.keyboard.unknown
-key_key.structurize.teleport:key.keyboard.unknown
-key_key.structurize.move_forward:key.keyboard.up
-key_key.structurize.move_back:key.keyboard.down
-key_key.structurize.move_left:key.keyboard.left
-key_key.structurize.move_right:key.keyboard.right
-key_key.structurize.move_up:key.keyboard.keypad.add
-key_key.structurize.move_down:key.keyboard.keypad.subtract
-key_key.structurize.rotate_cw:key.keyboard.right:SHIFT
-key_key.structurize.rotate_ccw:key.keyboard.left:SHIFT
-key_key.structurize.mirror:key.keyboard.m
-key_key.structurize.place:key.keyboard.enter
-key_key.minecolonies.toggle_goggles:key.keyboard.unknown
 key_key.tracks.open_tuning:key.keyboard.unknown
 key_key.constructionstick.change_restriction:key.keyboard.unknown
 key_key.constructionstick.change_upgrade:key.keyboard.unknown

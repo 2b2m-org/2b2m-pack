@@ -1,13 +1,13 @@
-name = "Sable: True Impact"
-filename = "true_impact-1.1.0-gamma-hotfix.jar"
+name = "Sable: True Impact (For Create: Aeronautics)"
+filename = "true_impact-0.5.7-delta.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "ff0ead978cbe62a32359177664df0a00337fdc06"
+hash = "1ab79100b36fedfe2f142f61365e40847f602dcd"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8245603
+file-id = 8429394
 project-id = 1544491
