@@ -1422,7 +1422,7 @@ preserve = true
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "b6ffb780c84a2a3d918010387fd6c9035704a50ec2b2323bbdc5b5a18242f7f5"
+hash = "106c055366d5e2e0f57fc08a46c03dd4ea0d8837cfdbd384a6e22bf9d58efb20"
 
 [[files]]
 file = "config/modpack-update-checker/modpack-info.txt"

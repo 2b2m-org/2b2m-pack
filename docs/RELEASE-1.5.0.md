@@ -8,6 +8,7 @@ This release is prepared and validated on the staging branch before any producti
 - MineColonies, BlockUI, Domum Ornamentum, Multi-Piston, Structurize, and TownTalk remain in the pack because the production world contains MineColonies data.
 - Sodium remains on stable `0.8.12`. Packwiz offered `0.8.13-beta.1`, which is intentionally deferred until a stable release or a separate compatibility test.
 - Advanced Peripherals player detection is exact through 256 blocks, degrades beyond that range, and stops at 1024 blocks. Cross-dimensional detection and additional player information are disabled.
+- Modpack Update Checker schema 9 uses the supported `stable` release type. The Home PC canary caught and corrected the invalid `release` value before publication to production.
 
 ## Update Audit
 
@@ -17,9 +18,9 @@ On August 6, 2026, `packwiz update --all` found four remaining updates. The stab
 
 | Artifact | SHA-256 |
 | --- | --- |
-| `2b2m-1.5.0-curseforge.zip` | `1bb09b7d27b366207a5203367d5df7737d2672543b744738f39d7dd857312145` |
-| `2b2m-1.5.0.mrpack` | `e5133fd193b1fbc20bab4641d0b5153e6c59e8dd96870e9ef5a2a7ee9d8dff45` |
-| `2b2m-1.5.0-staging-prism-instance.zip` | `b397527c3d9a1c0e047a44668704c53cfbab2e7962def14a1adfa27e24a23e17` |
+| `2b2m-1.5.0-curseforge.zip` | `887c4432adcce72469082a9968e933e71f1a2f565a9acc01c020873da48074d2` |
+| `2b2m-1.5.0.mrpack` | `5595b4725042d5b9e60e0a19f59cb6a5d68d65fe894f74ebd8f05a7061125321` |
+| `2b2m-1.5.0-staging-prism-instance.zip` | `82fc76a5df27bb5b539192f09650b4723218015fc50852df2f7b402166b6d7b2` |
 | `2b2m-1.5.0-server.zip` | `0a5cf911650814b625f2ee4c4d228ee4432f911de2a5c8c1a40e0d34957d6728` |
 
 The source contains 150 client-pack mod entries: 130 server-capable and 20 client-only. The Modrinth export contains 117 manifest downloads and 33 exact CurseForge jar exceptions. The internal server archive contains the 130 server-capable pack mods plus 24 listed operational server-only extras.
@@ -31,7 +32,7 @@ All four archives pass ZIP integrity checks. The three client artifacts contain 
 - The exact Mac candidate has all 130 server-capable Packwiz jars with matching hashes and reaches `Done (5.317s)` on NeoForge `21.1.248`.
 - MineColonies discovery completes with the restored compatibility set.
 - The staging Packwiz tree and client downloads are published only under `staging.2b2m.org`; production remains unchanged.
-- The clean Home PC Prism instance is installed and can reach the private Mac TCP endpoint. The authenticated join remains open until the saved Microsoft account is interactively reauthenticated.
+- The clean Home PC Prism instance downloaded the corrected staging feed, authenticated `topher4022`, joined the private Mac endpoint, and completed Sable UDP authentication without an immediate disconnect.
 
 The candidate retains the existing nonfatal dedicated-server class-filtering, Tracks tag, and advancement diagnostics also seen in production. CBC Advanced Technologies additionally rejects three cutting recipes during reload; its current `0.1.4c` jar still completes startup and declares the installed Create and Create Big Cannons versions compatible.
 
