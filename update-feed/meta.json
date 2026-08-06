@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "requiresMpuc": 15,
-  "latestVersion": "1.4.1",
+  "latestVersion": "1.5.0",
   "server": {
     "address": "2b2m.org",
     "minecraftVersion": "1.21.1",
-    "motd": "2b2m 1.4.1 - Mod refresh and isolated event controls"
+    "motd": "2b2m 1.5.0 - Expanded tech and balanced player detection"
   },
   "versions": [
     {
@@ -72,6 +72,16 @@
       "id": "1.4.1",
       "updateType": "patch",
       "releasedAt": 1783792409695,
+      "promotions": {
+        "downloads": {
+          "curseforge": "https://www.curseforge.com/minecraft/modpacks/org-2b2m/files"
+        }
+      }
+    },
+    {
+      "id": "1.5.0",
+      "updateType": "minor",
+      "releasedAt": 1786041305658,
       "promotions": {
         "downloads": {
           "curseforge": "https://www.curseforge.com/minecraft/modpacks/org-2b2m/files"

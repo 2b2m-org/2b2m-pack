@@ -1406,12 +1406,27 @@ hash = "6cf6f83720071fd1657c8e79b357caf68d40f410ae123e5f922483eb1d1d25be"
 preserve = true
 
 [[files]]
+file = "config/minecolonies-client.toml"
+hash = "a08b7311d200f0c4576c774d3ce2573c9c28df2faa959b5428bcdf074a228964"
+preserve = true
+
+[[files]]
+file = "config/minecolonies-common.toml"
+hash = "b7308712fbb5044fff1f8354302921fad9e19b053da60d5c0c69f4c4c819a37a"
+preserve = true
+
+[[files]]
+file = "config/minecolonies-server.toml"
+hash = "33f047eea80de4c7753b5e01bf82ead734ee31cd5b9187a237e675ee62edb31e"
+preserve = true
+
+[[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "80c55d21053bac929705deb077a4cf826f00205038cc9422cb5934f286ba268c"
+hash = "b6ffb780c84a2a3d918010387fd6c9035704a50ec2b2323bbdc5b5a18242f7f5"
 
 [[files]]
 file = "config/modpack-update-checker/modpack-info.txt"
-hash = "825ff2a629175dd54e7cb63de61ce9b5b9b07b2a1238b3031d3d46551484e30b"
+hash = "26e71a2b2232be5d459e60c61416c8c06a8e225fd74e3544b8b832d7f1a2cb10"
 preserve = true
 
 [[files]]
@@ -1887,6 +1902,16 @@ preserve = true
 [[files]]
 file = "config/sophisticatedcore-common.toml"
 hash = "800befabab793499f54bc962c8f965b5a309ab093dbc9a5b2451ec9e462cc553"
+preserve = true
+
+[[files]]
+file = "config/structurize-client.toml"
+hash = "76b1f7a16add77265a6fffabb06b6cd2730be3d6959c425c62ebe1f1532e14e8"
+preserve = true
+
+[[files]]
+file = "config/structurize-server.toml"
+hash = "52289b88d7f9891b47ac21551fef6481345d5e695ddbf348f0a9f3304bf136cc"
 preserve = true
 
 [[files]]
@@ -2469,6 +2494,11 @@ hash = "f75f946469a16f1640622c2bdecbd8a6dafa0876bf7f1000332abd1328e15ef5"
 metafile = true
 
 [[files]]
+file = "mods/blockui.pw.toml"
+hash = "05abf6fafe4a8adf5aaa24f09b7dedfbe199a8727d925e816fc608d6357f5ba8"
+metafile = true
+
+[[files]]
 file = "mods/brandons-core.pw.toml"
 hash = "7904c140247e0d8a87231cf4d36718fc018e0f851dbec2517b673acdc25547df"
 metafile = true
@@ -2609,6 +2639,11 @@ hash = "f92e7a06645e41ea1934dc420eb2772edb1708c0d71cb427baef8cf753acb934"
 metafile = true
 
 [[files]]
+file = "mods/domum-ornamentum.pw.toml"
+hash = "406fd938da34e8d3beae9a7c82eed3ef5d20053a9d9ab4c5b76357e39e58bbc5"
+metafile = true
+
+[[files]]
 file = "mods/draconic-evolution.pw.toml"
 hash = "bc1d52bd43eace5fe032e8815df90323adcc82ab765d382d5d4a536eee3a0f06"
 metafile = true
@@ -2660,7 +2695,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
-hash = "bcb262cd4974aa8539786bfe5ff42c2c8737e595b34090131ada06cda5658f80"
+hash = "89cd21d579629da99be6871a9bc877424c89bb37f227868cf952b866efa8211a"
 metafile = true
 
 [[files]]
@@ -2814,6 +2849,11 @@ hash = "331f9551b85f075a6398c8cf1d9ced0d2c0b643ab4db6ea1609666846c0208f1"
 metafile = true
 
 [[files]]
+file = "mods/minecolonies.pw.toml"
+hash = "3fb26a31eeec8302173f24461f46bc607533daba28e9918d8770a9ad30f7247a"
+metafile = true
+
+[[files]]
 file = "mods/mmmmmmmmmmmm.pw.toml"
 hash = "85ab3b0caa411967eb8461901877090a88c6d78a1e53fe7e2a91e6bd2673456b"
 metafile = true
@@ -2836,6 +2876,11 @@ metafile = true
 [[files]]
 file = "mods/mowzies-mobs.pw.toml"
 hash = "ef5e19ba6a664e7d2b3d54723e3d3f05c0d9e987d807ecb899c1c2ba1a509519"
+metafile = true
+
+[[files]]
+file = "mods/multi-piston.pw.toml"
+hash = "bc9449306cb2c32f16347779291d68e5fba67f85d7aca04b4b9cc1c033ec4083"
 metafile = true
 
 [[files]]
@@ -2940,12 +2985,17 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "2d0224e2b630982f82e4af9a48cc5628987aebb470c4ba51ec9bf1efa2d9a375"
+hash = "cad86315899c28529bf4c60b6d8d811a3aa7b73522af53b431735ad9880c8394"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "9691e0caa6ebd2d045e862e792aa762b2eb159c359d9c446241d32f731a7e5bb"
+hash = "401bbf58828c38fef76c86360b92971b90869acd4798e2ca600ac722c045f657"
+metafile = true
+
+[[files]]
+file = "mods/structurize.pw.toml"
+hash = "bb009449cdf30c6113bed3bdd860978e4b13a69ed82a312187e019c15417dd50"
 metafile = true
 
 [[files]]
@@ -2961,6 +3011,11 @@ metafile = true
 [[files]]
 file = "mods/terralith.pw.toml"
 hash = "f083c3cdf6aadc3b033e20ba8ccc929d5e1b86a0be50b05dc638d7f76dab5024"
+metafile = true
+
+[[files]]
+file = "mods/towntalk.pw.toml"
+hash = "a7074e8e499d34f5ce633dbd33f818e376dd1941ec5b1d97a33acd019df69b5a"
 metafile = true
 
 [[files]]

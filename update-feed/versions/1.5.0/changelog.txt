@@ -1,0 +1,7 @@
+2b2m 1.5.0
+
+- Adds Advanced Peripherals, Draconic Evolution, Evolved Mekanism, Ars Elemental, Apothic Compats, and new Create and Mekanism integrations.
+- Updates the server runtime to NeoForge 21.1.248 and refreshes the supported mod set.
+- Limits Advanced Peripherals player detection to 1024 blocks, with exact positions through 256 blocks and increasing position error beyond that range.
+- Disables cross-dimensional player detection and additional player information.
+- Retains MineColonies and its dependencies for compatibility with the existing 2b2m world.

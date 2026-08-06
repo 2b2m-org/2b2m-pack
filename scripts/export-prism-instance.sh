@@ -3,6 +3,7 @@ set -euo pipefail
 
 repo_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 pack_url="${PACKWIZ_PUBLIC_URL:-https://2b2m.org/packwiz/pack.toml}"
+instance_name="${PACKWIZ_INSTANCE_NAME:-2b2m}"
 bootstrap_version="${PACKWIZ_BOOTSTRAP_VERSION:-v0.0.3}"
 bootstrap_jar="packwiz-installer-bootstrap.jar"
 bootstrap_url="https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/${bootstrap_version}/${bootstrap_jar}"
@@ -41,7 +42,7 @@ InstanceType=OneSix
 MCLaunchMethod=LauncherPart
 OverrideCommands=true
 PreLaunchCommand=\"\$INST_JAVA\" -jar \"$bootstrap_jar\" \"$pack_url\"
-name=2b2m
+name=$instance_name
 EOF
 
 cat > "$tmp_dir/mmc-pack.json" <<EOF

@@ -39,6 +39,18 @@ Build a Modrinth `.mrpack`:
 scripts/export-modrinth.sh
 ```
 
+Build the internal server package from an explicit staging runtime:
+
+```sh
+printf '%s\n' 'mac-mini-canary' > /path/to/staging-server/.2b2m-server-pack-source
+scripts/export-server-pack.sh \
+  --server-root /path/to/staging-server \
+  --output dist/2b2m-1.5.0-server.zip
+```
+
+The marker prevents the exporter from silently falling back to a stale or live
+server directory. Never place it in the production server root.
+
 The Modrinth export converts exact SHA-1 matches to Modrinth metadata in a
 temporary export tree, then embeds only the remaining CurseForge-only jar
 exceptions. See `docs/MODRINTH.md` and the generated
@@ -47,7 +59,7 @@ exceptions. See `docs/MODRINTH.md` and the generated
 Upload an exported zip to CurseForge:
 
 ```sh
-scripts/upload-curseforge.sh dist/2b2m-1.4.1-curseforge.zip release "Release 1.4.1"
+scripts/upload-curseforge.sh dist/2b2m-1.5.0-curseforge.zip release "Release 1.5.0"
 ```
 
 The upload script reads `/root/.config/curseforge/upload-api-token.env` by
@@ -81,8 +93,8 @@ Useful pack health checks:
 packwiz list --version
 scripts/refresh.sh
 git diff --check
-unzip -t dist/2b2m-1.4.1-curseforge.zip
-unzip -t dist/2b2m-1.4.1.mrpack
+unzip -t dist/2b2m-1.5.0-curseforge.zip
+unzip -t dist/2b2m-1.5.0.mrpack
 ```
 
 ## Notes

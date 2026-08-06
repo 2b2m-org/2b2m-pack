@@ -278,7 +278,11 @@ def inspect_mrpack(path: Path) -> dict:
         embedded_mod_jars = sorted(
             name
             for name in names
-            if name.startswith("overrides/mods/") and name.endswith(".jar")
+            if (
+                name.startswith("overrides/mods/")
+                or name.startswith("client-overrides/mods/")
+            )
+            and name.endswith(".jar")
         )
 
     return {
