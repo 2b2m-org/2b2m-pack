@@ -33,9 +33,11 @@ All four archives pass ZIP integrity checks. The three client artifacts contain 
 - Before the removal, the world and all 11 removed runtime files were preserved under `backups/minecolonies-removal-20260806T175157-0400`. The world archive SHA-256 is `8b5e61d39a6c8d7f583e26e4dcb989d4afd89cd40d8c08295d5b2765452c6b33`.
 - The staging Packwiz tree and client downloads are published only under `staging.2b2m.org`; production remains unchanged.
 - A clean Packwiz bootstrap from the public staging URL downloaded all 634 indexed files, including exactly 144 client jars, with none of the removed mods or server-only `Generic*` and Dupe Guard jars. All 124 shared client/server jars match the Mac by SHA-256; Ritchie's Projectile Library and Terralith use different filenames after exact-hash Modrinth conversion but have identical content.
-- The earlier Home PC join validated the pre-removal 1.5.0 candidate only. The Home PC went offline before these artifacts were built, so a post-removal client join remains a release gate.
+- Workstation20 updated its staging Prism instance from the public Packwiz feed, reducing the client from 150 to 144 jars and removing all six MineColonies-stack jars. The Microsoft profile `topher4022` then joined the Mac directly at `100.87.45.11:25575`; Sable UDP authenticated, and Simple Voice Chat authenticated and validated its UDP connection to `100.87.45.11:24454`.
+- The server still listed `topher4022` after a 2 minute 39 second hold, with no disconnect or post-join server fault. The existing player recipe book logged removal of obsolete MineColonies, Domum Ornamentum, Structurize, Multi-Piston, and Advanced Peripherals colony recipes during login; this cleanup did not prevent the join.
+- Voice transport passed, but microphone and speaker audio were not exercised: Workstation20's saved Razer Kaira endpoints were not present, so Simple Voice Chat logged local audio-device open errors after completing the server handshake.
 
-This removal test is an idle-server canary, not a player, capacity, or long-soak result. After 69 minutes the server remained responsive with no post-startup errors or exceptions, roughly 0.6 ms recent tick time, 8-9% CPU across a short sample, and 6.0 GiB process RSS. The post-removal client join is still required.
+This is a direct one-client canary, not a capacity, gameplay-feature, or long-soak result. Before the join, the server remained responsive for 69 minutes with no post-startup errors or exceptions, roughly 0.6 ms recent tick time, 8-9% CPU across a short sample, and 6.0 GiB process RSS.
 
 Advanced Peripherals logs two nonfatal optional-compat class probes for absent MineColonies classes. The candidate also retains the existing nonfatal dedicated-server class-filtering, Tracks tag, and advancement diagnostics seen before this removal. CBC Advanced Technologies rejects three cutting recipes during reload; its current `0.1.4c` jar still completes startup and declares the installed Create and Create Big Cannons versions compatible.
 
@@ -44,5 +46,5 @@ Advanced Peripherals logs two nonfatal optional-compat class probes for absent M
 - Refresh and validate the canonical Packwiz index.
 - Build and inspect the CurseForge, Modrinth, Prism, and internal server artifacts.
 - Boot the exact server candidate on the Mac staging host.
-- Join it from the Home PC companion client and verify normal gameplay connectivity.
+- Join it from the Workstation20 companion client and verify normal gameplay connectivity. Completed August 6, 2026.
 - Keep the NFO production server and its world unchanged until the separately approved cutover window.
