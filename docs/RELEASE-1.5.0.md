@@ -5,38 +5,38 @@ This release is prepared and validated on the staging branch before any producti
 ## Compatibility Decisions
 
 - Evolved Mekanism uses the published `1.21.1-1.2.1-fix3` file. No patched mod jar is shipped in the client pack.
-- MineColonies, BlockUI, Domum Ornamentum, Multi-Piston, Structurize, and TownTalk remain in the pack because the production world contains MineColonies data.
+- MineColonies, BlockUI, Domum Ornamentum, Multi-Piston, Structurize, and TownTalk are removed by owner decision. Existing production worlds must be backed up and evaluated for missing mod content before this candidate is deployed.
 - Sodium remains on stable `0.8.12`. Packwiz offered `0.8.13-beta.1`, which is intentionally deferred until a stable release or a separate compatibility test.
 - Advanced Peripherals player detection is exact through 256 blocks, degrades beyond that range, and stops at 1024 blocks. Cross-dimensional detection and additional player information are disabled.
 - Modpack Update Checker schema 9 uses the supported `stable` release type. The Home PC canary caught and corrected the invalid `release` value before publication to production.
 
 ## Update Audit
 
-On August 6, 2026, `packwiz update --all` found four remaining updates. The stable FTB Quests, Sophisticated Backpacks, and Sophisticated Core updates were applied. The Sodium beta was the only deferred update.
+On August 6, 2026, the stable FTB Quests, Sophisticated Backpacks, and Sophisticated Core updates were applied. A later audit found a MineColonies snapshot update, which became irrelevant when the MineColonies stack was removed. The Sodium beta remains the only deferred update.
 
 ## Artifact Audit
 
 | Artifact | SHA-256 |
 | --- | --- |
-| `2b2m-1.5.0-curseforge.zip` | `887c4432adcce72469082a9968e933e71f1a2f565a9acc01c020873da48074d2` |
-| `2b2m-1.5.0.mrpack` | `5595b4725042d5b9e60e0a19f59cb6a5d68d65fe894f74ebd8f05a7061125321` |
-| `2b2m-1.5.0-staging-prism-instance.zip` | `82fc76a5df27bb5b539192f09650b4723218015fc50852df2f7b402166b6d7b2` |
-| `2b2m-1.5.0-server.zip` | `0a5cf911650814b625f2ee4c4d228ee4432f911de2a5c8c1a40e0d34957d6728` |
+| `2b2m-1.5.0-curseforge.zip` | `11bc62a2cdc1b1bb801338201b6a290a5d5cebfc3bd011f6febd0face46fbd43` |
+| `2b2m-1.5.0.mrpack` | `09e095a361afacbbf4763a534069bc223c0bda9e69238292eaf1101034b86cd9` |
+| `2b2m-1.5.0-staging-prism-instance.zip` | `f671d8151f9f2a37d65476dfd56a2e5cf73990f872e946108fb1d68ce38b7417` |
+| `2b2m-1.5.0-server.zip` | `c40e1bf412a487912ffa3a20fec66e7cb2e961d17ba01b52afebee7a8bd9e12c` |
 
-The source contains 150 client-pack mod entries: 130 server-capable and 20 client-only. The Modrinth export contains 117 manifest downloads and 33 exact CurseForge jar exceptions. The internal server archive contains the 130 server-capable pack mods plus 24 listed operational server-only extras.
+The source contains 144 client-pack mod entries: 124 server-capable and 20 client-only. The Modrinth export contains 117 manifest downloads and 27 exact CurseForge jar exceptions. The internal server archive contains the 124 server-capable pack mods plus 24 listed operational server-only extras.
 
 All four archives pass ZIP integrity checks. The three client artifacts contain no `Generic*` or Dupe Guard jar.
 
 ## Staging Evidence
 
-- The exact Mac candidate has all 130 server-capable Packwiz jars with matching hashes and reaches `Done (5.102s)` after a clean configuration restart on NeoForge `21.1.248`.
-- MineColonies discovery completes with the restored compatibility set.
+- The exact post-removal Mac candidate has all 124 server-capable Packwiz jars and reaches `Done (4.949s)` on NeoForge `21.1.248` while loading the existing eight-dimension staging world.
+- Before the removal, the world and all 11 removed runtime files were preserved under `backups/minecolonies-removal-20260806T175157-0400`. The world archive SHA-256 is `8b5e61d39a6c8d7f583e26e4dcb989d4afd89cd40d8c08295d5b2765452c6b33`.
 - The staging Packwiz tree and client downloads are published only under `staging.2b2m.org`; production remains unchanged.
-- The clean Home PC Prism instance downloaded the corrected staging feed, authenticated `topher4022`, joined the private Mac endpoint, and completed Sable UDP authentication. After the planned Mac restart it automatically rejoined and connected directly to Simple Voice Chat on `100.87.45.11:24454`.
+- The earlier Home PC join validated the pre-removal 1.5.0 candidate only. The Home PC went offline before these artifacts were built, so a post-removal client join remains a release gate.
 
-This is a one-player canary, not a capacity or long-soak result. A short post-restart sample showed a 5.5 ms rolling server tick and 4.7 ms last tick, with about 7.0 GiB process RSS and 3.5 GiB heap used. The first cold join before the restart briefly reached a 45.4 ms rolling tick and a 114.1 ms last tick, then recovered without a disconnect.
+This removal test is an idle-server boot canary, not a player, capacity, or long-soak result. After seven minutes the server remained up at roughly 0.7-0.9 ms rolling tick time and 6.0 GiB process RSS. The post-removal client join is still required.
 
-The candidate retains the existing nonfatal dedicated-server class-filtering, Tracks tag, and advancement diagnostics also seen in production. CBC Advanced Technologies additionally rejects three cutting recipes during reload; its current `0.1.4c` jar still completes startup and declares the installed Create and Create Big Cannons versions compatible.
+Advanced Peripherals logs two nonfatal optional-compat class probes for absent MineColonies classes. The candidate also retains the existing nonfatal dedicated-server class-filtering, Tracks tag, and advancement diagnostics seen before this removal. CBC Advanced Technologies rejects three cutting recipes during reload; its current `0.1.4c` jar still completes startup and declares the installed Create and Create Big Cannons versions compatible.
 
 ## Release Gates
 
