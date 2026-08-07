@@ -177,6 +177,28 @@ Their exact working-tree snapshots, diffs, test XML, old and new jars, smoke
 log, and both manifests are preserved under
 `/hdd/2b2m/.release-staging/1.5.0-fa88c18-cutover/next-restart-genericmisc-0.1.36-genericspectate-0.1.6`.
 
+## Watchdog Process Detection Correction
+
+The final production audit found that the active watchdog still matched the
+old NeoForge 21.1.230 command line. Production now runs NeoForge 21.1.248, so
+the watchdog incorrectly reported a perpetual startup state even though the
+server and both health APIs were ready. This disabled the watchdog's effective
+health enforcement without affecting Minecraft itself.
+
+The active detector now accepts any NeoForge version in the expected argument
+path and continues to require the `minecraft` user, `/hdd/2b2m` working
+directory, and `minecraft.service` cgroup. This distinguishes production from
+the separate event-worker JVM while remaining durable across loader upgrades.
+The pre-fix script SHA-256 was
+`7a814c483e159095351f39d40cf59161588fe0f3f769b503789c026068d1b8c1`;
+the corrected script SHA-256 is
+`35ed6917c24ffc34dadd91b7601bb2768c833857705cefbce7c30dfc1fd6bd76`.
+
+A manual probe and multiple scheduled timer probes returned `healthy`; both
+JSON health APIs reported `serverReady=true`; Minecraft retained its original
+PID and zero systemd restarts. Evidence and the rollback script are preserved
+under `/hdd/2b2m/.release-staging/1.5.0-fa88c18-cutover/watchdog-neoforge-version-agnostic`.
+
 ## Rollback and Scope
 
 The stopped-state 1.5.0 backup remains at
