@@ -1,18 +1,33 @@
 # 2b2m 1.5.0 Release Record
 
-This release is prepared and validated on the staging branch before any production server change.
+Status: deployed and validated on the NFO production server on August 6, 2026.
+
+## Release References
+
+- Pack content commit: `fa88c184495c01efb8ff6df248b44f58170ae54d`
+- Git branches: `main` and `staging`
+- Minecraft: `1.21.1`
+- NeoForge: `21.1.248`
+- CurseForge project: `1530503` (`org-2b2m`)
+- CurseForge upload: file ID `8591594`
+- Production Packwiz feed: `https://2b2m.org/packwiz/pack.toml`
+
+CurseForge accepted the upload and returned file ID `8591594`. The public project
+page still showed 1.4.1 during the cutover, so 1.5.0 publication remains subject to
+CurseForge processing or moderation. The production Packwiz feed is already live.
 
 ## Compatibility Decisions
 
-- Evolved Mekanism uses the published `1.21.1-1.2.1-fix3` file. No patched mod jar is shipped in the client pack.
-- MineColonies, BlockUI, Domum Ornamentum, Multi-Piston, Structurize, and TownTalk are removed by owner decision. Existing production worlds must be backed up and evaluated for missing mod content before this candidate is deployed.
-- Sodium remains on stable `0.8.12`. Packwiz offered `0.8.13-beta.1`, which is intentionally deferred until a stable release or a separate compatibility test.
-- Advanced Peripherals player detection is exact through 256 blocks, degrades beyond that range, and stops at 1024 blocks. Cross-dimensional detection and additional player information are disabled.
-- Modpack Update Checker schema 9 uses the supported `stable` release type. The Home PC canary caught and corrected the invalid `release` value before publication to production.
-
-## Update Audit
-
-On August 6, 2026, the stable FTB Quests, Sophisticated Backpacks, and Sophisticated Core updates were applied. A later audit found a MineColonies snapshot update, which became irrelevant when the MineColonies stack was removed. The Sodium beta remains the only deferred update.
+- Evolved Mekanism uses the published `1.21.1-1.2.1-fix3` file. No patched
+  third-party mod jar is shipped in the client pack.
+- MineColonies, BlockUI, Domum Ornamentum, Multi-Piston, Structurize, and TownTalk
+  were removed by owner decision.
+- Sodium remains on stable `0.8.12`. The offered `0.8.13-beta.1` update is
+  intentionally deferred.
+- Advanced Peripherals player detection is exact through 256 blocks, degrades
+  beyond that range, and stops at 1024 blocks. Cross-dimensional detection and
+  additional player information are disabled.
+- Modpack Update Checker schema 9 uses its supported `stable` release type.
 
 ## Artifact Audit
 
@@ -23,28 +38,83 @@ On August 6, 2026, the stable FTB Quests, Sophisticated Backpacks, and Sophistic
 | `2b2m-1.5.0-staging-prism-instance.zip` | `f671d8151f9f2a37d65476dfd56a2e5cf73990f872e946108fb1d68ce38b7417` |
 | `2b2m-1.5.0-server.zip` | `c40e1bf412a487912ffa3a20fec66e7cb2e961d17ba01b52afebee7a8bd9e12c` |
 
-The source contains 144 client-pack mod entries: 124 server-capable and 20 client-only. The Modrinth export contains 117 manifest downloads and 27 exact CurseForge jar exceptions. The internal server archive contains the 124 server-capable pack mods plus 24 listed operational server-only extras.
+All four archives pass ZIP integrity checks. The source contains 144 client-pack
+mod entries: 124 server-capable and 20 client-only. No client artifact contains a
+`Generic*` or GenericDupeGuard jar.
 
-All four archives pass ZIP integrity checks. The three client artifacts contain no `Generic*` or Dupe Guard jar.
+Production loads the 124 Packwiz server-capable jars plus 26 existing NFO-only
+operational jars, for 150 server jars total. The client pack does not acquire
+those server-only jars.
 
-## Staging Evidence
+## Pre-Production Validation
 
-- The exact post-removal Mac candidate has all 124 server-capable Packwiz jars and reaches `Done (4.949s)` on NeoForge `21.1.248` while loading the existing eight-dimension staging world.
-- Before the removal, the world and all 11 removed runtime files were preserved under `backups/minecolonies-removal-20260806T175157-0400`. The world archive SHA-256 is `8b5e61d39a6c8d7f583e26e4dcb989d4afd89cd40d8c08295d5b2765452c6b33`.
-- The staging Packwiz tree and client downloads are published only under `staging.2b2m.org`; production remains unchanged.
-- A clean Packwiz bootstrap from the public staging URL downloaded all 634 indexed files, including exactly 144 client jars, with none of the removed mods or server-only `Generic*` and Dupe Guard jars. All 124 shared client/server jars match the Mac by SHA-256; Ritchie's Projectile Library and Terralith use different filenames after exact-hash Modrinth conversion but have identical content.
-- Workstation20 updated its staging Prism instance from the public Packwiz feed, reducing the client from 150 to 144 jars and removing all six MineColonies-stack jars. The Microsoft profile `topher4022` then joined the Mac directly at `100.87.45.11:25575`; Sable UDP authenticated, and Simple Voice Chat authenticated and validated its UDP connection to `100.87.45.11:24454`.
-- The server still listed `topher4022` after a 2 minute 39 second hold, with no disconnect or post-join server fault. The existing player recipe book logged removal of obsolete MineColonies, Domum Ornamentum, Structurize, Multi-Piston, and Advanced Peripherals colony recipes during login; this cleanup did not prevent the join.
-- Voice transport passed, but microphone and speaker audio were not exercised: Workstation20's saved Razer Kaira endpoints were not present, so Simple Voice Chat logged local audio-device open errors after completing the server handshake.
+- The post-removal Mac candidate reached `Done (4.949s)` on NeoForge `21.1.248`
+  with the existing eight-dimension staging world.
+- A clean public-feed bootstrap downloaded all 634 indexed files and exactly 144
+  client jars, with none of the removed stack or server-only jars.
+- Workstation20 updated its Prism instance from the staging Packwiz feed and
+  joined the Mac as `topher4022`. Sable UDP and Simple Voice Chat UDP both
+  authenticated. Physical voice audio was not exercised because the saved Razer
+  Kaira endpoints were absent.
 
-This is a direct one-client canary, not a capacity, gameplay-feature, or long-soak result. Before the join, the server remained responsive for 69 minutes with no post-startup errors or exceptions, roughly 0.6 ms recent tick time, 8-9% CPU across a short sample, and 6.0 GiB process RSS.
+## Production Cutover
 
-Advanced Peripherals logs two nonfatal optional-compat class probes for absent MineColonies classes. The candidate also retains the existing nonfatal dedicated-server class-filtering, Tracks tag, and advancement diagnostics seen before this removal. CBC Advanced Technologies rejects three cutting recipes during reload; its current `0.1.4c` jar still completes startup and declares the installed Create and Create Big Cannons versions compatible.
+- Maintenance warnings were sent before the final stop. The old server completed
+  `save-all flush` and stopped cleanly at `2026-08-06 20:20:19 EDT`.
+- The stopped-state backup is
+  `/hdd/2b2m-backups/cutover-1.5.0-20260807T001105Z`. A final
+  `rsync -ani --delete` comparison was empty.
+- The live and backup `world/level.dat` SHA-256 at cutover was
+  `5510c8f823c6feaa1dea7e4bc85dadae058d66cdc4bb0c713b842e2aa00abe21`.
+- NeoForge `21.1.248`, the 1.5.0 pack, production-only mods/configuration, the
+  GraalVM runner, and the 10 GiB heap setting were installed without copying or
+  migrating a Mac world.
+- The production Packwiz feed was promoted from 1.4.1 to 1.5.0 before the game
+  service restart.
 
-## Release Gates
+### Server-Only Compatibility Fix
 
-- Refresh and validate the canonical Packwiz index.
-- Build and inspect the CurseForge, Modrinth, Prism, and internal server artifacts.
-- Boot the exact server candidate on the Mac staging host.
-- Join it from the Workstation20 companion client and verify normal gameplay connectivity. Completed August 6, 2026.
-- Keep the NFO production server and its world unchanged until the separately approved cutover window.
+The first production boot stopped before opening ports because
+`genericanticheat-server-0.1.31.jar` wrapped a `Slot.set` call removed by
+Sophisticated Core `1.4.81`. The production world had not loaded.
+
+GenericAntiCheat `0.1.32` now wraps Sophisticated Core's validated
+`StorageContainerMenuBase.setGhostSlot` path while retaining unsafe-item and slot
+bounds checks. Its full 150-mod isolated smoke reached `Done (20.817s)` with zero
+mixin or startup failures. The fix source is on GenericAntiCheat `main` at
+`40e1794b01bc4b2518e49e2103a9c9c828f3ced0`; the deployed server-only jar SHA-256
+is `982678f0f8c6bb391da7eb3012bf38163b1c17a005bb5453d4a5779604c6eaed`.
+
+The production restart then reached a fresh `Done (14.689s)` at
+`2026-08-06 20:34:44 EDT`. TCP 25565, Sable UDP 25565, and voice UDP 24454 are
+owned by the new JVM. The Minecraft watchdog, GenericDupeGuard health endpoint,
+GenericMonitor health endpoint, and `minecraft-events-worker.service` all pass.
+
+## Production Client Evidence
+
+- Five external player profiles joined successfully during the acceptance
+  window; four remained online after the controlled Workstation20 exit.
+- Workstation20 launched the exact 144-jar client through Prism with the
+  `topher4022` Minecraft profile and connected through the public production
+  hostname.
+- `topher4022` entered the world, completed Sable UDP authentication, received
+  the voice secret, and completed the public voice UDP connection before the
+  controlled client shutdown.
+- Workstation20 again logged only the known missing-Razer audio-device failure;
+  gameplay, Sable, and voice network transport all passed.
+- A live sample with four players reported TPS `20.0 / 19.94 / 16.89` over the
+  last 5 seconds, 10 seconds, and 1 minute. The lower one-minute average includes
+  the simultaneous first-login cleanup burst after the intentional mod removal.
+
+## Expected Removal Cleanup
+
+Old player recipe books remove stale MineColonies, Domum Ornamentum,
+Multi-Piston, and Structurize recipe IDs on first login. Chunks in the former
+colony area also report recoverable substitutions for removed blocks and discard
+the removed `minecolonies:ship` structure reference. These messages are the
+expected data-loss consequence of the approved mod removal; they did not block
+startup or client joins.
+
+The NFO staging relay services remain inactive. The website and production game
+server remain on the NFO host; no Mac routing or production world copy is part of
+this release.
