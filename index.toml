@@ -1926,7 +1926,7 @@ preserve = true
 
 [[files]]
 file = "config/waystones-common.toml"
-hash = "f7864c7c27c378cafa13b4dfe0008e01d3b6aae442d4bf28cd851635b5e7a969"
+hash = "9cf021c1dded3b282358f1e5a4f16e700a0359b0689c3870f41117220c3a9817"
 preserve = true
 
 [[files]]

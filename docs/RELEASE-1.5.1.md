@@ -133,6 +133,49 @@ Inventory, and Security frequency files were byte-for-byte unchanged across the
 restart. The client pack, Packwiz feed, Prism bootstrap, CurseForge file, and
 version number remain 1.5.1 because GenericAntiCheat is server-only.
 
+## Waystones Configuration Correction
+
+The release audit also found that the server cutover had restored Waystones'
+packaged XP-cost defaults over production's free-travel configuration. This was
+a configuration regression, not a mod or world-data change. Production keeps
+the current Waystones schema while restoring `enableCosts = false` and changing
+only the non-interdimensional distance multiplier from `0.01` to `0.0`.
+
+The same two settings are corrected in the pack source so future server exports
+preserve the intended behavior. The CurseForge client export excludes this
+common/server configuration, so the published 1.5.1 client archive does not
+need replacement. No Waystone data, destinations, or cooldown settings were
+changed. The incorrect live file SHA-256 was
+`53a2f31a27e4525fa5f80c197e3be05af761c74d04f53a31c97527f018265ca5`;
+the corrected current-schema file SHA-256 is
+`da2fe4f714dc63ee0fbe2e8587f1fa09ccaaa1d558c02c48481dedf9633b50fc`.
+It was installed atomically at `2026-08-06T22:41:59-04:00` without restarting
+Minecraft.
+
+## Explicit Next-Restart Server Mod Staging
+
+A separate user-requested audit staged GenericMisc 0.1.36 and GenericSpectate
+0.1.6 after the current production JVM had already started. The running JVM
+therefore remains on GenericMisc 0.1.35 and GenericSpectate 0.1.5; the newer
+jars are an intentional next-restart payload, not unexplained disk drift.
+
+GenericSpectate passed 9 unit/integration tests. GenericMisc passed 41
+unit/integration tests and 10 runtime GameTests. The exact 150-jar next-restart
+directory then completed an isolated full server boot at `Done (9.191s)` with
+no fatal mod-load, mixin-injection, OOM, or watchdog failure. The only new smoke
+error was the expected loopback port collision with production's running
+GenericPacketLedger viewer.
+
+| State | Manifest SHA-256 |
+| --- | --- |
+| Currently loaded runtime, 150 jars | `6548bde75445ec307f68b90b64536cfc04d3e936bc3c3027fc4d0b33d32ba962` |
+| Staged next restart, 150 jars | `fde046abe0a0bb2fff744187b0b9e911d9ba43a3a64941d39312af3026a2c08a` |
+
+The two source worktrees remain uncommitted by design for that separate task.
+Their exact working-tree snapshots, diffs, test XML, old and new jars, smoke
+log, and both manifests are preserved under
+`/hdd/2b2m/.release-staging/1.5.0-fa88c18-cutover/next-restart-genericmisc-0.1.36-genericspectate-0.1.6`.
+
 ## Rollback and Scope
 
 The stopped-state 1.5.0 backup remains at
