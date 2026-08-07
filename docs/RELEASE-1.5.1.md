@@ -31,7 +31,8 @@ atomically on NFO. Mekanism's NeoForge config listener invalidates its cached
 configuration value when the file reloads, so Minecraft did not require a
 restart. The Minecraft and website PIDs remained unchanged, both operational
 health APIs continued to return HTTP 200 with `serverReady=true`, and no
-post-change error or fatal journal entry appeared.
+error or fatal journal entry appeared during the immediate post-change
+validation window.
 
 | Configuration state | SHA-256 |
 | --- | --- |
@@ -68,9 +69,12 @@ The public Packwiz feed and Prism bootstrap are also live on 1.5.1.
 | Public `2b2m-prism-instance.zip` | `089947d6ab6e8c486ae60d12ae724843e02e043b457a106df60dc4856d28f618` |
 | Unchanged 1.5.0 server base archive | `c40e1bf412a487912ffa3a20fec66e7cb2e961d17ba01b52afebee7a8bd9e12c` |
 
-The server mod payload did not change, so no replacement full server archive was
-required. The live server received only the corrected configuration. The public
-Packwiz `pack.toml` SHA-256 is
+The published pack and base server-archive mod payload did not change, so no
+replacement full server archive was required for 1.5.1. The live server
+initially received only the corrected configuration. A later, unrelated
+production incident required the server-only GAC update recorded below; that
+operational mod is not distributed to clients. The public Packwiz `pack.toml`
+SHA-256 is
 `24759afc9b871d132b31fffcf98a40d18052852ec5e4708a4601e8e4c2dcf87d`,
 and its referenced index SHA-256 is
 `348aed8fb4778fea294f1fddf2c5b8ab04e2b2e731267957418d7847e9ed109e`.
@@ -84,11 +88,61 @@ installed Mekanism configuration had the corrected SHA-256 and
 MineColonies, BlockUI, Domum Ornamentum, Multi-Piston, Structurize, or TownTalk
 jar was present.
 
+## Classic Peripherals Resource-Exhaustion Incident
+
+At `2026-08-06T21:39:09-04:00`, an in-world ComputerCraft program called
+Classic Peripherals 0.5.1 `randomBytes` with a resource-exhausting length. The
+mod allowed values through `2,147,483,632`, allocated the requested byte array
+on a ComputerCraft worker, and exhausted the 10-GiB Java heap. That worker held
+Java's secure-random lock, so the main thread later blocked in
+`UUID.randomUUID`; GenericDupeGuard appeared in the blocked main-thread stack
+but did not initiate the allocation. The watchdog recorded a 60-second tick and
+Minecraft stopped at 21:40:21. The preserved crash report is
+`crash-2026-08-06_21.40.10-server.txt`, SHA-256
+`6da6457b3e69080f1f52b3c587ddf324e1885748bbdac90c7a3c8d9bdd7ebdae`.
+
+This was a latent server exploit rather than a 1.5.0/1.5.1 mod regression. The
+live and stopped-state backup both contain the same Classic Peripherals 0.5.1
+jar, SHA-256
+`e3ca5355f51f2d101ec09efce4660f3642f14f4049815443a1573ea60a903239`.
+The watchdog recovered production at 21:43:21, and it reached
+`Done (14.447s)` at 21:44:33.
+
+No released Classic Peripherals version provided a suitable length limit or
+configuration switch. The third-party jar was not patched. Instead, the
+existing NFO-only exploit-patch carrier was released as GenericAntiCheat
+0.1.33, commit `ab69b0fee6d240f485143b3155ccda658903dad6`. It rejects negative
+or over-4-KiB `randomBytes` requests before allocation while leaving normal
+cryptographic operations enabled. The exact deployed jar SHA-256 is
+`32a48dc7d1ce6ef9ac36c2bc28f353db3c2719314389b7474314173a85e45ec9`.
+
+The exact jar completed a full isolated 150-mod boot at `Done (13.213s)` with no
+fatal or injection failure. Mixin export proved that the guard executes before
+the original allocation, and an executable harness accepted lengths 0 and
+4,096 while rejecting 4,097 and `Integer.MAX_VALUE` with the bounded Lua error.
+Production was cleanly saved and stopped after warning five connected players,
+started on 0.1.33 at 22:12:41, and reached `Done (15.005s)` at 22:13:50.
+Both health APIs returned HTTP 200 with `serverReady=true`; manual and scheduled
+watchdog probes passed; three players reconnected during validation; and the
+post-start log had no OOM, watchdog, fatal, or mixin-injection failure.
+
+The deployment retained 150 active server jars. Its checksum manifest SHA-256
+is `b0e89a9eb53f880bc3ca9150244e74ebf849ac3ae91e4ca39516a3cccf414995`.
+Mekanism remained at `allowProtection = false`, and all 36 Teleporter, QIO,
+Inventory, and Security frequency files were byte-for-byte unchanged across the
+restart. The client pack, Packwiz feed, Prism bootstrap, CurseForge file, and
+version number remain 1.5.1 because GenericAntiCheat is server-only.
+
 ## Rollback and Scope
 
 The stopped-state 1.5.0 backup remains at
 `/hdd/2b2m-backups/cutover-1.5.0-20260807T001105Z`. The pre-hotfix configuration,
 the corrected configuration, the pre-1.5.1 public feeds, and the pre-1.5.1
 website remain preserved under the release-staging directory. This hotfix did
-not restart Minecraft, replace any mod jar, modify the world, change frequency
-privacy, route traffic through the Mac, or activate a staging relay.
+not route traffic through the Mac or activate a staging relay. The Mekanism
+configuration correction itself did not restart Minecraft, replace a mod jar,
+or modify world/frequency data. The later Classic Peripherals mitigation used a
+controlled restart and replaced only the NFO-only GenericAntiCheat jar. Its old
+and new jars, source bundle, stopped-world hash, pre-change log, both mod
+manifests, and frequency-file manifest are preserved under
+`/hdd/2b2m/.release-staging/1.5.0-fa88c18-cutover/gac-0.1.33-ab69b0f`.
