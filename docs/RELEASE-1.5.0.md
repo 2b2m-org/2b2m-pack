@@ -106,6 +106,18 @@ GenericMonitor health endpoint, and `minecraft-events-worker.service` all pass.
   last 5 seconds, 10 seconds, and 1 minute. The lower one-minute average includes
   the simultaneous first-login cleanup burst after the intentional mod removal.
 
+### Settled Performance Audit
+
+The longer production observation caught intermittent overload spikes while the
+same live world was active. This is not new to 1.5.0: the old production JVM
+logged 12 `Can't keep up` events in the hour before cutover and the same guarded
+Sable load pattern, including a 1.275-second tick. After the new JVM's 20-minute
+Sable startup guard elapsed, a final three-sample series with three players held
+20.0 TPS over 5 seconds each; the final 15-second and 60-second rates were 20.0
+and 19.35 TPS. The final 60-second average tick time was 33.06 ms with a 256.12
+ms maximum. The watchdog and both health APIs continued to pass, and there were
+no error-priority journal entries after readiness.
+
 ## Expected Removal Cleanup
 
 Old player recipe books remove stale MineColonies, Domum Ornamentum,
