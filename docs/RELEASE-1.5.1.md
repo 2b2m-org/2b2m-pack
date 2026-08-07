@@ -66,7 +66,7 @@ The public Packwiz feed and Prism bootstrap are also live on 1.5.1.
 | --- | --- |
 | `2b2m-1.5.1-curseforge.zip` | `d21b14483a361945febd76078c36ecb2a0d446f68c6771e6a0531dbede2f9cf2` |
 | `2b2m-1.5.1.mrpack` | `87c4c55314c92b947749048cc4addd1f80b06d92111f65b71e6359e4a6361b28` |
-| Public `2b2m-prism-instance.zip` | `089947d6ab6e8c486ae60d12ae724843e02e043b457a106df60dc4856d28f618` |
+| Public `2b2m-prism-instance.zip` | `adb779f7edaf114f78f37f761df62e6bae6527bebd145e55f6e205863416a891` |
 | Unchanged 1.5.0 server base archive | `c40e1bf412a487912ffa3a20fec66e7cb2e961d17ba01b52afebee7a8bd9e12c` |
 
 The published pack and base server-archive mod payload did not change, so no
@@ -75,9 +75,9 @@ initially received only the corrected configuration. A later, unrelated
 production incident required the server-only GAC update recorded below; that
 operational mod is not distributed to clients. The public Packwiz `pack.toml`
 SHA-256 is
-`24759afc9b871d132b31fffcf98a40d18052852ec5e4708a4601e8e4c2dcf87d`,
+`60b4437058055007ef587caff4ee7976dbb9c525cc079e5b17a600e5293d0cbf`,
 and its referenced index SHA-256 is
-`348aed8fb4778fea294f1fddf2c5b8ab04e2b2e731267957418d7847e9ed109e`.
+`29069cbff83e6c7a7b60425bb9ccdadca709501fe4626719e573dd13edc7020c`.
 
 ## Independent Client Bootstrap
 
@@ -150,7 +150,8 @@ changed. The incorrect live file SHA-256 was
 the corrected current-schema file SHA-256 is
 `da2fe4f714dc63ee0fbe2e8587f1fa09ccaaa1d558c02c48481dedf9633b50fc`.
 It was installed atomically at `2026-08-06T22:41:59-04:00` without restarting
-Minecraft.
+Minecraft. The rolling Packwiz feed and Prism bootstrap were republished from
+the clean source commit; the CurseForge client file remains unchanged.
 
 ## Explicit Next-Restart Server Mod Staging
 
