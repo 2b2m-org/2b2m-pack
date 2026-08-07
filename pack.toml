@@ -1,13 +1,13 @@
 name = "2b2m"
 author = "jugglebubbles"
-version = "1.5.0"
+version = "1.5.1"
 description = "2b2m.org modded anarchy pack."
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "26677ad309118fc580aaf5bb34c5c6da533e48a4457f26a87159c8963c915636"
+hash = "98f6c47974187ed887badf0fcf731fc55aec9fa1350e7d518fee3941d9dc88df"
 
 [versions]
 minecraft = "1.21.1"

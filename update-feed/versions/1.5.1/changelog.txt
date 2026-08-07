@@ -1,0 +1,4 @@
+2b2m 1.5.1
+
+- Disables Mekanism block and item access protection to restore the server's anarchy configuration.
+- Keeps Mekanism Teleporter, QIO, and inventory frequency privacy unchanged.

@@ -207,7 +207,7 @@ maxSolarNeutronActivatorRate = 64
 #Settings for configuring Mekanism's security system
 [security]
 	#Enable the security system. This allows players to prevent other players from accessing their machines. Does NOT affect Frequencies.
-	allowProtection = true
+	allowProtection = false
 	#If this is enabled then players with the 'mekanism.bypass_security' permission (default for ops) can bypass block and item security restrictions.
 	opsBypassRestrictions = false
 
