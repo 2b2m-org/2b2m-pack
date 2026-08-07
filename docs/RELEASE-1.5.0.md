@@ -72,6 +72,22 @@ those server-only jars.
 - The production Packwiz feed was promoted from 1.4.1 to 1.5.0 before the game
   service restart.
 
+### Public Website Metadata
+
+The NFO website metadata and prerendered routes were regenerated from the clean
+1.5.0 Packwiz manifest after the game cutover. The public `/`, `/pack`,
+`/about`, and `/llms.txt` routes now report pack 1.5.0, 144 client mods, and
+NeoForge 21.1.248. Draconic Evolution replaces MineColonies in the site
+headliners, and the active pack, about, home, and language-model routes contain
+no MineColonies reference.
+
+The static deployment did not restart the website or Minecraft service. Exact
+pre-change source and `wwwroot` rollback files are stored under
+`/hdd/2b2m/.release-staging/1.5.0-fa88c18-cutover/website-before-1.5.0`; the
+checksum-verified deployed source and 5,100-file static tree are under the
+adjacent `website-1.5.0-deployed` directory. Public route, active-asset, and
+`/api/status` HTTP probes all returned 200 after deployment.
+
 ### Server-Only Compatibility Fix
 
 The first production boot stopped before opening ports because
@@ -117,6 +133,25 @@ Sable startup guard elapsed, a final three-sample series with three players held
 and 19.35 TPS. The final 60-second average tick time was 33.06 ms with a 256.12
 ms maximum. The watchdog and both health APIs continued to pass, and there were
 no error-priority journal entries after readiness.
+
+### Live Draconic Evolution Load Observation
+
+With four players online, a player later traveled to and activated the newly
+added Draconic Evolution Chaos Guardian encounter in the End. The approach and
+first arena/encounter generation window produced intermittent `Can't keep up`
+warnings, including 13.137-, 12.467-, and 10.587-second stalls. The journal
+then recorded the guardian progressing through `PREPARING_TO_SUMMON_PILLARS`,
+`SUMMONING_PILLARS`, and `SUMMONING_GUARDIAN` from 21:02:27 through 21:02:43
+EDT. This is live encounter-generation load, not a boot, compatibility, or
+service failure; the pre-1.5.0 JVM had also shown intermittent lag, so the full
+lag history cannot be attributed solely to Draconic Evolution.
+
+The server remained online throughout. A post-encounter Spark sample at
+21:14:21 EDT reported 19.63/19.82/19.97 TPS over 5 seconds, 10 seconds, and one
+minute, with 30.3 ms median and 261.2 ms maximum tick time over the last minute.
+The watchdog and health gates remained healthy, and no error-priority, fatal,
+injection-failure, or failed-start journal entry appeared after readiness. No
+Draconic Evolution, world, or Sable configuration was changed in response.
 
 ## Expected Removal Cleanup
 
