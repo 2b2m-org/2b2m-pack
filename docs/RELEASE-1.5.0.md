@@ -2,6 +2,10 @@
 
 Status: deployed and validated on the NFO production server on August 6, 2026.
 
+The 1.5.1 Mekanism security hotfix now supersedes this client release. It restores
+the anarchy-server `allowProtection = false` policy while leaving private and
+trusted frequencies unchanged. See [the 1.5.1 release record](RELEASE-1.5.1.md).
+
 ## Release References
 
 - Pack content commit: `fa88c184495c01efb8ff6df248b44f58170ae54d`
