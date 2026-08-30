@@ -276,7 +276,7 @@
 	"Expanded Item Interactions" = true
 	"Hotbar Changer" = true
 	"Inventory Sorting" = true
-	"Item Sharing" = true
+	"Item Sharing" = false
 	"Quick Armor Swapping" = true
 
 	[management.automatic_tool_restock]

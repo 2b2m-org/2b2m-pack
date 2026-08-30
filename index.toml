@@ -1466,7 +1466,7 @@ preserve = true
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "7a42e06da78655dae39b66f8c5a73f453bf76b58200e59cbbcb313d63aec16b4"
+hash = "857e190d129b83a4f7ca290d152ccaf10c796f9df1bd1f86b2397894a0e58424"
 preserve = true
 
 [[files]]
@@ -1926,7 +1926,7 @@ preserve = true
 
 [[files]]
 file = "config/waystones-common.toml"
-hash = "9f65d140917d14a020438b002b831cb488684f10ad2ee9c70718c9b753b86db6"
+hash = "72d45bbd95cfc5f60821827ec91c57115ac9b91afaa961b436ce48a949a8208b"
 preserve = true
 
 [[files]]

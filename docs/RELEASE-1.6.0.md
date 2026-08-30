@@ -41,6 +41,8 @@ Release-critical policy remains:
 - Mekanism `allowProtection = false`.
 - Waystones `enableCosts = false`.
 - Waystones non-interdimensional distance multiplier `0.0`.
+- Waystones fleeting-memorial travel remains free.
+- Quark item sharing remains disabled.
 
 ## Validation
 
@@ -61,10 +63,13 @@ Release-critical policy remains:
 
 | Artifact | SHA-256 |
 | --- | --- |
-| `2b2m-1.6.0-curseforge.zip` | `a38f0feff033c11e8f724ac7e2ccc6cad081dd79e868d8707055031dee20d473` |
-| `2b2m-1.6.0.mrpack` | `b7eb91582b8689ec84956b7619cd790e76b66679dc0656e7250a032b30684979` |
-| `2b2m-1.6.0-staging-prism-instance.zip` | `d9275358b25bbcfff20f5928daa46619370da188843bcaad0b843dd6ec9200c0` |
-| `2b2m-1.6.0-server.zip` | `a982a5fd016d385f1d657d92803b080e53e92bd76edfcefc67cc0e42f0787d9a` |
+| `2b2m-1.6.0-curseforge.zip` | `720fb6f729e0f163f64b752c7eff3328a297c7d32eea73e5ff54f709db48c5fb` |
+| `2b2m-1.6.0.mrpack` | `26c0d05b0564179a48d15e86feac60d4452d36ae1ed321304e913962709fb620` |
+| `2b2m-1.6.0-staging-prism-instance.zip` | `11d1f09065bf8d904593a2b62a1cc76ef686253cf44036c3fd55d123f1703def` |
+| `2b2m-1.6.0-server.zip` | `270a6e2a613ccb5baea60ceca65dcce1f856eebd57850c47d004cb25fd4ac861` |
+
+The canonical Packwiz index SHA-256 is
+`28d413395a0c1ba385849d06d140e3ab021a6c0d4d13d9a384671fcf311bfc23`.
 
 The artifacts remain unpublished until the exact release commit is pushed and
 the controlled production cutover begins.
