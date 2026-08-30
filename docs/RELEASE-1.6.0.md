@@ -1,6 +1,6 @@
 # 2b2m 1.6.0 Stable Mod Refresh
 
-Status: production deployment authorized on August 30, 2026.
+Status: deployed to production and verified on August 30, 2026.
 
 ## Release scope
 
@@ -59,6 +59,12 @@ Release-critical policy remains:
 - Extended pre-production observation exceeded 30 minutes with the same exact
   process identities and no error or disconnect growth.
 
+After that clean acceptance window, the isolated Home PC server later tripped
+its watchdog on a 92.10-second tick while the Windows/WSL host was under memory
+and scheduling pressure. That event did not occur on the independently hosted,
+memory-protected NFO production server. It is retained in the release receipts
+instead of being treated as a successful long-duration Home PC result.
+
 ## Artifacts
 
 | Artifact | SHA-256 |
@@ -71,13 +77,41 @@ Release-critical policy remains:
 The canonical Packwiz index SHA-256 is
 `28d413395a0c1ba385849d06d140e3ab021a6c0d4d13d9a384671fcf311bfc23`.
 
-The artifacts remain unpublished until the exact release commit is pushed and
-the controlled production cutover begins.
+The converted public Packwiz `pack.toml` and `index.toml` SHA-256 values are
+`635a726a6a37a8c7f79bcefbf7db6d73e7f248539f6ce9b0696222b45d6c0540`
+and `669d3d3a30dafdd2a087d4b8158fdf21e943e6a7081a6f50f47022a62587ff7b`.
+
+## Production cutover
+
+The deployed release payload is commit
+`665a6bb00a056e3191f470210031c794eb88d39b`. Before replacement, production was
+stopped and copied to
+`/hdd/2b2m-backups/cutover-1.6.0-20260830T193001Z`. The backup is
+25,539,392,059 bytes and includes 26,877 world files and the previous 149-mod
+server set. Independent world and mod-manifest comparisons passed.
+
+The production NFO server reached `Done (19.334s)` at 15:35:33 EDT with 149
+mods. GenericMonitor reported `serverReady=true`, the watchdog timer was
+restored, and the live configuration retained the Mekanism, Waystones, Quark,
+and Copycats policies listed above.
+
+The public website, update feed, Packwiz metadata, and downloads were replaced
+with the matching 1.6.0 artifacts. The public Prism, CurseForge, and Modrinth
+downloads hash to the exact values in the artifact table. CurseForge accepted
+the release upload as file `8772502`.
+
+GenericClientCompanion then joined the production server as `CompanionReview`
+at 15:54:25 EDT. Its status and debug APIs stayed connected in
+`minecraft:overworld`, its chat receipt appeared in the server log, and the
+server console listed it as the only connected player. The final observation
+at 15:56:51 EDT was more than two minutes after the join, with the same
+production process, healthy watchdog and GenericMonitor, and no post-join
+disconnect or critical event.
 
 ## Rollback boundary
 
-The production server, website, Packwiz feed, and downloads must each be
-backed up before replacement. Server deployment preserves the world,
+The stopped server backup and the previous public website trees are retained in
+the NFO release-staging directory. Server deployment preserved the world,
 player/frequency data, `server.properties`, runtime credentials, watchdog
 tooling, and operational service configuration. Rollback restores the stopped
 server root and the previous public web trees before restarting the original
