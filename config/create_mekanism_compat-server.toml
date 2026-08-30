@@ -27,3 +27,7 @@
 	# Default: 25
 	# Range: 1 ~ 81
 	digitalMinerMaxTicketChunks = 25
+	#Keep Mekanism Laser ray hits and beam particles in the correct coordinate space when crossing Sable sub-level boundaries.
+	enableMountedLasers = true
+	#Use Sable-aware distance checks for Mekanism machine sounds inside mounted sub-levels.
+	enableMountedMachineSounds = true

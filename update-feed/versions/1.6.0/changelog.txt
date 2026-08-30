@@ -1,0 +1,8 @@
+2b2m 1.6.0
+
+- Updates 39 tracked mods to current stable Minecraft 1.21.1 releases.
+- Updates Create Aeronautics to 1.3.2 with Simulated 1.3.2, restoring compatibility with stable JEI 19.50.
+- Updates Copycats+ to 3.0.8 and overrides its stale Sable catwalk physics entry.
+- Migrates nine server/common configuration schemas while retaining existing gameplay policy values.
+- Keeps Mekanism block protection disabled and Waystones travel free.
+- Defers only alpha, beta, or explicitly prerelease mod files.

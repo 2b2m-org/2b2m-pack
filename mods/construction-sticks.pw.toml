@@ -1,13 +1,13 @@
 name = "Construction Sticks"
-filename = "ConstructionSticks-1.21.1-1.4.1.jar"
+filename = "ConstructionSticks-1.21.1-1.5.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "05286f794c9b14d43259c41aaa0aa544a70dd7d7"
+hash = "acd28b0d7147f55ec8590cef3d58add764543498"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8287281
+file-id = 8763707
 project-id = 1156098

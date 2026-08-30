@@ -1,5 +1,5 @@
 2b2m
-Current version: 1.5.1
+Current version: 1.6.0
 Server: 2b2m.org
 CurseForge: https://www.curseforge.com/minecraft/modpacks/org-2b2m
 Discord: https://discord.gg/tHCVmF9kZ8
