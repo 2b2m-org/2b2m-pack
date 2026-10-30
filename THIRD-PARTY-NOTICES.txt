@@ -1,0 +1,9 @@
+2b2m third-party distribution notices
+
+Create: Connected 1.3.3 is included unmodified in the Modrinth export.
+Author: hlysine / Lysine
+Source: https://github.com/hlysine/create_connected
+Distribution: https://www.curseforge.com/minecraft/mc-mods/create-connected
+License: GNU Affero General Public License v3, with the additional terms
+published in https://github.com/hlysine/create_connected/blob/main/LICENSE
+The original license and credits are retained in the distributed JAR.

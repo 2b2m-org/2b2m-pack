@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "requiresMpuc": 15,
-  "latestVersion": "1.6.0",
+  "latestVersion": "1.7.0",
   "server": {
     "address": "2b2m.org",
     "minecraftVersion": "1.21.1",
-    "motd": "2b2m 1.6.0 - Stable mod refresh"
+    "motd": "2b2m 1.7.0 - Stable mod refresh"
   },
   "versions": [
     {
@@ -102,6 +102,16 @@
       "id": "1.6.0",
       "updateType": "minor",
       "releasedAt": 1788117428000,
+      "promotions": {
+        "downloads": {
+          "curseforge": "https://www.curseforge.com/minecraft/modpacks/org-2b2m/files"
+        }
+      }
+    },
+    {
+      "id": "1.7.0",
+      "updateType": "minor",
+      "releasedAt": 1793368561315,
       "promotions": {
         "downloads": {
           "curseforge": "https://www.curseforge.com/minecraft/modpacks/org-2b2m/files"

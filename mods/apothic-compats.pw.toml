@@ -1,13 +1,13 @@
 name = "Apothic Compats"
-filename = "apothic_compats-0.2.4.2.jar"
+filename = "apothic_compats-0.2.6.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "46d3699a4af63531fe84c69fdd2623fbe71fbc75"
+hash = "7d6717790869f7ff003a17bbdbf7f4b415c9d86a"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8483936
+file-id = 9244917
 project-id = 1188699

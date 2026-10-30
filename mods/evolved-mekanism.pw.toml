@@ -1,13 +1,13 @@
 name = "Evolved Mekanism"
-filename = "Evolved Mekanism-1.21.1-1.2.1-fix3.jar"
+filename = "Evolved Mekanism-1.21.1-1.3.0-fix2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "1747c29ba5889d6102e83df42d9f8c7f692dc18f"
+hash = "5019a0a85d9d520c38acc51cc1898a72d26dff31"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7599592
+file-id = 9352850
 project-id = 1230085
