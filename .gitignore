@@ -6,6 +6,7 @@
 # Local runtime/cache state
 /.packwiz/
 /.cache/
+__pycache__/
 /logs/
 /crash-reports/
 /screenshots/
