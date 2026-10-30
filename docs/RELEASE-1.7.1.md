@@ -13,8 +13,23 @@ return ordinal that changed in recent loader builds. The author fixed this in
 With the updated library on client and server, the same native Windows profile
 joined `2b2m.org:25565` as `CompanionReview`, loaded the production overworld,
 completed JEI item/recipe initialization and authenticated Simple Voice Chat.
-This verifies the failing native join path; it is not exhaustive gameplay
-coverage of all mods. No normal launcher instance was modified.
+Camera rotation and opening the Advanced Peripherals guide also passed. The
+final session stayed connected for over ten minutes with production at 20 TPS
+and no new client log errors after the post-join baseline. No critical events
+or involuntary disconnects occurred in that observation.
+
+The Companion API returned nine successful samples over 240 seconds, then local
+TCP requests timed out. The full automated five-minute soak did not complete;
+native process responsiveness, Minecraft TCP, server presence and unchanged
+client log counts independently confirmed the later stay. This test-control
+issue remains a harness follow-up. The helper is absent from the public pack.
+This is bounded acceptance, not exhaustive gameplay coverage of all mods. The
+test client and temporary tasks were stopped; normal instances were untouched.
+
+All 144 JARs in the final public Windows installation match public metadata.
+All three public downloads and the website assets validate. The 81 website
+tests, production build and exporter regression pass. CurseForge accepted
+1.7.1 as file **9374326**; review is pending.
 
 The public downloads and update metadata use 1.7.1 so existing installs receive
 the correction. The 1.7.0 stopped-world recovery copy remains available; this
