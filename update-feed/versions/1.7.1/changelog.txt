@@ -1,0 +1,5 @@
+2b2m 1.7.1 - Join compatibility fix
+
+Updates owo-lib to 0.12.15.6-beta.1, the author release fixing Accessories packet synchronization with NeoForge 21.1.265. The previous retained beta disconnected players immediately after login.
+
+Minecraft 1.21.1 and NeoForge 21.1.265 are unchanged. All 41 stable mod updates from 1.7.0 are retained.

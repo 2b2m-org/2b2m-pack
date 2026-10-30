@@ -2,7 +2,9 @@
 
 Deployed and verified on NFO on October 30, 2026. The public Packwiz feed,
 Prism instance, CurseForge-format ZIP, Modrinth pack and website serve 1.7.0.
-CurseForge accepted upload **9373761**; its last observed state is **under review**.
+CurseForge file **9373761** is approved. This release is superseded by
+[1.7.1](RELEASE-1.7.1.md), which fixes the native player join failure discovered
+in follow-up client testing.
 
 ## Release contents
 

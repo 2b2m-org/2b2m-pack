@@ -1411,7 +1411,7 @@ preserve = true
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "a87cea52a574c81c35f5cbac1d3dc3029563947a41dce2491cbff580825e42b0"
+hash = "23d14acf7f25280833e256791992e68d60f481aaddaf7200b041814d7a6d0412"
 
 [[files]]
 file = "config/modpack-update-checker/modpack-info.txt"
@@ -2862,7 +2862,7 @@ metafile = true
 
 [[files]]
 file = "mods/owo-lib.pw.toml"
-hash = "3db5943419e6b6f4e33946266be8797230434573bc68dbe3a77d72f19001ae0c"
+hash = "a7fd33e3171967cf90314c3a1147769b051315b7db4f30e7c51304d0d3ef4dee"
 metafile = true
 
 [[files]]
