@@ -21,6 +21,13 @@ except ModuleNotFoundError as exc:
 MODRINTH_VERSION_FILES_URL = "https://api.modrinth.com/v2/version_files"
 USER_AGENT = "2b2m-pack-export/1.0 (https://github.com/2b2m-org/2b2m-pack)"
 
+# These exact mirrors return HTTP 503. Keep their working CurseForge files;
+# newer file hashes can convert normally without retaining a project-wide pin.
+UNAVAILABLE_MODRINTH_FILES = {
+    "ed0ff71df9bfe3b66b97c51a2834031084300a65": "Create: Ultimate Factory Modrinth CDN unavailable",
+    "88cdded5b617e19b4d2676948b5550699de23578": "Lithostitched Modrinth CDN unavailable",
+}
+
 
 def toml_str(value: object) -> str:
     return json.dumps(str(value), ensure_ascii=False)
@@ -196,8 +203,9 @@ def convert_exact_matches(repo_root: Path) -> dict:
 
     for entry in curseforge_entries:
         sha1 = entry.get("sha1")
+        unavailable_reason = UNAVAILABLE_MODRINTH_FILES.get(sha1 or "")
         version = versions.get(sha1 or "")
-        file_info = exact_version_file(version, sha1) if version and sha1 else None
+        file_info = exact_version_file(version, sha1) if version and sha1 and not unavailable_reason else None
 
         if file_info:
             converted.append(rewrite_as_modrinth(repo_root, entry, version, file_info))
@@ -210,7 +218,7 @@ def convert_exact_matches(repo_root: Path) -> dict:
                 "filename": entry["filename"],
                 "sha1": sha1,
                 "curseforge": entry.get("curseforge"),
-                "reason": "No Modrinth version file with the exact SHA-1 hash",
+                "reason": unavailable_reason or "No Modrinth version file with the exact SHA-1 hash",
             }
         )
 

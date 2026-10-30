@@ -70,3 +70,18 @@ submission:
 - an open-source license that allows redistribution,
 - a project description statement allowing use in Modrinth modpacks, or
 - explicit author permission attached in the Modrinth moderation tab.
+
+## Unavailable mirror files
+
+The exporter retains CurseForge metadata for two exact file hashes whose
+Modrinth CDN downloads return HTTP 503: Create: Ultimate Factory 2.2.4 and
+Lithostitched 1.8.1. Packwiz installs them from CurseForge and the `.mrpack`
+embeds the verified JARs. The exceptions apply only to those file hashes;
+new versions can convert normally. Their distribution notices are shipped in
+`THIRD-PARTY-NOTICES.txt`.
+
+Run the exporter regression check with:
+
+```sh
+python3 -m unittest discover -s scripts -p 'test_*.py'
+```

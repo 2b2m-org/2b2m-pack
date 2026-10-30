@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "THIRD-PARTY-NOTICES.txt"
-hash = "b2c51de81c00e7a17cc6a9ca3ffcd982d62c52aeff7c131499f23a0d67a3da8a"
+hash = "264d09c50cb610d80acdff42267be335df8f81f16240de33f71e1aed11f16552"
 
 [[files]]
 file = "config/Advancedperipherals/peripherals.toml"

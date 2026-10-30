@@ -7,3 +7,11 @@ Distribution: https://www.curseforge.com/minecraft/mc-mods/create-connected
 License: GNU Affero General Public License v3, with the additional terms
 published in https://github.com/hlysine/create_connected/blob/main/LICENSE
 The original license and credits are retained in the distributed JAR.
+
+Lithostitched 1.8.1 is included unmodified under the MIT License.
+Source and license: https://github.com/Apollounknowndev/lithostitched
+The original license and credits are retained in the distributed JAR.
+
+Create: Ultimate Factory 2.2.4 is included unmodified with the author's
+permission to include it in any public or private modpack:
+https://www.curseforge.com/minecraft/mc-mods/create-ultimate-factory
