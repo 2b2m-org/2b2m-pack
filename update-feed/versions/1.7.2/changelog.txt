@@ -1,0 +1,3 @@
+Advanced Peripherals updated to 1.21.1-0.8.2a (alpha).
+Includes the 0.8 peripheral and Smart Glasses rework. Existing Lua programs may require migration.
+Minecraft 1.21.1 and NeoForge 21.1.265 are unchanged.

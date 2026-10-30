@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "requiresMpuc": 15,
-  "latestVersion": "1.7.1",
+  "latestVersion": "1.7.2",
   "server": {
     "address": "2b2m.org",
     "minecraftVersion": "1.21.1",
-    "motd": "2b2m 1.7.1 - Join compatibility fix"
+    "motd": "2b2m 1.7.2 - Advanced Peripherals update"
   },
   "versions": [
     {
@@ -122,6 +122,16 @@
       "id": "1.7.1",
       "updateType": "patch",
       "releasedAt": 1793373174769,
+      "promotions": {
+        "downloads": {
+          "curseforge": "https://www.curseforge.com/minecraft/modpacks/org-2b2m/files"
+        }
+      }
+    },
+    {
+      "id": "1.7.2",
+      "updateType": "patch",
+      "releasedAt": 1793381900139,
       "promotions": {
         "downloads": {
           "curseforge": "https://www.curseforge.com/minecraft/modpacks/org-2b2m/files"

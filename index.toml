@@ -6,7 +6,7 @@ hash = "264d09c50cb610d80acdff42267be335df8f81f16240de33f71e1aed11f16552"
 
 [[files]]
 file = "config/Advancedperipherals/peripherals.toml"
-hash = "74d5b73b19564ca97c43197ad70bea88df13f3be7d96fb3240d2c375f9d2e05d"
+hash = "c8599eaa184bcfa50142bfeac2226736316b7879a1dd07698ddc2629ee48fc75"
 preserve = true
 
 [[files]]
@@ -1411,7 +1411,7 @@ preserve = true
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "23d14acf7f25280833e256791992e68d60f481aaddaf7200b041814d7a6d0412"
+hash = "e9b17e1ba7e4dd3041c2df7a8808151629d82e40668a4270ade7019dd2746323"
 
 [[files]]
 file = "config/modpack-update-checker/modpack-info.txt"
@@ -2382,7 +2382,7 @@ metafile = true
 
 [[files]]
 file = "mods/advanced-peripherals.pw.toml"
-hash = "95260471eefa73e63432e990724810d0f6e9fa5e5fca1cbc4dd8124263330c8a"
+hash = "8ad9e191313985caddeb6716f795ada61cb0a509ba92a5d23c3ce80256bb05a5"
 metafile = true
 
 [[files]]
