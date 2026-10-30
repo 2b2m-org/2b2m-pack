@@ -29,7 +29,7 @@ test client and temporary tasks were stopped; normal instances were untouched.
 All 144 JARs in the final public Windows installation match public metadata.
 All three public downloads and the website assets validate. The 81 website
 tests, production build and exporter regression pass. CurseForge accepted
-1.7.1 as file **9374326**; review is pending.
+1.7.1 as file **9374326**; it is approved and available.
 
 The public downloads and update metadata use 1.7.1 so existing installs receive
 the correction. The 1.7.0 stopped-world recovery copy remains available; this
