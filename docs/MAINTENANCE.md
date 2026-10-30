@@ -71,3 +71,14 @@ pack gameplay scripts need to update authoritatively.
 CurseForge exports do not have an equivalent per-file preserve flag in their
 manifest format, so this preservation policy is for packwiz-aware installs and
 updates.
+
+## NFO staging isolation
+
+Use a physical copy of a cleanly stopped production world. Overlay copy-up can
+stall SQLite opening long enough to trip the server watchdog. Relocate Minecraft,
+voice and operational API ports to private loopback staging ports.
+
+Before starting copied configurations, disable all Discord outbound and incident
+flags in GenericMisc, GenericMonitor, GenericDupeGuard, GenericAntiCheat and
+GenericEvents. Keep production configuration and credentials outside public
+artifacts. The copied-world qualification must pass before replacing production.
