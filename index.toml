@@ -1411,11 +1411,11 @@ preserve = true
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "e9b17e1ba7e4dd3041c2df7a8808151629d82e40668a4270ade7019dd2746323"
+hash = "6662e972048b49bb0df3aebe7bd2f6fbd9bb8b5b7c77b4ef943eb002095ed16e"
 
 [[files]]
 file = "config/modpack-update-checker/modpack-info.txt"
-hash = "f02d60b8e929577ad2e88027f0ae2f43f9f824a2a90a152dea208d56155c9e33"
+hash = "cbdbada419b31f902a97885cfa9de2726674c6787e64662148549fbbb7702465"
 preserve = true
 
 [[files]]
@@ -2436,6 +2436,11 @@ hash = "d7059efc26b419ddfc43aeef8a3ceddf098edafe0cfbcde611f30bf3e2973de8"
 metafile = true
 
 [[files]]
+file = "mods/applied-energistics-2.pw.toml"
+hash = "4b78352cbccdb3400530955a3e1271b2a60aec604e26e2ecdbf840faf0457d47"
+metafile = true
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "657a01a86bbf8617e4726c77df08f708e43a3db12db74b837eebd8eb1d93faae"
 metafile = true
@@ -2458,6 +2463,11 @@ metafile = true
 [[files]]
 file = "mods/artifacts.pw.toml"
 hash = "a35c812005762698c71c87d55c26745ea4dd244c1ef5f2df19f0a78ae04c575d"
+metafile = true
+
+[[files]]
+file = "mods/athena.pw.toml"
+hash = "38bddea8d550568799dd7f208c0bbe10280de3e456016a0d59aa20de112a2345"
 metafile = true
 
 [[files]]
@@ -2706,6 +2716,11 @@ hash = "6bb2c2ee340c3c55c54b4a10759f2da2ed725998ba70d58176b2e618ba600ee5"
 metafile = true
 
 [[files]]
+file = "mods/guideme.pw.toml"
+hash = "62637d9fa6059eee6042ffe48185a94621d4f45e0c3e77397b4e19cbbcbc59fb"
+metafile = true
+
+[[files]]
 file = "mods/iglee-library.pw.toml"
 hash = "f0faf003008fa89253cdc43a85873ec62ef86057c3e6997c400ef748251bfdbf"
 metafile = true
@@ -2861,6 +2876,11 @@ hash = "bed0b56a88b7c436dd3212037276986c9cdf16ab03a6096f5263149514be70d4"
 metafile = true
 
 [[files]]
+file = "mods/oritech.pw.toml"
+hash = "9cf37ed80c80ec520ed5170d2aeea20eec6e2a1d45a5ea34b136555d6e94fc41"
+metafile = true
+
+[[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "a7fd33e3171967cf90314c3a1147769b051315b7db4f30e7c51304d0d3ef4dee"
 metafile = true
@@ -2878,6 +2898,11 @@ metafile = true
 [[files]]
 file = "mods/playeranimator.pw.toml"
 hash = "5b30dafc9e96471978376ee010cec0ddf592377ac94192c9370cb37973e1e95f"
+metafile = true
+
+[[files]]
+file = "mods/powah-rearchitected.pw.toml"
+hash = "a6f8726db6be3d6efc3a3561166db9d30d48dc2feef5e5d7e0ecbff86b3a2f82"
 metafile = true
 
 [[files]]

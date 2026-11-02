@@ -1,0 +1,4 @@
+Adds Oritech 1.2.13, Applied Energistics 2 19.2.18 and Powah! Rearchitected 6.2.10.
+Adds required Athena 4.0.6 and GuideME 21.1.22 libraries.
+Minecraft 1.21.1, NeoForge 21.1.265 and existing mod versions are unchanged.
+Update the full client pack before joining the 1.8.0 server.

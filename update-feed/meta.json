@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "requiresMpuc": 15,
-  "latestVersion": "1.7.2",
+  "latestVersion": "1.8.0",
   "server": {
     "address": "2b2m.org",
     "minecraftVersion": "1.21.1",
-    "motd": "2b2m 1.7.2 - Advanced Peripherals update"
+    "motd": "2b2m 1.8.0 - Oritech, AE2 and Powah!"
   },
   "versions": [
     {
@@ -132,6 +132,16 @@
       "id": "1.7.2",
       "updateType": "patch",
       "releasedAt": 1793381900139,
+      "promotions": {
+        "downloads": {
+          "curseforge": "https://www.curseforge.com/minecraft/modpacks/org-2b2m/files"
+        }
+      }
+    },
+    {
+      "id": "1.8.0",
+      "updateType": "minor",
+      "releasedAt": 1793628243730,
       "promotions": {
         "downloads": {
           "curseforge": "https://www.curseforge.com/minecraft/modpacks/org-2b2m/files"
