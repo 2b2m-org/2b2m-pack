@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "requiresMpuc": 15,
-  "latestVersion": "1.8.0",
+  "latestVersion": "1.8.1",
   "server": {
     "address": "2b2m.org",
     "minecraftVersion": "1.21.1",
-    "motd": "2b2m 1.8.0 - Oritech, AE2 and Powah!"
+    "motd": "2b2m 1.8.1 - AE2 extensions"
   },
   "versions": [
     {
@@ -142,6 +142,16 @@
       "id": "1.8.0",
       "updateType": "minor",
       "releasedAt": 1793628243730,
+      "promotions": {
+        "downloads": {
+          "curseforge": "https://www.curseforge.com/minecraft/modpacks/org-2b2m/files"
+        }
+      }
+    },
+    {
+      "id": "1.8.1",
+      "updateType": "patch",
+      "releasedAt": 1793650907235,
       "promotions": {
         "downloads": {
           "curseforge": "https://www.curseforge.com/minecraft/modpacks/org-2b2m/files"

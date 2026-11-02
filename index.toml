@@ -1411,11 +1411,11 @@ preserve = true
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "6662e972048b49bb0df3aebe7bd2f6fbd9bb8b5b7c77b4ef943eb002095ed16e"
+hash = "30271a264cc9516c3f658464a5ffc20c1c94c04450ac4d5dad2496706ee6f48f"
 
 [[files]]
 file = "config/modpack-update-checker/modpack-info.txt"
-hash = "cbdbada419b31f902a97885cfa9de2726674c6787e64662148549fbbb7702465"
+hash = "5169a660842564b8c20bed876750d22214038da377af2109d0642eff656002e7"
 preserve = true
 
 [[files]]
@@ -2386,6 +2386,11 @@ hash = "8ad9e191313985caddeb6716f795ada61cb0a509ba92a5d23c3ce80256bb05a5"
 metafile = true
 
 [[files]]
+file = "mods/advancedae.pw.toml"
+hash = "361a6afe298a1a3265be267647ce95ae1743306a9b9e416c71887ca33ea14838"
+metafile = true
+
+[[files]]
 file = "mods/aether.pw.toml"
 hash = "59c9a1f969edd0ba1da9ba5ad6975951513225d0304a692c3d4c862e2360940c"
 metafile = true
@@ -2433,6 +2438,11 @@ metafile = true
 [[files]]
 file = "mods/appleskin.pw.toml"
 hash = "d7059efc26b419ddfc43aeef8a3ceddf098edafe0cfbcde611f30bf3e2973de8"
+metafile = true
+
+[[files]]
+file = "mods/applied-energistics-2-wireless-terminals.pw.toml"
+hash = "3c20a0801a1a000e6f55deb28d3c9e6165b4370bff93c7d59b054413f72272e9"
 metafile = true
 
 [[files]]
@@ -2646,6 +2656,11 @@ hash = "0fbe9a63a489e42a0d94d37aaa46fe3503cbfed9fd65ed982c92a7310cc51454"
 metafile = true
 
 [[files]]
+file = "mods/ex-pattern-provider.pw.toml"
+hash = "34060f845cd0e451231f2ca2f9d702b890f06cf98267275ff62324f20d85dd38"
+metafile = true
+
+[[files]]
 file = "mods/extreme-reactors.pw.toml"
 hash = "a3d47e3c301ed2359820c2083dcddec8240a5d692a016c42a74eecc1193772e1"
 metafile = true
@@ -2708,6 +2723,11 @@ metafile = true
 [[files]]
 file = "mods/geckolib.pw.toml"
 hash = "4cf7eb494f48576e28895ee5f362878f95c6bad65372666106140fdae82d0c4c"
+metafile = true
+
+[[files]]
+file = "mods/glodium.pw.toml"
+hash = "9aafdd83668c1b903caf0245b0bf2de3bb743befaa78d39e74a95c9933d624ac"
 metafile = true
 
 [[files]]

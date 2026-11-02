@@ -1,0 +1,1 @@
+2b2m 1.8.1 adds AE2WTLIB 19.5.1, ExtendedAE 2.2.43 and AdvancedAE 1.6.12, plus required Glodium 2.2. Update the complete client pack before joining. Minecraft 1.21.1, NeoForge 21.1.265 and existing mod versions are unchanged. The production smaller reactor explosion safeguard remains enabled.
